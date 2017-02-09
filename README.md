@@ -1,6 +1,6 @@
 # FEUP-LBAW
 
-##7. Project management
+##Project management
 
 It is intended to develop an information system with a web interface for project management. There are only two types of permissions in the context of a project: the coordinator and the common users. Users may be associated with multiple projects. Each project has a team, task lists, and also a discussion forum for members of the project. Task lists can be organized into groups. Associated with each task can also be comments from other users. It is important to keep track of the user that defined the task as well as the user who completed it.
 
