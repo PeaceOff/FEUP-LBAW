@@ -1,29 +1,76 @@
 <?php
-  include_once '../templates/header.php';
+include_once '../templates/header.php';
 ?>
 
-  <div style="text-align : center">
-      <h1>Hello, LBAW, it's me Mario!</h1>
-      <img src="https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Profile_Mario.aead314d435d8e52d9a4e92a6f799c4eee08081e.jpg" alt="Super Mario!"/>
-  </div>
 
-  <div style="text-align : center">
-      <h1>Hello, LBAW, it's me Mario!</h1>
-      <img src="https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Profile_Mario.aead314d435d8e52d9a4e92a6f799c4eee08081e.jpg" alt="Super Mario!"/>
-  </div>
 
-  <div style="text-align : center">
-      <h1>Hello, LBAW, it's me Mario!</h1>
-      <img src="https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Profile_Mario.aead314d435d8e52d9a4e92a6f799c4eee08081e.jpg" alt="Super Mario!"/>
-  </div>
-
-  <div style="text-align : center">
-      <h1>Hello, LBAW, it's me Mario!</h1>
-      <img src="https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Profile_Mario.aead314d435d8e52d9a4e92a6f799c4eee08081e.jpg" alt="Super Mario!"/>
+<div class="container">
+  <div class="page-header">
+    <h2> My Projects </h2>
   </div>
 
 
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 
-<?php
-include_once '../templates/footer.php';
-?>
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="container">
+  <div class="page-header">
+    <h2> My Collaborations </h2>
+  </div>
+
+
+
+  <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 20rem; background:grey;">
+    <div class="card-block">
+      <h3 class="card-title">Special title treatment</h3>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div
+
+
+
+  <?php
+  include_once '../templates/footer.php';
+  ?>

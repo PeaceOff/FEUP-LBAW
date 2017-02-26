@@ -7,6 +7,7 @@ body{
 /* Toggle Styles */
 
 #wrapper {
+    width: 100%;
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -15,11 +16,14 @@ body{
 }
 
 #wrapper.toggled {
-    padding-left: 200px;
+  padding-left: 200px;
 }
+
+
 
 #sidebar-wrapper {
     position: fixed;
+    z-index: 1;
     left: 200px;
     width: 0;
     height: 100%;
@@ -67,4 +71,15 @@ body{
     text-decoration: none;
     color: #fff;
     background: rgba(255,255,255,0.2);
+}
+
+/* cards */
+
+.card{
+  width: 50px;
+  background:grey;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+
 }
