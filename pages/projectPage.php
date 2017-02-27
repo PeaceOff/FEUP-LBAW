@@ -1,34 +1,36 @@
 <?php
-include_once '../templates/header.php';
+  include_once '../templates/header.php';
 ?>
-  <div class="container content-relative padding-0">
+  
+
 
     <?php
     include_once '../templates/leftSidebar.php';
     include_once '../templates/rightSidebar.php';
     include_once '../templates/projectBody.php';
     ?>
+
+
+  <div class="container">
+      <div class="progress" id="progress-bar-div">
+          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+          <span class="sr-only">60% Complete</span>
+          </div>
+      </div>
   </div>
-<div class="container">
-    <div class="progress" id="progress-bar-div">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-        <span class="sr-only">60% Complete</span>
-        </div>
-    </div>
-</div>
-<script>
+  <script>
 
-    $(document).ready(function () {
+      $(document).ready(function () {
 
-        var percent = 99;
-        $("#progress-bar-div").children(".progress-bar").attr("aria-valuenow",percent);
-        $("#progress-bar-div").children(".progress-bar").width(percent+"%");
-        $("#progress-bar-div").children(".progress-bar").children(".sr-only").html(percent + "% complete");
-    });
+          var percent = 70;
+          $("#progress-bar-div").children(".progress-bar").attr("aria-valuenow",percent);
+          $("#progress-bar-div").children(".progress-bar").width(percent+"%");
+          $("#progress-bar-div").children(".progress-bar").children(".sr-only").html(percent + "% complete");
+      });
 
-</script>
-</body>
+  </script>
+
 
 <?php
-include_once '../templates/footer.php';
+  include_once '../templates/footer.php';
 ?>
