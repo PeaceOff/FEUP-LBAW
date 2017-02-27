@@ -1,3 +1,3 @@
 <?php
-    header('Location: pages/personalPage.php');
+    header('Location: pages/projectContent.php');
 ?>

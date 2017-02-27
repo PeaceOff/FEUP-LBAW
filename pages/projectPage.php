@@ -8,7 +8,7 @@ include_once '../templates/header.php';
 
     <?php
     include_once '../templates/leftSidebar.php';
-    include_once '../templates/projectbody.php';
+    include_once '../templates/projectBody.php';
     include_once '../templates/rightSidebar.php';
     ?>
 

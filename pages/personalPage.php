@@ -42,9 +42,9 @@ include_once '../templates/header.php';
   <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" >
     <div class="card-block">
       <h3 class="card-title">Add Project</h3>
-          <a href="#">
-            <i class="fa fa-plus fa-5x"></i>
-          </a>
+      <a href="#">
+        <i class="fa fa-plus fa-5x"></i>
+      </a>
     </div>
   </div>
 
@@ -70,6 +70,6 @@ include_once '../templates/header.php';
 
 
 
-  <?php
-  include_once '../templates/footer.php';
-  ?>
+<?php
+include_once '../templates/footer.php';
+?>

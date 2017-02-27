@@ -19,19 +19,49 @@ body{
 
 #sidebar-wrapper {
   background: #000;
+  width: 200px;
 }
 
-#sidebar-wrapper {
-    width: 200px;
-    height: auto;
-}
+
+
+/* main content */
 
 #page-content-wrapper {
     width: 100%;
+    box-sizing: border-box;
     position: absolute;
     padding: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
+#wrapper.toggled #page-content-wrapper {
+  padding-left: 200px;
+}
+
+
+/* sidebar */
+
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+>>>>>>> Stashed changes
+    width: 200px;
+    height: auto;
+}
 
 /* Sidebar Styles */
 
@@ -49,7 +79,9 @@ body{
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
+    overflow: hidden;
     color: #999999;
+    height: 40px;
 }
 
 .sidebar-nav li a:hover {
@@ -66,6 +98,9 @@ body{
   padding: 15px;
   margin: 10px;
   border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
 
 }
 
