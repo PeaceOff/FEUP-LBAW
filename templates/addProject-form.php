@@ -6,12 +6,15 @@
     <div class="modal-body">
       <form  id ="addProject-form" action="" method="post" style="display:block">
         <div class="form-group">
+          Project Name
           <input class="form-control" type="text" tabindex="1" placeholder="Project Name" name="projectName" value="" required="">
         </div>
         <div class="form-group">
+          Description
           <input class="form-control" type="text" tabindex="2" placeholder="Description" name="description" value="" required="">
         </div>
         <div class="form-group">
+          Collaborators
           <input list="friends" class="form-control" placeholder="Add colaborator" tabindex="3" name="friends">
             <datalist id="friends">
               <option value="João">
