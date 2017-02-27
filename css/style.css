@@ -2,8 +2,6 @@ body{
   padding-top: 50px;
 }
 
-
-
 /* Toggle Styles */
 
 #wrapper {
@@ -14,12 +12,6 @@ body{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
-#wrapper.toggled {
-  padding-left: 200px;
-}
-
-
 
 #sidebar-wrapper {
     position: fixed;

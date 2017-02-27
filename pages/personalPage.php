@@ -6,7 +6,7 @@ include_once '../templates/header.php';
 
 <div class="container">
   <div class="page-header">
-    <h2> My Projects </h2>
+    <h2>My Projects</h2>
   </div>
 
   <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
