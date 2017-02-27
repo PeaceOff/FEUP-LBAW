@@ -21,7 +21,7 @@
 
   </script>
 </head>
-<body>
+<body class="preload">
 
 
   <nav class="navbar navbar-inverse navbar-fixed-top">

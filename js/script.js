@@ -32,6 +32,10 @@ function addShow(index){
 }
 
 $(document).ready(function(){
+
+  setTimeout(function(){
+    $("body").removeClass("preload");
+  },500);
   $('.hide-actor').each(addShow);
   //Obsolete
   //$(window).on('resize', function(){

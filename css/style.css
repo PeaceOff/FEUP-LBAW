@@ -143,7 +143,13 @@ body{
 .show .left-sidebar-btn *,.show .right-sidebar-btn *{
   animation: rotate 0.5s forwards;
 }
+
+.left-sidebar-btn *, .right-sidebar-btn *{
+  animation: rotate-out 0.5s forwards;
+}
+
 .right-sidebar-btn{
+
   position: absolute;
   left: -31px;
   width: 31px;
@@ -154,27 +160,21 @@ body{
   background-color: #222;
 }
 
-
-.minimized.show{
-  animation-delay: 0;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
 #sidebar-left.minimized.show{
-  animation-name: left;
+  animation: left 0.5s forwards;
 }
 #sidebar-right.minimized.show{
-  animation-name: right;
+  animation: right 0.5s forwards;
 }
 
 #sidebar-left.minimized{
   left: -200px;
-
+  animation: left-out 0.5s forwards;
 }
 
 #sidebar-right.minimized{
   right: -200px;
+  animation: right-out 0.5s forwards;
 }
 
 /* KeyFrames */
@@ -195,6 +195,14 @@ body{
     left: 0%;
   }
 }
+@keyframes left-out{
+  0%{
+    left: 0%;
+  }
+  100%{
+    left: -200px;
+  }
+}
 
 @keyframes right{
   0%{
@@ -205,12 +213,29 @@ body{
   }
 }
 
+@keyframes right-out{
+  0%{
+    right: 0%;
+  }
+  100%{
+    right: -200px;
+  }
+}
+
 @keyframes rotate{
   0%{
     transform: rotate(0);
   }
   100%{
     transform: rotate(180deg);
+  }
+}
+@keyframes rotate-out{
+  0%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(0);
   }
 }
 
@@ -226,4 +251,10 @@ body{
 
 .color-black{
   background-color: black;
+}
+
+body.preload * {
+  animation-duration: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
 }
