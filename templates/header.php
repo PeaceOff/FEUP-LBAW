@@ -34,19 +34,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
         <a class="navbar-brand" href="#" id="menu-toggle" >Consord</a>
-        <button type="button" class="visible-xs hide-actor" target="sidebar-left">Left</button>
       </div>
-
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active navbar-right"><a href="#">Mario</a></li>
-
-
+          <li class=""><a href="#">Mario</a></li>
         </ul>
-
       </div>
     </div>
+
   </nav>

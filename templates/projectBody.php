@@ -1,4 +1,4 @@
-<div class="col-sm-8 col-xs-12">
+<div class="col-sm-12 col-xs-12">
     <h2 class="text-center bottom">Project Title</h2>
     <div class="container">
         <p class="text-justify well">Description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida est sed tortor pretium, et sollicitudin lacus aliquet. Mauris vel magna nec lectus pulvinar congue eu sit amet enim. Proin ultrices commodo odio vestibulum tempor. Donec auctor dolor vel lobortis feugiat. Suspendisse sit amet congue orci, sit amet fermentum ipsum. Suspendisse quis lectus eget enim scelerisque pellentesque. Sed a malesuada ipsum. </p>

@@ -17,32 +17,25 @@ $(function() {
 
 });
 
-function checkWidth(){
-  if($(window).width() < 768)
-    $('.dockable').addClass("minimized");
-  else
-    $('.dockable').removeClass("minimized");
-}
 
 function addShow(index){
   var target = $(this).attr("target");
 
   $(this).click(function(){
-    $('.show').each(function(index){
-      if($(this)[0].id != target)
-        $(this).removeClass('show');
-    });
+    if($(window).width()  < 768)
+      $('.show').each(function(index){
+        if($(this)[0].id != target)
+          $(this).removeClass('show');
+      });
     $("#"+target).toggleClass("show");
   });
 }
 
 $(document).ready(function(){
-  checkWidth();
-
   $('.hide-actor').each(addShow);
-
-  $(window).on('resize', function(){
-    checkWidth();
-  });
+  //Obsolete
+  //$(window).on('resize', function(){
+  //  checkWidth();
+  //});
 
 });
