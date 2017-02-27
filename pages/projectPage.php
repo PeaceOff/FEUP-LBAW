@@ -1,9 +1,7 @@
 <?php
 include_once '../templates/header.php';
 ?>
-  <button type="button" class="visible-xs hide-actor" target="sidebar-left">Left</button>
   <button type="button" class="visible-xs hide-actor" target="sidebar-right">Right</button>
-
   <div class="container-fluid content-relative padding-0">
 
     <?php

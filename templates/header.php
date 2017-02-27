@@ -35,9 +35,8 @@
           <span class="icon-bar"></span>
         </button>
 
-
-
         <a class="navbar-brand" href="#" id="menu-toggle" >Consord</a>
+        <button type="button" class="visible-xs hide-actor" target="sidebar-left">Left</button>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
