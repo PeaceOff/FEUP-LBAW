@@ -1,21 +1,21 @@
 <div id="addProject" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
-      New project
+      New Project
     </div>
     <div class="modal-body">
       <form  id ="addProject-form" action="" method="post" style="display:block">
-        <div class="form-group">
-          Project Name
-          <input class="form-control" type="text" tabindex="1" placeholder="Project Name" name="projectName" value="" required="">
+        <div class="form-group ">
+          Name
+          <input class="form-control" type="text" tabindex="1"  name="projectName" value="" required="">
         </div>
         <div class="form-group">
           Description
-          <input class="form-control" type="text" tabindex="2" placeholder="Description" name="description" value="" required="">
+          <input class="form-control" type="text" tabindex="2"  name="description" value="" required="">
         </div>
-        <div class="form-group">
+        <div class="form-group ">
           Collaborators
-          <input list="friends" class="form-control" placeholder="Add colaborator" tabindex="3" name="friends">
+          <input list="friends" class="form-control"  tabindex="3" name="friends">
             <datalist id="friends">
               <option value="João">
               <option value="David">
