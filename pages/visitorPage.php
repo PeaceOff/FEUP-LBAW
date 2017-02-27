@@ -2,17 +2,17 @@
   include_once '../templates/header.php'
  ?>
 
-<div class="container" >
+<div class="container"  id = "visitor-form">
     <div class="row">
       <div class="col-md-6 col-md-offset-3"  style = "border-style: groove">
 
         <!-- head -->
         <div class="panel-heading">
-          <div class="row text-center">
-            <div class="col-xs-6 tabs">
-              <a href="#"  class = "active" id = "signInLink" >Sign In</a>
+          <div class="row text-center" >
+            <div class="col-xs-6 box">
+              <a href="#"  class = "selected" id = "signInLink" >Sign In</a>
             </div>
-            <div class="col-xs-6 tabs" >
+            <div class="col-xs-6 box" >
               <a href="#"  id = "signUpLink" >Sign Up</a>
             </div>
           </div>
