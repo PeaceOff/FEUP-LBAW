@@ -2,6 +2,13 @@ body{
   padding-top: 50px;
 }
 
+.bottom {
+    border-bottom-style: solid;
+    border-bottom-color: #aaa;
+    border-bottom-width: 0.1em;
+    padding-bottom: 0.2em;
+}
+
 /* Clear */
 .padding-left-0{
   padding-left: 0;
