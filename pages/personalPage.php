@@ -2,8 +2,6 @@
 include_once '../templates/header.php';
 ?>
 
-
-
 <div class="container">
   <div class="page-header">
     <h2>My Projects</h2>
