@@ -1,9 +1,3 @@
-<?php
-  include_once 'header.php';
- ?>
-
-<!--button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#newProject">Open</button-->
-
 <div id="newProject" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
@@ -33,7 +27,3 @@
     </div>
   </div>
 </div>
-
-<?php
-  include_once 'footer.php';
- ?>
