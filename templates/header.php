@@ -7,9 +7,9 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>LBAW Project</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../css/style.css">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -51,51 +51,3 @@
       </div>
     </div>
   </nav>
-
-
-  <div id="wrapper">
-
-          <!-- Sidebar -->
-          <div id="sidebar-wrapper">
-              <ul class="sidebar-nav">
-                  <li class="open divider">
-                      <a href="#" data-toggle="collapse" data-target="#folder1">Folder 1<span class="caret"></span></a>
-                      <ul class="collapse" id="folder1">
-                          <li>
-                              <a href="#">Project 01</a>
-                          </li>
-                          <li>
-                              <a href="#">Project 02</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li class="open divider">
-                      <a href="#" data-toggle="collapse" data-target="#folder2">Folder 2<span class="caret"></span></a>
-                      <ul class="collapse" id="folder2">
-                          <li>
-                              <a href="#">Project 11</a>
-                          </li>
-                          <li>
-                              <a href="#">Project 12</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li class="open divider">
-                      <a href="#" data-toggle="collapse" data-target="#folder3">Folder 3<span class="caret"></span></a>
-                      <ul class="collapse" id="folder3">
-                          <li>
-                              <a href="#">Project 21</a>
-                          </li>
-                          <li>
-                              <a href="#">Project 22</a>
-                          </li>
-                      </ul>
-                  </li>
-          </div>
-          <!-- /#sidebar-wrapper -->
-
-          <!-- Page Content -->
-          <div id="page-content-wrapper">
-              <div class="container-fluid">
-                  <div class="row">
-                      <div class="col-lg-12">
