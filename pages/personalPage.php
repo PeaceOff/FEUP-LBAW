@@ -1,7 +1,7 @@
 <?php
   include_once '../templates/header.php';
   include_once '../templates/leftSidebar.php';
-  include_once '../templates/newProject-form.php';
+  include_once '../templates/addProject-form.php';
 ?>
 
 <div class="container">
@@ -44,7 +44,7 @@
   <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12" >
     <div class="card-block">
       <h3 class="card-title">Add Project</h3>
-        <a href="#newProject" data-toggle="modal" >
+        <a href="#addProject" data-toggle="modal" >
           <i class="fa fa-plus fa-5x"></i>
         </a>
     </div>

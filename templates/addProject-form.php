@@ -1,10 +1,10 @@
-<div id="newProject" class="modal fade col-md-6 col-md-offset-3">
+<div id="addProject" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
       New project
     </div>
     <div class="modal-body">
-      <form  id ="newProject-form" action="" method="post" style="display:block">
+      <form  id ="addProject-form" action="" method="post" style="display:block">
         <div class="form-group">
           <input class="form-control" type="text" tabindex="1" placeholder="Project Name" name="projectName" value="" required="">
         </div>
