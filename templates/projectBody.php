@@ -166,7 +166,7 @@
         </div>
 
         <div class="jumbotron">
-            <a  href="todoPage.php" > <img src="../assets/todo.jpg" class="img-responsive img-circle center-block" width="200"> </a>
+            <a  href="todoPage.php#to-do" > <img src="../assets/todo.jpg" class="img-responsive img-circle center-block" width="200"> </a>
         </div>
 
 

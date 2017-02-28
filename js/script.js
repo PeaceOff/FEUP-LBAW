@@ -31,15 +31,23 @@ function addShow(index){
   });
 }
 
-$(document).ready(function(){
+function toggler_addListener(){
+  var togglers = $('.toggler');
+  console.log("Here");
+  $('.toggler').click(function(){
+    togglers.each(function(i){
+      $(this).parent().removeClass('active');
+    });
+    $(this).parent().addClass('active');
+  });
+}
 
+$(document).ready(function(){
+  if($(".view").length > 0) $("body").addClass('view');
+
+  toggler_addListener();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);
   $('.hide-actor').each(addShow);
-  //Obsolete
-  //$(window).on('resize', function(){
-  //  checkWidth();
-  //});
-
 });

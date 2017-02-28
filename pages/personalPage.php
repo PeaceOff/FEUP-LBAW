@@ -1,5 +1,6 @@
 <?php
   include_once '../templates/header.php';
+  include_once '../templates/navbar.php';
   include_once '../templates/leftSidebar.php';
   include_once '../templates/addProject-form.php';
 ?>

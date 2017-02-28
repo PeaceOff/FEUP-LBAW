@@ -1,9 +1,9 @@
 <?php
 include_once '../templates/header.php';
+include_once '../templates/navbar.php';
 include_once '../templates/login.php';
 include_once '../templates/register.php';
 ?>
-
 
 <div class="view">
     <div class="vertical-align full-bg-img text-center">
@@ -20,7 +20,6 @@ include_once '../templates/register.php';
           <li>
         </ul>
     </div>
-
 </div>
 
 <?php
