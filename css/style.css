@@ -2,7 +2,6 @@ body{
     padding-top: 50px;
 }
 
-
 html,
 body,
 .view {
@@ -300,7 +299,6 @@ body.preload * {
     top: 25%;
 }
 
-
 .circle {
     border-radius:50%;
     -moz-border-radius:50%;
@@ -308,6 +306,10 @@ body.preload * {
 }
 
 /*Comment Section*/
+.upa-upa {
+    top : 10%
+}
+
 .panel-shadow {
     box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
 }

@@ -20,19 +20,21 @@
       </form>
       <div class="text-center col-md-12" style = "display:block">
       <h4>Or Log in with :</h4>
-        <div class="icons col-md-12">
-          <ul class="thumbnails">
-              <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                  <div class="card-block circle">
-                      <img class="img-responsive " alt="an image" src="../assets/facebook.jpg" />
-                  </div>
-              </li>
+        <div class="icons col-md-12 ">
+            <ul class="thumbnails ">
+                <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <div class="card-block circle">
+                        <img class="img-responsive " alt="an image" src="../assets/facebook.jpg" />
+                    </div>
+                </li>
 
-              <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                  <div class="card-block">
-                      <img class="img-responsive" alt="an image" src="../assets/feup.png" />
-                  </div>
-              </li>
+                <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <div class="card-block">
+                        <img class="img-responsive" alt="an image" src="../assets/feup.png" />
+                    </div>
+                </li>
+
+              </ul>
         </div>
       </div>
     </div>
