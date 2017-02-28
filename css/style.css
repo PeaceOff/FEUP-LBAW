@@ -1,7 +1,40 @@
 body{
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("../assets/intro1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.outliner {
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.vertical-align{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+li{
+  list-style: none;
+}
 /* Clear */
 .padding-left-0{
   padding-left: 0;

@@ -1,13 +1,10 @@
-<?php
-  include_once 'header.php';
- ?>
 
 <button type="button" name="button" data-toggle="modal" data-target = "#uploadFile">Carrega aqui</button>
 
 <div id="uploadFile" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
-      Upload file
+      <h4>Upload file</h4>
     </div>
     <div class="modal-body">
       <form  id ="addFile-form" action="" method="post" style="display:block">
@@ -21,8 +18,3 @@
     </div>
   </div>
 </div>
-
-
-<?php
-  include_once 'footer.php';
- ?>
