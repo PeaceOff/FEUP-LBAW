@@ -26,7 +26,7 @@
                 <h3> Links </h3>
             </div>
 
-            <div id="linkCarrousel" style="overflow-x : scroll;">
+            <div id="linkCarrousel">
                 <ul class="thumbnails">
                     <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                         <div class="card-block">
