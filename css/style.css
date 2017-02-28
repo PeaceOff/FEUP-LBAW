@@ -105,8 +105,14 @@ body{
 
 }
 
+.card-small {
+    width: 50px;
+    height: 50px;
+}
+
 .colorless {
     background: #fff;
+    padding : 0;
 }
 
 /* login adn register form */
