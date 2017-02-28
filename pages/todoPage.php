@@ -4,7 +4,7 @@ include_once '../templates/navbar.php';
 include_once '../templates/leftSidebar.php';
 ?>
 
-<div class="col-md-12 center-block" >
+<div class="container center-block" >
   <h2 class="text-center page-header">Project Title - Todo Board</h2>
   <ul class="nav nav-tabs">
     <li class="nav-item active">
@@ -28,7 +28,7 @@ include_once '../templates/leftSidebar.php';
     </li>
   </ul>
 
-  <div class="container-fluid">
+  <div class="container">
     <div id="to-do" class="selectable">
       <div class="card col-xs-3">
         <div class="card-block">
