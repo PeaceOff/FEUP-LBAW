@@ -1,7 +1,7 @@
 <div id="addTask" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
-      New Task
+      <h4>New Task</h4>
     </div>
     <div class="modal-body">
       <form  id ="addTask-form" action="" method="post" style="display:block">
