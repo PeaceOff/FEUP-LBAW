@@ -20,11 +20,11 @@ include_once '../templates/leftSidebar.php';
       <a class="nav-link dropdown-toggle" data-toggle="dropdown"
         href="#" role="button" aria-haspopup="true" aria-expanded="false">
         Category</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">High Priority</a>
-        <a class="dropdown-item" href="#">Low Priority</a>
-        <a class="dropdown-item" href="#">Art work</a>
-      </div>
+      <ul class="dropdown-menu">
+         <li><a href="#">High Priority</a></li>
+         <li><a href="#">Low Priority</a></li>
+         <li><a href="#">Art work</a></li>
+      </ul>
     </li>
   </ul>
 
