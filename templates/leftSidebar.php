@@ -1,6 +1,6 @@
 <div id="sidebar-left" class="col-sm-2 padding-0 minimized color-black">
   <div class="left-sidebar-btn">
-    <i class="fa fa-chevron-right hide-actor" target="sidebar-left"></i>
+    <i class="fa fa-chevron-right hide-actor" target="sidebar-left" style="cursor : pointer"></i>
   </div>
   <ul class="sidebar-nav">
       <li class="open divider">
