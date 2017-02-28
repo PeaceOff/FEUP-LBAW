@@ -30,58 +30,44 @@
                 <div class="carousel-inner">
                     <div class="item active"><!-- /Slide1 -->
                         <ul class="thumbnails">
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/facebook.jpg" />
                                 </div>
                             </li>
 
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/github.png" />
                                 </div>
                             </li>
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/google.jpg" />
                                 </div>
                             </li>
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/trello.png" />
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="item"><!-- /Slide2 -->
                         <ul class="thumbnails">
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/youtube.jpg" />
                                 </div>
                             </li>
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/twitter.png" />
                                 </div>
                             </li>
-                            <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <li class="card colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
                                 <div class="card-block">
-                                    <h3 class="card-title">Special title treatment</h3>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="img-responsive img-circle" alt="an image" src="../assets/feup.png" />
                                 </div>
                             </li>
                         </ul>
