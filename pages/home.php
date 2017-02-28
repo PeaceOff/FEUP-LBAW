@@ -1,5 +1,7 @@
 <?php
 include_once '../templates/header.php';
+include_once '../templates/login.php';
+include_once '../templates/register.php';
 ?>
 
 
@@ -12,8 +14,8 @@ include_once '../templates/header.php';
                 <p class="outliner">subtitulo muito xirooo <3 </p>
             </li>
             <li>
-                <a  href="#" class="btn btn-primary btn-lg">Login</a>
-                <a  href="#" class="btn btn-default btn-lg">Sign Up</a>
+                <a  href="#signIn" class="btn btn-primary btn-lg" data-toggle="modal">Login</a>
+                <a  href="#signUp" class="btn btn-default btn-lg" data-toggle="modal">Sign Up</a>
             </li>
           <li>
         </ul>
