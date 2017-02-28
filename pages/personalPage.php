@@ -9,6 +9,8 @@
     <h2>My Projects</h2>
   </div>
 
+
+
   <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
     <div class="card-block">
       <h3 class="card-title">Special title treatment</h3>
