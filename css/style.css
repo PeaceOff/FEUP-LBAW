@@ -1,5 +1,7 @@
 body{
   padding-top: 50px;
+  background: url("../assets/background.jpg")no-repeat center center fixed;
+
 }
 
 html,
@@ -15,6 +17,8 @@ body,
   -o-background-size: cover;
   background-size: cover;
 }
+
+
 
 .outliner {
   color: white;
