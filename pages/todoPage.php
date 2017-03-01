@@ -2,6 +2,7 @@
 include_once '../templates/header.php';
 include_once '../templates/navbar.php';
 include_once '../templates/leftSidebar.php';
+include_once '../templates/createTask.php';
 ?>
 
 <div class="container center-block" >
@@ -20,15 +21,18 @@ include_once '../templates/leftSidebar.php';
       <a class="nav-link dropdown-toggle" data-toggle="dropdown"
         href="#" role="button" aria-haspopup="true" aria-expanded="false">
         Category</a>
-      <ul class="dropdown-menu">
+        <ul class="dropdown-menu">
          <li><a href="#">High Priority</a></li>
          <li><a href="#">Low Priority</a></li>
          <li><a href="#">Art work</a></li>
       </ul>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="modal" data-target="#createTask">+ Add Task</a>
+    </li>
   </ul>
 
-  <div class="container">
+  <div class="container ">
     <div id="to-do" class="selectable">
       <div class="card col-xs-3">
         <div class="card-block">

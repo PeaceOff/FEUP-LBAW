@@ -104,6 +104,14 @@ li{
   padding:0;
 }
 
+.width-100{
+  width: 100%;
+}
+
+textarea.resizable-horizontal{
+  resize: vertical;
+}
+
 .padding-top-50px{
   padding-top: 50px;
 }
