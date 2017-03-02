@@ -224,8 +224,8 @@ textarea.resizable-horizontal{
 #sidebar-left,#sidebar-right{
   position: fixed;
   top: 50px;
-  bottom: 0;
   width: 200px;
+  height: calc(100% - 50px);
   z-index: 20;
 }
 

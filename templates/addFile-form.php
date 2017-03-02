@@ -13,7 +13,7 @@
     <div class="modal-body">
       <form  id ="addFile-f" action="" method="post" style="display:block"  enctype="multipart/form-data">
         <div class="form-group">
-          <input class="form-control" type="file" tabindex="1"  name="file" value="" required="">
+          <input class="form-control" type="file" tabindex="1"  name="file" value="" required="" autofocus="">
         </div>
 
       </form>
