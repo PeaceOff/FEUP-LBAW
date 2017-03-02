@@ -1,4 +1,4 @@
-<div id="sidebar-left" class="col-sm-2 padding-0 minimized color-black">
+<div id="sidebar-left" class="col-sm-2 padding-0 minimized color-grey">
   <div class="left-sidebar-btn">
     <i class="fa fa-chevron-right hide-actor" target="sidebar-left" style="cursor : pointer"></i>
   </div>

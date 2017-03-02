@@ -23,7 +23,7 @@
         <!-- LINKS -->
         <div class="container">
             <div class="page-header">
-                <h3> Links </h3>
+                <h3> Links <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
             </div>
 
             <div id="linkCarrousel">
@@ -83,7 +83,7 @@
         </div><!-- /#linkCarrousel -->
 
         <div class="page-header">
-            <h3> Documents </h3>
+            <h3> Documents <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
         </div>
 
 

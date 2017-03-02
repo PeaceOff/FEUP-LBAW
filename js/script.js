@@ -38,7 +38,7 @@ function touch_addListener(){
     var diffx = e.changedTouches[0].pageX - touchPosition.x;
     var diffy = e.changedTouches[0].pageY - touchPosition.y;
 
-    if(Math.atan2(Math.abs(diffy), Math.abs(diffx)) < Math.PI*10/180 && Math.abs(diffx) > 30){
+    if(Math.atan2(Math.abs(diffy), Math.abs(diffx)) < Math.PI*20/180 && Math.abs(diffx) > 30){
       if(diffx < 0){
         toggleSideBar("sidebar-right");
       }else{

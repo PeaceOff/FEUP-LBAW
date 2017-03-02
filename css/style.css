@@ -123,6 +123,15 @@ textarea.resizable-horizontal{
   width: 100%;
 }
 
+/* Positioning */
+
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+
 /* main content */
 
 #page-content-wrapper {
@@ -224,7 +233,7 @@ textarea.resizable-horizontal{
 #sidebar-left,#sidebar-right{
   position: fixed;
   top: 50px;
-  width: 200px;
+  width: 201px;
   height: calc(100% - 50px);
   z-index: 20;
 }
@@ -339,18 +348,38 @@ textarea.resizable-horizontal{
 }
 
 /* debug/colors */
-.color-red{
-  background-color: red;
-  color:white;
+.color-black{
+  background-color: black;
+
 }
+
+.color-white{
+  background-color: white;
+  color: #222;
+  border-color: #111;
+}
+
+.color-grey{
+  background-color: #222;
+}
+
 .color-blue{
-  background-color: blue;
+  background-color: #337AB7;
   color: white;
 }
 
-.color-black{
-  background-color: black;
+ul li a.nav-link.color-blue{
+  background-color: #337AB7;
+  color: white;
+  border-left-style: none;
+  border-right-style: none;
+
 }
+
+.text-white{
+  color: #FFF;
+}
+
 
 body.preload * {
   animation-duration: 0s !important;
@@ -483,6 +512,8 @@ div.selectable:not(:target){
   visibility: hidden;
 }
 
+/* Dropzone */
+
 .dropzone {
   border: 2px dashed rgba(0, 0, 0, 0.3);
   margin-bottom: 15px;
@@ -491,4 +522,10 @@ div.selectable:not(:target){
 .dropzone.dz-drag-hover{
     border: 2px dashed rgba(0, 0, 0, 0.3);
     background-color: rgba(125,125,125,0.1);
+}
+
+/* Table Style */
+.table-style tr td{
+  background-color: #DDD;
+  border-bottom: 1px solid #CCC;
 }

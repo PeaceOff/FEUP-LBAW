@@ -1,22 +1,43 @@
-<div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-black">
+<div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
     <div class="right-sidebar-btn">
         <i class="fa fa-chevron-left hide-actor" target="sidebar-right" style="cursor : pointer"></i>
     </div>
-    <ul class="sidebar-nav">
-        <li class="open divider">
-            <a href="#" data-toggle="collapse" data-target="#folder1-right">Users<span class="caret"></span></a>
-            <ul class="collapse" id="folder1-right">
-                <li>
-                    <a href="#">User A</a>
-                </li>
-                <li>
-                    <a href="#">User B</a>
-                </li>
-            </ul>
-        </li>
+    <ul class="nav nav-tabs">
+      <li class="nav-item active">
+        <a class="nav-link color-blue" href="#">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Add User</a>
+      </li>
     </ul>
-    <div class="container">
-        <ul class="btn-group-vertical">
+    <table class="table table-condensed table-style">
+      <tr>
+        <td>
+          User A
+        </td>
+        <td class="align-right">
+          <button href="" class="btn btn-danger btn-xs"> Remove </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          User B
+        </td>
+        <td class="align-right">
+          <button href="" class="btn btn-danger btn-xs"> Remove </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          User C
+        </td>
+        <td class="align-right">
+          <button href="" class="btn btn-danger btn-xs"> Remove </button>
+        </td>
+      </tr>
+    </table>
+    <div class="width-100">
+        <ul class="btn-group-vertical width-100 padding-0">
             <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 1</li>
             <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 2</li>
             <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 3</li>
