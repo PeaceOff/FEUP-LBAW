@@ -1,8 +1,3 @@
-<?php
-  include_once 'header.php';
- ?>
-
-<button type="button" name="button" data-toggle="modal" data-target = "#uploadFile">Carrega aqui</button>
 
 <div id="uploadFile" class=" modal fade col-md-6 col-md-offset-3">
   <div class="modal-content modal-out">
@@ -17,7 +12,7 @@
         </div>
 
       </form>
-      <h4> OR: </h5>
+      <h4> OR: </h4>
       <form  id ="uploadFile" action="save.php" method="post" style="display:block" class = "dropzone" enctype="multipart/form-data">
         <div class="dropzone-previews form-group fallback">
           <input name="file" type="file" multiple />
@@ -32,7 +27,3 @@
     </div>
   </div>
 </div>
-
-<?php
-  include_once 'footer.php';
- ?>

@@ -1,3 +1,7 @@
+<?php
+  include_once 'addFile-form.php';
+ ?>
+
 
 <div class="col-md-12">
     <div class="container">
@@ -19,6 +23,7 @@
                 </div>
             </div>
         </div>
+      </div>
 
         <!-- LINKS -->
         <div class="container">
@@ -67,9 +72,9 @@
                 </ul>
       </div>
 
-
+      <div class="container">
         <div class="page-header">
-            <h3> Documents <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
+            <h3> Documents <a data-toggle="modal" data-target="#uploadFile"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
         </div>
 
 
