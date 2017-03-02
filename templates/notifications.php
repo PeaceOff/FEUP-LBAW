@@ -1,8 +1,8 @@
 
 <!-- notifications -->
 
-  <a class="btn btn-lg dropdown-toggle"  id="dLabel" role="button" data-toggle="dropdown" >
-    <i class="fa fa-bell" aria-hidden="true"></i>
+  <a class="btn dropdown-toggle"  id="dLabel" role="button" data-toggle="dropdown" >
+    <i class="fa fa-bell" aria-hidden="true" style="font-size : 1.25em"></i>
     <span class="badge badge-notify"> 4 </span>
   </a>
 
