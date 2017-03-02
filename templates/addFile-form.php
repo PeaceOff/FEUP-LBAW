@@ -4,10 +4,11 @@
 
 <button type="button" name="button" data-toggle="modal" data-target = "#uploadFile">Carrega aqui</button>
 
-<div id="uploadFile" class="modal fade col-md-6 col-md-offset-3">
-  <div class="modal-content">
+<div id="uploadFile" class=" modal fade col-md-6 col-md-offset-3">
+  <div class="modal-content modal-out">
     <div class="modal-header text-center">
-      <h4>Upload file</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4  class="modal-title">Upload file</h4>
     </div>
     <div class="modal-body">
       <form  id ="addFile-f" action="" method="post" style="display:block"  enctype="multipart/form-data">

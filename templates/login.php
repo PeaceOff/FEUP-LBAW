@@ -1,7 +1,8 @@
 <div id="signIn" class="modal fade col-md-6 col-md-offset-3">
-  <div class="modal-content">
+  <div class="modal-content modal-out">
     <div class="modal-header text-center">
-      <h3>Log in</h3>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4  class="modal-title">Log in</h4>
     </div>
       <div class="modal-body clearfix">
       <!-- Sign in-->

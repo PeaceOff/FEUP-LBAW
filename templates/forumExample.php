@@ -3,11 +3,11 @@
         $('#forum1').appendTo("body");
     });
 </script>
-<div id="forum1" class="modal fade upa-upa col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
-    <div class="modal-content">
+<div id="forum1" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+    <div class="modal-content ">
         <div class="modal-header text-center">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h2>Forum 1</h2>
+            <h4 class="modal-title">Forum 1</h4>
         </div>
         <div class="modal-body">
             <div class="panel panel-white post panel-shadow">
