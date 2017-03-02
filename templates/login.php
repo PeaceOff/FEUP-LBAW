@@ -14,8 +14,8 @@
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             <input class="form-control" type="password" placeholder="Password" tabindex = "2" name="password" value="" required="">
           </div>
-          <div class="col-sm-6 col-sm-offset-3 text-center">
-            <input class="btn btn-default btn-success" type="submit" name="signin"  tabindex="3" value="Sign In" required="">
+          <div class="text-center">
+            <input class="btn btn-success" type="submit" name="signin"  tabindex="3" value="Sign In" required="">
           </div>
       </form>
       <div class="text-center col-md-12" style = "display:block">

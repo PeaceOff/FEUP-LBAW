@@ -23,8 +23,8 @@
               <option value="José">
             </datalist>
         </div>
-        <div class="col-sm-2 col-sm-offset-5 text-center">
-          <input class="btn btn-success btn-block" type="submit" tabindex="4" name="create" value="Create" required="">
+        <div class="text-center">
+          <input class="btn btn-success " type="submit" tabindex="4" name="create" value="Create" required="">
         </div>
       </form>
     </div>
