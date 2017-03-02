@@ -10,14 +10,24 @@
       <h4>Upload file</h4>
     </div>
     <div class="modal-body">
-      <form  id ="addFile-form" action="" method="post" style="display:block">
+      <form  id ="addFile-f" action="" method="post" style="display:block"  enctype="multipart/form-data">
         <div class="form-group">
           <input class="form-control" type="file" tabindex="1"  name="file" value="" required="">
         </div>
-        <div class="text-center">
-          <input class="btn btn-success" type="submit" tabindex="2" name="upload" value="Upload" required="">
+
+      </form>
+      <h4> OR: </h5>
+      <form  id ="uploadFile" action="save.php" method="post" style="display:block" class = "dropzone" enctype="multipart/form-data">
+        <div class="dropzone-previews form-group fallback">
+          <input name="file" type="file" multiple />
+          <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+
         </div>
       </form>
+
+      <div class="text-center form-group" >
+        <input class="btn btn-success" type="submit" tabindex="2" name="upload" value="Upload" required="">
+      </div>
     </div>
   </div>
 </div>

@@ -31,3 +31,7 @@ $(document).ready(function(){
   },500);
   $('.hide-actor').each(addShow);
 });
+
+
+Dropzone.options.addFileForm.autoProcessQueue = false; // this way files we only be uploaded whrn we call myDropzone.processQueue()
+Dropzone.options.addRemoveLinks = true;
