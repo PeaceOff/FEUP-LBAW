@@ -4,13 +4,11 @@ body{
 
 }
 
-html,
-body,
-.view {
+div.view {
   height: calc(100vh - 100px);
 }
 
-.view {
+body.view {
   background: url("../assets/intro1.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
