@@ -188,30 +188,6 @@ textarea.resizable-horizontal{
   background: rgba(255,255,255,0.2);
 }
 
-/* cards */
-
-.card{
-
-  background:grey;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 20px;
-  width: 200px;
-  height: 250px;
-  overflow: hidden;
-
-}
-
-.card-small {
-  width: 50px;
-  height: 50px;
-}
-
-.colorless {
-  background: #fff;
-  padding : 0;
-}
-
 /* login adn register form */
 
 #visitor-form {
@@ -369,11 +345,6 @@ body.preload * {
   -webkit-border-radius:50%;
 }
 
-/*Comment Section*/
-/*
-.upa-upa {
-  top : 10%
-}*/
 
 .panel-shadow {
   box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
@@ -492,3 +463,70 @@ div.selectable:not(:target){
     border: 2px dashed rgba(0, 0, 0, 0.3);
     background-color: rgba(125,125,125,0.1);
 }
+
+
+
+
+.card {
+    border-radius: 5%;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.5);
+    margin: 0.5em;
+}
+
+.card .cardheader {
+    background: #6A6A00;
+    background-size: cover;
+    height: 135px;
+}
+
+
+/*avatar lindo que tornava a carta fantastica, no entanto os meus colegas achavam "desnecessario"
+.card .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card .avatar img {
+    background: #6A6A00;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.7);
+}
+*/
+
+
+.card .title {
+    color: white;
+    position: relative;
+    top: 40px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.card .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+}
+
+.card .bottom {
+  margin: 5px;
+}
+
+.cardLink:hover{
+  text-decoration:none;
+}
+
+.icon-link{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+/**/

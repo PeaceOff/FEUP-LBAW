@@ -26,61 +26,47 @@
                 <h3> Links </h3>
             </div>
 
-            <div id="linkCarrousel">
-                <ul class="thumbnails">
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
+
+                <ul class="links">
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
                             <a href="https://facebook.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/facebook.jpg" />
+                            <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
                             </a>
-                        </div>
                     </li>
 
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
-                            <a href="https://github.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/github.png" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
                             <a href="https://google.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/google.jpg" />
+                            <i class="fa fa-google-plus-square fa-4x" aria-hidden="true"></i>
                             </a>
-                        </div>
                     </li>
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
-                            <a href="https://trello.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/trello.png" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
-                            <a href="https://youtube.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/youtube.jpg" />
-                            </a>
-                        </div>
-                    </li>
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
+
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
                             <a href="https://twitter.com">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/twitter.png" />
+                            <i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
                             </a>
-                        </div>
                     </li>
-                    <li class="card card-small colorless col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                        <div class="card-block">
-                            <a href="https://fe.up.pt">
-                            <img class="img-responsive img-circle" alt="an image" src="../assets/feup.png" />
+
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                            <a href="https://trello.com">
+                            <i class="fa fa-trello fa-4x" aria-hidden="true"></i>
                             </a>
-                        </div>
                     </li>
+
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                            <a href="https://github.com">
+                            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                            </a>
+                    </li>
+
+                    <li class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                            <a href="https://youtube.com">
+                            <i class="fa fa-youtube-play fa-4x" aria-hidden="true"></i>
+                            </a>
+                    </li>
+
                 </ul>
-            </div>
-        </div><!-- /#linkCarrousel -->
+      </div>
+
 
         <div class="page-header">
             <h3> Documents </h3>
@@ -91,60 +77,115 @@
             <div class="carousel-inner">
                 <div class="item active"><!-- /Slide1 -->
                     <ul class="thumbnails">
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
+                        <li>
+                            <a class="cardLink" href="projectPage.php">
+                                <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                  <div class="cardheader">
+                                      <div class="title outliner">
+                                          Projeto Mais xiroo mundo
+                                      </div>
+                                  </div>
+                                  <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+                                  <div class="bottom">
+                                    <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                                      <i class="fa fa-pencil"></i>
+                                    </a>
+                                    <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                                      <i class="fa fa-trash"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                            </a>
+                      <li>
 
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
+                        <li>
+                            <a class="cardLink" href="projectPage.php">
+                                <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                  <div class="cardheader">
+                                      <div class="title outliner">
+                                          Projeto Mais xiroo mundo
+                                      </div>
+                                  </div>
+                                  <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+                                  <div class="bottom">
+                                    <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                                      <i class="fa fa-pencil"></i>
+                                    </a>
+                                    <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                                      <i class="fa fa-trash"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                            </a>
+                      <li>
+
+                        <li>
+                            <a class="cardLink" href="projectPage.php">
+                                <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                  <div class="cardheader">
+                                      <div class="title outliner">
+                                          Projeto Mais xiroo mundo
+                                      </div>
+                                  </div>
+                                  <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+                                  <div class="bottom">
+                                    <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                                      <i class="fa fa-pencil"></i>
+                                    </a>
+                                    <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                                      <i class="fa fa-trash"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                            </a>
+                      <li>
+
+
+
                     </ul>
                 </div>
                 <div class="item"><!-- /Slide2 -->
                     <ul class="thumbnails">
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
-                        <li class="card col-lg-8 col-md-8 col-sm-10 col-xs-12">
-                            <div class="card-block">
-                                <h3 class="card-title">Special title treatment</h3>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </li>
+                      <li>
+                          <a class="cardLink" href="projectPage.php">
+                              <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="cardheader">
+                                    <div class="title outliner">
+                                        Projeto Mais xiroo mundo
+                                    </div>
+                                </div>
+                                <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+                                <div class="bottom">
+                                  <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                                    <i class="fa fa-pencil"></i>
+                                  </a>
+                                  <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                                    <i class="fa fa-trash"></i>
+                                  </a>
+                                </div>
+                              </div>
+                          </a>
+                    <li>
+                      <li>
+                          <a class="cardLink" href="projectPage.php">
+                              <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="cardheader">
+                                    <div class="title outliner">
+                                        Projeto Mais xiroo mundo
+                                    </div>
+                                </div>
+                                <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+                                <div class="bottom">
+                                  <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                                    <i class="fa fa-pencil"></i>
+                                  </a>
+                                  <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                                    <i class="fa fa-trash"></i>
+                                  </a>
+                                </div>
+                              </div>
+                          </a>
+                    <li>
                     </ul>
                 </div>
             </div>
