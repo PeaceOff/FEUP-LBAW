@@ -1,7 +1,7 @@
 <div id="addProject" class="modal fade col-md-6 col-md-offset-3">
   <div class="modal-content">
     <div class="modal-header text-center">
-      <h4>New Project</h4>
+      <h4 class="modal-title">New Project</h4>
     </div>
     <div class="modal-body">
       <form  id ="addProject-form" action="" method="post" style="display:block">
