@@ -9,11 +9,11 @@
         <form  id ="createTask-form" class="form-inline" action="" method="post" style="display:block">
           <div class="input-group form-group">
             <label>Task Title</label>
-            <input class="form-control" type="text" tabindex="1" placeholder="Title" name="title"  required="" >
+            <input class="form-control" type="text" tabindex="1" placeholder="Title" name="title"  required="" autofocus="">
           </div>
           <div class="form-group input-group">
             <label for="sel1">Category</label>
-            <select class="form-control" id="sel1">
+            <select class="form-control" id="sel1" tabindex="2">
               <option>High Priority</option>
               <option>Low Priority</option>
               <option>Artwork</option>
@@ -21,14 +21,14 @@
           </div>
           <div class="form-group input-group ">
             <label>Deadline</label>
-            <input type='text' class="form-control form-date"/> <!-- Add datetime bootstrap-->
+            <input type='text' class="form-control form-date" tabindex="3"> <!-- Add datetime bootstrap-->
           </div>
           <div class="form-group input-group width-100">
             <label for="descriptionArea">Description</label>
-            <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3"></textarea>
+            <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="4"></textarea>
           </div>
           <div class="text-center">
-            <input class="btn btn-success " type="submit" name="createTask" value="Save" required="">
+            <input class="btn btn-success " type="submit" name="createTask" value="Save" required="" tabindex="5">
           </div>
         </form>
       </div>

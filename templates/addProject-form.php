@@ -8,11 +8,11 @@
       <form  id ="addProject-form" action="" method="post" style="display:block">
         <div class="form-group ">
           <label for="projectName">Name</label>
-          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="">
+          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="" autofocus="">
         </div>
         <div class="form-group ">
           <label for="friendsList">Collaborators</label>
-          <input id = "friendsList" list="friends" class="form-control"  tabindex="3" name="friends">
+          <input id = "friendsList" list="friends" class="form-control"  tabindex="2" name="friends">
             <datalist id="friends">
               <option value="João">
               <option value="David">
@@ -22,10 +22,10 @@
         </div>
         <div class="input-group form-group width-100">
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3"></textarea>
+          <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="3"></textarea>
         </div>
         <div class="text-center">
-          <input class="btn btn-success " type="submit" name="create" value="Create" required="">
+          <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
         </div>
       </form>
     </div>
