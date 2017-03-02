@@ -17,11 +17,22 @@
     </ul>
     <div class="container">
         <ul class="btn-group-vertical">
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum-1">Forum Topic 1</li>
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum-1">Forum Topic 2</li>
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum-1">Forum Topic 3</li>
+            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 1</li>
+            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 2</li>
+            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 3</li>
         </ul>
     </div>
-    
     <?php include_once '../templates/forumExample.php'; ?>
 </div>
+<script>
+    $(document).ready(function () {
+        var get_vars = window.location.search.substring(1);
+        var single_vars = get_vars.split('&');
+        for (var i = 0; i < single_vars.length; i++)
+        {
+            var param_name = single_vars[i].split('=');
+            if (param_name[0] == "forum")
+                $("#"+param_name[1]).modal('show');
+        }
+    });
+</script>
