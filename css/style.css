@@ -102,6 +102,18 @@ li{
   padding:0;
 }
 
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.margin-10{
+  margin: 2px;
+}
+
+.padding-neg-10{
+  padding: -10px;
+}
+
 .width-100{
   width: 100%;
 }
@@ -132,6 +144,9 @@ textarea.resizable-horizontal{
   text-align: right;
 }
 
+.align-center{
+  text-align: center;
+}
 /* main content */
 
 #page-content-wrapper {
@@ -209,7 +224,7 @@ textarea.resizable-horizontal{
 #sidebar-left,#sidebar-right{
   position: fixed;
   top: 50px;
-  width: 201px;
+  width: 200px;
   height: calc(100% - 50px);
   z-index: 20;
 }
@@ -502,21 +517,25 @@ div.selectable:not(:target){
 }
 
 
+.cardhandler{
+  width: auto;
+  height: auto;
+  display: block;
+}
 
 .card {
-    border-radius: 5%;
+    border-radius: 20px;
     position: relative;
     padding: 0;
     overflow: hidden;
     text-align: center;
     background-color: rgba(214, 224, 226, 0.5);
-    margin: 0.5em;
 }
 
 .card .cardheader {
-    background: #6A6A00;
+    background: #b77733;
     background-size: cover;
-    height: 135px;
+    height: 100px;
 }
 
 

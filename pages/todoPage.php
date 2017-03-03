@@ -31,50 +31,29 @@ include_once '../templates/createTask-form.php';
       <a class="nav-link" data-toggle="modal" data-target="#createTask">+ Add Task</a>
     </li>
   </ul>
-
-  <div class="container ">
+</div>
+<div class="container margin-top-10">
     <div id="to-do" class="selectable">
-      <div class="card col-xs-3">
-        <div class="card-block">
-          <h3 class="card-title">Special title treatment 1</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card col-xs-3">
-        <div class="card-block">
-          <h3 class="card-title">Special title treatment 2</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <?php
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+      ?>
     </div>
     <div id="doing" class="selectable">
-      <div class="card col-xs-3">
-        <div class="card-block">
-          <h3 class="card-title">Special title treatment 3</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card col-xs-3">
-        <div class="card-block">
-          <h3 class="card-title">Special title treatment 4</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <?php
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+        include '../templates/task-card.php';
+      ?>
     </div>
     <div id="done" class="selectable">
-      <div class="card col-xs-3">
-        <div class="card-block">
-          <h3 class="card-title">Special title treatment 5</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <?php
+        include '../templates/task-card.php';
+      ?>
     </div>
-  </div>
 </div>
 <?php
 include_once '../templates/rightSidebar.php';

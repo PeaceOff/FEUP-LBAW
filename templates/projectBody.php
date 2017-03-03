@@ -81,7 +81,7 @@
         <div class="carousel slide" id="documentsCarrousel">
             <div class="carousel-inner">
                 <div class="item active"><!-- /Slide1 -->
-                    <ul class="thumbnails">
+                    <ul class="thumbnails padding-0">
                         <li>
                             <a class="cardLink" href="projectPage.php">
                                 <div class="card col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -90,6 +90,7 @@
                                           Projeto Mais xiroo mundo
                                       </div>
                                   </div>
+
                                   <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
                                   <div class="bottom">
                                     <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
