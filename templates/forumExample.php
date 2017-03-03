@@ -23,18 +23,12 @@
                         <h6 class="text-muted time">1 minute ago</h6>
                     </div>
                 </div>
-                <div class="post-description">
+                <div class="pull-left"></div>
+                <div class="post-description" style="clear : both;">
                     <p>Acho que está muita bom</p>
-                    <div class="stats">
-                        <a href="#" class="btn btn-default stat-item">
-                            <i class="fa fa-thumbs-up icon"></i>2
-                        </a>
-                        <a href="#" class="btn btn-default stat-item">
-                            <i class="fa fa-share icon"></i>12
-                        </a>
-                    </div>
                 </div>
-                <div class="post-footer">
+                <button class="btn dropdown" data-toggle="collapse" data-target="#numba1"><i class="icon-chevron-right"></i>Show comments</button>
+                <div class="post-footer collapse" id="numba1">
                     <div class="input-group">
                         <input class="form-control" placeholder="Add a comment" type="text">
                         <span class="input-group-addon">
@@ -97,18 +91,12 @@
                         <h6 class="text-muted time">1 hour ago</h6>
                     </div>
                 </div>
-                <div class="post-description">
+                <div class="pull-left"></div>
+                <div class="post-description" style="clear : both;">
                     <p>Xiaomi é amor, xiaomi é vida</p>
-                    <div class="stats">
-                        <a href="#" class="btn btn-default stat-item">
-                            <i class="fa fa-thumbs-up icon"></i>999
-                        </a>
-                        <a href="#" class="btn btn-default stat-item">
-                            <i class="fa fa-share icon"></i>1092130
-                        </a>
-                    </div>
                 </div>
-                <div class="post-footer">
+                <button class="btn dropdown" data-toggle="collapse" data-target="#numba2"><i class="icon-chevron-right"></i>Show comments</button>
+                <div class="post-footer collapse" id="numba2">
                     <div class="input-group">
                         <input class="form-control" placeholder="Add a comment" type="text">
                         <span class="input-group-addon">
