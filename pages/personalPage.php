@@ -35,7 +35,7 @@ include_once '../templates/addProject-form.php';
 
 <div class="container">
   <div class="page-header">
-    <h2>My Projects</h2>
+    <h2>My Projects <a data-toggle="modal" data-target="#addProject"><i class="fa fa-plus" aria-hidden="true"></i></a></h2>
   </div>
 
   <!-- Card -->

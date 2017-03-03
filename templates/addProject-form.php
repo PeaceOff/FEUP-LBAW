@@ -13,21 +13,21 @@
         <div class="form-group ">
           <label for="friendsList">Collaborators</label>
           <input id = "friendsList" list="friends" class="form-control"  tabindex="2" name="friends">
-            <datalist id="friends">
-              <option value="João">
+          <datalist id="friends">
+            <option value="João">
               <option value="David">
-              <option value="Marcelo">
-              <option value="José">
-            </datalist>
+                <option value="Marcelo">
+                  <option value="José">
+                  </datalist>
+                </div>
+                <div class="input-group form-group width-100">
+                  <label for="descriptionArea">Description</label>
+                  <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="3"></textarea>
+                </div>
+                <div class="text-center">
+                  <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="input-group form-group width-100">
-          <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="3"></textarea>
-        </div>
-        <div class="text-center">
-          <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
