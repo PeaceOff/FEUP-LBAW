@@ -7,7 +7,7 @@ include_once '../templates/register.php';
 
 <div class="view">
     <div class="vertical-align full-bg-img text-center">
-        <ul class="">
+        <ul class="padding-0">
             <li>
                 <h1 class="h1-responsive outliner">Join the biggest project managment community</h1></li>
             <li>

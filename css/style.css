@@ -1,7 +1,5 @@
 body{
   padding-top: 50px;
-  background: url("../assets/background.jpg")no-repeat center center fixed;
-
 }
 
 div.view {
@@ -45,13 +43,7 @@ li{
   right: 10px;
 }
 
-
-.notifications {
-  min-width:420px;
-}
-
 .notifications-wrapper {
-  overflow:auto;
   max-height:250px;
 }
 
@@ -518,9 +510,7 @@ div.selectable:not(:target){
 
 
 .cardhandler{
-  width: auto;
-  height: auto;
-  display: block;
+  margin-bottom: 10px;
 }
 
 .card {

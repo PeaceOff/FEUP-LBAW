@@ -1,4 +1,4 @@
-<div id="signUp" class="modal fade col-md-6 col-md-offset-3">
+<div id="signUp" class="modal fade col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
   <div class="modal-content modal-out">
     <div class="modal-header text-center">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
