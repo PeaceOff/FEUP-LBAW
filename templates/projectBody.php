@@ -1,5 +1,6 @@
 <?php
-include_once 'addFile-form.php';
+  include_once 'addFile-form.php';
+  include_once 'addLink-form.php';
 ?>
 
 <div class="col-md-12">
@@ -27,9 +28,8 @@ include_once 'addFile-form.php';
   <!-- LINKS -->
   <div class="container">
     <div class="page-header">
-      <h3> Links <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
+      <h3> Links <a a data-toggle="modal" data-target="#addLink"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
     </div>
-
 
     <ul class="list-inline" style="overflow-x:scroll; white-space: nowrap;">
       <li>
