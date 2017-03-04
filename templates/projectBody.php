@@ -26,7 +26,7 @@
   </div>
 
 
-  <!-- Project Management -->
+  <!-- Project Management
   <div class="container visible-xs">
     <div class="page-header">
       <h3 style="margin : auto">Project Management
@@ -87,6 +87,7 @@
       <?php include_once '../templates/forumExample.php'; ?>
     </div>
   </div>
+-->
 
   <!-- LINKS -->
   <div class="container">
