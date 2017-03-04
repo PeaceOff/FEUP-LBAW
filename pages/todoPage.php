@@ -6,12 +6,12 @@ include_once '../templates/createTask-form.php';
 ?>
 
 <div class="container center-block" >
-  <h2 class="text-center page-header">Project Title - Todo Board</h2>
+  <h2 class="text-center page-header">task Title - Todo Board</h2>
 
-  <!-- Project Management -->
+  <!-- task Management -->
   <div class="container visible-xs">
     <div class="page-header" style="margin-top : 20px">
-      <h3 style="margin : auto">Project Management
+      <h3 style="margin : auto">task Management
         <button type="button" class="btn btn-default btn-sm" data-toggle="collapse" data-target="#management" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="caret"></span>
@@ -93,22 +93,22 @@ include_once '../templates/createTask-form.php';
   <div id="to-do" class="selectable">
     <?php
     include '../templates/task-card.php';
-    include '../templates/project-card.php';
-    include '../templates/project-card.php';
-    include '../templates/project-card.php';
-    include '../templates/project-card.php';
+    include '../templates/task-card.php';
+    include '../templates/task-card.php';
+    include '../templates/task-card.php';
+    include '../templates/task-card.php';
     ?>
   </div>
   <div id="doing" class="selectable">
     <?php
-    include '../templates/project-card.php';
-    include '../templates/project-card.php';
-    include '../templates/project-card.php';
+    include '../templates/task-card.php';
+    include '../templates/task-card.php';
+    include '../templates/task-card.php';
     ?>
   </div>
   <div id="done" class="selectable">
     <?php
-    include '../templates/project-card.php';
+    include '../templates/task-card.php';
     ?>
   </div>
 </div>

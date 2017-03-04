@@ -6,7 +6,8 @@
       </div>
     </div>
     <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
-    <div class="bottom">
+
+  <div class="bottom">
       <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
         <i class="fa fa-pencil"></i>
       </a>

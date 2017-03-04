@@ -32,6 +32,15 @@ include_once '../templates/addProject-form.php';
 
 </div>
 
+<div class="container">
+  <div class="page-header">
+    <h2> Statistics </h2>
+  </div>
+
+  
+</div>
+
+
 
 <div class="container">
   <div class="page-header">
