@@ -76,7 +76,7 @@ li{
 
 .item-info {
   font-size:1.2rem;
-  color: blue;
+  color: rgba(51,122,183,1.0);
 }
 
 
@@ -523,13 +523,13 @@ div.selectable:not(:target){
 /*cards */
 
 .card .cardheader-todo {
-    background: rgba(214, 224, 214, 1);
+    background: rgba(51,122,183,1.0);
     background-size: cover;
     height: 100px;
 }
 
 .card .people-envolved {
-  background: rgba(214, 224, 214, 1);
+  background: rgba(51,122,183,1.0);
   border-radius: 5%;
   padding: 5px;
 }
