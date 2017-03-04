@@ -4,7 +4,7 @@ include_once '../templates/navbar.php';
 include_once '../templates/leftSidebar.php';
 include_once '../templates/createTask-form.php';
 include_once '../templates/assign-user-modal.php';
-
+include_once '../templates/assign-category-modal.php';
 ?>
 
 <div class="container center-block" >

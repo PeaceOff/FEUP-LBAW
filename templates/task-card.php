@@ -24,7 +24,7 @@
       <a class="btn icon-link btn-primary  btn-sm" href="#">
         <i class="fa fa-pencil"></i>
       </a>
-      <a class="btn icon-link btn-warning btn-sm"  data-toggle="modal" data-target="#assign-user-modal">
+      <a class="btn icon-link btn-warning btn-sm"  data-toggle="modal" data-target="#assign-category-modal">
         <i class="fa fa-arrows"></i>
       </a>
       <a class="btn icon-link btn-danger btn-sm"  href="#">
