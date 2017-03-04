@@ -42,7 +42,7 @@
           <a class="nav-link color-blue" href="#">Users</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Add User</a>
+          <a class="nav-link collapsed" data-toggle="collapse" data-target="#project-add-users">Add User</a>
         </li>
       </ul>
       <table class="table table-condensed table-style">
@@ -71,6 +71,12 @@
           </td>
         </tr>
       </table>
+      <div id="project-add-users" class="collapse">
+        <div class="input-group form-group">
+          <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span>
+          <input class="form-control" type="text" placeholder="Username" name="username" value="" required="" autofocus="">
+        </div>
+      </div>
       <div class="width-100">
         <ul class="btn-group-vertical width-100 padding-0">
           <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 1</li>

@@ -7,7 +7,7 @@
         <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-users">Users</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white collapsed" data-toggle="collapse" data-target="#project-add-users">Add User</a>
+        <a class="nav-link text-white collapsed" data-toggle="collapse" data-target="#project-adding-users">Add User</a>
       </li>
     </ul>
     <div id="project-users" class="collapse in">
@@ -38,7 +38,7 @@
         </tr>
       </table>
     </div>
-    <div id="project-add-users" class="collapse">
+    <div id="project-adding-users" class="collapse">
       <div class="input-group form-group">
         <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span>
         <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
