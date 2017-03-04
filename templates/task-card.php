@@ -3,6 +3,7 @@
     <div class="cardheader-todo">
       <div class="title outliner">
           Task Title
+        <h5>Category</h5>
       </div>
 
     </div>
@@ -23,7 +24,7 @@
       <a class="btn icon-link btn-primary  btn-sm" href="#">
         <i class="fa fa-pencil"></i>
       </a>
-      <a class="btn icon-link btn-warning btn-sm"  href="#">
+      <a class="btn icon-link btn-warning btn-sm"  data-toggle="modal" data-target="#assign-user-modal">
         <i class="fa fa-arrows"></i>
       </a>
       <a class="btn icon-link btn-danger btn-sm"  href="#">

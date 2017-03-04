@@ -12,7 +12,7 @@ include_once '../templates/addProject-form.php';
     <h2> Pending Notifications </h2>
   </div>
 
-  <div class="notification-item col-sm-6">
+  <div class="notification-item col-lg-6">
     <h4 class="item-title">David Azevedo Invited you to join LBAW-A3</h4>
     <p class="item-info">27-02-2017, one day ago</p>
     <div class="notification-links pull-right">
@@ -22,7 +22,7 @@ include_once '../templates/addProject-form.php';
   </div>
 
 
-  <div class="notification-item col-sm-6">
+  <div class="notification-item col-lg-6">
     <h4 class="item-title">David Azevedo Invited you to join LBAW-A3</h4>
     <p class="item-info">27-02-2017, one day ago</p>
     <div class="notification-links pull-right">

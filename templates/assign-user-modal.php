@@ -12,6 +12,7 @@
            <a class="list-group-item">User C</a>
            <a class="list-group-item">User D</a>
            <a class="list-group-item">User E</a>
+
           </div>
         </div>
         <div class="modal-footer">
