@@ -4,38 +4,46 @@
     </div>
     <ul class="nav nav-tabs">
       <li class="nav-item active">
-        <a class="nav-link color-blue" href="#">Users</a>
+        <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-users">Users</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Add User</a>
+        <a class="nav-link text-white collapsed" data-toggle="collapse" data-target="#project-add-users">Add User</a>
       </li>
     </ul>
-    <table class="table table-condensed table-style">
-      <tr>
-        <td>
-          User A
-        </td>
-        <td class="align-right">
-          <button href="" class="btn btn-danger btn-xs"> Remove </button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          User B
-        </td>
-        <td class="align-right">
-          <button href="" class="btn btn-danger btn-xs"> Remove </button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          User C
-        </td>
-        <td class="align-right">
-          <button href="" class="btn btn-danger btn-xs"> Remove </button>
-        </td>
-      </tr>
-    </table>
+    <div id="project-users" class="collapse in">
+      <table  class="table table-condensed table-style">
+        <tr>
+          <td>
+            User A
+          </td>
+          <td class="align-right">
+            <button href="" class="btn btn-danger btn-xs"> Remove </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            User B
+          </td>
+          <td class="align-right">
+            <button href="" class="btn btn-danger btn-xs"> Remove </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            User C
+          </td>
+          <td class="align-right" aria-expanded="false">
+            <button href="" class="btn btn-danger btn-xs"> Remove </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="project-add-users" class="collapse">
+      <div class="input-group form-group">
+        <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span>
+        <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
+      </div>
+    </div>
     <div class="width-100">
         <ul class="btn-group-vertical width-100 padding-0">
             <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 1</li>

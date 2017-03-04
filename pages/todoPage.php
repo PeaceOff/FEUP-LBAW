@@ -3,6 +3,8 @@ include_once '../templates/header.php';
 include_once '../templates/navbar.php';
 include_once '../templates/leftSidebar.php';
 include_once '../templates/createTask-form.php';
+include_once '../templates/assign-user-modal.php';
+
 ?>
 
 <div class="container center-block" >

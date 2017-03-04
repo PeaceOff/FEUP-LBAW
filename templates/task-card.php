@@ -14,7 +14,7 @@
       <img class="avatar  icon-link img-circle" src="https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/13907004_674374722711579_3540600821708478848_n.jpg?oh=4e5f211754e996c7375a68412c3809aa&oe=59259BF0" alt="avatar">
       <img class="avatar img-circle icon-link" src="https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/12688317_1211046208923914_7204990918498495324_n.jpg?oh=544a63728bafb55ff66721f54b7196a3&oe=5928FEF7" alt="avatar">
 
-      <a class="btn icon-link btn-success btn-sm"  href="#">
+      <a class="btn icon-link btn-success btn-sm" data-toggle="modal" data-target="#assign-user-modal">
           <i class="fa fa-plus"></i>
       </a>
     </div>
