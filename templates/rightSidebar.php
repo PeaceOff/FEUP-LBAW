@@ -14,27 +14,41 @@
       <table  class="table table-condensed table-style">
         <tr>
           <td>
-            User A
+            <p>José Martins</p>
           </td>
           <td class="align-right">
-            <button href="" class="btn btn-danger btn-xs"> Remove </button>
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>          </td>
+        </tr>
+        <tr>
+          <td>
+              <p>João Ferreira</p>
+          </td>
+          <td class="align-right">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>
           </td>
         </tr>
         <tr>
           <td>
-            User B
-          </td>
-          <td class="align-right">
-            <button href="" class="btn btn-danger btn-xs"> Remove </button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            User C
+            <p>David Azevedo</p>
           </td>
           <td class="align-right" aria-expanded="false">
-            <button href="" class="btn btn-danger btn-xs"> Remove </button>
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Marcelo Ferreira</p>
           </td>
+          <td class="align-right" aria-expanded="false">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>          </td>
         </tr>
       </table>
     </div>
