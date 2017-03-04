@@ -30,7 +30,7 @@ function toggler_addListener(){
 function touch_addListener(){
   var touchPosition = {x:0,y:0};
   var calculate = false;
-  var size = 50;
+  var size = 20;
   document.addEventListener('touchstart',function(e){
 
     touchPosition.x = e.changedTouches[0].pageX;
