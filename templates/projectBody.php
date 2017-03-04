@@ -83,19 +83,19 @@ include_once 'addFile-form.php';
           <ul class="thumbnails padding-0">
             <li>
               <a class="cardLink" href="projectPage.php">
-                <?php include '../templates/task-card.php';?>
+                <?php include '../templates/project-card.php';?>
               </a>
               <li>
 
                 <li>
                   <a class="cardLink" href="projectPage.php">
-                    <?php include '../templates/task-card.php';?>
+                    <?php include '../templates/project-card.php';?>
                   </a>
                   <li>
 
                     <li>
                       <a class="cardLink" href="projectPage.php">
-                        <?php include '../templates/task-card.php';?>
+                        <?php include '../templates/project-card.php';?>
                       </a>
                       <li>
 
@@ -107,12 +107,12 @@ include_once 'addFile-form.php';
                       <ul class="thumbnails">
                         <li>
                           <a class="cardLink" href="projectPage.php">
-                            <?php include '../templates/task-card.php';?>
+                            <?php include '../templates/project-card.php';?>
                           </a>
                           <li>
                             <li>
                               <a class="cardLink" href="projectPage.php">
-                                <?php include '../templates/task-card.php';?>
+                                <?php include '../templates/project-card.php';?>
                               </a>
                               <li>
                               </ul>

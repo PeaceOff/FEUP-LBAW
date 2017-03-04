@@ -8,7 +8,7 @@
 
 <div class="dropdown-menu" role="menu" >
 
-  <ul class="notification padding-left-0" aria-labelledby="dLabel">
+  <ul class="notifications padding-left-0" aria-labelledby="dLabel">
 
     <li>
 
@@ -21,7 +21,7 @@
     <li class="divider"></li>
 
     <li>
-    <div class="notifications-wrapper">
+    <div class="notifications-wrapper" style="overflow-y:scroll;">
 
         <div class="notification-item">
           <h4 class="item-title">David Azevedo Invited you to join LBAW-A3</h4>
@@ -49,7 +49,7 @@
             <a><i class="fa fa-check fa-2x" aria-hidden="true"></i>  </a>
           </div>
         </div>
-        
+
         <div class="notification-item">
           <h4 class="item-title">David Azevedo Invited you to join PPIN</h4>
           <p class="item-info">27-02-2017, one day ago</p>

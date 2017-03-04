@@ -36,22 +36,22 @@ include_once '../templates/createTask-form.php';
     <div id="to-do" class="selectable">
       <?php
         include '../templates/task-card.php';
-        include '../templates/task-card.php';
-        include '../templates/task-card.php';
-        include '../templates/task-card.php';
-        include '../templates/task-card.php';
+        include '../templates/project-card.php';
+        include '../templates/project-card.php';
+        include '../templates/project-card.php';
+        include '../templates/project-card.php';
       ?>
     </div>
     <div id="doing" class="selectable">
       <?php
-        include '../templates/task-card.php';
-        include '../templates/task-card.php';
-        include '../templates/task-card.php';
+        include '../templates/project-card.php';
+        include '../templates/project-card.php';
+        include '../templates/project-card.php';
       ?>
     </div>
     <div id="done" class="selectable">
       <?php
-        include '../templates/task-card.php';
+        include '../templates/project-card.php';
       ?>
     </div>
 </div>

@@ -44,7 +44,11 @@ li{
 }
 
 .notifications-wrapper {
-  max-height:250px;
+  max-height: 250px;
+}
+
+.notifications{
+  min-width:420px;
 }
 
 .notifications-title {

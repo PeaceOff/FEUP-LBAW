@@ -41,23 +41,23 @@ include_once '../templates/addProject-form.php';
   <!-- Card -->
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 
 
@@ -69,7 +69,7 @@ include_once '../templates/addProject-form.php';
   </div>
 
   <a class="cardLink" href="projectPage.php">
-    <?php include '../templates/task-card.php';?>
+    <?php include '../templates/project-card.php';?>
   </a>
 </div>
 
