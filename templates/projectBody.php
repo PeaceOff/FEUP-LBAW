@@ -6,7 +6,7 @@
 <div class="col-md-12">
   <div class="container">
     <h1 class="text-center page-header">Project Title</h1>
-    <p class="text-justify well">Description : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida est sed tortor pretium, et sollicitudin lacus aliquet. Mauris vel magna nec lectus pulvinar congue eu sit amet enim. Proin ultrices commodo odio vestibulum tempor. Donec auctor dolor vel lobortis feugiat. Suspendisse sit amet congue orci, sit amet fermentum ipsum. Suspendisse quis lectus eget enim scelerisque pellentesque. Sed a malesuada ipsum. </p>
+    <p class="text-justify well">Description :  Do mesmo modo, a consulta aos diversos militantes ainda não demonstrou convincentemente que vai participar na mudança das posturas dos órgãos dirigentes com relação às suas atribuições. Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o fenômeno da Internet possibilita uma melhor visão global da gestão inovadora da qual fazemos parte.</p>
 
 
     <div class="row">
