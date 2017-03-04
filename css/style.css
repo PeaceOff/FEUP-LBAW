@@ -84,7 +84,7 @@ li{
 .notification-item {
   padding:10px;
   margin:5px;
-  background:#bdbdbd;
+  background:#efefef;
   border-radius:4px;
 }
 
@@ -529,7 +529,7 @@ div.selectable:not(:target){
 }
 
 .card .people-envolved {
-  background: rgba(51,122,183,1.0);
+  background: rgba(51,122,183,0.5);
   border-radius: 5%;
   padding: 5px;
 }
@@ -540,8 +540,8 @@ div.selectable:not(:target){
     padding: 0;
     overflow: hidden;
     text-align: center;
-    background-color: rgba(214, 224, 226, 0.5);
-    margin: 10px;
+    background-color: rgba(214, 224, 226, 0.9);
+    margin: 5px;
 }
 
 .card .cardheader {
