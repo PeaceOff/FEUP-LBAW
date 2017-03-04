@@ -5,7 +5,7 @@
         Titulo-1
       </div>
     </div>
-    <div class="desc"> Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi,Descrição deste fantastico projeto igualmente muito cutchi cutchi</div>
+    <div class="desc"> Todavia, a competitividade nas transações comerciais pode nos levar a considerar a reestruturação da gestão inovadora da qual fazemos parte. Acima de tudo, é fundamental ressaltar que a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança dos conhecimentos estratégicos para atingir a excelência.</div>
 
   <div class="bottom">
       <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">

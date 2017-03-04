@@ -7,7 +7,7 @@
       </div>
 
     </div>
-    <div class="desc"> Task DescriptioptionTask DescriptionTask DescriptionescronTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask DescriptionTask Description</div>
+    <div class="desc"> Do mesmo modo, a estrutura atual da organização talvez venha a ressaltar a relatividade dos procedimentos normalmente adotados. O incentivo ao avanço tecnológico, assim como o consenso sobre a necessidade de qualificação desafia a capacidade de equalização das diversas correntes de pensamento.</div>
     <div class="people-envolved">
       <h5>Owner</h5>
       <img class="avatar  icon-link img-circle" src="https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/10685589_1467742693508948_4411023630260921835_n.jpg?oh=caf7288a15d35ccef8f663ec42ff24aa&oe=5933C887" alt="avatar">
