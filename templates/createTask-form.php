@@ -18,9 +18,9 @@
             <option>Artwork</option>
           </select>
         </div>
-        <div class="form-group input-group width-100">
+        <div class="form-group input-group date width-100">
           <label>Deadline</label>
-          <input type='text' class="form-control form-date" tabindex="3"> <!-- Add datetime bootstrap-->
+          <input id='datetimepicker' type='date' format="DD/MM/YYYY" class="form-control" tabindex="3">
         </div>
         <div class="form-group input-group width-100">
           <label for="descriptionArea">Description</label>

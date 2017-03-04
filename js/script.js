@@ -49,9 +49,17 @@ function touch_addListener(){
   }, false);
 }
 
+function setupDatePickers(){
+  $('#datetimepicker').attr('type', 'text');
+  $("#datetimepicker").datetimepicker({
+    format: 'DD/MM/YYYY'
+  });
+}
+
 $(document).ready(function(){
   if($(".view").length > 0) $("body").addClass('view');
 
+  setupDatePickers();
   touch_addListener();
   toggler_addListener();
 
