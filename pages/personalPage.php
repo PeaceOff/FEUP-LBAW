@@ -5,6 +5,7 @@ include_once '../templates/leftSidebar.php';
 include_once '../templates/addProject-form.php';
 ?>
 
+<script type="text/javascript" src = "../js/statistics.js"></script>
 
 <div class="container">
   <div class="page-header">
@@ -34,10 +35,10 @@ include_once '../templates/addProject-form.php';
 
 <div class="container">
   <div class="page-header">
-    <h2> Statistics </h2>
+    <h2>My Statistics </h2>
   </div>
 
-  
+  <canvas id="statisticsChart"></canvas>
 </div>
 
 
