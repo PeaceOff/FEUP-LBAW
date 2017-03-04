@@ -29,16 +29,21 @@ function toggler_addListener(){
 
 function touch_addListener(){
   var touchPosition = {x:0,y:0};
-
+  var calculate = false;
+  var size = 50;
   document.addEventListener('touchstart',function(e){
+
     touchPosition.x = e.changedTouches[0].pageX;
     touchPosition.y = e.changedTouches[0].pageY;
+    calculate = touchPosition.x < size || touchPosition.x > $(window).width() - size;
   }, false);
   document.addEventListener('touchend',function(e){
+    if(!calculate)
+      return;
     var diffx = e.changedTouches[0].pageX - touchPosition.x;
     var diffy = e.changedTouches[0].pageY - touchPosition.y;
 
-    if(Math.atan2(Math.abs(diffy), Math.abs(diffx)) < Math.PI*20/180 && Math.abs(diffx) > 30){
+    if(Math.atan2(Math.abs(diffy), Math.abs(diffx)) < Math.PI*15/180 && Math.abs(diffx) > 30){
       if(diffx < 0){
         toggleSideBar("sidebar-right");
       }else{
