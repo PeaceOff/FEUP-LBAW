@@ -1,4 +1,4 @@
-<div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
+<div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey hidden-xs">
     <div class="right-sidebar-btn">
         <i class="fa fa-chevron-left hide-actor" target="sidebar-right" style="cursor : pointer"></i>
     </div>
