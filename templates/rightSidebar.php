@@ -1,3 +1,8 @@
+<?php
+    include_once 'addTopic-form.php';
+?>
+
+
 <div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
     <div class="right-sidebar-btn">
         <i class="fa fa-chevron-left hide-actor" target="sidebar-right" style="cursor : pointer"></i>
@@ -63,7 +68,7 @@
         <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-forum">Forum</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " >Add Topic</a>
+        <a class="nav-link text-white " data-toggle = "modal" data-target = "#addTopic">Add Topic</a>
       </li>
     </ul>
     <div id="project-forum" class="collapse in">
