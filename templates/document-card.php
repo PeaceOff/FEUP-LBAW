@@ -3,7 +3,7 @@
     <div class="">
       <h2>Requirements</h2>
     </div>
-    <img src="../assets/document-card.png" >
+    <img class="img-responsive" src="../assets/document-card.png" >
     <div class="document-bottom">
         <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
           <i class="fa fa-pencil"></i>
