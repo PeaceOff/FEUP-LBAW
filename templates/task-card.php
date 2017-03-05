@@ -21,13 +21,16 @@
     </div>
 
     <div class="bottom">
-      <a class="btn icon-link btn-primary  btn-sm" href="#">
+      <a class="btn icon-link btn-primary  btn-sm" >
         <i class="fa fa-pencil"></i>
       </a>
       <a class="btn icon-link btn-warning btn-sm"  data-toggle="modal" data-target="#assign-category-modal">
         <i class="fa fa-arrows"></i>
       </a>
-      <a class="btn icon-link btn-danger btn-sm"  href="#">
+      <a class="btn icon-link btn-info btn-sm" data-toggle="modal" data-target="#forum1">
+        <i class="fa fa-comments-o"></i>
+      </a>
+      <a class="btn icon-link btn-danger btn-sm"  >
         <i class="fa fa-trash"></i>
       </a>
 

@@ -5,6 +5,9 @@
     </div>
     <img src="../assets/document-card.png" >
     <div class="document-bottom">
+        <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="#">
+          <i class="fa fa-download"></i>
+        </a>
         <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
           <i class="fa fa-pencil"></i>
         </a>

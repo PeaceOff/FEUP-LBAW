@@ -3,11 +3,11 @@
         <i class="fa fa-chevron-left hide-actor" target="sidebar-right" style="cursor : pointer"></i>
     </div>
     <ul class="nav nav-tabs">
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-users">Users</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white collapsed" data-toggle="collapse" data-target="#project-adding-users">Add User</a>
+        <a class="nav-link text-white " data-toggle="collapse" data-target="#project-adding-users">Add User</a>
       </li>
     </ul>
     <div id="project-users" class="collapse in">
@@ -58,12 +58,57 @@
         <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
       </div>
     </div>
-    <div class="width-100">
-        <ul class="btn-group-vertical width-100 padding-0">
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 1</li>
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 2</li>
-            <li class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 3</li>
-        </ul>
+    <ul class="nav nav-tabs">
+      <li class="nav-item ">
+        <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-forum">Forum</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white " >Add Topic</a>
+      </li>
+    </ul>
+    <div id="project-forum" class="collapse in">
+      <table  class="table table-condensed table-style ">
+        <tr>
+          <td>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1"> Forum Topic 1 </button>
+          </td>
+          <td class="align-right">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 2 </button>
+          </td>
+          <td class="align-right">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 3 </button>
+          </td>
+          <td class="align-right">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 4 </button>
+          </td>
+          <td class="align-right">
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
+              <i class="fa fa-trash"></i>
+            </a>
+          </td>
+        </tr>
+      </table>
     </div>
     <?php include_once '../templates/forumExample.php'; ?>
 </div>
