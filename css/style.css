@@ -606,4 +606,17 @@ div.selectable:not(:target){
 }
 
 .icon-link{ border-radius: 50%; width:32px; height:32px;  }
+
+.delete-link{
+  color: red;
+  position: relative;
+  top:-30px;
+  left: 60px;
+  z-index: 1;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
 /**/

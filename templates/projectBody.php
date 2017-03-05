@@ -29,42 +29,61 @@ include_once 'addLink-form.php';
 
   <!-- LINKS -->
   <div class="container">
+
+    <script>
+    $(document).ready(function () {
+      $('.edit-link').click(function(){
+          $('.links-ul li a:first-child').toggleClass("invisible");
+
+      });
+
+    });
+
+    </script>
+
     <div class="page-header">
-      <h3> Links <a a data-toggle="modal" data-target="#addLink"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
+      <h3> Links <a a data-toggle="modal" data-target="#addLink"> <i class="fa fa-plus" aria-hidden="true"></i></a> <a> <i class="edit-link fa fa-pencil" aria-hidden="true"></i> </a>   </h3>
     </div>
 
-    <ul class="list-inline" style="overflow-x:scroll; white-space: nowrap;">
+
+    <ul class="links-ul list-inline" style="overflow-x:scroll; white-space: nowrap;">
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://facebook.com">
           <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
         </a>
       </li>
 
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://google.com">
           <i class="fa fa-google-plus-square fa-4x" aria-hidden="true"></i>
         </a>
       </li>
 
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://twitter.com">
           <i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
         </a>
       </li>
 
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://trello.com">
           <i class="fa fa-trello fa-4x" aria-hidden="true"></i>
         </a>
       </li>
 
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://github.com">
           <i class="fa fa-github fa-4x" aria-hidden="true"></i>
         </a>
       </li>
 
       <li>
+        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="https://youtube.com">
           <i class="fa fa-youtube-play fa-4x" aria-hidden="true"></i>
         </a>
@@ -100,7 +119,6 @@ include_once 'addLink-form.php';
                         <?php include '../templates/document-card.php';?>
                       </a>
                       <li>
-
 
 
                       </ul>
