@@ -61,12 +61,24 @@ function setupDatePickers(){
   });
 }
 
+function openModals(){
+  var get_vars = window.location.search.substring(1);
+  var single_vars = get_vars.split('&');
+  for (var i = 0; i < single_vars.length; i++)
+  {
+      var param_name = single_vars[i].split('=');
+      if (param_name[0] == "action")
+          $("#"+param_name[1]).modal('show');
+  }
+}
+
 $(document).ready(function(){
   if($(".view").length > 0) $("body").addClass('view');
 
   setupDatePickers();
   touch_addListener();
   toggler_addListener();
+  openModals();
 
   setTimeout(function(){
     $("body").removeClass("preload");

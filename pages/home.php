@@ -14,8 +14,8 @@ include_once '../templates/register.php';
                 <h4 class="outliner">Be the first to explore</h4>
             </li>
             <li>
-                <a  href="#signIn" class="btn btn-primary btn-lg" data-toggle="modal">Login</a>
-                <a  href="#signUp" class="btn btn-default btn-lg" data-toggle="modal">Sign Up</a>
+                <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signIn">Login</a>
+                <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#signUp">Sign Up</a>
             </li>
           <li>
         </ul>
