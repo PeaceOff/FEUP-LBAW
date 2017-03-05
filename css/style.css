@@ -570,8 +570,18 @@ div.selectable:not(:target){
 */
 
 
+
+.document img{
+  width:100%;
+}
+
+.document-bottom{
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+
 .card .title {
-    color: white;
     position: relative;
     top: 40px;
     margin-bottom: 4px;
