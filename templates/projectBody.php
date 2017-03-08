@@ -146,41 +146,41 @@ include_once 'addLink-form.php';
                             </ul>
                           </nav>
                           <!-- /.control-box -->
-                        </div><!-- /#documentsCarrousel -->
+      </div><!-- /#documentsCarrousel -->
 
-                      </div>
+    </div>
 
-                      <div class="container">
-                        <div class="page-header">
-                          <h2> Todo </h2>
-                        </div>
+    <div class="container">
+      <div class="page-header">
+        <h2> Todo </h2>
+      </div>
 
-                        <div class="jumbotron">
-                          <a  href="todoPage.php#to-do" > <img src="../assets/todo.jpg" class="img-responsive img-circle center-block" width="200"> </a>
-                        </div>
+      <div class="jumbotron">
+        <a  href="todoPage.php#to-do" > <img src="../assets/todo.png" class="img-responsive img-circle center-block" width="200"> </a>
+      </div>
 
 
-                      </div>
+    </div>
 
-                      <!-- Progress Bar -->
-                      <div class="container text-center">
-                        Deadline : 24-10-2017
-                        <div class="progress" id="progress-bar-div">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                          </div>
-                        </div>
-                      </div>
-                      <script>
+    <!-- Progress Bar -->
+    <div class="container text-center">
+      Deadline : 24-10-2017
+      <div class="progress" id="progress-bar-div">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+    </div>
+    <script>
 
-                      $(document).ready(function () {
+    $(document).ready(function () {
 
-                        var percent = 65;
-                        $("#progress-bar-div").children(".progress-bar").attr("aria-valuenow",percent);
-                        $("#progress-bar-div").children(".progress-bar").width(percent+"%");
-                        $("#progress-bar-div").children(".progress-bar").children(".sr-only").html(percent + "% complete");
-                      });
+      var percent = 65;
+      $("#progress-bar-div").children(".progress-bar").attr("aria-valuenow",percent);
+      $("#progress-bar-div").children(".progress-bar").width(percent+"%");
+      $("#progress-bar-div").children(".progress-bar").children(".sr-only").html(percent + "% complete");
+    });
 
-                      </script>
-                    </div>
-                  </div>
+    </script>
+  </div>
+</div>

@@ -8,7 +8,8 @@ include_once '../templates/assign-category-modal.php';
 ?>
 
 <div class="container center-block" >
-  <h2 class="text-center page-header">Task Title - Todo Board</h2>
+  <a class="link-no-style" href="projectPage.php"> <h1 class="text-center ">  Project Title <h1> </a>
+  <h3 class= "text-center page-header">Todo Board</h3>
   <ul class="nav nav-tabs">
     <li class="nav-item active">
       <a class="nav-link toggler" href="#to-do">To Do</a>

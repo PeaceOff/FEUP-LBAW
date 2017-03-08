@@ -38,7 +38,7 @@ include_once '../templates/addProject-form.php';
     <h2>My Statistics </h2>
   </div>
 
-  <canvas id="statisticsChart"></canvas>
+  <canvas class="chart" id="statisticsChart"></canvas>
 </div>
 
 

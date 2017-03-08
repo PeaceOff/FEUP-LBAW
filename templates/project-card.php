@@ -9,6 +9,8 @@
         Titulo-1
       </div>
     </div>
+    <div class="category">
+    </div>
     <div class="desc"> Todavia, a competitividade nas transações comerciais pode nos levar a considerar a reestruturação da gestão inovadora da qual fazemos parte. Acima de tudo, é fundamental ressaltar que a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança dos conhecimentos estratégicos para atingir a excelência.</div>
 
   <div class="bottom">

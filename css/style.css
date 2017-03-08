@@ -2,6 +2,14 @@ body{
   padding-top: 50px;
 }
 
+body .view{
+  min-height: 1vh;
+}
+
+.viewport{
+  min-height: calc(100vh - 100px);
+}
+
 div.view {
   height: calc(100vh - 100px);
 }
@@ -519,8 +527,21 @@ div.selectable:not(:target){
   border-bottom: 1px solid #CCC;
 }
 
-
+.chart{
+  height: 10px;
+}
 /*cards */
+
+.card {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.9);
+    margin: 20px 0px;
+    box-shadow: 5px 5px 30px #888888;
+}
+
 
 .card .cardheader-todo {
     background: rgba(51,122,183,1.0);
@@ -530,35 +551,39 @@ div.selectable:not(:target){
 
 .card .people-envolved {
   background: rgba(51,122,183,0.5);
-  border-radius: 5%;
   padding: 5px;
+  padding-bottom: 10px;
+  overflow: auto;
 }
 
-.card {
-    border-radius: 20px;
-    position: relative;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    background-color: rgba(214, 224, 226, 0.9);
-    margin: 5px;
+.card .people-envolved:after {
+    float: none;
 }
+
+.card .people-envolved .owner{
+  width: 50%;
+  float: left;
+}
+
+.card .people-envolved .collaborator{
+  width: 50%;
+  float: right;
+}
+
 
 .card .cardheader {
-    background: #b77733;
+    background: url("../assets/intro2.jpg");
     background-size: cover;
-    height: 100px;
+    height: 125px;
 }
 
 
-/*avatar lindo que tornava a carta fantastica, no entanto os meus colegas achavam "desnecessario"
-.card .avatar {
+/*avatar lindo que tornava a carta fantastica, no entanto os meus colegas achavam "desnecessario"*/
+.card .category {
     position: relative;
     top: -50px;
+    display: inline-block;
     margin-bottom: -50px;
-}
-
-.card .avatar img {
     background: #6A6A00;
     width: 100px;
     height: 100px;
@@ -567,9 +592,14 @@ div.selectable:not(:target){
     border-radius: 50%;
     border: 5px solid rgba(255,255,255,0.7);
 }
-*/
 
+.carousel ul li a{
+  height: 50%;
+}
 
+.document{
+  width: 100%;
+}
 
 .document img{
   width:100%;
@@ -622,4 +652,13 @@ div.selectable:not(:target){
 .modal{
   color: black;
 }
-/**/
+
+.link-no-style:hover{
+   text-decoration: none;
+}
+.link-no-style{
+   color:black;
+}
+.link-no-style:link{
+   text-decoration: none;
+}
