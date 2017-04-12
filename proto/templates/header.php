@@ -29,7 +29,7 @@
 
 
     <script type="text/javascript" src = "../../javascript/script.js"></script>
-    <script type="text/javascript" src = "../../javascript/login.js"></script>
+    <script async type="text/javascript" src = "../../javascript/login.js"></script>
 
 
 </head>

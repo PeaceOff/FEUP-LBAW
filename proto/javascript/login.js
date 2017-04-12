@@ -1,6 +1,7 @@
 
 
   window.fbAsyncInit = function() {
+  FB._https = true;
     FB.init({
       appId      : '260793837663013',
       xfbml      : true,
@@ -14,6 +15,7 @@
         console.log('We are connected.');
 
         FB.api('/me', function(response) {
+console.log(response);
             document.getElementById('login_status').innerHTML =  response.name;
         });
 
@@ -23,6 +25,8 @@
         console.log('You are not logged into Facebook.');
       }
     });
+
+
 
   };
 
@@ -34,24 +38,27 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
-   // login with facebook with extra permissions
-  function login() {
-    FB.login(function(response) {
-      if (response.authResponse) {
-           FB.api('/me', function(response) {
-               document.getElementById('login_status').innerHTML =  response.name;
-           });
-          } else {
-           console.log('User cancelled login or did not fully authorize.');
-          }
 
-    }, {scope: 'email'});//scope is the list of permissions
-  }
+      // login with facebook with extra permissions
+     function login() {
+       FB.login(function(response) {
+
+         if (response.authResponse) {
+              FB.api('/me', function(response) {
+                  console.log('Good to see you, ' + response.email + '.');
+                  document.getElementById('login_status').innerHTML =  response.name;
+              });
+             } else {
+              console.log('User cancelled login or did not fully authorize.');
+             }
+
+       }, {scope:'email'});//scope is the list of permissions
+     }
 
 
 
-    function logout() {
-      FB.logout(function(response) {
-        document.getElementById('login_status').innerHTML = '';
-      });
-    }
+       function logout() {
+         FB.logout(function(response) {
+           document.getElementById('login_status').innerHTML = '';
+         });
+       }
