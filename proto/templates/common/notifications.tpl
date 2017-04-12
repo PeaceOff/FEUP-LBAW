@@ -23,6 +23,8 @@
     <li>
     <div class="notifications-wrapper" style="overflow-y:scroll;">
 
+        {include file='listNotifications.tpl'}
+<!--
         <div class="notification-item">
           <h4 class="item-title">David Azevedo Invited you to join LBAW-A3</h4>
           <p class="item-info">27-02-2017, one day ago</p>
@@ -58,7 +60,7 @@
             <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a>
           </div>
         </div>
-
+-->
       </div>
     </li>
 
