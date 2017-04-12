@@ -19,10 +19,10 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../javascript/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="../../lib/bootstrap/bootstrap-datetimepicker.js"></script>
 
     <!-- dropzone.js -->
-    <script type="text/javascript" src = "../../javascript/dropzone.js"></script>
+    <script type="text/javascript" src = "../../lib/dropzone/dropzone.js"></script>
 
     <!-- dropzone.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
