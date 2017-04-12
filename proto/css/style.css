@@ -572,7 +572,7 @@ div.selectable:not(:target){
 
 
 .card .cardheader {
-    background: url("../assets/intro2.jpg");
+    background: url("../images/intro2.jpg");
     background-size: cover;
     height: 125px;
 }
