@@ -16,9 +16,7 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li>
-                    <?php
-                    include_once 'notifications.php';
-                    ?>
+                    {include file='notifications.tpl'}
                 </li>
                 <li class="active">
                   <a href="../profile/personalPage.php">
@@ -28,7 +26,7 @@
                     </div>
                   </a>
                 </li>
-              
+
                 <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li>
             </ul>
         </div>
