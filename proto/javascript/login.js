@@ -4,6 +4,7 @@
     FB.init({
       appId      : '260793837663013',
       xfbml      : true,
+      cookie     : true,
       version    : 'v2.8'
     });
     FB.AppEvents.logPageView();
@@ -11,7 +12,11 @@
     FB.getLoginStatus(function(response) {
       if (response.status === 'connected') {
         console.log('We are connected.');
-        document.getElementById('login').style.visibility = 'hidden';
+
+        FB.api('/me', function(response) {
+            document.getElementById('login_status').innerHTML =  response.name;
+        });
+
       } else if (response.status === 'not_authorized') {
         console.log('We are not logged in.');
       } else {
@@ -33,7 +38,6 @@
   function login() {
     FB.login(function(response) {
       if (response.authResponse) {
-
            FB.api('/me', function(response) {
                document.getElementById('login_status').innerHTML =  response.name;
            });
