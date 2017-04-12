@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top ">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,8 +20,16 @@
                     include_once 'notifications.php';
                     ?>
                 </li>
-                <li class="active"><a href="../profile/personalPage.php"><span class="glyphicon glyphicon-user"></span>Mario</a></li>
-                <li ><a href="#"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                <li class="active">
+                  <a href="../profile/personalPage.php">
+                    <div>
+                      <span class="float-left glyphicon glyphicon-user"></span>
+                      <h6 id="login_status" class="float-right text-white"> </h6>
+                    </div>
+                  </a>
+                </li>
+              
+                <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li>
             </ul>
         </div>
     </div>

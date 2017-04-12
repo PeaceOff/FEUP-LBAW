@@ -1,3 +1,5 @@
+
+
 <div id="signIn" class="modal fade col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
     <div class="modal-content modal-out">
         <div class="modal-header text-center">
@@ -23,7 +25,8 @@
                 <h4>Login With</h4>
                 <ul class="list-inline">
                     <li>
-                        <h4><i class="fa fa-fw fa-facebook"></i></h4>
+                        <h4><a onclick="login()" id="login" ><i class="fa fa-fw fa-facebook"></a></i></h4>
+	                     
                     </li>
                     <li>
                         <h4><i class="fa fa-fw fa-linkedin"></i></h4>
