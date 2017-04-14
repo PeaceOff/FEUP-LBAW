@@ -3,10 +3,11 @@
   include_once 'login.php';
   include_once 'register.php';
   include_once('../../config/init.php');
+  include_once($BASE_DIR . 'database/users.php');
   $smarty->display('common/header.tpl');
   //MOVE OR STAY??
-  $notifications = user_get_notifications($_SESSION['username']);
-  $smarty->assign('notifications', $notifications);
+ // $notifications = user_get_notifications($_SESSION['username']);
+  //$smarty->assign('notifications', $notifications);
   //MOVE OR STAY??
   $smarty->display('common/navbar.tpl');
 

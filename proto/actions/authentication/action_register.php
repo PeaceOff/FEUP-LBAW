@@ -22,6 +22,6 @@
   $_SESSION['username'] = $name;
 
 
-  header("Location: " . $BASE_DIR . 'pages/profile/personalPage.php');
+  header("Location: " . '../../pages/profile/personalPage.php');
 
 ?>
