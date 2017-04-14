@@ -10,7 +10,7 @@ function user_add($username, $password, $email) {
 
 function get_user_by_username($username) {
   global $conn;
-  $stmt = $conn->prepare("SELECT username FROM proto.user WHERE username = ?");
+  $stmt = $conn->prepare("SELECT username,password FROM proto.user WHERE username = ?");
   $stmt->execute(array($username));
   return $stmt->fetch();
 }
@@ -35,6 +35,13 @@ function user_delete_folder($id) {
 }
 
 function user_get_folders($username){
+  global $conn;
+  $stmt = $conn->prepare("SELECT * FROM folder WHERE username = ?");
+  $stmt->execute(array($username));
+  return $stmt->fetchAll();
+}
+
+function user_get_folders_populated($username){
   global $conn;
   $stmt = $conn->prepare("SELECT * FROM view_project_folder WHERE owner = ?");
   $stmt->execute(array($username));

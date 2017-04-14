@@ -1,4 +1,6 @@
 <?php
+include_once($BASE_DIR . 'database/project.php');
 
-echo 'oi';
+project_change_folder($_POST['projectName'], $POST['sel']);
+
 ?>

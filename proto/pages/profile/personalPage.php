@@ -6,12 +6,11 @@
       header('Location: ../authentication/home.php');
       exit();
     }
-
-  include_once($BASE_DIR . 'pages/profile/addProject-form.php');
+  //echo 'Here';
   $smarty->display('common/header.tpl');
   $smarty->display('common/navbar.tpl');
-  $smarty->display('common/leftSidebar.tpl');
-
+  include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
+  include_once($BASE_DIR . 'pages/profile/addProject-form.php');
 ?>
 
 <script type="text/javascript" src = "../../javascript/statistics.js"></script>

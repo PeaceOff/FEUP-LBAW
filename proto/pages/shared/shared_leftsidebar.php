@@ -1,11 +1,13 @@
 <?php
 
+include_once($BASE_DIR . 'database/users.php');
 
-$notifications = user_get_notifications($_SESSION['username']);
+$notifications = user_get_folders_populated($_SESSION['username']);
 $folders = array();
 
-foreach ($variable as $key => $value) {
+foreach ($notifications as $key => $value) {
   $data = array();
+
   if($folders[$value['folder_id']]){
     $data = $folders[$value['folder_id']];
   }else{
@@ -16,9 +18,14 @@ foreach ($variable as $key => $value) {
   if(!$data['projects'])
     $data['projects'] = array();
 
-  arraypush($data['projects'],array( ['name'] => $value['project_name'] ,['id'] => $value['project_id']));
+  $project = array();
+  $project['name'] = $value['project_name'];
+  $project['id'] = $value['project_id'];  
+
+  array_push($data['projects'],$project);
 }
 
+print_r($folders);
 $smarty->assign('folders', $folders);
 
 $smarty->display('common/leftSidebar.tpl');
