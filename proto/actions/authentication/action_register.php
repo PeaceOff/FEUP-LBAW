@@ -7,21 +7,22 @@
   $pw=$_POST['password'];
   $email=$_POST['email'];
 
-//  try {
+  try {
       $res=user_get_all();
       print_r($res);
 
       user_add($name, $pw, $email);
-  /*  } catch (PDOException $e) {
+    } catch (PDOException $e) {
       $_SESSION['error_messages'][] = 'Error creating user: ' . $e->getMessage();
 
       $_SESSION['form_values'] = $_POST;
       header("Location: " . $_SERVER['HTTP_REFERER']);
       exit;
-    }*/
+    }
+
+  $_SESSION['username'] = $name;
 
 
-
-  //header("Location: " . $BASE_DIR . 'pages/profile/personalPage.php');
+  header("Location: " . $BASE_DIR . 'pages/profile/personalPage.php');
 
 ?>
