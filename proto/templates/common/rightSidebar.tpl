@@ -1,7 +1,4 @@
-<?php
-    include_once '../../pages/forum/addTopic-form.php';
-?>
-
+{include file='../../actions/forum/addTopic-form.php')}
 
 <div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
     <div class="right-sidebar-btn">
@@ -17,49 +14,23 @@
     </ul>
     <div id="project-users" class="collapse in">
       <table  class="table table-condensed table-style">
-        <tr>
-          <td>
-            <p>José Martins</p>
-          </td>
-          <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>          </td>
-        </tr>
-        <tr>
-          <td>
-              <p>João Ferreira</p>
-          </td>
-          <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>David Azevedo</p>
-          </td>
-          <td class="align-right" aria-expanded="false">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <p>Marcelo Ferreira</p>
-          </td>
-          <td class="align-right" aria-expanded="false">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>          </td>
-        </tr>
+        {foreach from=$collaborators item=collaborator}
+          <tr>
+            <td>
+              <p>{$collaborator.name}</p>
+            </td>
+            <td class="align-right">
+              <a class="btn icon-link btn-danger btn-sm"  href="#"><!--TODO delete user from project!-->
+                <i class="fa fa-trash"></i>
+              </a>
+            </td>
+          </tr>
+        {/foreach}
       </table>
     </div>
     <div id="project-adding-users" class="collapse">
       <div class="input-group form-group">
-        <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span>
+        <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span><!--TODO add user by name to project-->
         <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
       </div>
     </div>
@@ -73,50 +44,23 @@
     </ul>
     <div id="project-forum" class="collapse in">
       <table  class="table table-condensed table-style ">
+        {foreach from=$forums item=forum}
         <tr>
           <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1"> Forum Topic 1 </button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#{$forum.id}">{$forum.name}</button>
           </td>
           <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
+            <a class="btn icon-link btn-danger btn-sm"  href="#"><!-- TODO delete do forum-->
               <i class="fa fa-trash"></i>
             </a>
           </td>
         </tr>
-        <tr>
-          <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 2 </button>
-          </td>
-          <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 3 </button>
-          </td>
-          <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#forum1">Forum Topic 4 </button>
-          </td>
-          <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
-              <i class="fa fa-trash"></i>
-            </a>
-          </td>
-        </tr>
+        {/foreach}
       </table>
     </div>
-    <?php include_once '../../pages/forum/forumExample.php'; ?>
+    {include file='../../pages/forum/forumExample.php'}<!--TODO para os templates e incluir-->
 </div>
+
 <script>
     $(document).ready(function () {
         var get_vars = window.location.search.substring(1);
