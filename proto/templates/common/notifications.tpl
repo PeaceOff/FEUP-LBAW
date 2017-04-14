@@ -14,7 +14,7 @@
 
       <div class="notification-heading">
         <h4 class="notifications-title">Notifications</h4>
-        <a href="#"> <h4 class="notifications-title pull-right">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a>
+        <a href="#"> <h4 class="notifications-title pull-right">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a><!--TODO delete das notificacoes-->
       </div>
     </li>
 

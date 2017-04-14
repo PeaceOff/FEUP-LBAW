@@ -15,9 +15,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
+
                 <li>
-                  
+
                 </li>
+
                 <li class="active">
                   <a href="../profile/personalPage.php">
                     <div>
@@ -27,7 +29,7 @@
                   </a>
                 </li>
 
-                <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li><!--TODO action logout-->
             </ul>
         </div>
     </div>
