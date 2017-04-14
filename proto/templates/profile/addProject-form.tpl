@@ -14,7 +14,7 @@
 
         <div class="form-group input-group width-100">
           <label for="sel">Folder</label>
-          <select class="form-control" id="sel" tabindex="2">
+          <select class="form-control" name="projectFolder" id="sel" tabindex="2">
             {foreach from=$folders2 item=folder}
               <option value="{$folder.id}">
                 {$folder.name}
@@ -25,7 +25,7 @@
 
         <div class="input-group form-group width-100">
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="3"></textarea>
+          <textarea class="form-control resizable-horizontal" name="projectDescripion" id="descriptionArea" rows="3" tabindex="3"></textarea>
         </div>
         <div class="text-center">
           <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">

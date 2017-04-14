@@ -7,6 +7,14 @@
     $stmt->execute(array($name, $description, $deadline, $managerId));
   }
 
+  function project_get_id($proj_name){
+    global $conn;
+    $stmt = $conn->prepare("SELECT id FROM project WHERE name = ?");
+    $stmt->execute(array($proj_name));
+    return $stmt->fetch();
+  }
+
+
   function project_get_owned($username){
     global $conn;
     $stmt = $conn->prepare("SELECT * FROM project WHERE manager = ?");
@@ -21,9 +29,9 @@
     return $stmt->fetchAll();
   }
 
-  function allowed_in_project($username, $project_id){
+  function project_allowed($username, $project_id){
     global $conn;
-    $stmt = $conn->prepare("SELECT * FROM project WHERE username = ? AND id = ?");
+    $stmt = $conn->prepare("SELECT * FROM project WHERE manager = ? AND id = ?");
     $stmt->execute(array($username,$project_id));
     return $stmt->fetch();
   }
@@ -33,6 +41,7 @@
     $stmt = $conn->prepare("UPDATE project SET description = ? WHERE id=?");
     $stmt->execute(array($description, $project_id));
   }
+
 
   function project_delete($project_id) {
     global $conn;
@@ -52,6 +61,7 @@
     $stmt = $conn->prepare("DELETE FROM collaborates WHERE project_id = ? AND username = ?");
     $stmt->execute(array($project_id, $username));
   }
+
 
   //project_folder
   function project_change_folder($project_id, $folder_id){

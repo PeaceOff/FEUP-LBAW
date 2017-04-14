@@ -24,7 +24,9 @@
                   <a href="../profile/personalPage.php">
                     <div>
                       <span class="float-left glyphicon glyphicon-user"></span>
-                      <h6 id="login_status" class="float-right text-white"> </h6>
+                      <h6 id="login_status" class="float-right text-white">
+		            {$username}
+                      </h6>
                     </div>
                   </a>
                 </li>

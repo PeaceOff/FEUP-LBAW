@@ -1,4 +1,3 @@
-{include file='../../actions/forum/addTopic-form.php')}
 
 <div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
     <div class="right-sidebar-btn">
