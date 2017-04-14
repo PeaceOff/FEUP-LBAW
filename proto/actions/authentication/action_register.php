@@ -4,7 +4,10 @@
   include_once($BASE_DIR .'database/users.php');
 
   $username=$_POST['username'];
-  $password=$_POST['password'];
+  $username = trim($username);
+  $username = strtolower($username);
+
+  $password=password_hash($_POST['password'] , PASSWORD_DEFAULT);
   $email=$_POST['email'];
 
   try {

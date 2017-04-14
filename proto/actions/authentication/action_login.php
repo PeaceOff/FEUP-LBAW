@@ -8,11 +8,17 @@
 
   $password=$_POST['password'];
 
-  if(get_user_by_username($username) != NULL){
-    $_SESSION['username'] = $username;
+  $nextPage='Location: ../../pages/authentication/home.php';
+
+  $result= get_user_by_username($username);
+  if($result != NULL){
+    if(password_verify($password, $result['password']){
+      $_SESSION['username'] = $username;
+      $nextPage='Location: ../../pages/profile/personalPage.php';
+    }
   }
 
-  header("Location: " . '../../pages/profile/personalPage.php');
+  header($nextPage);
   exit;
 
 ?>
