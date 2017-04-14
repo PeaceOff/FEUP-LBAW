@@ -4,7 +4,7 @@
 //user
 function user_add($username, $password, $email) {
   global $conn;
-  $stmt = $conn->prepare("INSERT INTO user (username, email, password) VALUES (?, ?, ?)");
+  $stmt = $conn->prepare("INSERT INTO proto.user (username, email, password) VALUES (?, ?, ?)");
   $stmt->execute(array($username, $email, $password));
 }
 
