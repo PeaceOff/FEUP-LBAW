@@ -8,10 +8,9 @@
   $email=$_POST['email'];
 
   try {
-      $res=user_get_all();
-      print_r($res);
+      if(!get_user_by_username($name))
+        user_add($name, $pw, $email);
 
-      user_add($name, $pw, $email);
     } catch (PDOException $e) {
       $_SESSION['error_messages'][] = 'Error creating user: ' . $e->getMessage();
 

@@ -8,7 +8,14 @@ function user_add($username, $password, $email) {
   $stmt->execute(array($username, $email, $password));
 }
 
-//folder
+function get_user_by_username($username) {
+  global $conn;
+  $stmt = $conn->prepare("SELECT username FROM proto.user WHERE username = ?");
+  $stmt->execute(array($username));
+  return $stmt->fetch();
+}
+
+
 function user_add_folder($folder_name, $owner) {
   global $conn;
   $stmt = $conn->prepare("INSERT INTO folder (name, username) VALUES (?, ?)");
