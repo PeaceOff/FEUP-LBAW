@@ -1,8 +1,11 @@
 <?php
-include_once '../../templates/header.php';
-include_once '../../templates/navbar.php';
-include_once 'login.php';
-include_once 'register.php';
+
+  include_once 'login.php';
+  include_once 'register.php';
+  include_once('../../config/init.php');
+  $smarty->display('common/header.tpl');
+  $smarty->display('common/navbar.tpl');
+
 ?>
 
 <div class="view">

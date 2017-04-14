@@ -1,4 +1,25 @@
-
+<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 13:18:40
+         compiled from "..\..\templates\common\navbar.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1719358f0afed1b3638-45320910%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '9dea8d965a89cc124fe0f433fd9333f7ebffd5dd' => 
+    array (
+      0 => '..\\..\\templates\\common\\navbar.tpl',
+      1 => 1492168718,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1719358f0afed1b3638-45320910',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_58f0afed1c0899_03225062',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_58f0afed1c0899_03225062')) {function content_58f0afed1c0899_03225062($_smarty_tpl) {?>
 <nav class="navbar navbar-inverse navbar-fixed-top ">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,3 +53,4 @@
         </div>
     </div>
 </nav>
+<?php }} ?>
