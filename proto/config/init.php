@@ -6,15 +6,15 @@
 
   $BASE_DIR = '/opt/lbaw/lbaw1665/public_html/proto/'; //FIXME
   $BASE_URL = '/~lbaw1665/proto/'; //FIXME
-
+/*
   $conn = new PDO('pgsql:host=dbm;dbname=lbaw1665', 'lbaw1665', 'im80re93'); //FIXME
   $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $conn->exec('SET SCHEMA \'proto\''); //FIXME?
-/*
+  $conn->exec('SET SCHEMA \'proto\''); //FIXME?*/
+
   $BASE_DIR = '../../';
-  $BASE_URL = '/proto/';*/
+  $BASE_URL = '/proto/';
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
 
   $smarty = new Smarty;

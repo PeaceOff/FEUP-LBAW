@@ -7,8 +7,16 @@
   $pw=$_POST['password'];
   $email=$_POST['email'];
 
+  try {
+      user_add($name, $pw, $email);
+    } catch (PDOException $e) {
+      $_SESSION['error_messages'][] = 'Error creating user: ' . $e->getMessage();
 
-  user_add($name, $pw, $email);
+      $_SESSION['form_values'] = $_POST;
+      header("Location: " . $_SERVER['HTTP_REFERER']);
+      exit;
+    }
+
 
 
   header("Location: " . $BASE_DIR . 'pages/profile/personalPage.php');
