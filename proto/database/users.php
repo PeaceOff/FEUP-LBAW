@@ -34,4 +34,11 @@ function user_get_folders($username){
   return $stmt->fetchAll();
 }
 
+function user_get_all(){
+  global $conn;
+  $stmt = $conn->prepare("SELECT * FROM user");
+  $stmt->execute();
+  return $stmt->fetchAll();
+}
+
 ?>

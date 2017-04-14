@@ -17,7 +17,7 @@
 
 
                 <li>
-
+                  {include file='common/notifications.tpl'}
                 </li>
 
                 <li class="active">

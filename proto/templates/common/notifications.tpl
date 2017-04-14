@@ -17,7 +17,7 @@
     <div class="notifications-wrapper" style="overflow-y:scroll;">
       {foreach from=$notifications item=notification}
         <div class="notification-item">
-          <h4 class="item-title">{$notification.text}</h4>
+          <h4 class="item-title">{$notification.title}</h4>
           <p class="item-info">{$notification.time}</p>
           <div class="notification-links pull-right">
             {if $notification.invite}

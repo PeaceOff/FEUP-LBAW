@@ -4,6 +4,21 @@
   include_once 'register.php';
   include_once('../../config/init.php');
   $smarty->display('common/header.tpl');
+
+// test for the notification display
+  $notification1['title'] = "David Azevedo Invited you to join LBAW-A3";
+  $notification1['time'] = "27-02-2017, one day ago";
+  $notification1['invite'] = true;
+
+  $notification2['title'] = "Marcelo Ferreira assigned you to a task on LBAW-A2";
+  $notification2['time'] = "27-02-2017, two day ago";
+  $notification2['invite'] = false;
+
+
+  $notifications = array($notification1,$notification2);
+  $smarty->assign('notifications',$notifications);
+//
+
   $smarty->display('common/navbar.tpl');
 
 ?>
