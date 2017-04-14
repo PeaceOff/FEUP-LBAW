@@ -2,7 +2,7 @@
 
   include_once 'login.php';
   include_once 'register.php';
-  include_once('../../config/init.php');
+  include_once($BASE_DIR . 'config/init.php');
   $smarty->display('common/header.tpl');
   $smarty->display('common/navbar.tpl');
 
@@ -26,5 +26,5 @@
 </div>
 
 <?php
-include_once '../../templates/footer.php';
+  $smarty->display('common/footer.tpl');
 ?>
