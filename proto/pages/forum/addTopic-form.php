@@ -7,7 +7,7 @@
     </div>
 
     <div class="modal-body">
-      <form  id ="addTopic-form" action="" method="post" style="display:block">
+      <form  id ="addTopic-form" action="../../actions/forum/action_add_forum_topic.php" method="post" style="display:block">
 
         <div class="form-group input-group width-100">
           <label for="topicName">Name</label>

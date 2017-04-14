@@ -5,7 +5,7 @@
       <h4 class="modal-title">New Task</h4>
     </div>
     <div class="modal-body">
-      <form  id ="createTask-form" action="" method="post" style="display:block">
+      <form  id ="createTask-form" action="../../actions/todo/action_add_task.php" method="post" style="display:block">
         <div class="input-group form-group width-100">
           <label>Task Title</label>
           <input class="form-control" type="text" tabindex="1" placeholder="Title" name="title"  required="" autofocus="">

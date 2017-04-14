@@ -5,7 +5,7 @@
       <h4 class="modal-title">New Project</h4>
     </div>
     <div class="modal-body">
-      <form  id ="addProject-form" action="" method="post" style="display:block">
+      <form  id ="addProject-form" action="../../actions/profile/action_add_project.php" method="post" style="display:block">
 
         <div class="form-group ">
           <label for="projectName">Name</label>
