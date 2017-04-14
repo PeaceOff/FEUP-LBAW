@@ -15,7 +15,7 @@
         console.log('We are connected.');
 
         FB.api('/me', function(response) {
-console.log(response);
+
             document.getElementById('login_status').innerHTML =  response.name;
         });
 
@@ -46,7 +46,9 @@ console.log(response);
          if (response.authResponse) {
               FB.api('/me', function(response) {
                   console.log('Good to see you, ' + response.email + '.');
-                  document.getElementById('login_status').innerHTML =  response.name;
+                  var name = response.name;
+                  document.getElementById('login_status').innerHTML = name;
+            
               });
              } else {
               console.log('User cancelled login or did not fully authorize.');

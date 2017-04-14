@@ -1,4 +1,9 @@
 <?php
+  if(!isset($_SESSION['username'])){
+      header('Location: ../authentication/home.php');
+      exit();
+    }
+
   include_once('../../config/init.php');
   include_once($BASE_DIR . 'pages/profile/addProject-form.php');
   $smarty->display('common/header.tpl');
@@ -49,5 +54,5 @@
 </div>
 
 <?php
-include_once '../../templates/footer.php';
+  $smarty->display('common/footer.tpl');
 ?>

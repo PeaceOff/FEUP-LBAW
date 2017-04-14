@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 17:30:19
+<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 19:49:04
          compiled from "..\..\templates\common\notifications.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2685358f0e7b4951652-19352282%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '939ca7864566cc9177ded4361c521e5da659fda3' => 
     array (
       0 => '..\\..\\templates\\common\\notifications.tpl',
-      1 => 1492183817,
+      1 => 1492190758,
       2 => 'file',
     ),
   ),
@@ -49,7 +49,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['notification']->key => $_smarty_tpl->
 $_smarty_tpl->tpl_vars['notification']->_loop = true;
 ?>
         <div class="notification-item">
-          <h4 class="item-title"><?php echo $_smarty_tpl->tpl_vars['notification']->value['title'];?>
+          <h4 class="item-title"><?php echo $_smarty_tpl->tpl_vars['notification']->value['description'];?>
 </h4>
           <p class="item-info"><?php echo $_smarty_tpl->tpl_vars['notification']->value['time'];?>
 </p>

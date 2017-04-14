@@ -45,7 +45,7 @@ function user_get_folders($username){
 
 function user_get_notifications($username){
   global $conn;
-  $stmt = $conn->prepare("SELECT description, date AS time, project.name AS project_name, type, associated, notification.id as notification_id
+  $stmt = $conn->prepare("SELECT notification.description, notification.date AS time, project.name AS project_name, type, associated, notification.id as notification_id
                           FROM notification, project WHERE project_id = project.id AND notificated == ?");
   $stmt->execute(array($username));
   return $stmt->fetchAll();

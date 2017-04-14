@@ -3,13 +3,13 @@
   include_once('../../config/init.php');
   include_once($BASE_DIR .'database/users.php');
 
-  $name=$_POST['username'];
-  $pw=$_POST['password'];
+  $username=$_POST['username'];
+  $password=$_POST['password'];
   $email=$_POST['email'];
 
   try {
-      if(!get_user_by_username($name))
-        user_add($name, $pw, $email);
+      if(!get_user_by_username($username))
+        user_add($username, $password, $email);
 
     } catch (PDOException $e) {
       $_SESSION['error_messages'][] = 'Error creating user: ' . $e->getMessage();
@@ -19,9 +19,9 @@
       exit;
     }
 
-  $_SESSION['username'] = $name;
+  $_SESSION['username'] = $username;
 
 
   header("Location: " . '../../pages/profile/personalPage.php');
-
+  exit;
 ?>

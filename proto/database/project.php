@@ -21,6 +21,13 @@
     return $stmt->fetchAll();
   }
 
+  function allowed_in_project($username, $project_id){
+    global $conn;
+    $stmt = $conn->prepare("SELECT * FROM project WHERE username = ? AND id = ?");
+    $stmt->execute(array($username,$project_id));
+    return $stmt->fetch();
+  }
+
   function project_update_description($project_id, $description){
     global $conn;
     $stmt = $conn->prepare("UPDATE project SET description = ? WHERE id=?");
