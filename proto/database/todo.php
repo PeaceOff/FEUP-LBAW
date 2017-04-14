@@ -1,6 +1,6 @@
 <?php
 
-function getTasksOfProject($idProject, $categoryName){
+function get_tasks_of_project($idProject, $categoryName){
   global $conn;
 
   $stmt = $conn->prepare("SELECT * FROM task WHERE project_id = ? AND category = ?");
@@ -8,7 +8,7 @@ function getTasksOfProject($idProject, $categoryName){
   return $stmt->fetchAll();
 }
 
-function addTask($name, $description, $deadline, $owner, $project_id, $category){
+function add_task($name, $description, $deadline, $owner, $project_id, $category){
   global $conn;
 
   $stmt = $conn->prepare("INSERT INTO task (name, description, deadline, owner, project_id, category) VALUES (?, ?, ?, ?, ?, ?)");
@@ -16,17 +16,15 @@ function addTask($name, $description, $deadline, $owner, $project_id, $category)
 
 }
 
-
-function addAssigned($username, $task_id){
+function add_assigned($username, $task_id){
   global $conn;
 
   $stmt = $conn->prepare("INSERT INTO assigned VALUES (?,?)");
   $stmt->execute(array($username, $task_id));
-
 }
 
 
-function updateTask($description, $category, $deadline,$task_id){
+function update_task($description, $category, $deadline,$task_id){
   global $conn;
 
   $stmt = $conn->prepare("UPDATE task SET (description, category, deadline) = (?,?,?) WHERE id = ?");
@@ -34,7 +32,7 @@ function updateTask($description, $category, $deadline,$task_id){
 
 }
 
-function removeTask($task_id){
+function remove_task($task_id){
   global $conn;
 
   $stmt = $conn->prepare("DELETE FROM task  WHERE id = ?");
