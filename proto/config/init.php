@@ -12,8 +12,8 @@
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
   $conn->exec('SET SCHEMA \'proto\''); //FIXME?
-
-  /*$BASE_DIR = '../../';
+/*
+  $BASE_DIR = '../../';
   $BASE_URL = '/proto/';*/
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
 

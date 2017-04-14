@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 16:57:47
+<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 17:19:13
          compiled from "..\..\templates\common\navbar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1719358f0afed1b3638-45320910%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9dea8d965a89cc124fe0f433fd9333f7ebffd5dd' => 
     array (
       0 => '..\\..\\templates\\common\\navbar.tpl',
-      1 => 1492181436,
+      1 => 1492183150,
       2 => 'file',
     ),
   ),
@@ -36,9 +36,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
+
                 <li>
-                  
+                  <?php echo $_smarty_tpl->getSubTemplate ('common/notifications.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
                 </li>
+
                 <li class="active">
                   <a href="../profile/personalPage.php">
                     <div>
@@ -48,7 +51,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                   </a>
                 </li>
 
-                <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li>
+                <li ><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span></a></li><!--TODO action logout-->
             </ul>
         </div>
     </div>

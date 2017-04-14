@@ -7,7 +7,7 @@
         </div>
         <div class="modal-body clearfix">
             <!-- Sign in-->
-            <form id = "signIn-form" action="" method="post" style = "display: block;" >
+            <form id = "signIn-form" action="../../actions/authentication/action_login.php" method="post" style = "display: block;" >
                 <div class="input-group form-group">
                     <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
                     <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
@@ -17,7 +17,7 @@
                     <input class="form-control" type="password" placeholder="Password" tabindex = "2" name="password" value="" required="">
                 </div>
                 <div class="text-center">
-                    <input class="btn btn-success" type="submit" name="signin"  tabindex="3" value="Sign In" required="">
+                    <input class="btn btn-success" type="submit" name="signin"  tabindex="3"  name="email" value="Sign In" required="">
                 </div>
             </form>
             <div class="text-center">
