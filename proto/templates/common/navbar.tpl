@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li>
-                
+                  
                 </li>
                 <li class="active">
                   <a href="../profile/personalPage.php">

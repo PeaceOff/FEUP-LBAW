@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 13:18:40
+<?php /* Smarty version Smarty-3.1.15, created on 2017-04-14 16:57:47
          compiled from "..\..\templates\common\navbar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1719358f0afed1b3638-45320910%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9dea8d965a89cc124fe0f433fd9333f7ebffd5dd' => 
     array (
       0 => '..\\..\\templates\\common\\navbar.tpl',
-      1 => 1492168718,
+      1 => 1492181436,
       2 => 'file',
     ),
   ),
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <ul class="nav navbar-nav navbar-right">
 
                 <li>
-                
+                  
                 </li>
                 <li class="active">
                   <a href="../profile/personalPage.php">

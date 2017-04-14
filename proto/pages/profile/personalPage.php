@@ -1,8 +1,9 @@
 <?php
-include_once '../../templates/header.php';
-include_once '../../templates/navbar.php';
-include_once '../../templates/leftSidebar.php';
-include_once 'addProject-form.php';
+  include_once('../../config/init.php');
+  $smarty->display('common/header.tpl');
+  $smarty->display('common/navbar.tpl');
+  $smarty->display('common/leftSidebar.tpl');
+
 ?>
 
 <script type="text/javascript" src = "../../javascript/statistics.js"></script>
