@@ -1,10 +1,12 @@
 <?php
+
+  include_once('../../config/init.php');
+  
   if(!isset($_SESSION['username'])){
       header('Location: ../authentication/home.php');
       exit();
     }
 
-  include_once('../../config/init.php');
   include_once($BASE_DIR . 'pages/profile/addProject-form.php');
   $smarty->display('common/header.tpl');
   $smarty->display('common/navbar.tpl');
