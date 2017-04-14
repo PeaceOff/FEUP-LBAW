@@ -7,7 +7,7 @@
     </div>
 
     <div class="modal-body">
-      <form  id ="addLink-form" action="" method="post" style="display:block">
+      <form  id ="addLink-form" action="../../actions/project/action_add_link.php" method="post" style="display:block">
 
         <div class="form-group input-group">
           <span class="input-group-addon" ><i class="glyphicon glyphicon-link"></i></span>
