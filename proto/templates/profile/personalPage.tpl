@@ -1,5 +1,4 @@
-<script type="text/javascript" src = "../../javascript/statistics.js"></script>
-{include file='editProject-form.tpl'}
+
 <div class="container">
   <div class="page-header">
     <h2> Pending Notifications </h2>
@@ -7,7 +6,7 @@
 
   {foreach from=$notifications item=notification}
     <div class="notification-item col-lg-6">
-      <h4 class="item-title">{$notification.title}</h4>
+      <h4 class="item-title">{$notification.description}</h4>
       <p class="item-info">{$notification.time}</p>
       <div class="notification-links pull-right">
         {if $notification.invite}
@@ -36,12 +35,12 @@
   </div>
 
   {foreach from=$projects item=project}
-  <a class="cardLink" href="../project/projectPage.php">
+  <a class="cardLink" href='ola'{$project.id}>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="card cardhandler">
         <div class="cardheader">
           <div class="title outliner">
-            {$project.title}
+            {$project.name}
           </div>
         </div>
         <div class="category">

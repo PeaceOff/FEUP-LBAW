@@ -7,10 +7,10 @@
     $stmt->execute(array($name, $description, $deadline, $managerId));
   }
 
-  function project_get_id($proj_name){
+  function project_get_id($project_id){
     global $conn;
-    $stmt = $conn->prepare("SELECT id FROM project WHERE name = ?");
-    $stmt->execute(array($proj_name));
+    $stmt = $conn->prepare("SELECT *  FROM project WHERE id = ?");
+    $stmt->execute(array($project_id));
     return $stmt->fetch();
   }
 
@@ -62,6 +62,12 @@
     $stmt->execute(array($project_id, $username));
   }
 
+  function project_get_collaborators($project_id) {
+    global $conn;
+    $stmt = $conn->prepare("SELECT username AS name FROM  collaborates WHERE project_id = ?");
+    $stmt->execute(array($project_id));
+    return $stmt->fetchAll();
+  }
 
   //project_folder
   function project_change_folder($project_id, $folder_id){

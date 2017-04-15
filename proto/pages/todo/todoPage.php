@@ -4,6 +4,7 @@
   include_once($BASE_DIR .'database/todo.php');
   include_once($BASE_DIR . 'pages/shared/shared_header.php');
   include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
+  include_once($BASE_DIR . 'pages/shared/shared_rightsidebar.php');
 
 
   if(!isset($_SESSION['username'])){

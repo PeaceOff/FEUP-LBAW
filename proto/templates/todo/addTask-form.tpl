@@ -12,24 +12,25 @@
         </div>
         <div class="form-group input-group width-100">
           <label for="sel1">Category</label>
-          <select class="form-control" id="sel1" tabindex="2">
-            <option>High Priority</option>
-            <option>Low Priority</option>
-            <option>Artwork</option>
+          <select class="form-control" id="sel1" tabindex="2" name="category">
+            {foreach from=$categories item=category}
+            <option>{$category.name}</option>
+            {/foreach}
           </select>
         </div>
         <div class="form-group input-group date width-100">
           <label>Deadline</label>
-          <input id='datetimepicker' type='date' format="DD/MM/YYYY" class="form-control" tabindex="3">
+          <input id='datetimepicker' type='date' format="YYYY/MM/DD" name="deadline" class="form-control" tabindex="3">
         </div>
         <div class="form-group input-group width-100">
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" id="descriptionArea" rows="3" tabindex="4"></textarea>
+          <textarea class="form-control resizable-horizontal" id="descriptionArea" name="description" rows="3" tabindex="4"></textarea>
         </div>
         <div class="text-center">
-          <input class="btn btn-success " type="submit" name="createTask" value="Save" required="" tabindex="5">
+          <input class="btn btn-success " type="submit" name="submit" value="Save" required="" tabindex="5">
         </div>
       </form>
     </div>
   </div>
 </div>
+

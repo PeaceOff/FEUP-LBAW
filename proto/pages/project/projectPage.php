@@ -19,9 +19,8 @@
     $smarty->display('common/header.tpl');
     include_once($BASE_DIR . 'pages/shared/shared_header.php');
     include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
-    $smarty->display('common/rightSidebar.tpl');
-
-    include_once 'projectBody.php';
+    include_once($BASE_DIR . 'pages/shared/shared_rightsidebar.php');
+    include_once($BASE_DIR . 'pages/project/projectBody.php');
     
     $smarty->display('common/footer.tpl');
 ?>

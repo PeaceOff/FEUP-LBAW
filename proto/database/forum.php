@@ -3,7 +3,7 @@
 function get_title_of_topic($idProject){
   global $conn;
 
-  $stmt = $conn->prepare("SELECT title FROM topic WHERE project_id = ?");
+  $stmt = $conn->prepare("SELECT title AS name, id FROM topic WHERE project_id = ?");
   $stmt->execute(array($idProject));
   return $stmt->fetchAll();
 }

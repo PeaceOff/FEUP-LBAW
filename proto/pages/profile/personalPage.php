@@ -6,14 +6,29 @@
       header('Location: ../authentication/home.php');
       exit();
     }
-  //echo 'Here';
+ 
   $smarty->display('common/header.tpl');
   include_once($BASE_DIR . 'pages/shared/shared_header.php');
   include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
   include_once($BASE_DIR . 'pages/profile/addProject-form.php');
+  include_once($BASE_DIR . 'database/project.php');
 ?>
 
 <script type="text/javascript" src = "../../javascript/statistics.js"></script>
+
+<?php
+  $username = $_SESSION['username'];
+
+  $projects = project_get_owned($username);
+  $smarty->assign('projects',$projects);
+
+
+  $collaborations = project_get_collabs($username);
+  $smarty->assign('collaborations',$collaborations); 
+
+  $smarty->display('profile/personalPage.tpl');
+
+ /*
 
 <div class="container">
   <div class="page-header">
@@ -53,6 +68,8 @@
   <?php  include_once 'listMyCollaborations.php' ?>
 
 </div>
+ */
+?>
 
 <?php
   $smarty->display('common/footer.tpl');

@@ -1,10 +1,10 @@
-{include file='addFile-form.tpl'}
-{include file='addLink-form.tpl'}
+{include file='project/addFile-form.tpl'}
+{include file='project/addLink-form.tpl'}
 
 <div class="col-md-12">
   <div class="container">
-    <h1 class="text-center page-header">{$project_title}</h1>
-    <p class="text-justify well">{$project_description}</p>
+    <h1 class="text-center page-header">{$project.name}</h1>
+    <p class="text-justify well">{$project.description}</p>
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <div id="imaginary_container">
@@ -35,8 +35,8 @@
     <ul class="links-ul list-inline" style="overflow-x:scroll; white-space: nowrap;">
       {foreach from=$links item=link}
       <li>
-        <a href="#" class="invisible"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a><!--TODO delete link-->
-        <a href="{$link.url}">
+        <a href="#" class="invisible" id="{$link.id}"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a><!--TODO delete link-->
+        <a href="{$link.path}">
           <!--<i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>TODO acrescentar os botoes para os links-->
         </a>
       </li>

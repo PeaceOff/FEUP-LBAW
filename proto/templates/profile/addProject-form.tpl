@@ -25,7 +25,7 @@
 
         <div class="input-group form-group width-100">
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" name="projectDescripion" id="descriptionArea" rows="3" tabindex="3"></textarea>
+          <textarea class="form-control resizable-horizontal" name="projectDescription" id="descriptionArea" rows="3" tabindex="3"></textarea>
         </div>
         <div class="text-center">
           <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
