@@ -47,7 +47,7 @@
               FB.api('/me', function(response) {
                   console.log('Good to see you, ' + response.email + '.');
                   var name = response.name;
-                  document.getElementById('login_status').innerHTML = name;
+                 
             
               });
              } else {
@@ -61,6 +61,5 @@
 
        function logout() {
          FB.logout(function(response) {
-           document.getElementById('login_status').innerHTML = '';
          });
        }

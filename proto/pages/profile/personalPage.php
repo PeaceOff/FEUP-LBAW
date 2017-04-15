@@ -8,7 +8,7 @@
     }
   //echo 'Here';
   $smarty->display('common/header.tpl');
-  $smarty->display('common/navbar.tpl');
+  include_once($BASE_DIR . 'pages/shared/shared_header.php');
   include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
   include_once($BASE_DIR . 'pages/profile/addProject-form.php');
 ?>
