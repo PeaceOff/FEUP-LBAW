@@ -70,7 +70,7 @@
       <div class="card cardhandler">
         <div class="cardheader">
           <div class="title outliner">
-            {$collaboration.title}
+            {$collaboration.name}
           </div>
         </div>
         <div class="category">
