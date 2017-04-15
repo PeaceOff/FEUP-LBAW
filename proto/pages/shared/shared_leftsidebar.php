@@ -21,7 +21,7 @@ foreach ($notifications as $key => $value) {
   $project = array();
   $project['name'] = $value['project_name'];
   $project['id'] = $value['project_id'];  
-  $project['page'] = '../project/projectPage.php?id=' . $project['id'];
+  $project['page'] = '../project/projectPage.php?project_id=' . $project['id'];
   array_push($data['projects'],$project);
   $folders[$value['folder_id']] = $data;
 }

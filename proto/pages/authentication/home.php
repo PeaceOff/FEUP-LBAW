@@ -4,13 +4,15 @@
   include_once 'register.php';
   include_once('../../config/init.php');
 
-  //include_once($BASE_DIR .'database/users.php');
+
+   if(isset($_SESSION['username'])){ 
+	header('Location: ../profile/personalPage.php');
+	exit();
+   }
+  
 
   $smarty->display('common/header.tpl');
-  //MOVE OR STAY??
- // $notifications = user_get_notifications($_SESSION['username']);
-  //$smarty->assign('notifications', $notifications);
-  //MOVE OR STAY??
+  
 	 
   include_once($BASE_DIR . 'pages/shared/shared_header.php');
 

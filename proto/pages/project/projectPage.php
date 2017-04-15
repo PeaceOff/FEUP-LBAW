@@ -10,7 +10,7 @@
     $username = $_SESSION['username'];
   
 
-    if(project_allowed($username,$project_id)){
+    if(!project_allowed($username,$_GET['project_id'])){  
 	header('Location:../authentication/home.php');
 	exit;	
     }
@@ -20,7 +20,7 @@
     include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
     include_once($BASE_DIR . 'pages/shared/shared_rightsidebar.php');
     
-    //include_once($BASE_DIR . 'pages/project/projectBody.php');
+    
 
 	
     $project = project_get_id($_GET['project_id']);
