@@ -20,4 +20,6 @@ if(!project_allowed($_SESSION['username'], $project_id)){
 
 project_add_document($project_id, '', '', 'Link', $linkPath);
 
+header('Location: ../../pages/project/projectPage.php?project_id=' . $project_id);
+
 ?>

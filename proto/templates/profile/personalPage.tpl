@@ -50,7 +50,7 @@
           <a class="btn icon-link btn-primary btn-twitter btn-sm" href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
-          <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+          <a class="btn icon-link btn-danger btn-sm" rel="publisher" >
             <i class="fa fa-trash"></i>
           </a>
         </div>
@@ -65,7 +65,7 @@
     <h2> My Collaborations </h2>
   </div>
   {foreach from=$collaborations item=collaboration}
-  <a class="cardLink" href="../project/projectPage.php?$project_id={$collaboration.id}">
+  <a class="cardLink" href="../project/projectPage.php?project_id={$collaboration.id}">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="card cardhandler">
         <div class="cardheader">

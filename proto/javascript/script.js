@@ -27,6 +27,9 @@ function toggler_addListener(){
 
 }
 
+
+
+
 function touch_addListener(){
   var touchPosition = {x:0,y:0};
   var calculate = false;

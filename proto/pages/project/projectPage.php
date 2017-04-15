@@ -26,7 +26,7 @@
     $project = project_get_id($_GET['project_id']);
    
     
-    $allDocs = project_get_documents($project_id);
+    $allDocs = project_get_documents($project['id']);
 
     $links = array();
     $documents = array();
@@ -37,7 +37,9 @@
 	else
 		array_push($documents, $document);
     } 
- 
+
+
+    $smarty->assign('project_id', $project); 
     $smarty->assign('project', $project); 
     $smarty->assign('links', $links);  
     $smarty->assign('documents', $documents); 

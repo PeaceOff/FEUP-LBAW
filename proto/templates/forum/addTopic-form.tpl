@@ -12,11 +12,7 @@
         <div class="form-group input-group width-100">
           <label for="topicName">Name</label>
           <input class="form-control" type="text" tabindex="1" id="topicName" name="topicName" value="" required="" autofocus="" >
-        </div>
-
-        <div class="form-group input-group width-100">
-          <label for="topicDescription">Description</label>
-          <textarea class="form-control resizable-horizontal" id="topicDescrition" rows="3" tabindex="2"></textarea>
+	  <input type="hidden" name="project_id" value="{$project_id}"> </input>
         </div>
 
         <div class="text-center">

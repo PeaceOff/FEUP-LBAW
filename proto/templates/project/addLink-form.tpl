@@ -11,7 +11,7 @@
 
         <div class="form-group input-group">
           <span class="input-group-addon" ><i class="glyphicon glyphicon-link"></i></span>
-          <input type="hidden" name="project_id" value="{$project_id}"> </input>
+          <input type="hidden" name="project_id" value="{$project.id}"> </input>
           <input class="form-control" type="text" tabindex="1" id="linkName" name="linkName" value="" required="" autofocus="" placeholder="Link">
         </div>
 
