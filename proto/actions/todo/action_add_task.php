@@ -10,7 +10,8 @@
 
 	$project_id = $_GET['project_id'];
 
-  add_task($task_title,$task_description,$task_deadline, $_SESSION['username'], 10 ,$task_category);
+
+  	add_task($task_title,$task_description,$task_deadline, $_SESSION['username'], 10 ,$task_category);
 
 	header('Location: ../../pages/todo/todoPage.php');
 

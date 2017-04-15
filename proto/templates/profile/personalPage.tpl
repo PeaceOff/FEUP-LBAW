@@ -35,7 +35,7 @@
   </div>
 
   {foreach from=$projects item=project}
-  <a class="cardLink" href='ola'{$project.id}>
+  <a class="cardLink" href='../project/projectPage.php?project_id={$project.id}'>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="card cardhandler">
         <div class="cardheader">
@@ -65,7 +65,7 @@
     <h2> My Collaborations </h2>
   </div>
   {foreach from=$collaborations item=collaboration}
-  <a class="cardLink" href="../project/projectPage.php">
+  <a class="cardLink" href="../project/projectPage.php?$project_id={$collaboration.id}">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
       <div class="card cardhandler">
         <div class="cardheader">

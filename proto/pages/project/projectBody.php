@@ -3,7 +3,10 @@
 include_once($BASE_DIR . 'database/project.php');
 include_once($BASE_DIR . 'database/forum.php');
 
+
+echo 'batatas:  ' . $project_id;
 $project_id = $_GET['id'];
+echo 'batatas:  ' . $project_id;
 
 $project = project_get_id($project_id);
 $allDocs = project_get_documents($project_id);

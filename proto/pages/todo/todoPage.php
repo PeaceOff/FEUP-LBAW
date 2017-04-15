@@ -14,6 +14,11 @@
 
   $tasks = get_tasks_of_project(1, todo);
 
+  $smarty->display('common/header.tpl');
+  $smarty->display('common/rightSidebar.tpl');
+  $smarty->display('common/leftSidebar.tpl');
   $smarty->display('todo/todoPage.tpl');
+  $smarty->display('common/footer.tpl');
+
 
 ?>

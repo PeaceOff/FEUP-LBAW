@@ -31,9 +31,20 @@
 
   function project_allowed($username, $project_id){
     global $conn;
-    $stmt = $conn->prepare("SELECT * FROM project WHERE manager = ? AND id = ?");
+    $stmt = $conn->prepare("SELECT username FROM collaborates WHERE username = ? AND project_id = ?");
+    $res = $stmt->execute(array($username,$project_id));
+    if(!$res)
+	    return false;
+    if($stmt->fetch())
+	    return true;
+    return false;
+  }
+ 
+  function project_manager($username, $project_id){
+    global $conn;
+    $stmt = $conn->prepare("SELECT 1 FROM project WHERE manager = ? AND id = ?");
     $stmt->execute(array($username,$project_id));
-    return $stmt->fetch();
+    return $stmt->fetch() == 1;
   }
 
   function project_update_description($project_id, $description){

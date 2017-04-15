@@ -20,7 +20,7 @@
         </div>
         <div class="form-group input-group date width-100">
           <label>Deadline</label>
-          <input id='datetimepicker' type='date' format="YYYY/MM/DD" name="deadline" class="form-control" tabindex="3">
+          <input id='datetimepicker' type='date' data-date-format="YYYY/MM/DD" name="deadline" class="form-control" tabindex="3">
         </div>
         <div class="form-group input-group width-100">
           <label for="descriptionArea">Description</label>
