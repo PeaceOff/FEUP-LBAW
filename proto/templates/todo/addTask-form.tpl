@@ -13,9 +13,9 @@
         <div class="form-group input-group width-100">
           <label for="sel1">Category</label>
           <select class="form-control" id="sel1" tabindex="2">
-            <option>High Priority</option>
-            <option>Low Priority</option>
-            <option>Artwork</option>
+            {foreach from=$categories item=category}
+            <option>{$category.name}</option>
+            {/foreach}
           </select>
         </div>
         <div class="form-group input-group date width-100">
