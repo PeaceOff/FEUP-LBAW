@@ -45,17 +45,20 @@ function $_GET(param) {
 function remove_document(){
 
 	$('.link_deleteDocument').click(function() {
-			console.log("please");
+		
 			var documentId= $(this).attr('id');
 		       
-			console.log("Id-> " + documentId );
+			var success;
 			$.ajax({
 				type: "POST",
 				url: "../../actions/project/action_delete_document.php",
 				data: {project_id: $_GET('project_id'), document_id: documentId}
-			}).done(function(arg){console.log(arg)});
-	
+			}).done(function(arg){
+				console.log(arg);
+			});
+
 			$(this).parent().remove();
+
 	});
 }
 
