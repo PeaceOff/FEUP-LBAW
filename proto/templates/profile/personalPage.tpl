@@ -47,10 +47,11 @@
         </div>
         <div class="desc">{$project.description}</div>
       <div class="bottom">
+	  <input type="hidden" class="project_id" value='{$project.id}'>
           <a class="btn icon-link btn-primary btn-twitter btn-sm" href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
-          <a class="btn icon-link btn-danger btn-sm" rel="publisher" >
+          <a class="btn icon-link btn-danger btn-sm link_deleteProject" rel="publisher" >
             <i class="fa fa-trash"></i>
           </a>
         </div>

@@ -35,9 +35,9 @@
     <ul class="links-ul list-inline" style="overflow-x:scroll; white-space: nowrap;">
       {foreach from=$links item=link}
       <li>
-        <a href="#" class="invisible" id="{$link.id}"><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a><!--TODO delete link-->
+        <a href="#" class="invisible link_deleteDocument" id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="{$link.path}">
-          <!--<i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>TODO acrescentar os botoes para os links-->
+          <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
         </a>
       </li>
       {/foreach}

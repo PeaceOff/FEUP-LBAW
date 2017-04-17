@@ -27,7 +27,82 @@ function toggler_addListener(){
 
 }
 
+function $_GET(param) {
+	var vars = {};
+	window.location.href.replace( location.hash, '' ).replace( 
+		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+		function( m, key, value ) { // callback
+			vars[key] = value !== undefined ? value : '';
+		}
+	);
 
+	if ( param ) {
+		return vars[param] ? vars[param].replace("#","") : null;	
+	}
+	return vars.replace("#","");
+}
+
+function remove_document(){
+
+	$('.link_deleteDocument').click(function() {
+			console.log("please");
+			var documentId= $(this).attr('id');
+		       
+			console.log("Id-> " + documentId );
+			$.ajax({
+				type: "POST",
+				url: "../../actions/project/action_delete_document.php",
+				data: {project_id: $_GET('project_id'), document_id: documentId}
+			}).done(function(arg){console.log(arg)});
+	
+			$(this).parent().remove();
+	});
+}
+
+function remove_project(){
+
+	$('.link_deleteProject').click(function() {
+			var projectId= $(this).parent().find('.project_id').val();
+		
+			$.ajax({
+				type: "POST",
+				url: "../../actions/profile/action_delete_project.php",
+				data: {project_id: projectId}
+			});
+
+			$(this).parent().parent().remove();
+			
+	});
+}
+
+
+
+function remove_user(){
+	$('.link_removeUser').click(function() {
+			var username = $(this).attr('username');
+			alert($_GET('project_id'));
+			$.ajax({
+				type: "POST",
+				url: "../../actions/project/action_remove_user.php",
+				data: { username: username, project_id: $_GET('project_id')}
+			}).done(function(arg){console.log(arg)});
+		$(this).parent().parent().remove();
+	});
+}
+
+function add_user(){
+	$('#form-addUser').keypress(function(e) {
+		console.log(e);
+		if( e.charCode == 13){
+			var username = $(this).val();
+			$.ajax({
+				type: "POST",
+				url: "../../actions/project/action_add_user.php",
+				data: { username: username, project_id: $_GET('project_id')}
+			}).done(function(arg){console.log(arg)});
+		}
+	});
+}
 
 
 function touch_addListener(){
@@ -82,13 +157,15 @@ $(document).ready(function(){
   touch_addListener();
   toggler_addListener();
   openModals();
-
+  add_user();
+  remove_user();
+  remove_project();
+  remove_document();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);
   $('.hide-actor').each(addShow);
 
 });
-
 Dropzone.options.autoProcessQueue = false; // this way files we only be uploaded whrn we call myDropzone.processQueue()
 Dropzone.options.addRemoveLinks = true;

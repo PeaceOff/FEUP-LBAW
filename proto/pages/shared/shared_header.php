@@ -23,6 +23,7 @@
 		}
 
 		$smarty->assign('notifications',$notifications);
+		$smarty->assign('notification_number',count($notifications));
 	}
 	
 		$smarty->display('common/navbar.tpl');		

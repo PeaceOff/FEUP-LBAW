@@ -7,9 +7,11 @@
       <li class="nav-item ">
         <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-users">Users</a>
       </li>
+	{if $isManager}
       <li class="nav-item">
         <a class="nav-link text-white " data-toggle="collapse" data-target="#project-adding-users">Add User</a>
       </li>
+	{/if}
     </ul>
     <div id="project-users" class="collapse in">
       <table  class="table table-condensed table-style">
@@ -19,9 +21,11 @@
               <p>{$collaborator.name}</p>
             </td>
             <td class="align-right">
-              <a class="btn icon-link btn-danger btn-sm"  href="#"><!--TODO delete user from project!-->
+	{if $isManager && $managerName != $collaborator.name}
+              <a class="btn icon-link btn-danger btn-sm link_removeUser" username="{$collaborator.name}" href="#"><!--TODO delete user from project!-->
                 <i class="fa fa-trash"></i>
               </a>
+	{/if}
             </td>
           </tr>
         {/foreach}
@@ -30,7 +34,7 @@
     <div id="project-adding-users" class="collapse">
       <div class="input-group form-group">
         <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span><!--TODO add user by name to project-->
-        <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
+        <input id="form-addUser" class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
       </div>
     </div>
     <ul class="nav nav-tabs">
@@ -48,11 +52,13 @@
           <td>
             <button class="btn btn-primary" data-toggle="modal" data-target="#{$forum.id}">{$forum.name}</button>
           </td>
+	{if $isManager}
           <td class="align-right">
             <a class="btn icon-link btn-danger btn-sm"  href="#"><!-- TODO delete do forum-->
               <i class="fa fa-trash"></i>
             </a>
           </td>
+	{/if}
         </tr>
         {/foreach}
       </table>

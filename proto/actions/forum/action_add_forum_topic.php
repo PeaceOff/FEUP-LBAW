@@ -14,6 +14,6 @@
 
 	add_topic($topic_name, $project_id, null , 'project');
 
-	header('Location: ../../pages/todo/todoPage.php');
-
+	header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>
+
