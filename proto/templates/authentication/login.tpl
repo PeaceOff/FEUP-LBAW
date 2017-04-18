@@ -24,7 +24,7 @@
                 <h4>Login With</h4>
                 <ul class="list-inline">
                     <li>
-                        <h4><a onclick="login()" id="login" ><i class="fa fa-fw fa-facebook"></a></i></h4>
+                        <h4><a id="login" ><i class="fa fa-fw fa-facebook"></a></i></h4>
 
                     </li>
                     <li>
