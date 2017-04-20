@@ -1,5 +1,6 @@
-{include file="login.tpl"}
-{include file="register.tpl"}
+{include file="authentication/login.tpl"}
+{include file="authentication/register.tpl"}
+
 <div class="view">
     <div class="vertical-align full-bg-img text-center">
         <ul class="padding-0">
