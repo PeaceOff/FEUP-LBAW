@@ -1,3 +1,5 @@
+{include file="todo/assignCategory-form.tpl"}
+{include file="todo/assignUser-form.tpl"}
 <div class="container center-block" >
   <a class="link-no-style" href="projectPage.php"> <h1 class="text-center "> {$project_title} </h1> </a>
   <h3 class= "text-center page-header">Todo Board</h3>
@@ -75,7 +77,7 @@
   </div>
   <div id="doing" class="selectable">
   </div>
-  
+
   <div id="done" class="selectable">
   </div>
 </div>

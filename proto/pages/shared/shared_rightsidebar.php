@@ -14,7 +14,5 @@
     $smarty->assign('project_id', $project_id);
     $smarty->assign('collaborators', $collaborators);
     $smarty->assign('forums', $forums);
-
     $smarty->display('common/rightSidebar.tpl');
-
 ?>

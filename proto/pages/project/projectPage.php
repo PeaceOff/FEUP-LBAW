@@ -11,8 +11,8 @@
     $username = $_SESSION['username'];
 
     if(!project_allowed($username,$_GET['project_id'])){
-	header('Location:../authentication/home.php');
-	exit;
+       header('Location:../authentication/home.php');
+	   exit;
     }
 
     $smarty->display('common/header.tpl');

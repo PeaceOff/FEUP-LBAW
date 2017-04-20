@@ -17,6 +17,4 @@
   $smarty->display('common/header.tpl');
   $smarty->display('todo/todoPage.tpl');
   $smarty->display('common/footer.tpl');
-
-
 ?>
