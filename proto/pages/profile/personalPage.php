@@ -11,9 +11,6 @@
   $smarty->display('common/header.tpl');
   include_once($BASE_DIR . 'pages/shared/shared_header.php');
   include_once($BASE_DIR . 'pages/shared/shared_leftsidebar.php');
-  $smarty->display('profile/addProject-form.tpl');
-  $smarty->display('profile/editProject-form.tpl');
-
 
   $username = $_SESSION['username'];
 
@@ -30,9 +27,13 @@
 		  array_push($collabs_not_managing,$value);
   }
 
+  $folders_add = user_get_folders($_SESSION['username']);
+
+  $smarty->assign('folders2',$folders_add);
   $smarty->assign('collaborations',$collabs_not_managing);
 
+  $smarty->display('profile/addProject-form.tpl');
+  $smarty->display('profile/editProject-form.tpl');
   $smarty->display('profile/personalPage.tpl');
-
   $smarty->display('common/footer.tpl');
 ?>
