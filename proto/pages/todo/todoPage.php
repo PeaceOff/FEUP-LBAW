@@ -10,7 +10,14 @@
   if(!isset($_SESSION['username'])){
       header('Location: ../authentication/home.php');
       exit();
-    }
+  }
+
+  $username = $_SESSION['username'];
+
+  if(!project_allowed($username,$_GET['project_id'])){
+     header('Location:../authentication/home.php');
+     exit;
+  }
 
   $tasks = get_tasks_of_project(1, todo);
 
