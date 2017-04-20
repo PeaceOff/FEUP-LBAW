@@ -2,7 +2,7 @@
 	session_start();
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
-	echo 'boas';
+
 	if(!isset($_SESSION['username'])){
 		header('Location: ../../authentication/home.php');
 		exit();

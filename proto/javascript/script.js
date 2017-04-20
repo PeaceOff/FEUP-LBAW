@@ -17,7 +17,6 @@ function toggleSideBar(target){
 
 function toggler_addListener(){
   var togglers = $('.toggler');
-  console.log("Here");
   $('.toggler').click(function(){
     togglers.each(function(i){
       $(this).parent().removeClass('active');
@@ -95,7 +94,6 @@ function remove_user(){
 
 function add_user(){
 	$('#form-addUser').keypress(function(e) {
-		console.log(e);
 		if( e.charCode == 13){
 			var username = $(this).val();
 			$.ajax({

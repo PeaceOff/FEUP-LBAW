@@ -11,7 +11,7 @@
   $nextPage='Location: ../../pages/authentication/home.php';
 
   $result= get_user_by_username($username);
-	print_r($result);
+
   if($result != NULL){
     if(password_verify($password, $result['password'])){
       $_SESSION['username'] = $username;

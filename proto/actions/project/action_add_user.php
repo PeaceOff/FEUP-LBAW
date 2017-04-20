@@ -6,8 +6,6 @@ include_once($BASE_DIR . 'database/project.php');
 $project_id = $_POST['project_id'];
 $username = $_POST['username'];
 
-print_r($_POST);
-
 if(!isset($_SESSION['username'])){
 	header('Location: ../../pages/authentication/home.php');
 	exit();
@@ -19,7 +17,6 @@ if(!project_manager($_SESSION['username'], $project_id)){
 }	
 
 project_add_collaborator($username, $project_id);
-echo "AQUI";
 //header('Location: ../../pages/project/projectPage.php?project_id=' . $project_id);
 
 ?>
