@@ -15,5 +15,5 @@
        exit;
     }
 
-    $smarty->display('forum/forum.tpl');
+    //TODO fazer set das variaveis
 ?>

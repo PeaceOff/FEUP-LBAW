@@ -2,6 +2,7 @@
 
     include_once($BASE_DIR . 'database/project.php');
     include_once($BASE_DIR . 'database/forum.php');
+    include_once($BASE_DIR . 'pages/forum/forum.php');
 
     $project_id = $_GET['project_id'];
 

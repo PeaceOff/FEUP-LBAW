@@ -63,7 +63,7 @@
         {/foreach}
       </table>
     </div>
-    {include file='../../pages/forum/forumExample.php'}<!--TODO para os templates e incluir-->
+    {include file='forum/forum.tpl'}<!--TODO para os templates e incluir-->
 </div>
 
 <script>
