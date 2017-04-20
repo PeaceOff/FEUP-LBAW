@@ -1,4 +1,4 @@
-
+<script type="text/javascript" src = "../../javascript/statistics.js"></script>
 <div class="container">
   <div class="page-header">
     <h2> Pending Notifications </h2>

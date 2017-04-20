@@ -15,7 +15,7 @@
         <div class="form-group input-group width-100">
           <label for="sel">Folder</label>
           <select class="form-control" name="projectFolder" id="sel" tabindex="2">
-            {foreach from=$folders2 item=folder}
+            {foreach from=$folders item=folder}
               <option value="{$folder.id}">
                 {$folder.name}
               </option>
