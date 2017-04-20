@@ -13,7 +13,6 @@
 
   $conn->exec('SET SCHEMA \'proto\''); 
 
- $BASE_URL = '/proto/';*/
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
 
   $smarty = new Smarty;
