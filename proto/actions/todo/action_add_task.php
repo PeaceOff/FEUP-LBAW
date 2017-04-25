@@ -1,5 +1,5 @@
 <?php
-
+	session_start();
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/todo.php');
 
@@ -18,5 +18,5 @@
 	add_task($task_title,$task_description,$task_deadline, $_SESSION['username'], $project_id ,$task_category);
 
 	header('Location: ../../pages/todo/todoPage.php');
-
+	exit();
 ?>

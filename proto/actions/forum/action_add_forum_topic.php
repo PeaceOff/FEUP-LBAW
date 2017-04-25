@@ -1,5 +1,5 @@
 <?php
-
+	session_start();
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/forum.php');
 
@@ -9,11 +9,10 @@
   	}
 
 	$topic_name = $_POST['topicName'];
-
 	$project_id = $_POST['project_id'];
 
 	add_topic($topic_name, $project_id, null , 'project');
 
 	header('Location: ' . $_SERVER['HTTP_REFERER']);
+	exit();
 ?>
-
