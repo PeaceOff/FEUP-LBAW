@@ -15,8 +15,14 @@ function setupTodoListeners() {
             data: {'category' : "To-Do", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO construir html
-
+            //TODO fill data accordingly
+            console.log("DATA:");
+            console.log(data);
+            /*
+            var template = $.templates("#api_tmpl");
+            var htmlOutput = template.render(data);
+            elem..html(htmlOutput);
+            */
         }).fail(function() {
             // TODO handle failure
         });
@@ -38,8 +44,14 @@ function setupTodoListeners() {
             data: {'category' : "Doing", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO construir html
-
+            //TODO fill data accordingly
+            console.log("DATA:");
+            console.log(data);
+            /*
+            var template = $.templates("#api_tmpl");
+            var htmlOutput = template.render(data);
+            elem..html(htmlOutput);
+            */
         }).fail(function() {
             // TODO handle failure
         });
@@ -60,55 +72,20 @@ function setupTodoListeners() {
             data: {'category' : "Done", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO construir html
+            //TODO fill data accordingly
+            console.log("DATA:");
+            console.log(data);
+            /*
+            var template = $.templates("#api_tmpl");
+            var htmlOutput = template.render(data);
+            elem..html(htmlOutput);
+            */
 
         }).fail(function() {
             // TODO handle failure
         });
 
     });
-    /*
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <div class="card cardhandler">
-        <div class="cardheader-todo">
-          <div class="title outliner">
-            <h5>{$task.name}</h5>
-          </div>
-
-        </div>
-        <div class="desc">{$task.description}</div>
-        <div class="people-envolved">
-          <div class="owner">
-            <h5>Owner</h5>
-            <i class="fa fa-user avatar icon-link img-circle" title="{$task.owner}" aria-hidden="true"></i>
-          </div>
-          <div class="collaborator">
-            <h5>People Assigned</h5>
-            {foreach from=$task.assigned item=assignee}
-            <i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>
-            {/foreach}
-            <a class="btn icon-link btn-success btn-sm" data-toggle="modal" data-target="#assign-user-modal">
-              <i class="fa fa-plus"></i>
-            </a>
-          </div>
-        </div>
-        <div class="bottom">
-          <a class="btn icon-link btn-primary  btn-sm" >
-            <i class="fa fa-pencil"></i>
-          </a>
-          <a class="btn icon-link btn-warning btn-sm"  data-toggle="modal" data-target="#assign-category-modal">
-            <i class="fa fa-arrows"></i>
-          </a>
-          <a class="btn icon-link btn-info btn-sm" data-toggle="modal" data-target="#forum1">
-            <i class="fa fa-comments-o"></i>
-          </a>
-          <a class="btn icon-link btn-danger btn-sm"  >
-            <i class="fa fa-trash"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-    */
 }
 
 function addShow(index){
@@ -267,6 +244,7 @@ function openModals(){
 $(document).ready(function(){
   if($(".view").length > 0) $("body").addClass('view');
 
+  setupTodoListeners();
   setupDatePickers();
   touch_addListener();
   toggler_addListener();
