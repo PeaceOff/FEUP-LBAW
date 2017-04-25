@@ -102,7 +102,7 @@
         </div>
 
         <div class="jumbotron">
-          <a  href="../../pages/todo/todoPage.php?project_id={$project.id}#to-do" > <img src="../../images/todo.png" class="img-responsive img-circle center-block" width="200"> </a>
+          <a  href="../../pages/todo/todoPage.php?project_id={$project.id}#To-Do" > <img src="../../images/todo.png" class="img-responsive img-circle center-block" width="200"> </a>
         </div>
 
 
