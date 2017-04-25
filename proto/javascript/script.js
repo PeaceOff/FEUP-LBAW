@@ -3,9 +3,10 @@ function setupTodoListeners() {
     $('#To-Do').click(function() {
         var elem = $(this);
 
+        /*
         if(elem.children().length > 0)
             return;
-
+        */
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
@@ -32,9 +33,10 @@ function setupTodoListeners() {
     $('#Doing').click(function() {
         var elem = $(this);
 
+        /*
         if(elem.children().length > 0)
             return;
-
+        */
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
@@ -59,10 +61,10 @@ function setupTodoListeners() {
 
     $('#Done').click(function() {
         var elem = $(this);
-
+        /*
         if(elem.children().length > 0)
             return;
-
+        */
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
@@ -84,7 +86,6 @@ function setupTodoListeners() {
         }).fail(function() {
             // TODO handle failure
         });
-
     });
 }
 
