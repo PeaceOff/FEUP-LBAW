@@ -17,18 +17,3 @@
     {/foreach}
   </ul>
 </div>
-
-
-    <!-- Exemplo
-      <li class="open divider">
-          <a href="#" data-toggle="collapse" data-target="#folder1">Folder 1<span class="caret"></span></a>
-          <ul class="collapse" id="folder1">
-              <li>
-                  <a href="../project/projectPage.php">Project 01</a>
-              </li>
-              <li>
-                  <a href="../project/projectPage.php">Project 02</a>
-              </li>
-          </ul>
-      </li>
-    -->
