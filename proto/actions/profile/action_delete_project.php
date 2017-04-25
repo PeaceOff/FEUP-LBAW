@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
 
@@ -10,7 +10,7 @@
 
 	$username = $_SESSION['username'];
 	$project_id = $_POST['project_id'];
-	
+
 	if(!project_manager($username,$project_id)){
 		header('Location: ../../authentication/home.php');
 		exit();
