@@ -10,6 +10,7 @@
           <label>Task Title</label>
           <input class="form-control" type="text" tabindex="1" placeholder="Title" name="title"  required="" autofocus="">
         </div>
+	<input type='hidden' name='project_id' value='{$project_id}'></input>
         <div class="form-group input-group width-100">
           <label for="sel1">Category</label>
           <select class="form-control" id="sel1" tabindex="2" name="category">

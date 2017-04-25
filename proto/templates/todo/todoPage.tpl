@@ -1,43 +1,30 @@
 {include file="todo/assignCategory-form.tpl"}
 {include file="todo/assignUser-form.tpl"}
+{include file="todo/addTask-form.tpl"}
 <div class="container center-block" >
   <a class="link-no-style" href="projectPage.php"> <h1 class="text-center "> {$project_title} </h1> </a>
   <h3 class= "text-center page-header">Todo Board</h3>
   <ul class="nav nav-tabs">
-    <li class="nav-item active">
-      <a class="nav-link toggler" href="#to-do">To Do</a>
+  {foreach from=$categories item=category}
+    <li class="nav-item ">
+      <a class="nav-link toggler" href="#{$category.name}">{$category.name}</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link toggler"  href="#doing">Doing</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link toggler" href="#done">Done</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-      href="#" role="button" aria-haspopup="true" aria-expanded="false">
-      Category</a>
-      <ul class="dropdown-menu">
-        {foreach from=$categories item=category}
-        <li><a href="#">{$category.name}</a></li>
-        {/foreach}
-      </ul>
-    </li>
+  {/foreach}
     <li class="nav-item">
       <a class="nav-link" data-toggle="modal" data-target="#createTask">+ Add Task</a>
     </li>
   </ul>
 </div>
 <div class="container margin-top-10">
-  <div id="to-do" class="selectable">
+{foreach from=$tasks_by_category item=bundle}
+  <div id="{$bundle.category}" class="selectable">
 
-    {foreach from=$tasks item=task}
+    {foreach from=$bundle.tasks item=task}
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
       <div class="card cardhandler">
         <div class="cardheader-todo">
           <div class="title outliner">
-            {$task.title}
-            <h5>Category</h5>
+            <h5>{$task.name}</h5>
           </div>
 
         </div>
@@ -45,12 +32,12 @@
         <div class="people-envolved">
           <div class="owner">
             <h5>Owner</h5>
-            <img class="avatar  icon-link img-circle" src="{$task.owner_img}" alt="avatar">
+        	<i class="fa fa-user avatar icon-link img-circle" title="{$task.owner}" aria-hidden="true"></i>    
           </div>
           <div class="collaborator">
             <h5>People Assigned</h5>
             {foreach from=$task.assigned item=assignee}
-            <img class="avatar  icon-link img-circle" src="{$assignee.img}" alt="avatar">
+        	<i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>    
             {/foreach}
             <a class="btn icon-link btn-success btn-sm" data-toggle="modal" data-target="#assign-user-modal">
               <i class="fa fa-plus"></i>
@@ -75,9 +62,5 @@
     </div>
     {/foreach}
   </div>
-  <div id="doing" class="selectable">
-  </div>
-
-  <div id="done" class="selectable">
-  </div>
+{/foreach}
 </div>
