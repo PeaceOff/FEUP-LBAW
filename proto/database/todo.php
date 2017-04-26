@@ -28,7 +28,6 @@
       global $conn;
      $stmt = $conn->prepare("INSERT INTO task (name, description, deadline, owner, project_id, category) VALUES (?, ?, ?, ?, ?, ?)");
       $stmt->execute(array($name, $description, $deadline, $owner, $project_id, $category));
-      print_r($conn->errorInfo());
     }
 
     function add_assigned($username, $task_id){
