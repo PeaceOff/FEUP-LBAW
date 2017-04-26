@@ -59,4 +59,10 @@
       $stmt->execute(array($notification_id));
     }
 
+    function user_delete_all_notifications($username){
+      global $conn;
+      $stmt = $conn->prepare("DELETE FROM notification WHERE notificated = ? ");
+      $stmt->execute(array($username));
+    }
+
 ?>
