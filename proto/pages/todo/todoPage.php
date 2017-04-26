@@ -24,15 +24,18 @@
 
     $categories = get_categories();
     $tasks_by_category = array();
+    
     foreach($categories as $category){
-        if($category['name'] === 'To-Do'){
-            $temp['category'] = $category['name'];
+
+	$temp['category'] = $category['name'];
+	$temp['tasks'] = array();
+	if($category['name'] === 'To-Do'){
             $temp['tasks'] = get_tasks_of_project_by_category($project_id, $category['name']);
             foreach($temp['tasks'] as $task){
                 $task['assigned'] = get_assigned($task['id']);
             }
-            array_push($tasks_by_category, $temp);
-        }
+	}
+	array_push($tasks_by_category,$temp);
     }
 
     $smarty->assign('tasks_by_category', $tasks_by_category);

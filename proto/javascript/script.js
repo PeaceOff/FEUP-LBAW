@@ -1,14 +1,12 @@
 function setupTodoListeners() {
 
-    console.log("Loading listeners");
-    
     $('#To-Do_button').click(function() {
         
 	var elem = $('#To-Do');
-        /*
+        
         if(elem.children().length > 0)
             return;
-        */
+        
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
@@ -31,10 +29,10 @@ function setupTodoListeners() {
     $('#Doing_button').click(function() {
         
 	var elem = $('#Doing');
-        /*
+        
         if(elem.children().length > 0)
             return;
-        */
+        
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
@@ -57,10 +55,9 @@ function setupTodoListeners() {
         
 	var elem = $('#Done');
 
-	/*
         if(elem.children().length > 0)
             return;
-        */
+        
         var proj_id = location.search.replace('?', '').split('=')[1];
 
         $.ajax({
