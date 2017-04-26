@@ -30,7 +30,6 @@
 	  }
 	  array_push($tasks_by_category, $temp);
   }
-  $tasks = get_tasks_of_project($project_id);
 
   $smarty->assign('tasks_by_category', $tasks_by_category);
   $smarty->assign('categories', $categories);

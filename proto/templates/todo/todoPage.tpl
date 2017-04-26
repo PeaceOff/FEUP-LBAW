@@ -6,7 +6,7 @@
   <h3 class= "text-center page-header">Todo Board</h3>
   <ul class="nav nav-tabs">
   {foreach from=$categories item=category}
-    <li class="nav-item ">
+    <li id="{$category.name}_button" class="nav-item ">
       <a class="nav-link toggler" href="#{$category.name}">{$category.name}</a>
     </li>
   {/foreach}
@@ -65,26 +65,26 @@
 {/foreach}
 </div>
 
-<script id="api_tmpl" type="text/x-jsrender">
+<script id="api_tmpl" type="text/x-jsrender">{literal}
 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
   <div class="card cardhandler">
     <div class="cardheader-todo">
       <div class="title outliner">
-        <h5>{$task.name}</h5>
+        <h5>{{:name}}</h5>
       </div>
 
     </div>
-    <div class="desc">{$task.description}</div>
+    <div class="desc">{{:description}}</div>
     <div class="people-envolved">
       <div class="owner">
         <h5>Owner</h5>
-        <i class="fa fa-user avatar icon-link img-circle" title="{$task.owner}" aria-hidden="true"></i>
+        <i class="fa fa-user avatar icon-link img-circle" title="{{:owner}}" aria-hidden="true"></i>
       </div>
       <div class="collaborator">
         <h5>People Assigned</h5>
-        {foreach from=$task.assigned item=assignee}
-        <i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>
-        {/foreach}
+        {{for assigned}}
+        <i class="fa fa-user avatar icon-link img-circle" title="{{:username}}" aria-hidden="true"></i>
+        {{/for}}
         <a class="btn icon-link btn-success btn-sm" data-toggle="modal" data-target="#assign-user-modal">
           <i class="fa fa-plus"></i>
         </a>
@@ -105,5 +105,5 @@
       </a>
     </div>
   </div>
-</div>
+</div>{/literal}
 </script>

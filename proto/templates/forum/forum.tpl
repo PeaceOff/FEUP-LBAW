@@ -1,8 +1,3 @@
-<script>
-$(document).ready(function (){
-  $('#{$forum.id}').appendTo("body");
-});
-</script>
 <div id="{$forum.id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
   <div class="modal-content ">
     <div class="modal-header text-center">

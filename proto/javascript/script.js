@@ -1,8 +1,10 @@
 function setupTodoListeners() {
 
-    $('#To-Do').click(function() {
-        var elem = $(this);
-
+    console.log("Loading listeners");
+    
+    $('#To-Do_button').click(function() {
+        
+	var elem = $('#To-Do');
         /*
         if(elem.children().length > 0)
             return;
@@ -12,27 +14,23 @@ function setupTodoListeners() {
         $.ajax({
             type: "post",
             dataType: "json",
-            url: 'api/get_task_by_category.php',
+            url: '../../api/get_task_by_category.php',
             data: {'category' : "To-Do", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO fill data accordingly
-            console.log("DATA:");
-            console.log(data);
-            /*
             var template = $.templates("#api_tmpl");
-            var htmlOutput = template.render(data);
-            elem..html(htmlOutput);
-            */
+	    var htmlOutput = template.render(data);
+	    elem.html(htmlOutput);
+
         }).fail(function() {
             // TODO handle failure
         });
 
     });
 
-    $('#Doing').click(function() {
-        var elem = $(this);
-
+    $('#Doing_button').click(function() {
+        
+	var elem = $('#Doing');
         /*
         if(elem.children().length > 0)
             return;
@@ -42,26 +40,24 @@ function setupTodoListeners() {
         $.ajax({
             type: "post",
             dataType: "json",
-            url: 'api/get_task_by_category.php',
+            url: '../../api/get_task_by_category.php',
             data: {'category' : "Doing", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO fill data accordingly
-            console.log("DATA:");
-            console.log(data);
-            /*
             var template = $.templates("#api_tmpl");
-            var htmlOutput = template.render(data);
-            elem..html(htmlOutput);
-            */
+	    var htmlOutput = template.render(data);
+	    elem.html(htmlOutput);
+
         }).fail(function() {
             // TODO handle failure
         });
     });
 
-    $('#Done').click(function() {
-        var elem = $(this);
-        /*
+    $('#Done_button').click(function() {
+        
+	var elem = $('#Done');
+
+	/*
         if(elem.children().length > 0)
             return;
         */
@@ -70,18 +66,13 @@ function setupTodoListeners() {
         $.ajax({
             type: "post",
             dataType: "json",
-            url: 'api/get_task_by_category.php',
+            url: '../../api/get_task_by_category.php',
             data: {'category' : "Done", 'project_id' : proj_id}
         }).done(function(data) {
 
-            //TODO fill data accordingly
-            console.log("DATA:");
-            console.log(data);
-            /*
             var template = $.templates("#api_tmpl");
             var htmlOutput = template.render(data);
-            elem..html(htmlOutput);
-            */
+	    elem.html(htmlOutput);
 
         }).fail(function() {
             // TODO handle failure
