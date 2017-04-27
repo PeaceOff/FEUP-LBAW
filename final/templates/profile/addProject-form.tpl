@@ -12,25 +12,21 @@
           <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="" autofocus="">
         </div>
 
-        <div class="form-group input-group width-100">
-          <label for="sel">Folder</label>
-          <select class="form-control" name="projectFolder" id="sel" tabindex="2">
-            {foreach from=$folders2 item=folder}
-              <option value="{$folder.id}">
-                {$folder.name}
-              </option>
-            {/foreach}
-          </select>
+	<div class="form-group input-group date width-100">
+          <label>Deadline</label>
+          <input  type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control" tabindex="2">
         </div>
 
-        <div class="input-group form-group width-100">
+	<div class="input-group form-group width-100">
           <label for="descriptionArea">Description</label>
           <textarea class="form-control resizable-horizontal" name="projectDescription" id="descriptionArea" rows="3" tabindex="3"></textarea>
         </div>
-        <div class="text-center">
+        		
+	<div class="text-center">
           <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
         </div>
-      </form>
+      
+	</form>
     </div>
   </div>
 </div>

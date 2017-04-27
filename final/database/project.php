@@ -7,6 +7,13 @@
     $stmt->execute(array($name, $description, $deadline, $managerId));
   }
 
+
+  function project_edit($new_description, $project_id, $proj_deadline){
+    global $conn;
+    $stmt = $conn->prepare("UPDATE project SET description = ?, deadline = ? WHERE id=?");
+    $stmt->execute(array($new_description, $proj_deadline, $project_id));	
+  }
+
   function project_get_id($project_id){
     global $conn;
     $stmt = $conn->prepare("SELECT *  FROM project WHERE id = ?");

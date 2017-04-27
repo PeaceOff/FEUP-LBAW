@@ -22,6 +22,17 @@ body.view {
   background-size: cover;
 }
 
+.box-alerts{
+	position:fixed;
+	top:50px;
+	bottom:0;
+	left: 210px;
+	right: 210px;
+	pointer-events: none;
+}
+
+
+
 
 
 .outliner {

@@ -6,15 +6,11 @@
     </div>
     <div class="modal-body">
         <div class="panel panel-white post panel-shadow">
-            <div class="modal-header text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Add Post</h4>
-            </div>
             <div class="modal-body">
                 <form  id ="addTopic-form" action="../../actions/forum/action_add_topic_post.php" method="post" style="display:block">
                     <div class="form-group input-group width-100">
-                        <label for="topicName">Content</label>
-                        <input class="form-control" type="text" tabindex="1" id="post_content" name="post_content" value="" required="" autofocus="" >
+                        <label for="topicName">Write a new Post : </label>
+                        <textarea class="form-control" type="text" tabindex="1" id="post_content" name="post_content" value="" required="" autofocus=""></textarea>
                         <input type="hidden" name="forum_id" value="{$forum.id}"> </input>
                     </div>
                     <div class="text-center">

@@ -123,7 +123,7 @@ CREATE FUNCTION delete_collaborates() RETURNS trigger
 
 BEGIN
    folderID=(SELECT folder.id FROM folder_project, folder WHERE folder.username=OLD.username AND folder_project.folder_id = folder.id AND folder_project.project_id = OLD.project_id);
-   
+
    DELETE FROM folder_project WHERE project_id = OLD.project_id AND folder_id = folderID;
    RETURN OLD;
 END$$;
@@ -655,7 +655,6 @@ CREATE TABLE assigned (
 
 
 
-
 CREATE TABLE category (
     name character varying NOT NULL
 );
@@ -1177,6 +1176,3 @@ ALTER TABLE ONLY topic
 REVOKE ALL ON SCHEMA proto FROM PUBLIC;
 REVOKE ALL ON SCHEMA proto FROM lbaw1665;
 GRANT ALL ON SCHEMA proto TO lbaw1665;
-
-
-

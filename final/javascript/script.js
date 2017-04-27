@@ -1,3 +1,28 @@
+
+function createWarningBox(){
+	
+	var e = $(document.createElement('div'));
+	e.addClass('box-alerts');
+	$('body').append(e);
+
+}
+
+function addWarning(type, msg){
+	
+	var e = $(document.createElement('div'));
+  var alertType = 'alert alert-';
+	alertType += type;	
+	e.addClass(alertType);
+	type = type.charAt(0).toUpperCase() + type.slice(1);
+	var message = '<strong>'+ type  +'</strong>'+ msg;
+	e.append(message);
+	$('.box-alerts').append(e); 
+	setTimeout(function() {
+		e.remove();
+	}, 2000);
+}
+
+
 function setupTodoListeners() {
 
     $('#To-Do_button').click(function() {
@@ -161,25 +186,63 @@ function remove_project(){
 function remove_user(){
 	$('.link_removeUser').click(function() {
 			var username = $(this).attr('username');
-			alert($_GET('project_id'));
 			$.ajax({
 				type: "POST",
 				url: "../../actions/project/action_remove_user.php",
 				data: { username: username, project_id: $_GET('project_id')}
-			}).done(function(arg){console.log(arg)});
-		$(this).parent().parent().remove();
+			}).done(function(arg){	
+				addWarning('success','User Deleted!');
+			}).fail(function(){
+				addWarning('warning','User NOT Found!');
+			});
+
+			$(this).parent().parent().remove();
 	});
 }
 
+function get_project_id(){
+
+	$('.btn_project_edit').click(function() {
+		console.log('ola');
+		var id = $(this).attr('project_id');
+		$('.hidden_projectId').attr('value',id);
+	
+	});
+}
+
+
+function update_project(){
+	$('.link_update_project').click(function() {
+		
+			$.ajax({
+				type: "POST",
+				url: "../../actions/profile/action_edit_project.php",
+				data: {project_id: projectId}
+			}).done(function(arg){	
+				addWarning('success','Project updated!');
+			}).fail(function(){
+				addWarning('warning','Updated failed');
+			});
+
+		});
+}
+
+
 function add_user(){
 	$('#form-addUser').keypress(function(e) {
-		if( e.charCode == 13){
+		key = (e.keyCode)? e.keyCode : e.charCode;
+		if( key == 13){
+			console.log("HERE");
 			var username = $(this).val();
 			$.ajax({
 				type: "POST",
 				url: "../../actions/project/action_add_user.php",
 				data: { username: username, project_id: $_GET('project_id')}
-			}).done(function(arg){console.log(arg)});
+			}).done(function(arg){
+				addWarning('success','User successfully added!');
+			}).fail(function(){
+				addWarning('warning','User NOT Found!');
+			});
 		}
 	});
 }
@@ -213,8 +276,8 @@ function touch_addListener(){
 }
 
 function setupDatePickers(){
-  $('#datetimepicker').attr('type', 'text');
-  $("#datetimepicker").datetimepicker({
+  $('.datetimepicker').attr('type', 'text');
+  $(".datetimepicker").datetimepicker({
     format: 'DD/MM/YYYY'
   });
 }
@@ -242,9 +305,12 @@ $(document).ready(function(){
   remove_user();
   remove_project();
   remove_document();
+  get_project_id();
+  update_project();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);
+	createWarningBox();
   $('.hide-actor').each(addShow);
 
 });

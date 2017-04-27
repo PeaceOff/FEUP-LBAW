@@ -2,13 +2,13 @@
     //user
     function user_add($username, $password, $email) {
       global $conn;
-      $stmt = $conn->prepare("INSERT INTO proto.user (username, email, password) VALUES (?, ?, ?)");
+      $stmt = $conn->prepare("INSERT INTO final.user (username, email, password) VALUES (?, ?, ?)");
       $stmt->execute(array($username, $email, $password));
     }
 
     function get_user_by_username($username) {
       global $conn;
-      $stmt = $conn->prepare("SELECT username,password FROM proto.user WHERE username = ?");
+      $stmt = $conn->prepare("SELECT username,password FROM final.user WHERE username = ?");
       $stmt->execute(array($username));
       return $stmt->fetch();
     }
@@ -63,6 +63,13 @@
       global $conn;
       $stmt = $conn->prepare("DELETE FROM notification WHERE notificated = ? ");
       $stmt->execute(array($username));
+    }
+
+    function user_get_statistics($username){
+      global $conn;
+      $stmt = $conn->prepare("SELECT * FROM statistics WHERE username = ? ");
+      $stmt->execute(array($username));
+      return $stmt->fetch();
     }
 
 ?>

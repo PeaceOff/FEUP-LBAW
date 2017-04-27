@@ -48,7 +48,7 @@
         <div class="desc">{$project.description}</div>
       <div class="bottom">
 	  <input type="hidden" class="project_id" value='{$project.id}'>
-          <a class="btn icon-link btn-primary btn-twitter btn-sm" href="" data-toggle="modal" data-target ="#editProject">
+          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" project_id='{$project.id}' href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm link_deleteProject" rel="publisher" >
@@ -78,7 +78,7 @@
         </div>
         <div class="desc">{$collaboration.description}</div>
       <div class="bottom">
-          <a class="btn icon-link btn-primary btn-twitter btn-sm" href="" data-toggle="modal" data-target ="#editProject">
+          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">

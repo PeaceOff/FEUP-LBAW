@@ -8,7 +8,7 @@
       <div class="modal-body">
         <div class="list-group">
           {foreach from=$collaborators item=collaborator}
-          <a class="list-group-item">{$collaborator.name}</a>
+          <a class="list-group-item assignUser" >{$collaborator.name}</a>
           {/foreach}
         </div>
       </div>
