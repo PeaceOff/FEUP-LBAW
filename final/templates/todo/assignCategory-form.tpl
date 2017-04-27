@@ -6,9 +6,9 @@
         <h4 class="modal-title">Select Category</h4>
       </div>
       <div class="modal-body">
-        <div class="list-group">
+        <div class="list-group task-id-handler" task_id="">
           {foreach from=$categories item=category}
-          <a class="list-group-item">{$category.name}</a>
+          <a class="list-group-item btn-change-task">{$category.name}</a>
           {/foreach}
         </div>
       </div>

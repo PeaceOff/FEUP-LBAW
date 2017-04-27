@@ -31,7 +31,7 @@
 	$temp['tasks'] = array();
 	if($category['name'] === 'To-Do'){
             $temp['tasks'] = get_tasks_of_project_by_category($project_id, $category['name']);
-            foreach($temp['tasks'] as $task){
+            foreach($temp['tasks'] as &$task){
                 $task['assigned'] = get_assigned($task['id']);
             }
 	}

@@ -31,6 +31,7 @@
     <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
 
     <script type="text/javascript" src = "../../javascript/script.js"></script>
+    <script type="text/javascript" src = "../../javascript/todo.js"></script>
     <!--<script async type="text/javascript" src = "../../javascript/login.js"></script>-->
 
 

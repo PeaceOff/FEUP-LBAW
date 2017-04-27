@@ -1,4 +1,19 @@
  {include file='../../templates/forum/addTopic-form.tpl'}
+<div class="template">
+<table><tbody>
+	<tr>
+		<td>
+        	<p class="template_name">{$collaborator.name}</p>
+        </td>
+        <td class="align-right">
+        	<a class="btn icon-link btn-danger btn-sm link_removeUser" username="" href="#">
+				<i class="fa fa-trash"></i>
+            </a>
+        </td>
+	</tr>
+</tbody></table>
+</div>
+
 <div id="sidebar-right" class="col-sm-2 padding-0 dockable minimized color-grey">
     <div class="right-sidebar-btn">
         <i class="fa fa-chevron-left hide-actor" target="sidebar-right" style="cursor : pointer"></i>

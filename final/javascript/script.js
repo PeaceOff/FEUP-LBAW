@@ -21,7 +21,15 @@ function addWarning(type, msg){
 		e.remove();
 	}, 2000);
 }
+function addUser(username){
+	var element = $('.template tr').clone(true);
+	console.log(element.html());
+	console.log($('.template tr').html());
+	element.find('.template_name').html(username);
+	element.find('.link_removeUser').attr('username',username);
+	$('#project-users tbody').append(element);
 
+}
 function setupForumListeners() {
 
     $('.forum_button').click(function() {
@@ -29,10 +37,16 @@ function setupForumListeners() {
     });
 }
 
+function clearAll(){
+	$('#To-Do').empty();
+	$('#Doing').empty();
+	$('#Done').empty();
+}
+
 function setupTodoListeners() {
 
     $('#To-Do_button').click(function() {
-        
+       clearAll(); 
 	var elem = $('#To-Do');
         
         if(elem.children().length > 0)
@@ -50,7 +64,7 @@ function setupTodoListeners() {
             var template = $.templates("#api_tmpl");
 	    var htmlOutput = template.render(data);
 	    elem.html(htmlOutput);
-
+		setup_information();
         }).fail(function() {
             // TODO handle failure
         });
@@ -59,6 +73,7 @@ function setupTodoListeners() {
 
     $('#Doing_button').click(function() {
         
+       clearAll(); 
 	var elem = $('#Doing');
         
         if(elem.children().length > 0)
@@ -76,7 +91,7 @@ function setupTodoListeners() {
             var template = $.templates("#api_tmpl");
 	    var htmlOutput = template.render(data);
 	    elem.html(htmlOutput);
-
+		setup_information();
         }).fail(function() {
             // TODO handle failure
         });
@@ -84,6 +99,7 @@ function setupTodoListeners() {
 
     $('#Done_button').click(function() {
         
+       clearAll(); 
 	var elem = $('#Done');
 
         if(elem.children().length > 0)
@@ -97,11 +113,11 @@ function setupTodoListeners() {
             url: '../../api/get_task_by_category.php',
             data: {'category' : "Done", 'project_id' : proj_id}
         }).done(function(data) {
-
+			console.log(data);
             var template = $.templates("#api_tmpl");
             var htmlOutput = template.render(data);
 	    elem.html(htmlOutput);
-
+		setup_information();
         }).fail(function() {
             // TODO handle failure
         });
@@ -206,12 +222,46 @@ function remove_user(){
 	});
 }
 
-function get_project_id(){
+function get_task_information(){
+
+	$('.btn_edit_task').click(function() {
+		var task_id = $(this).attr('task_id');		
+		$.ajax({
+            		type: "post",
+            		dataType: "json",
+            		url: '../../api/get_task_info.php',
+            		data: {'task_id' : task_id}
+		}).done(function(arg){
+			console.log(arg);
+			$('.task_description').html(arg['description']);
+			$('.task_deadline').attr('value', arg['deadline']);
+			$('.task_category').attr('value', arg['category']);
+		}).fail(function(arg){
+			console.log("Error = " + arg);
+		});		
+	
+	});
+}
+
+
+function get_project_information(){
 
 	$('.btn_project_edit').click(function() {
-		console.log('ola');
 		var id = $(this).attr('project_id');
 		$('.hidden_projectId').attr('value',id);
+		
+		$.ajax({
+            		type: "post",
+            		dataType: "json",
+            		url: '../../api/get_project_info.php',
+            		data: {'project_id' : id}
+		}).done(function(arg){
+			$('.project_folder').attr('value', arg['folder']['name']);
+			$('.project_description').html(arg['description']);
+			$('.project_deadline').attr('value', arg['deadline']);
+		}).fail(function(arg){
+			
+		});		
 	
 	});
 }
@@ -246,6 +296,7 @@ function add_user(){
 				data: { username: username, project_id: $_GET('project_id')}
 			}).done(function(arg){
 				addWarning('success','User successfully added!');
+				addUser(username);
 			}).fail(function(){
 				addWarning('warning','User NOT Found!');
 			});
@@ -312,7 +363,8 @@ $(document).ready(function(){
   remove_user();
   remove_project();
   remove_document();
-  get_project_id();
+  get_project_information();
+  get_task_information();
   update_project();
   setTimeout(function(){
     $("body").removeClass("preload");

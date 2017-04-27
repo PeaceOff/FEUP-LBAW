@@ -21,6 +21,13 @@
     return $stmt->fetch();
   }
 
+  function project_get_folder($project_id, $username){
+    global $conn;
+    $stmt = $conn->prepare("SELECT * FROM folder, folder_project WHERE folder.id = folder_project.folder_id AND folder_project.project_id = ? AND folder.username = ?");
+    $stmt->execute(array($project_id, $username));
+    return $stmt->fetch();
+  }
+
 
   function project_get_owned($username){
     global $conn;
@@ -66,8 +73,13 @@
   //collaborates
   function project_add_collaborator($username, $project_id) {
     global $conn;
+	try{
     $stmt = $conn->prepare("INSERT INTO collaborates (username, project_id) VALUES (?, ?)");
     $stmt->execute(array($username, $project_id));
+	}catch(PDOException $e){
+		return false;
+	}
+	return true;
   }
 
   function project_remove_collaborator($username, $project_id) {
@@ -86,13 +98,13 @@
   //project_folder
   function project_change_folder($project_id, $folder_id){
     global $conn;
-    $stmt = $conn->prepare("INSERT INTO project_folder(poject_id,folder_id) VALUES (?, ?)");
+    $stmt = $conn->prepare("INSERT INTO folder_project(poject_id,folder_id) VALUES (?, ?)");
     $stmt->execute(array($project_id, $folder_id));
   }
 
   function project_remove_from_folder($project_id, $folder_id){
     global $conn;
-    $stmt = $conn->prepare("DELETE FROM project_folder WHERE project_id = ? AND folder_id=?");
+    $stmt = $conn->prepare("DELETE FROM folder_project WHERE project_id = ? AND folder_id=?");
     $stmt->execute(array($project_id, $folder_id));
   }
 

@@ -32,7 +32,9 @@ body.view {
 }
 
 
-
+.template{
+	visibility:hidden;
+}
 
 
 .outliner {

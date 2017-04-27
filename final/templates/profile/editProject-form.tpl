@@ -10,7 +10,7 @@
 	
         <div class="form-group input-group width-100">
           <label for="sel">Folder</label>
-          <select class="form-control" id="sel" tabindex="2">
+          <select class="form-control project_folder" id="sel" tabindex="2" value="">
             {foreach from=$folders2 item=folder}
               <option>
                 {$folder.name}
@@ -21,13 +21,13 @@
 
 	<div class="form-group input-group date width-100">
           <label>Deadline</label>
-          <input  type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control" tabindex="2">
+          <input type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control project_deadline" tabindex="2">
         </div>
         
 	<div class="input-group form-group width-100">
  	  <input class="hidden_projectId" type="hidden" name="project_id" value=""> </input>
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" id="descriptionArea" name="projectDescription" rows="3" tabindex="3"></textarea>
+          <textarea class="form-control resizable-horizontal project_description" id="descriptionArea" name="projectDescription" rows="3" tabindex="3"></textarea>
         </div>
 
         <div class="text-center">

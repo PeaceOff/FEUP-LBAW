@@ -44,6 +44,14 @@
       return $stmt->fetchAll();
     }
 
+    function update_task_category($category, $task_id){
+      global $conn;
+
+      $stmt = $conn->prepare("UPDATE task SET (category) = (?) WHERE id = ?");
+      $stmt->execute(array($category, $task_id));
+    }
+
+ 
     function update_task($description, $category, $deadline,$task_id){
       global $conn;
 
@@ -56,5 +64,15 @@
 
       $stmt = $conn->prepare("DELETE FROM task  WHERE id = ?");
       $stmt->execute(array($task_id));
+    }
+
+    function get_task($task_id){
+      global $conn;
+
+      $stmt = $conn->prepare("SELECT * FROM task WHERE id = ?");
+      $stmt->execute(array($task_id));
+      return $stmt->fetch();
+	
+
     }
 ?>
