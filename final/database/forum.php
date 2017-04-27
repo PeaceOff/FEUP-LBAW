@@ -44,4 +44,11 @@
       $stmt = $conn->prepare("INSERT INTO topic (title, project_id, task_id, TYPE) VALUES (?,?,?,?)");
       $stmt->execute(array($title, $project_id, $task_id, $type));
     }
+
+    function delete_topic($topic_id){
+        global $conn;
+
+        $stmt = $conn->prepare("DELETE FROM topic WHERE topic.id = ?;");
+        $stmt->execute(array($topic_id));
+    }
 ?>

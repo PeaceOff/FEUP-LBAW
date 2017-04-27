@@ -50,11 +50,11 @@
         {foreach from=$forums item=forum}
         <tr>
           <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#forum_{$forum.id}">{$forum.name}</button>
+            <button class="btn btn-primary forum_button" data-toggle="modal" data-target="#forum_{$forum.id}">{$forum.name}</button>
           </td>
 	{if $isManager}
           <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#"><!-- TODO delete do forum-->
+            <a class="btn icon-link btn-danger btn-sm"  href="#">
               <i class="fa fa-trash"></i>
             </a>
           </td>

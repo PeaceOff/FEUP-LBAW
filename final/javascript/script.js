@@ -22,6 +22,12 @@ function addWarning(type, msg){
 	}, 2000);
 }
 
+function setupForumListeners() {
+
+    $('.forum_button').click(function() {
+        console.log("Forum Clicked");
+    });
+}
 
 function setupTodoListeners() {
 
@@ -297,6 +303,7 @@ $(document).ready(function(){
   if($(".view").length > 0) $("body").addClass('view');
 
   setupTodoListeners();
+  setupForumListeners();
   setupDatePickers();
   touch_addListener();
   toggler_addListener();

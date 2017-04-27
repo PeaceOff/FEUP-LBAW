@@ -8,8 +8,6 @@
 
     $collaborators = project_get_collaborators($project_id);
 
-    $forums = get_title_of_topic($project_id);
-
     $smarty->assign('managerName', project_get_id($project_id)['manager']);
     $smarty->assign('isManager', project_manager($_SESSION['username'], $project_id));
     $smarty->assign('project_id', $project_id);

@@ -1,7 +1,6 @@
 <?php
     include_once('../../config/init.php');
-    include_once($BASE_DIR .'database/project.php');
-
-    //TODO verificar se o utilizador tem permissões para ver este projeto
-    //TODO fazer set das variaveis
+    
+    $project_id = $_GET['project_id'];
+    $forums = get_title_of_topic($project_id);
 ?>
