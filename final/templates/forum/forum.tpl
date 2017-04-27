@@ -1,10 +1,28 @@
-<div id="{$forum.id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+<div id="forum_{$forum.id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
   <div class="modal-content ">
     <div class="modal-header text-center">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <h4 class="modal-title">{$forum.name}</h4>
     </div>
     <div class="modal-body">
+        <div class="panel panel-white post panel-shadow">
+            <div class="modal-header text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Add Post</h4>
+            </div>
+            <div class="modal-body">
+                <form  id ="addTopic-form" action="../../actions/forum/action_add_topic_post.php" method="post" style="display:block">
+                    <div class="form-group input-group width-100">
+                        <label for="topicName">Content</label>
+                        <input class="form-control" type="text" tabindex="1" id="post_content" name="post_content" value="" required="" autofocus="" >
+                        <input type="hidden" name="forum_id" value="{$forum.id}"> </input>
+                    </div>
+                    <div class="text-center">
+                        <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="3">
+                    </div>
+                </form>
+            </div>
+        </div>
       {foreach from=$forum.posts item=$post}
       <div class="panel panel-white post panel-shadow">
         <div class="post-heading">

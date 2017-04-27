@@ -50,7 +50,7 @@
         {foreach from=$forums item=forum}
         <tr>
           <td>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#{$forum.id}">{$forum.name}</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#forum_{$forum.id}">{$forum.name}</button>
           </td>
 	{if $isManager}
           <td class="align-right">
