@@ -256,11 +256,12 @@ function get_project_information(){
             		url: '../../api/get_project_info.php',
             		data: {'project_id' : id}
 		}).done(function(arg){
+			console.log(arg);
 			$('.project_folder').attr('value', arg['folder']['name']);
 			$('.project_description').html(arg['description']);
 			$('.project_deadline').attr('value', arg['deadline']);
 		}).fail(function(arg){
-			
+			console.log(arg);
 		});		
 	
 	});

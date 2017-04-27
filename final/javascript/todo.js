@@ -12,7 +12,7 @@ function todo_setTask_id(){
 
 function setup_information(){
 	$(".btn-assign-task-id").click(todo_setTask_id);
-
+	get_task_information();
 
 	$('.btn-delete-task').click(function(){
 		var task_id = $(this).attr('task_id'); 
