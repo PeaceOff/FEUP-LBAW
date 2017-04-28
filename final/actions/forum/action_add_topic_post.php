@@ -20,7 +20,7 @@
 	$content = $_POST['post_content'];
 	$topic_id = $_POST['forum_id'];
 
-	add_post($content, null, $topic_id, $username);
+	add_post($content, $topic_id, $username);
 
 	header('Location: ' . $_SERVER['HTTP_REFERER']);
 	exit();

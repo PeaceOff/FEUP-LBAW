@@ -1,3 +1,4 @@
+{foreach from=$forums item=forum}
 <div id="forum_{$forum.id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
   <div class="modal-content ">
     <div class="modal-header text-center">
@@ -11,8 +12,8 @@
                     <div class="form-group input-group width-100">
                         <label for="topicName">Write a new Post : </label>
                         <textarea class="form-control" type="text" tabindex="1" id="post_content" name="post_content" value="" required="" autofocus=""></textarea>
-                        <input type="hidden" name="forum_id" value="{$forum.id}"> </input>
-                        <input type="hidden" name="project_id" value="{$project_id}"> </input>
+                        <input type="hidden" name="forum_id" value="{$forum.id}">
+                        <input type="hidden" name="project_id" value="{$project_id}">
                     </div>
                     <div class="text-center">
                         <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="3">
@@ -23,7 +24,7 @@
     </div>
   </div>
 </div>
-
+{/foreach}
 <script id="forum_tmpl" type="text/x-jsrender">{literal}
 <div class="panel panel-white post panel-shadow">
     <div class="post-heading">

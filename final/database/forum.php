@@ -31,11 +31,11 @@
       $stmt->execute(array($message, $date, $post_id, $commenter));
     }
 
-    function add_post($content, $date, $topic_id, $poster){
+    function add_post($content, $topic_id, $poster){
       global $conn;
 
-      $stmt = $conn->prepare("INSERT INTO post (content, date, topic_id, poster) VALUES (?,?,?,?)");
-      $stmt->execute(array($content, $date, $topic_id, $poster));
+      $stmt = $conn->prepare("INSERT INTO post (content, date , topic_id, poster) VALUES (?,CURRENT_DATE,?,?)");
+      $stmt->execute(array($content, $topic_id, $poster));
     }
 
     function add_topic($title, $project_id, $task_id, $type){

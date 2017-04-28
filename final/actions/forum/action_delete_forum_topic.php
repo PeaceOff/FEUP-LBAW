@@ -9,7 +9,6 @@
     }
 
     $username = $_SESSION['username'];
-
     $project_id = $_POST['project_id'];
 
     if(!project_manager($username,$project_id)){
@@ -19,8 +18,5 @@
 
     $topic_id = $_POST['topic_id'];
 
-    delete_topic($topic_id);
-
-    header('Location: ' . $_SERVER['HTTP_REFERER']);
-    exit();
+    echo json_encode(delete_topic($topic_id));
 ?>

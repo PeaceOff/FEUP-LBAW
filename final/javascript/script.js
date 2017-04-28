@@ -1,6 +1,6 @@
 
 function createWarningBox(){
-	
+
 	var e = $(document.createElement('div'));
 	e.addClass('box-alerts');
 	$('body').append(e);
@@ -21,6 +21,7 @@ function addWarning(type, msg){
 		e.remove();
 	}, 2000);
 }
+
 function addUser(username){
 	var element = $('.template tr').clone(true);
 	console.log(element.html());
@@ -30,11 +31,35 @@ function addUser(username){
 	$('#project-users tbody').append(element);
 
 }
+
 function setupForumListeners() {
 
-    $('.forum_button').click(function() {
+    $('.forum_button').click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
         console.log("Forum Clicked");
+        //TODO listar os posts do forum
     });
+
+    $('.delete_topic_button').click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
+
+        var proj_id = location.search.replace('?', '').split('=')[1];
+        var topic_id = $(this).parent().prev().children("button").attr("data-target");
+        topic_id = topic_id.replace('#forum_','');
+
+        var elem = $(this);
+
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: '../../actions/forum/action_delete_forum_topic.php',
+            data: {'topic_id' : topic_id, 'project_id' : proj_id}
+        }).done(function(data) {
+
+            elem.parent().parent().remove();
+
+        }).fail(function() {
+            // TODO handle failure
+        });
+	});
 }
 
 function clearAll(){
@@ -43,84 +68,46 @@ function clearAll(){
 	$('#Done').empty();
 }
 
+function category_ajax_call(category) {
+
+	var string = "#" + category;
+    var elem = $(string);
+
+    var proj_id = location.search.replace('?', '').split('=')[1];
+
+    $.ajax({
+        type: "post",
+        dataType: "json",
+        url: '../../api/get_task_by_category.php',
+        data: {'category' : category, 'project_id' : proj_id}
+    }).done(function(data) {
+
+        var template = $.templates("#api_tmpl");
+        var htmlOutput = template.render(data);
+        elem.html(htmlOutput);
+        setup_information();
+    }).fail(function() {
+        // TODO handle failure
+    });
+}
+
 function setupTodoListeners() {
 
     $('#To-Do_button').click(function() {
-       clearAll(); 
-	var elem = $('#To-Do');
-        
-        if(elem.children().length > 0)
-            return;
-        
-        var proj_id = location.search.replace('?', '').split('=')[1];
-
-        $.ajax({
-            type: "post",
-            dataType: "json",
-            url: '../../api/get_task_by_category.php',
-            data: {'category' : "To-Do", 'project_id' : proj_id}
-        }).done(function(data) {
-
-            var template = $.templates("#api_tmpl");
-	    var htmlOutput = template.render(data);
-	    elem.html(htmlOutput);
-		setup_information();
-        }).fail(function() {
-            // TODO handle failure
-        });
-
+       clearAll();
+       category_ajax_call("To-Do");
     });
 
     $('#Doing_button').click(function() {
         
-       clearAll(); 
-	var elem = $('#Doing');
-        
-        if(elem.children().length > 0)
-            return;
-        
-        var proj_id = location.search.replace('?', '').split('=')[1];
-
-        $.ajax({
-            type: "post",
-            dataType: "json",
-            url: '../../api/get_task_by_category.php',
-            data: {'category' : "Doing", 'project_id' : proj_id}
-        }).done(function(data) {
-
-            var template = $.templates("#api_tmpl");
-	    var htmlOutput = template.render(data);
-	    elem.html(htmlOutput);
-		setup_information();
-        }).fail(function() {
-            // TODO handle failure
-        });
+       clearAll();
+       category_ajax_call("Doing");
     });
 
     $('#Done_button').click(function() {
         
-       clearAll(); 
-	var elem = $('#Done');
-
-        if(elem.children().length > 0)
-            return;
-        
-        var proj_id = location.search.replace('?', '').split('=')[1];
-
-        $.ajax({
-            type: "post",
-            dataType: "json",
-            url: '../../api/get_task_by_category.php',
-            data: {'category' : "Done", 'project_id' : proj_id}
-        }).done(function(data) {
-			console.log(data);
-            var template = $.templates("#api_tmpl");
-            var htmlOutput = template.render(data);
-	    elem.html(htmlOutput);
-		setup_information();
-        }).fail(function() {
-            // TODO handle failure
-        });
+       clearAll();
+       category_ajax_call("Done");
     });
 }
 
@@ -178,8 +165,6 @@ function remove_document(){
 				type: "POST",
 				url: "../../actions/project/action_delete_document.php",
 				data: {project_id: $_GET('project_id'), document_id: documentId}
-			}).done(function(arg){
-				console.log(arg);
 			});
 
 			$(this).parent().remove();
@@ -232,12 +217,45 @@ function get_task_information(){
             		url: '../../api/get_task_info.php',
             		data: {'task_id' : task_id}
 		}).done(function(arg){
-			console.log(arg);
 			$('.task_description').html(arg['description']);
 			$('.task_deadline').attr('value', arg['deadline']);
 			$('.task_category').attr('value', arg['category']);
 		}).fail(function(arg){
 			console.log("Error = " + arg);
+		});		
+	
+	});
+}
+
+
+function delete_notification(){
+
+	$('.btn_delete_notification').click(function() {
+		var notification_id = $(this).attr('notification_id');		
+		$.ajax({
+            		type: "POST",
+            		url: "../../actions/profile/action_delete_notification.php",
+			data: { 'notification_id': notification_id}
+		}).done(function(){
+			addWarning('success','Notification deleted!');
+		}).fail(function(){
+			addWarning('warning','Problem deleting notification');
+		});		
+	
+	});
+}
+
+function delete_all_notifications(){
+
+	$('.btn_delete_all_notifications').click(function() {		
+		$.ajax({
+            		type: "POST",
+            		url: "../../actions/profile/action_delete_all_notifications.php",
+			data: {}
+		}).done(function(){
+			addWarning('success','Notification deleted!');
+		}).fail(function(){
+			addWarning('warning','Problem deleting notification');
 		});		
 	
 	});
@@ -364,6 +382,8 @@ $(document).ready(function(){
   remove_user();
   remove_project();
   remove_document();
+  delete_notification();
+  delete_all_notifications();
   get_project_information();
   get_task_information();
   update_project();

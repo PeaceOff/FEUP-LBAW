@@ -8,7 +8,7 @@
       <div class="notification-heading">
         <h4 class="notifications-title">Notifications</h4>
         {if $notification_number != 0}
-        <a href="#"> <h4 class="notifications-title pull-right">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a><!--TODO delete das notificacoes-->
+        <a href="#" notification_id={$notification.id} class="btn_delete_all_notifications"> <h4 class="notifications-title pull-right ">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a><!--TODO delete das notificacoes-->
         {/if}
       </div>
     </li>
@@ -24,7 +24,7 @@
             <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a><!--TODO accept invite-->
             <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a><!--TODO decline invite-->
             {else}
-            <a><i class="fa fa-check fa-2x" aria-hidden="true"></i>  </a> <!--Delete notification-->
+            <a class="btn_delete_notification" notification_id={$notification.id}><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a> <!--Delete notification-->
             {/if}
           </div>
         </div>

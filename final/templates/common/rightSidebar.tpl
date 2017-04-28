@@ -62,20 +62,20 @@
     </ul>
     <div id="project-forum" class="collapse in">
       <table  class="table table-condensed table-style ">
-        {foreach from=$forums item=forum}
+{foreach from=$forums item=forum}
         <tr>
           <td>
             <button class="btn btn-primary forum_button" data-toggle="modal" data-target="#forum_{$forum.id}">{$forum.name}</button>
           </td>
 	{if $isManager}
           <td class="align-right">
-            <a class="btn icon-link btn-danger btn-sm"  href="#">
+            <a class="btn icon-link btn-danger btn-sm delete_topic_button">
               <i class="fa fa-trash"></i>
             </a>
           </td>
 	{/if}
         </tr>
-        {/foreach}
+{/foreach}
       </table>
     </div>
 </div>
