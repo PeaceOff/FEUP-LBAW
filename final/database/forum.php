@@ -40,7 +40,7 @@
       if(!$stmt->rowCount() > 0) {
           return false;
       }
-      return $conn->lastInsertId();
+      return $conn->lastInsertId('post_id_seq');
     }
 
     function add_topic($title, $project_id, $task_id, $type){

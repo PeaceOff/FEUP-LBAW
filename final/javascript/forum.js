@@ -26,7 +26,7 @@ function setupForumListeners() {
     });
 */
 
-    $('.forum_button').click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
+    $('.forum_button').unbind().click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
 
         var elem = $(this);
         var forum_id = elem.attr("data-target");
@@ -53,7 +53,7 @@ function setupForumListeners() {
 
     });
 
-    $('.delete_topic_button').click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
+    $('.delete_topic_button').unbind().click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
 
         var elem = $(this);
         var proj_id = location.search.replace('?', '').split('=')[1];
@@ -80,7 +80,9 @@ function setupForumListeners() {
 
 function setupPostListeners() {
 
-    $('#addPost-form').find('#post_content').keypress(function (e) {
+    setupComments();
+
+    $('#addPost-form').find('#post_content').unbind().keypress(function (e) {
         var key = e.which;
         if(key == 13)  // the enter key code
         {
@@ -89,7 +91,7 @@ function setupPostListeners() {
         }
     });
 
-    $('#addPost-form').submit(function() {
+    $('#addPost-form').unbind().submit(function() {
 
         var elem = $(this);
         var post_content = elem.find('#post_content').val();
@@ -112,8 +114,8 @@ function setupPostListeners() {
                 var template = $.templates("#post_tmpl");
                 var htmlOutput = template.render(data);
                 $(posts).prepend(htmlOutput);
+                setupComments();
 
-                setupPostListeners();
 
             } else {
                 addWarning('warning','Could not create post please try again later.');
@@ -128,8 +130,11 @@ function setupPostListeners() {
         return false;
 
     });
+}
 
-    $('.show_comments_button').click(function() {
+function setupComments() {
+
+    $('.show_comments_button').unbind().click(function() {
 
         var elem = $(this);
 
@@ -159,7 +164,7 @@ function setupPostListeners() {
         });
     });
 
-    $('.add_comment_input').keypress(function (e) {
+    $('.add_comment_input').unbind().keypress(function (e) {
         var key = e.which;
         if(key == 13)  // the enter key code
         {
@@ -168,7 +173,7 @@ function setupPostListeners() {
         }
     });
 
-    $('.add_comment_button').click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
+    $('.add_comment_button').unbind().click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
 
         var elem = $(this);
         var proj_id = location.search.replace('?', '').split('=')[1];
@@ -194,6 +199,7 @@ function setupPostListeners() {
 
         });
     });
+
 }
 
 function clearAll(){
