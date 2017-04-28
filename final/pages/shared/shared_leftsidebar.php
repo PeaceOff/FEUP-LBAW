@@ -31,4 +31,5 @@
 
     $smarty->assign('folders', $folders);
     $smarty->display('common/leftSidebar.tpl');
+    $smarty->display('profile/addFolder-form.tpl');
 ?>

@@ -20,8 +20,18 @@
 	$content = $_POST['post_content'];
 	$topic_id = $_POST['forum_id'];
 
-	add_post($content, $topic_id, $username);
+	$id = add_post($content, $topic_id, $username);
 
-	header('Location: ' . $_SERVER['HTTP_REFERER']);
-	exit();
+	if(!$id){
+		exit();
+	}
+
+	$result['id'] = $id;
+	$result['content'] = $content;
+	$result['poster'] = $username;
+	date_default_timezone_set('Europe/Lisbon');
+	$date = date('Y/m/d H:i', time());
+	$result['date'] = $date;
+
+	echo json_encode($result);
 ?>

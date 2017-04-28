@@ -11,6 +11,7 @@
 		foreach($result as $value){
 			$data['description'] = $value['description'];
 			$data['time'] = $value['time'];
+			$data['id'] = $value['notification_id'];
 
 			if(strcmp($value['type'],'Invite') == 0 )
 				$data['invite'] = true;

@@ -57,12 +57,14 @@
       global $conn;
       $stmt = $conn->prepare("DELETE FROM notification WHERE id = ? ");
       $stmt->execute(array($notification_id));
+      return $stmt->rowCount() > 0;
     }
 
     function user_delete_all_notifications($username){
       global $conn;
       $stmt = $conn->prepare("DELETE FROM notification WHERE notificated = ? ");
       $stmt->execute(array($username));
+      return $stmt->rowCount() > 0;
     }
 
     function user_get_statistics($username){

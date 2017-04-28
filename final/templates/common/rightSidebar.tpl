@@ -79,7 +79,8 @@
       </table>
     </div>
 </div>
-{include file='forum/forum.tpl'}
+ {include file='forum/forum.tpl'}
+
 <script>
     $(document).ready(function () {
         var get_vars = window.location.search.substring(1);

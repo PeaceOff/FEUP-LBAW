@@ -25,12 +25,35 @@ body.view {
 .box-alerts{
 	position:fixed;
 	top:50px;
+	transform: scaleY(-1);
 	bottom:0;
 	left: 210px;
 	right: 210px;
 	pointer-events: none;
 }
 
+.box-alerts *{
+	animation: Suave 2s infinite;
+	transform: scaleY(-1);
+}
+
+@keyframes Suave{
+	0%,100% {
+		opacity:0;
+	}
+	
+	10%, 80% {
+		opacity:1;
+		height:50px;
+		margin:10px;
+		padding:10px;
+	}
+	100%{
+		padding: 0px;
+		margin: 0px;
+		height: 0px;
+	}
+}
 
 .template{
 	visibility:hidden;
@@ -522,6 +545,7 @@ div.selectable:not(:target){
   visibility: hidden;
 }
 
+
 /* Dropzone */
 
 .dropzone {
@@ -675,3 +699,6 @@ div.selectable:not(:target){
 .link-no-style:link{
    text-decoration: none;
 }
+
+
+

@@ -5,7 +5,7 @@
   </div>
 
   {foreach from=$notifications item=notification}
-    <div class="notification-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="notification-item col-lg-4 col-md-4 col-sm-12 col-xs-12" notification_id="{$notification.id}">
       <h4 class="item-title">{$notification.description}</h4>
       <p class="item-info">{$notification.time}</p>
       <div class="notification-links pull-right">
@@ -13,7 +13,7 @@
         <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a><!--TODO accept invite-->
         <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a><!--TODO decline invite-->
         {else}
-        <a class="btn_delete_notification" notification_id={$notification.id}><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a> <!--Delete notification-->
+        <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a> <!--Delete notification-->
         {/if}
       </div>
     </div>
@@ -48,7 +48,7 @@
         <div class="desc">{$project.description}</div>
       <div class="bottom">
 	  <input type="hidden" class="project_id" value='{$project.id}'>
-          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" project_id='{$project.id}' href="" data-toggle="modal" data-target ="#editProject">
+          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" project_id="{$project.id}" href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm link_deleteProject" rel="publisher" >
@@ -78,10 +78,11 @@
         </div>
         <div class="desc">{$collaboration.description}</div>
       <div class="bottom">
+          <input type="hidden" class="project_id" value='{$collaboration.id}'>
           <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" href="" data-toggle="modal" data-target ="#editProject">
             <i class="fa fa-pencil"></i>
           </a>
-          <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+          <a class="btn icon-link btn-danger btn-sm link_deleteCollaboration" rel="publisher" >
             <i class="fa fa-trash"></i>
           </a>
         </div>

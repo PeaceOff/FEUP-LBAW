@@ -12,7 +12,7 @@
                 <div class="form-group input-group width-100">
                     <label for="topicName">Name</label>
                     <input class="form-control" type="text" tabindex="1" id="topicName" name="topicName" value="" required="" autofocus="" >
-                    <input type="hidden" name="project_id" value="{$project_id}"> </input>
+                    <input type="hidden" id="addTopic_project_id" name="project_id" value="{$project_id}"> </input>
                 </div>
 
                 <div class="text-center">

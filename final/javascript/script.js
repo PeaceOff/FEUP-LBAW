@@ -32,85 +32,6 @@ function addUser(username){
 
 }
 
-function setupForumListeners() {
-
-    $('.forum_button').click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
-        console.log("Forum Clicked");
-        //TODO listar os posts do forum
-    });
-
-    $('.delete_topic_button').click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
-
-        var proj_id = location.search.replace('?', '').split('=')[1];
-        var topic_id = $(this).parent().prev().children("button").attr("data-target");
-        topic_id = topic_id.replace('#forum_','');
-
-        var elem = $(this);
-
-        $.ajax({
-            type: "post",
-            dataType: "json",
-            url: '../../actions/forum/action_delete_forum_topic.php',
-            data: {'topic_id' : topic_id, 'project_id' : proj_id}
-        }).done(function(data) {
-
-            elem.parent().parent().remove();
-
-        }).fail(function() {
-            // TODO handle failure
-        });
-	});
-}
-
-function clearAll(){
-	$('#To-Do').empty();
-	$('#Doing').empty();
-	$('#Done').empty();
-}
-
-function category_ajax_call(category) {
-
-	var string = "#" + category;
-    var elem = $(string);
-
-    var proj_id = location.search.replace('?', '').split('=')[1];
-
-    $.ajax({
-        type: "post",
-        dataType: "json",
-        url: '../../api/get_task_by_category.php',
-        data: {'category' : category, 'project_id' : proj_id}
-    }).done(function(data) {
-
-        var template = $.templates("#api_tmpl");
-        var htmlOutput = template.render(data);
-        elem.html(htmlOutput);
-        setup_information();
-    }).fail(function() {
-        // TODO handle failure
-    });
-}
-
-function setupTodoListeners() {
-
-    $('#To-Do_button').click(function() {
-       clearAll();
-       category_ajax_call("To-Do");
-    });
-
-    $('#Doing_button').click(function() {
-        
-       clearAll();
-       category_ajax_call("Doing");
-    });
-
-    $('#Done_button').click(function() {
-        
-       clearAll();
-       category_ajax_call("Done");
-    });
-}
-
 function addShow(index){
   var target = $(this).attr("target");
 
@@ -168,25 +89,43 @@ function remove_document(){
 			});
 
 			$(this).parent().remove();
-
 	});
+
 }
 
 function remove_project(){
 
 	$('.link_deleteProject').click(function() {
-			var projectId= $(this).parent().find('.project_id').val();
+        var projectId= $('.link_deleteProject').parent().find('.project_id').val();
+        handleRemoveProject(projectId,true, "Project deleted",$(this));
+        }
+	);
 
-			$.ajax({
-				type: "POST",
-				url: "../../actions/profile/action_delete_project.php",
-				data: {project_id: projectId}
-			});
-
-			$(this).parent().parent().remove();
-
-	});
+    $('.link_deleteCollaboration').click(function() {
+        var projectId= $('.link_deleteCollaboration').parent().find('.project_id').val();
+        handleRemoveProject(projectId,false, "Collaboration deleted",$(this));
+    });
 }
+
+function handleRemoveProject(projectId, is_owner,message,context) {
+
+    $.ajax({
+        type: "POST",
+        url: "../../actions/profile/action_delete_project.php",
+        data: {project_id: projectId, isOwner: is_owner}
+    }).done(function(arg){
+        var obj = JSON.parse(arg);
+		console.log(obj);
+        if(obj.success) {
+            addWarning("success","Success: " + message);
+            context.parent().parent().remove();
+        }else{
+            addWarning("warning", "Error: " + message);
+		}
+    });
+}
+
+
 
 
 
@@ -231,14 +170,23 @@ function get_task_information(){
 function delete_notification(){
 
 	$('.btn_delete_notification').click(function() {
-		var notification_id = $(this).attr('notification_id');		
+		var notification_id = $(this).attr('notification_id'); 
+		var toDelete = $('.notification-item[notification_id="'+notification_id+'"');
+		var bell = $('.badge.badge-notify');
+		bell.html(Number(bell.html())-1);
+		toDelete.css("visibility",'hidden');
+		toDelete.css("position",'fixed');
 		$.ajax({
             		type: "POST",
-            		url: "../../actions/profile/action_delete_notification.php",
+            		url: "../../actions/profile///action_delete_notification.php",
 			data: { 'notification_id': notification_id}
 		}).done(function(){
 			addWarning('success','Notification deleted!');
+			toDelete.remove();
 		}).fail(function(){
+			bell.html(Number(bell.html())+1);
+			toDelete.css('visibility','visible');
+			toDelete.css("position",'relative');
 			addWarning('warning','Problem deleting notification');
 		});		
 	
@@ -248,14 +196,23 @@ function delete_notification(){
 function delete_all_notifications(){
 
 	$('.btn_delete_all_notifications').click(function() {		
+		var toDelete = $('.notification-item');
+		var bell = $('.badge.badge-notify');
+		var oldValue = bell.html();
+		toDelete.css("visibility",'hidden');
+		toDelete.css("position",'fixed');
+		bell.html("0");
 		$.ajax({
             		type: "POST",
-            		url: "../../actions/profile/action_delete_all_notifications.php",
-			data: {}
+            		url: "../../actions/profile/action_delete_all_notifications.php"
 		}).done(function(){
-			addWarning('success','Notification deleted!');
+			addWarning('success','All notifications deleted!');
+			toDelete.remove();
 		}).fail(function(){
-			addWarning('warning','Problem deleting notification');
+			bell.html(oldValue);
+			toDelete.css('visibility','visible');
+			toDelete.css("position",'relative');
+			addWarning('warning','Problem deleting all notifications');
 		});		
 	
 	});
@@ -285,22 +242,6 @@ function get_project_information(){
 	});
 }
 
-
-function update_project(){
-	$('.link_update_project').click(function() {
-		
-			$.ajax({
-				type: "POST",
-				url: "../../actions/profile/action_edit_project.php",
-				data: {project_id: projectId}
-			}).done(function(arg){	
-				addWarning('success','Project updated!');
-			}).fail(function(){
-				addWarning('warning','Updated failed');
-			});
-
-		});
-}
 
 
 function add_user(){
@@ -386,7 +327,6 @@ $(document).ready(function(){
   delete_all_notifications();
   get_project_information();
   get_task_information();
-  update_project();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);

@@ -10,7 +10,10 @@
 
 	$username = $_SESSION['username'];
 	
-	user_delete_all_notification($username);
+	if(!user_delete_all_notifications($username)){
+		http_response_code(401);
+		exit();
+	}
 
 	header('Location: ../../pages/profile/personalPage.php');
 	exit();

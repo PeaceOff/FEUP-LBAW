@@ -98,7 +98,7 @@
   //project_folder
   function project_change_folder($project_id, $folder_id){
     global $conn;
-    $stmt = $conn->prepare("INSERT INTO folder_project(poject_id,folder_id) VALUES (?, ?)");
+    $stmt = $conn->prepare("INSERT INTO folder_project(project_id,folder_id) VALUES (?, ?)");
     $stmt->execute(array($project_id, $folder_id));
   }
 
@@ -107,6 +107,14 @@
     $stmt = $conn->prepare("DELETE FROM folder_project WHERE project_id = ? AND folder_id=?");
     $stmt->execute(array($project_id, $folder_id));
   }
+
+  function project_get_old_folder($project_id, $username){
+    global $conn;
+    $stmt = $conn->prepare("SELECT id FROM folder, folder_project WHERE folder_id = id AND project_id = ? AND username = ?");
+    $stmt->execute(array($project_id, $username));
+    return $stmt->fetch();
+  }
+
 
   //document
   function project_add_document($project_id ,$name, $description, $type, $path){

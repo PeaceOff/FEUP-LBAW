@@ -9,17 +9,17 @@
 
         <div class="form-group ">
           <label for="projectName">Name</label>
-          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="" autofocus="">
+          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="" autofocus="" required>
         </div>
 
 	<div class="form-group input-group date width-100">
           <label>Deadline</label>
-          <input  type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control" tabindex="2">
+          <input  type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control" tabindex="2" required>
         </div>
 
 	<div class="input-group form-group width-100">
           <label for="descriptionArea">Description</label>
-          <textarea class="form-control resizable-horizontal" name="projectDescription" id="descriptionArea" rows="3" tabindex="3"></textarea>
+          <textarea class="form-control resizable-horizontal" name="projectDescription" id="descriptionArea" rows="3" tabindex="3" required></textarea>
         </div>
         		
 	<div class="text-center">
