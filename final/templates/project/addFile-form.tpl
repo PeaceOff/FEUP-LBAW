@@ -5,17 +5,16 @@
       <h4  class="modal-title">Upload file</h4>
     </div>
     <div class="modal-body">
-      <form  id ="uploadFile" action="../../actions/project/action_add_document.php" method="post" class = "dropzone" enctype="multipart/form-data">
+      <form  id ="uploadFile" action="../../actions/project/action_add_document.php" method="post" class = "dropzone" enctype="multipart/form-data" >
         
-	<div class="dropzone-previews form-group fallback div_dropzone">
+	<div class="dropzone-previews form-group fallback">
           <input name="file" type="file" multiple />
           <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
-        </div>
-
+       	 </div>
+	
       </form>
-
-      <div class="text-center form-group btn_add_document">
-        <input class="btn btn-success" type="submit" tabindex="2" name="upload" value="Upload" required="">
+      <div class="text-center form-group ">
+        <input class="btn btn-success" id="btn_upload_file" type="submit" tabindex="2" name="upload" value="Upload" required="">
       </div>
       
     </div>

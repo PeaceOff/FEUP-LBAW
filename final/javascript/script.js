@@ -24,8 +24,10 @@ function addWarning(type, msg){
 
 function addUser(username){
 	var element = $('.template tr').clone(true);
-	console.log(element.html());
-	console.log($('.template tr').html());
+
+	//console.log(element.html());
+	//console.log($('.template tr').html());
+
 	element.find('.template_name').html(username);
 	element.find('.link_removeUser').attr('username',username);
 	$('#project-users tbody').append(element);
@@ -118,7 +120,7 @@ function handleRemoveProject(projectId, is_owner,message,context) {
 		console.log(obj);
         if(obj.success) {
             addWarning("success","Success: " + message);
-            context.parent().parent().remove();
+            context.parent().parent().parent().remove();
         }else{
             addWarning("warning", "Error: " + message);
 		}
@@ -242,26 +244,58 @@ function get_project_information(){
 	});
 }
 
+function get_collaboration_information(){
+
+    $('.btn_collaboration_edit').click(function() {
+        var id = $(this).attr('collaboration_id');
+        $('.hidden_collaboration_id').attr('value',id);
+
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: '../../api/get_project_info.php',
+            data: {'project_id' : id}
+        }).done(function(arg){
+            console.log(arg);
+            $('.project_folder').attr('value', arg['folder']['name']);
+        }).fail(function(arg){
+            console.log(arg);
+        });
+
+    });
+}
+
 
 
 function add_user(){
+
 	$('#form-addUser').keypress(function(e) {
+
+		var elem = $(this);
 		key = (e.keyCode)? e.keyCode : e.charCode;
 		if( key == 13){
-			console.log("HERE");
-			var username = $(this).val();
-			$.ajax({
-				type: "POST",
-				url: "../../actions/project/action_add_user.php",
-				data: { username: username, project_id: $_GET('project_id')}
-			}).done(function(arg){
-				addWarning('success','User successfully added!');
-				addUser(username);
-			}).fail(function(){
-				addWarning('warning','User NOT Found!');
-			});
+			elem.prev().click();
+			return false;
 		}
 	});
+
+    $('#form-addUser').prev().click(function() {
+
+        var elem = $('#form-addUser');
+		var username = elem.val();
+
+		$.ajax({
+			type: "POST",
+			url: "../../actions/project/action_add_user.php",
+			data: { username: username, project_id: $_GET('project_id')}
+		}).done(function(arg){
+			addWarning('success','User successfully added!');
+			addUser(username);
+			elem.val("");
+		}).fail(function(){
+			addWarning('warning','User NOT Found!');
+		});
+    });
 }
 
 
@@ -326,6 +360,7 @@ $(document).ready(function(){
   delete_notification();
   delete_all_notifications();
   get_project_information();
+  get_collaboration_information();
   get_task_information();
   setTimeout(function(){
     $("body").removeClass("preload");
@@ -334,5 +369,5 @@ $(document).ready(function(){
   $('.hide-actor').each(addShow);
 
 });
-Dropzone.options.autoProcessQueue = false; // this way files we only be uploaded whrn we call myDropzone.processQueue()
+Dropzone.options.autoProcessQueue = false; // this way files will only be uploaded when we call myDropzone.processQueue()
 Dropzone.options.addRemoveLinks = true;

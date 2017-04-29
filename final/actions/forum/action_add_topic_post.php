@@ -30,8 +30,9 @@
 	$result['content'] = $content;
 	$result['poster'] = $username;
 	date_default_timezone_set('Europe/Lisbon');
-	$date = date('Y/m/d H:i', time());
+	$date = date('Y/m/d H:i:s', time());
 	$result['date'] = $date;
 
 	echo json_encode($result);
+	exit();
 ?>

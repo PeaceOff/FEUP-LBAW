@@ -7,5 +7,9 @@
 
     $comments = get_comments_of_post($post_id);
 
+    foreach ($comments as &$comment) {
+        $comment['date'] = preg_replace('/\.[0-9]*/','',$comment['date']);
+    }
+
     echo json_encode($comments);
 ?>

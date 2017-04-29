@@ -79,7 +79,7 @@
         <div class="desc">{$collaboration.description}</div>
       <div class="bottom">
           <input type="hidden" class="project_id" value='{$collaboration.id}'>
-          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_project_edit" href="" data-toggle="modal" data-target ="#editProject">
+          <a class="btn icon-link btn-primary btn-twitter btn-sm  btn_collaboration_edit" href="" collaboration_id="{$collaboration.id}" data-toggle="modal" data-target ="#editCollaboration">
             <i class="fa fa-pencil"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm link_deleteCollaboration" rel="publisher" >

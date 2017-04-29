@@ -89,7 +89,7 @@
         {
             var param_name = single_vars[i].split('=');
             if (param_name[0] == "forum")
-                $("#"+param_name[1]).modal('show');
+                $("#forum_"+param_name[1]).modal('show');
         }
     });
 </script>

@@ -42,6 +42,7 @@ function setupForumListeners() {
 
             var template = $.templates("#post_tmpl");
             var htmlOutput = template.render(data);
+
             $(posts).html(htmlOutput);
             setupPostListeners();
 
@@ -191,7 +192,7 @@ function setupComments() {
             elem.prev().val("");
             var template = $.templates("#comments_tmpl");
             var htmlOutput = template.render(data);
-            elem.parent().next('ul').prepend(htmlOutput);
+            elem.parent().next('ul').append(htmlOutput);
 
         }).fail(function() {
 

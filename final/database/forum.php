@@ -27,14 +27,14 @@
     function add_comment($message, $post_id, $commenter){
       global $conn;
 
-      $stmt = $conn->prepare("INSERT INTO comment (message, date, post_id, commenter) VALUES (?,CURRENT_DATE ,?,?)");
+      $stmt = $conn->prepare("INSERT INTO comment (message, date, post_id, commenter) VALUES (?,CURRENT_TIMESTAMP ,?,?)");
       $stmt->execute(array($message, $post_id, $commenter));
     }
 
     function add_post($content, $topic_id, $poster){
       global $conn;
 
-      $stmt = $conn->prepare("INSERT INTO post (content, date , topic_id, poster) VALUES (?,CURRENT_DATE,?,?)");
+      $stmt = $conn->prepare("INSERT INTO post (content, date , topic_id, poster) VALUES (?,CURRENT_TIMESTAMP ,?,?)");
       $stmt->execute(array($content, $topic_id, $poster));
 
       if(!$stmt->rowCount() > 0) {

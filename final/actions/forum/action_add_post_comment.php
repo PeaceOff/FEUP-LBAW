@@ -24,7 +24,7 @@
 
     $result['commenter'] = $username;
     date_default_timezone_set('Europe/Lisbon');
-    $date = date('Y/m/d H:i', time());
+    $date = date('Y/m/d H:i:s', time());
     $result['date'] = $date;
     $result['message'] = $content;
 

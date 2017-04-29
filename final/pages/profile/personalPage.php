@@ -34,6 +34,7 @@
 
     $smarty->display('profile/addProject-form.tpl');
     $smarty->display('profile/editProject-form.tpl');
+    $smarty->display('profile/editCollaboration-form.tpl');
     $smarty->display('profile/personalPage.tpl');
     $smarty->display('common/footer.tpl');
 ?>
