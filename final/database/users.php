@@ -6,6 +6,13 @@
       $stmt->execute(array($username, $email, $password));
     }
 
+    function user_exists($username) {
+      global $conn;
+      $stmt = $conn->prepare("SELECT 1 FROM final.user WHERE username = ?");
+      $stmt->execute(array($username, $email, $password));
+      return $stmt->rowCount() > 0;
+    }
+
     function get_user_by_username($username) {
       global $conn;
       $stmt = $conn->prepare("SELECT username,password FROM final.user WHERE username = ?");

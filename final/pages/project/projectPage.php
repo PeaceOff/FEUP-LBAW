@@ -34,6 +34,22 @@
 		array_push($documents, $document);
     }
 
+    if($project['start'] != null && $project['deadline'] != null) {
+        //Date operations
+        $today = strtotime(date("Y-m-d"));
+        $deadline_t = strtotime($project['deadline']);
+        $start_t = strtotime($project['start']);
+        $diff_total = $deadline_t - $start_t;
+        $diff_parcial = $today - $start_t;
+
+        if($diff_parcial == 0){
+            $percent_complete = 0;
+        } else {
+            $percent_complete = ($diff_parcial / $diff_total) * 100;
+        }
+    }
+
+    $smarty->assign('percent_complete',$percent_complete);
     $smarty->assign('project', $project);
     $smarty->assign('links', $links);
     $smarty->assign('documents', $documents);

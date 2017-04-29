@@ -7,6 +7,10 @@
   $username = trim($username);
   $username = strtolower($username);
 
+  if(preg_match("/^up*/", $username)){
+      	header("Location: " . $_SERVER['HTTP_REFERER']);
+	die();
+  }
   $password = password_hash($_POST['password'] , PASSWORD_DEFAULT);
   $email = $_POST['email'];
 

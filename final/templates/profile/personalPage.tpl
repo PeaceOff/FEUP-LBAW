@@ -3,12 +3,12 @@
   <div class="page-header">
     <h2> Pending Notifications </h2>
   </div>
-
+  <div class="notification-container">
   {foreach from=$notifications item=notification}
     <div class="notification-item col-lg-4 col-md-4 col-sm-12 col-xs-12" notification_id="{$notification.id}">
       <h4 class="item-title">{$notification.description}</h4>
       <p class="item-info">{$notification.time}</p>
-      <div class="notification-links pull-right">
+      <div class="notification-links notification-mark  pull-right">
         {if $notification.invite}
         <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a><!--TODO accept invite-->
         <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a><!--TODO decline invite-->
@@ -18,7 +18,7 @@
       </div>
     </div>
   {/foreach}
-
+  </div>
 </div>
 
 <div class="container">

@@ -104,29 +104,15 @@
         <div class="jumbotron">
           <a  href="../../pages/todo/todoPage.php?project_id={$project.id}#To-Do" > <img src="../../images/todo.png" class="img-responsive img-circle center-block" width="200"> </a>
         </div>
-
-
       </div>
-
       <!-- Progress Bar -->
       <div class="container text-center">
-        Deadline : {$project.deadline}
+        Start : {$project.start} | Deadline : {$project.deadline}
         <div class="progress" id="progress-bar-div">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+          <div class="progress-bar" role="progressbar" aria-valuenow="{$percent_complete}" aria-valuemin="0" aria-valuemax="100" style="width: {$percent_complete}%;">
             <span class="sr-only">{$percent_complete}% Complete</span>
           </div>
         </div>
       </div>
-      <script>
-
-      $(document).ready(function () {
-
-        var percent = 65;
-        $("#progress-bar-div").children(".progress-bar").attr("aria-valuenow",percent);
-        $("#progress-bar-div").children(".progress-bar").width(percent+"%");
-        $("#progress-bar-div").children(".progress-bar").children(".sr-only").html(percent + "% complete");
-      });
-
-      </script>
     </div>
   </div>

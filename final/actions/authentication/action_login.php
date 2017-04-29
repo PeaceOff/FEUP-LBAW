@@ -9,6 +9,11 @@
   $nextPage = 'Location: ../../pages/authentication/home.php';
   $result = get_user_by_username($username);
 
+  if(preg_match("/^up*/", $username)){
+	header($nextPage);
+	die();
+  }
+
   if($result != NULL){
     if(password_verify($password, $result['password'])){
       $_SESSION['username'] = $username;

@@ -3,7 +3,7 @@
   //project
   function project_add($name, $description, $deadline, $managerId) {
     global $conn;
-    $stmt = $conn->prepare("INSERT INTO project (name, description, deadline, manager) VALUES (?, ?, ?, ?)");
+    $stmt = $conn->prepare("INSERT INTO project (name, description, deadline, manager,start) VALUES (?, ?, ?, ?, CURRENT_DATE )");
     $stmt->execute(array($name, $description, $deadline, $managerId));
   }
 
