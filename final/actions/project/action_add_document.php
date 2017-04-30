@@ -4,7 +4,6 @@
 	include_once($BASE_DIR . 'database/project.php');
 
 	$project_id = $_POST['project_id'];
-	$linkPath = $_POST['linkName'];
 
 	if(!isset($_SESSION['username'])){
 		header('Location: ../../pages/authentication/home.php');
@@ -16,13 +15,17 @@
 		exit();
 	}
 
-	$uploadDir = '../../files/';
-	$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+	for($i = 0; $i < sizeof($_FILES['file']['name']); $i++){
+		
+		$uploadDir = $BASE_DIR . '/uploads/'.$project_id. '/';
+		mkdir($uploadDir);
+		$uploadfile = $uploadDir . basename($_FILES['file']['name'][$i]);
+		
 
-	move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile);
+		move_uploaded_file($_FILES['file']['tmp_name'][$i], $uploadfile);
 
-	project_add_document($project_id, $_FILES['userfile']['tmp_name'], '' , 'Document', $uploadfile);
-
+		project_add_document($project_id, $_FILES['file']['name'][$i], 'Description' , 'Document', $uploadfile);
+	}
 	header('Location: ../../pages/project/projectPage.php?project_id=' . $project_id);
 	exit();
 ?>

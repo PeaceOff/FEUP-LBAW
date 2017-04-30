@@ -119,10 +119,10 @@ function handleRemoveProject(projectId, is_owner,message,context) {
         var obj = JSON.parse(arg);
 		console.log(obj);
         if(obj.success) {
-            addWarning("success","Success: " + message);
+            addWarning("success", message);
             context.parent().parent().parent().remove();
         }else{
-            addWarning("warning", "Error: " + message);
+            addWarning("warning", message);
 		}
     });
 }
@@ -344,6 +344,58 @@ function openModals(){
   }
 }
 
+
+Dropzone.options.myDropzone = {
+	
+ 	autoProcessQueue: false,
+ 	addRemoveLinks: true, 
+	uploadMultiple: true,
+	url: "../../actions/project/action_add_document.php",
+	
+	  init: function() {
+    		var submitButton = document.querySelector("#submit-all");
+       		myDropzone = this; 
+
+	    	submitButton.addEventListener("click", function(e) {
+			e.preventDefault();
+			e.stopPropagation();
+     			myDropzone.processQueue(); 
+	   	});
+		
+		this.on("processingmultiple", function(files) {  
+			console.log("processing " +  files);
+		});
+
+
+		this.on("sendingmultiple", function(files, http, formData) {
+       			 console.log('Sending files ');
+			console.log(files);
+			formData.append('project_id', $_GET('project_id'));
+      		});
+
+		this.on("successmultiple", function(files, response) {
+      			console.log(response);
+		});
+
+		this.on("error", function(files, response) {
+      			console.log("Error ");
+			console.log(response);
+		});
+
+		this.on("queuecomplete", function(files) {
+			console.log(this.files);
+      			console.log("queue completed");
+			
+		});
+	
+
+ 	 }
+
+};
+
+
+
+
 $(document).ready(function(){
   if($(".view").length > 0) $("body").addClass('view');
 
@@ -369,5 +421,4 @@ $(document).ready(function(){
   $('.hide-actor').each(addShow);
 
 });
-Dropzone.options.autoProcessQueue = false; // this way files will only be uploaded when we call myDropzone.processQueue()
-Dropzone.options.addRemoveLinks = true;
+

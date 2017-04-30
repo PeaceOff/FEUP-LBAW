@@ -132,9 +132,9 @@
       ignoreHiddenFiles: true,
       acceptedFiles: null,
       acceptedMimeTypes: null,
-      autoProcessQueue: false,
+      autoProcessQueue: true,
       autoQueue: true,
-      addRemoveLinks: true,
+      addRemoveLinks: false,
       previewsContainer: null,
       hiddenInputContainer: "body",
       capture: null,
@@ -154,15 +154,9 @@
         return done();
       },
       init: function() {
-           //var myDropzone = this;
 
-      	 // this.element.querySelector(".btn_upload_file").addEventListener("click", function(e) {
-      	//	console.log('ola!!!!');
-   	  // e.preventDefault();
-     	  // e.stopPropagation();
-          // myDropzone.processQueue();
-   	 //});
       },
+
       forceFallback: false,
       fallback: function() {
         var child, messageElement, span, _i, _len, _ref;
