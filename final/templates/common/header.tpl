@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-client_id" content="495541684533-8ao8j3g95f579ccj5eturq9gkirhdcqn.apps.googleusercontent.com">
     <link rel="icon" href="../images/icon.svg">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Consord</title>
@@ -33,10 +34,10 @@
     <script type="text/javascript" src = "../../javascript/forum.js"></script>
     <script type="text/javascript" src = "../../javascript/script.js"></script>
     <script type="text/javascript" src = "../../javascript/todo.js"></script>
+    <script type="text/javascript" src = "../../javascript/login.js"></script>
 
     <script async type="text/javascript" src = "../../javascript/login.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta="google-signin-client_id" content="24514991017-9efgnfa8frjqohqclu3ftkmjfnhkmkde.apps.googleusercontent.com">
 
 <body class="preload">
 <div class= "viewport">

@@ -29,7 +29,7 @@
                   </a>
                 </li>
 
-                <li ><a href="../../actions/authentication/action_logout.php"><span class="glyphicon glyphicon-log-out"></span></a></li><!--TODO action logout-->
+                <li ><a href="../../actions/authentication/action_logout.php" onclick="signOut();"><span class="glyphicon glyphicon-log-out"></span></a></li><!--TODO action logout-->
             </ul>
         </div>
     </div>
