@@ -88,9 +88,9 @@
         for (var i = 0; i < single_vars.length; i++)
         {
             var param_name = single_vars[i].split('=');
+
             if (param_name[0] == "forum"){
                 var string = '[data-target=\'#forum_' + param_name[1] + '\']';
-
                 $(string + "").click();
             }
         }

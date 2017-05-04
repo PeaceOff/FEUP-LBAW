@@ -31,7 +31,7 @@
                         <h4><a href="../../actions/authentication/sigarra/action_login.php" class="fa fa-fw fa-up"></h4></a>
                     </li>
                     <li>
-                        <h4><i class="fa fa-fw fa-github"></i></h4>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </li>
                 </ul>
             </div>

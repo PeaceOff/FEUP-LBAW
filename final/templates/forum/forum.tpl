@@ -8,7 +8,7 @@
     <div class="modal-body">
         <div class="panel panel-white post panel-shadow">
             <div class="modal-body">
-                <form  id ="addPost-form" action="../../actions/forum/action_add_topic_post.php" method="post" style="display:block">
+                <form  class="addPost-form" action="../../api/add_topic_post.php" method="post" style="display:block">
                     <div class="form-group input-group width-100">
                         <label for="topicName">Write a new Post : </label>
                         <textarea class="form-control" type="text" tabindex="1" id="post_content" name="post_content" value="" required="" autofocus=""></textarea>

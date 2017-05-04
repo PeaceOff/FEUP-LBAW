@@ -159,7 +159,7 @@ function get_task_information(){
 		}).done(function(arg){
 			$('.task_description').html(arg['description']);
 			$('.task_deadline').attr('value', arg['deadline']);
-			$('.task_category').attr('value', arg['category']);
+			$('.task_category').val(arg['category']);
 		});		
 	
 	});
@@ -230,7 +230,7 @@ function get_project_information(){
             		url: '../../api/get_project_info.php',
             		data: {'project_id' : id}
 		}).done(function(arg){
-			$('.project_folder').attr('value', arg['folder']['name']);
+			$('.project_folder').val(arg['folder']['id']);
 			$('.project_description').html(arg['description']);
 			$('.project_deadline').attr('value', arg['deadline']);
 		});		
@@ -250,10 +250,7 @@ function get_collaboration_information(){
             url: '../../api/get_project_info.php',
             data: {'project_id' : id}
         }).done(function(arg){
-            console.log(arg);
             $('.project_folder').attr('value', arg['folder']['name']);
-        }).fail(function(arg){
-            console.log(arg);
         });
 
     });

@@ -20,7 +20,7 @@
 	user_add($username, $password, $email);
 	$_SESSION['username'] = $username;
   }
-
-  header($nextPage);
+phpInfo();
+//  header($nextPage);
   exit();
 ?>

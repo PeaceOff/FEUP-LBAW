@@ -83,16 +83,16 @@ function setupPostListeners() {
 
     setupComments();
 
-    $('#addPost-form').find('#post_content').unbind().keypress(function (e) {
+    $('.addPost-form').find("[name='post_content']").unbind().keypress(function (e) {
         var key = e.which;
         if(key == 13)  // the enter key code
         {
-            $(this).parent().parent().find('[type="submit"]').submit();
+            $(this).parent().parent().find('[type="submit"]').click();
             return false;
         }
     });
 
-    $('#addPost-form').unbind().submit(function() {
+    $('.addPost-form').unbind().submit(function(e) {
 
         var elem = $(this);
         var post_content = elem.find('#post_content').val();
@@ -100,7 +100,7 @@ function setupPostListeners() {
         var forum_id = elem.find('[name="forum_id"]').val();
 
         $.ajax({
-            url     : elem.attr('action'),
+            url     : '../../api/add_topic_post.php',
             type    : elem.attr('method'),
             dataType: 'json',
             data    : {'post_content' : post_content, 'project_id' : project_id, 'forum_id' : forum_id}

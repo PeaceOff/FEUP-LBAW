@@ -15,7 +15,7 @@
           <label for="sel1">Category</label>
           <select class="form-control task_category" id="sel1" tabindex="1" name="category">
             {foreach from=$categories item=category}
-            <option>{$category.name}</option>
+            <option value="{$category.name}">{$category.name}</option>
             {/foreach}
           </select>
         </div>

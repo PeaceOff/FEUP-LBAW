@@ -44,6 +44,9 @@
             <a class="btn icon-link btn-success btn-sm btn-assign-task-id "task_id="{$task.id}" data-toggle="modal" data-target="#assign-user-modal">
               <i class="fa fa-plus"></i>
             </a>
+            <a class="btn icon-link btn-success btn-sm btn-deassign-task-id "task_id="{$task.id}">
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
         <div class="bottom">

@@ -49,14 +49,14 @@
       <h3> Documents <a data-toggle="modal" data-target="#uploadFile"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
     </div>
 
-    
+
     <div class="carousel slide" id="documentsCarrousel">
       <div class="carousel-inner">
         <div class="item active"><!-- /Slide1 -->
           <ul class="thumbnails padding-0">
             {foreach from=$documents item=document}
             <li>
-              <a class="cardLink" onclick="window.open(../../uploads/{$document.project_id}/{$document.name})" href="">
+              <a class="cardLink" href="../../uploads/{$document.project_id}/{$document.name}" target="_blank" >
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="card document">
                     <h2>{$document.name}</h2>
@@ -75,7 +75,7 @@
                   </div>
                 </div>
               </a>
-              <li>
+              </li>
                 {/foreach}
               </ul>
             </div>

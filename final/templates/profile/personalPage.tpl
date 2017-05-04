@@ -3,7 +3,8 @@
   <div class="page-header">
     <h2> Pending Notifications </h2>
   </div>
-  <div class="notification-container">
+</div>
+ <div class="notification-container container">
   {foreach from=$notifications item=notification}
     <div class="notification-item col-lg-4 col-md-4 col-sm-12 col-xs-12" notification_id="{$notification.id}">
       <h4 class="item-title">{$notification.description}</h4>
@@ -18,7 +19,6 @@
       </div>
     </div>
   {/foreach}
-  </div>
 </div>
 
 <div class="container">
