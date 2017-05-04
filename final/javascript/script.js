@@ -82,15 +82,16 @@ function remove_document(){
 	$('.link_deleteDocument').click(function() {
 
 			var documentId= $(this).attr('id');
-
+			var type_of_doc = $(this).attr('type_of_doc');
+			var document_path = $(this).attr('document_path');
 			var success;
 			$.ajax({
 				type: "POST",
 				url: "../../actions/project/action_delete_document.php",
-				data: {project_id: $_GET('project_id'), document_id: documentId}
+				data: {project_id: $_GET('project_id'), document_id: documentId , type_of_doc: type_of_doc, document_path: document_path}
 			});
 
-			$(this).parent().remove();
+			$(this).ancestor('li').remove();
 	});
 
 }
@@ -100,8 +101,7 @@ function remove_project(){
 	$('.link_deleteProject').click(function() {
         var projectId= $('.link_deleteProject').parent().find('.project_id').val();
         handleRemoveProject(projectId,true, "Project deleted",$(this));
-        }
-	);
+        });
 
     $('.link_deleteCollaboration').click(function() {
         var projectId= $('.link_deleteCollaboration').parent().find('.project_id').val();
@@ -117,7 +117,6 @@ function handleRemoveProject(projectId, is_owner,message,context) {
         data: {project_id: projectId, isOwner: is_owner}
     }).done(function(arg){
         var obj = JSON.parse(arg);
-		console.log(obj);
         if(obj.success) {
             addWarning("success", message);
             context.parent().parent().parent().remove();
@@ -161,8 +160,6 @@ function get_task_information(){
 			$('.task_description').html(arg['description']);
 			$('.task_deadline').attr('value', arg['deadline']);
 			$('.task_category').attr('value', arg['category']);
-		}).fail(function(arg){
-			console.log("Error = " + arg);
 		});		
 	
 	});
@@ -233,12 +230,9 @@ function get_project_information(){
             		url: '../../api/get_project_info.php',
             		data: {'project_id' : id}
 		}).done(function(arg){
-			console.log(arg);
 			$('.project_folder').attr('value', arg['folder']['name']);
 			$('.project_description').html(arg['description']);
 			$('.project_deadline').attr('value', arg['deadline']);
-		}).fail(function(arg){
-			console.log(arg);
 		});		
 	
 	});
@@ -368,11 +362,11 @@ Dropzone.options.myDropzone = {
 
 
 		this.on("sendingmultiple", function(files, http, formData) {
-       			 console.log('Sending files ');
+       			console.log('Sending files ');
 			console.log(files);
 			formData.append('project_id', $_GET('project_id'));
       		});
-
+		
 		this.on("successmultiple", function(files, response) {
       			console.log(response);
 		});

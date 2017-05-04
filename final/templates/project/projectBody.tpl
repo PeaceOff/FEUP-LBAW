@@ -35,7 +35,7 @@
     <ul class="links-ul list-inline" style="overflow-x:scroll; white-space: nowrap;">
       {foreach from=$links item=link}
       <li>
-        <a href="#" class="invisible link_deleteDocument" id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
+        <a href="#" class="invisible link_deleteDocument" type_of_doc='Link' id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="{$link.path}">
           <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
         </a>
@@ -49,25 +49,26 @@
       <h3> Documents <a data-toggle="modal" data-target="#uploadFile"> <i class="fa fa-plus" aria-hidden="true"></i> </a> </h3>
     </div>
 
+    
     <div class="carousel slide" id="documentsCarrousel">
       <div class="carousel-inner">
         <div class="item active"><!-- /Slide1 -->
           <ul class="thumbnails padding-0">
             {foreach from=$documents item=document}
             <li>
-              <a class="cardLink" href="projectPage.php">
+              <a class="cardLink" onclick="window.open(../../uploads/{$document.project_id}/{$document.name})" href="">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="card document">
                     <h2>{$document.name}</h2>
                     <img class="img-responsive" src="../../images/document-card.png" >
                     <div class="document-bottom">
-                      <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="#">
+      		      <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="../../uploads/{$document.project_id}/{$document.name}" download>
                         <i class="fa fa-download"></i>
                       </a>
-                      <a class="btn icon-link btn-primary btn-twitter btn-sm" href="#">
+                      <a class="btn icon-link btn-primary btn-twitter btn-sm" >
                         <i class="fa fa-pencil"></i>
                       </a>
-                      <a class="btn icon-link btn-danger btn-sm" rel="publisher" href="#">
+                      <a class="=btn icon-link btn-danger btn-sm link_deleteDocument" type_of_doc='Document' id='{$document.id}' document_path='{$document.path}'  rel="publisher">
                         <i class="fa fa-trash"></i>
                       </a>
                     </div>

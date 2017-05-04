@@ -4,6 +4,7 @@
 	include_once($BASE_DIR . 'database/project.php');
 
 	$project_id = $_POST['project_id'];
+	
 
 	if(!isset($_SESSION['username'])){
 		header('Location: ../../pages/authentication/home.php');

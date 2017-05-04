@@ -13,7 +13,7 @@
 	        
 	<div class="form-group input-group width-100">
           <label for="sel1">Category</label>
-          <select class="form-control task_category" id="sel1" tabindex="1" name="category" >
+          <select class="form-control task_category" id="sel1" tabindex="1" name="category">
             {foreach from=$categories item=category}
             <option>{$category.name}</option>
             {/foreach}
