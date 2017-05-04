@@ -31,7 +31,7 @@
                         <h4><a href="../../actions/authentication/sigarra/action_login.php" class="fa fa-fw fa-up"></h4></a>
                     </li>
                     <li>
-                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                        <a href="../../actions/authentication/google/action_login.php" >Sign up with Google+</a>
                     </li>
                 </ul>
             </div>

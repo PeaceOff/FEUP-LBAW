@@ -25,6 +25,6 @@
 
 	add_assigned($collaborator, $task_id);	
 
-	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#To-Do.php');
+	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#To-Do');
 	exit();
 ?>

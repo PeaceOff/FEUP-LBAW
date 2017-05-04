@@ -65,9 +65,6 @@
       		      <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="../../uploads/{$document.project_id}/{$document.name}" download>
                         <i class="fa fa-download"></i>
                       </a>
-                      <a class="btn icon-link btn-primary btn-twitter btn-sm" >
-                        <i class="fa fa-pencil"></i>
-                      </a>
                       <a class="=btn icon-link btn-danger btn-sm link_deleteDocument" type_of_doc='Document' id='{$document.id}' document_path='{$document.path}'  rel="publisher">
                         <i class="fa fa-trash"></i>
                       </a>

@@ -39,13 +39,12 @@
           <div class="collaborator">
             <h5>People Assigned</h5>
             {foreach from=$task.assigned item=assignee}
-        	<i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>
+              <a class="deassign_user" task_id="{$task.id}" title="{$assignee.username}"  >
+        	    <i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>
+              </a>
             {/foreach}
-            <a class="btn icon-link btn-success btn-sm btn-assign-task-id "task_id="{$task.id}" data-toggle="modal" data-target="#assign-user-modal">
+            <a class="btn icon-link btn-success btn-sm btn-assign-task-id " task_id="{$task.id}" data-toggle="modal" data-target="#assign-user-modal">
               <i class="fa fa-plus"></i>
-            </a>
-            <a class="btn icon-link btn-success btn-sm btn-deassign-task-id "task_id="{$task.id}">
-              <i class="fa fa-minus" aria-hidden="true"></i>
             </a>
           </div>
         </div>

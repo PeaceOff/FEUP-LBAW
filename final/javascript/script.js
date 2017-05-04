@@ -257,6 +257,30 @@ function get_collaboration_information(){
 }
 
 
+function deassign_user_from_task(){
+
+    $('.deassign_user').click(function() {
+
+        var task_id = $(this).attr('task_id');
+        var username = $(this).attr('title');
+        var project_id = $_GET('project_id');
+		var toDelete = $(this);
+
+
+        $.ajax({
+            type: "post",
+            url: "../../actions/todo/action_deassign_task.php",
+            data: {'task_id' : task_id , 'username' : username, 'project_id': project_id}
+        }).done(function(arg){
+        	toDelete.remove();
+            addWarning('success','Deassigned');
+        }).fail(function(arg){
+            addWarning('warning','Problems deassigning user from task');
+		});
+
+    });
+}
+
 
 function add_user(){
 
@@ -405,6 +429,7 @@ $(document).ready(function(){
   get_project_information();
   get_collaboration_information();
   get_task_information();
+  deassign_user_from_task();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);

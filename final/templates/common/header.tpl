@@ -33,10 +33,10 @@
     <script type="text/javascript" src = "../../javascript/forum.js"></script>
     <script type="text/javascript" src = "../../javascript/script.js"></script>
     <script type="text/javascript" src = "../../javascript/todo.js"></script>
-    <!--<script async type="text/javascript" src = "../../javascript/login.js"></script>-->
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<meta="google-signin-client_id" content="24514991017-9efgnfa8frjqohqclu3ftkmjfnhkmkde.apps.googleusercontent.com">
+    <script async type="text/javascript" src = "../../javascript/login.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta="google-signin-client_id" content="24514991017-9efgnfa8frjqohqclu3ftkmjfnhkmkde.apps.googleusercontent.com">
 
 <body class="preload">
 <div class= "viewport">

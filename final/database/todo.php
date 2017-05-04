@@ -72,7 +72,12 @@
       $stmt = $conn->prepare("SELECT * FROM task WHERE id = ?");
       $stmt->execute(array($task_id));
       return $stmt->fetch();
-	
+    }
 
+    function remove_assign($username, $task_id){
+        global $conn;
+
+        $stmt = $conn->prepare("DELETE FROM assigned WHERE username = ? AND task_id = ?");
+        $stmt->execute(array($username, $task_id));
     }
 ?>

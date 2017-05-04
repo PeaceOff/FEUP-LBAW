@@ -145,6 +145,8 @@ li{
   position:relative;
   background:#efefef;
   border-radius:4px;
+  max-height: 80px;
+  min-height: 80px;
 }
 
 .notification-mark{

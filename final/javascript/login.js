@@ -1,5 +1,7 @@
 
 
+/*
+//Facebook Login
   window.fbAsyncInit = function() {
   FB._https = true;
     FB.init({
@@ -47,8 +49,8 @@
               FB.api('/me', function(response) {
                   console.log('Good to see you, ' + response.email + '.');
                   var name = response.name;
-                 
-            
+
+
               });
              } else {
               console.log('User cancelled login or did not fully authorize.');
@@ -63,3 +65,4 @@
          FB.logout(function(response) {
          });
        }
+*/
