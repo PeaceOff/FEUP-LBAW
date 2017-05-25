@@ -8,15 +8,15 @@ function createWarningBox(){
 }
 
 function addWarning(type, msg){
-	
+
 	var e = $(document.createElement('div'));
   var alertType = 'alert alert-';
-	alertType += type;	
+	alertType += type;
 	e.addClass(alertType);
 	type = type.charAt(0).toUpperCase() + type.slice(1);
 	var message = '<strong>'+ type  +'</strong>'+ msg;
 	e.append(message);
-	$('.box-alerts').append(e); 
+	$('.box-alerts').append(e);
 	setTimeout(function() {
 		e.remove();
 	}, 2000);
@@ -24,10 +24,7 @@ function addWarning(type, msg){
 
 function addUser(username){
 	var element = $('.template tr').clone(true);
-
-	//console.log(element.html());
-	//console.log($('.template tr').html());
-
+	
 	element.find('.template_name').html(username);
 	element.find('.link_removeUser').attr('username',username);
 	$('#project-users tbody').append(element);
@@ -137,7 +134,7 @@ function remove_user(){
 				type: "POST",
 				url: "../../actions/project/action_remove_user.php",
 				data: { username: username, project_id: $_GET('project_id')}
-			}).done(function(arg){	
+			}).done(function(arg){
 				addWarning('success','User Deleted!');
 			}).fail(function(){
 				addWarning('warning','User NOT Found!');
@@ -150,7 +147,7 @@ function remove_user(){
 function get_task_information(){
 
 	$('.btn_edit_task').click(function() {
-		var task_id = $(this).attr('task_id');		
+		var task_id = $(this).attr('task_id');
 		$.ajax({
             		type: "post",
             		dataType: "json",
@@ -160,8 +157,8 @@ function get_task_information(){
 			$('.task_description').html(arg['description']);
 			$('.task_deadline').attr('value', arg['deadline']);
 			$('.task_category').val(arg['category']);
-		});		
-	
+		});
+
 	});
 }
 
@@ -169,7 +166,7 @@ function get_task_information(){
 function delete_notification(){
 
 	$('.btn_delete_notification').click(function() {
-		var notification_id = $(this).attr('notification_id'); 
+		var notification_id = $(this).attr('notification_id');
 		var toDelete = $('.notification-item[notification_id="'+notification_id+'"');
 		var bell = $('.badge.badge-notify');
 		bell.html(Number(bell.html())-1);
@@ -187,14 +184,14 @@ function delete_notification(){
 			toDelete.css('visibility','visible');
 			toDelete.css("position",'relative');
 			addWarning('warning','Problem deleting notification');
-		});		
-	
+		});
+
 	});
 }
 
 function delete_all_notifications(){
 
-	$('.btn_delete_all_notifications').click(function() {		
+	$('.btn_delete_all_notifications').click(function() {
 		var toDelete = $('.notification-item');
 		var bell = $('.badge.badge-notify');
 		var oldValue = bell.html();
@@ -212,8 +209,8 @@ function delete_all_notifications(){
 			toDelete.css('visibility','visible');
 			toDelete.css("position",'relative');
 			addWarning('warning','Problem deleting all notifications');
-		});		
-	
+		});
+
 	});
 }
 
@@ -223,7 +220,7 @@ function get_project_information(){
 	$('.btn_project_edit').click(function() {
 		var id = $(this).attr('project_id');
 		$('.hidden_projectId').attr('value',id);
-		
+
 		$.ajax({
             		type: "post",
             		dataType: "json",
@@ -233,8 +230,8 @@ function get_project_information(){
 			$('.project_folder').val(arg['folder']['id']);
 			$('.project_description').html(arg['description']);
 			$('.project_deadline').attr('value', arg['deadline']);
-		});		
-	
+		});
+
 	});
 }
 
@@ -296,20 +293,20 @@ function add_user(){
 
     $('#form-addUser').prev().click(function() {
 
-        var elem = $('#form-addUser');
-		var username = elem.val();
+	    var elem = $('#form-addUser');
+			var username = elem.val();
 
-		$.ajax({
-			type: "POST",
-			url: "../../actions/project/action_add_user.php",
-			data: { username: username, project_id: $_GET('project_id')}
-		}).done(function(arg){
-			addWarning('success','User successfully added!');
-			addUser(username);
-			elem.val("");
-		}).fail(function(){
-			addWarning('warning','User NOT Found!');
-		});
+			$.ajax({
+				type: "POST",
+				url: "../../actions/project/action_add_user.php",
+				data: { username: username, project_id: $_GET('project_id')}
+			}).done(function(arg){
+				addWarning('success','User successfully added!');
+				addUser(username);
+				elem.val("");
+			}).fail(function(){
+				addWarning('warning','User NOT Found!');
+			});
     });
 }
 
@@ -359,25 +356,42 @@ function openModals(){
   }
 }
 
+function remove_date(){
+
+	var last_value;
+
+	$(".remove_date").change(function (){
+		if(this.checked) {
+            $(".project_deadline").addClass("disabled");
+			last_value =  $(".project_deadline").attr("value");
+            $(".project_deadline").attr("value", "null");
+        }else {
+            $(".project_deadline").removeClass("disabled");
+            $(".project_deadline").attr("value", last_value);
+		}
+	});
+}
+
+
 
 Dropzone.options.myDropzone = {
-	
+
  	autoProcessQueue: false,
- 	addRemoveLinks: true, 
+ 	addRemoveLinks: true,
 	uploadMultiple: true,
 	url: "../../actions/project/action_add_document.php",
-	
+
 	  init: function() {
     		var submitButton = document.querySelector("#submit-all");
-       		myDropzone = this; 
+       		myDropzone = this;
 
 	    	submitButton.addEventListener("click", function(e) {
 			e.preventDefault();
 			e.stopPropagation();
-     			myDropzone.processQueue(); 
+     			myDropzone.processQueue();
 	   	});
-		
-		this.on("processingmultiple", function(files) {  
+
+		this.on("processingmultiple", function(files) {
 			console.log("processing " +  files);
 		});
 
@@ -387,7 +401,7 @@ Dropzone.options.myDropzone = {
 			console.log(files);
 			formData.append('project_id', $_GET('project_id'));
       		});
-		
+
 		this.on("successmultiple", function(files, response) {
       			console.log(response);
 		});
@@ -400,15 +414,78 @@ Dropzone.options.myDropzone = {
 		this.on("queuecomplete", function(files) {
 			console.log(this.files);
       			console.log("queue completed");
-			
+
 		});
-	
+
 
  	 }
 
 };
 
 
+function validateLogin() {
+
+
+	$(".sign_in").submit(function(event){
+        if($(".sign_in").attr("login_conf") == 1){
+            return true;
+        }
+
+        var username = document.forms["signIn-form"]["username"].value;
+        var password = document.forms["signIn-form"]["password"].value;
+
+        $.ajax({
+            type: "post",
+            url: "../../actions/authentication/action_login_checker.php",
+            data: {'username' : username, 'password': password}
+        }).done(function(arg){
+            addWarning('success','Loged in');
+
+			$(".sign_in").attr("login_conf", 1);
+            $(".sign_in").submit();
+
+
+        }).fail(function(arg){
+			addWarning("warning", "The username or password is not correct");
+		});
+
+        event.preventDefault();
+	});
+}
+
+
+
+function validateRegister(){
+
+    $(".register").submit(function(event){
+        if($(".register").attr("register_conf") == 1){
+            return true;
+        }
+
+        var username = document.forms["signUp-form"]["username"].value;
+
+        $.ajax({
+            type: "post",
+            url: "../../actions/authentication/action_register_checker.php",
+            data: {'username' : username}
+        }).done(function(arg){
+
+            $(".register").attr("register_conf", 1);
+            $(".register").submit();
+
+            addWarning('success','Registed with success');
+        }).fail(function(arg){
+
+            if(arg.status == 400) {
+                addWarning("warning", "username already exists");
+            }else if(arg.status == 401){
+                addWarning("warning", "you can not register with that username");
+			}
+		});
+
+        event.preventDefault();
+    });
+}
 
 
 $(document).ready(function(){
@@ -430,6 +507,9 @@ $(document).ready(function(){
   get_collaboration_information();
   get_task_information();
   deassign_user_from_task();
+  remove_date();
+  validateLogin();
+  validateRegister();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);
@@ -437,4 +517,3 @@ $(document).ready(function(){
   $('.hide-actor').each(addShow);
 
 });
-

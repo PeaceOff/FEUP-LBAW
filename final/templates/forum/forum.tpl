@@ -1,5 +1,9 @@
 {foreach from=$forums item=forum}
+    {if isset($forum.task_id)}
+<div id="forum_task_{$forum.task_id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+    {else}
 <div id="forum_{$forum.id}" class="modal fade col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+    {/if}
   <div class="modal-content">
     <div class="modal-header text-center">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>

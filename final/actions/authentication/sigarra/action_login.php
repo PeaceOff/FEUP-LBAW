@@ -1,26 +1,28 @@
 <?php
   include_once('../../../config/init.php');
   include_once($BASE_DIR .'database/users.php');
-  
+
   if(!isset($_SERVER['UPortoNMec'])){
 	header('Location:'. $BASE_URL .'pages/authentication/home.php');
 	die();
   }
-  $username = 'up' . htmlentities($_SERVER['UPortoNMec'] ,ENT_QUOTES, "UTF-8");
+
+  $name = htmlentities($_SERVER['displayName'], ENT_QUOTES, "UTF-8");
+  $username =  htmlentities($_SERVER['Mail'] ,ENT_QUOTES, "UTF-8");
   $username = trim($username);
   $username = strtolower($username);
-  $email = $username . '@'. $username; 
-  $password = 'pw'; 
+  $email =  htmlentities($_SERVER['Mail'] ,ENT_QUOTES, "UTF-8");
+  $password = 'pw';
   $nextPage = 'Location:'. $BASE_URL. '/pages/authentication/home.php';
   $result = get_user_by_username($username);
 
-  if($result != NULL){
-	$_SESSION['username'] = $username;
-  }else{
-	user_add($username, $password, $email);
-	$_SESSION['username'] = $username;
-  }
-phpInfo();
-//  header($nextPage);
+  if($result == NULL)
+	   user_add($username, $password, $email, $name);
+
+
+  $_SESSION['username'] = $username;
+  $_SESSION['name'] = $name;
+
+  header($nextPage);
   exit();
 ?>

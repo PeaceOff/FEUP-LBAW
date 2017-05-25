@@ -6,8 +6,8 @@
             <h4  class="modal-title">Log in</h4>
         </div>
         <div class="modal-body clearfix">
-            <!-- Sign in-->
-            <form id = "signIn-form" action="../../actions/authentication/action_login.php" method="post" style="display: block;" >
+
+            <form id = "signIn-form" action="../../actions/authentication/action_login.php" method="post" style="display: block;" class="sign_in" login_conf="0">
                 <div class="input-group form-group">
                     <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
                     <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus="">
@@ -24,17 +24,12 @@
                 <h4>Login With</h4>
                 <ul class="list-inline">
                     <li>
-                        <h4><a id="login" ><i class="fa fa-fw fa-facebook"></a></i></h4>
-
-                    </li>
-                    <li>
                         <h4><a href="../../actions/authentication/sigarra/action_login.php" class="fa fa-fw fa-up"></h4></a>
                     </li>
                     <li>
                         <h4>
-                            <div class="g-signin2" data-onsuccess="onSignIn">Google</div>
+                            <a href="../../actions/authentication/google/action_login.php" > <i class="fa fa-google" aria-hidden="true"></i>  </a>
                         </h4>
-                        <!--<a href="../../actions/authentication/google/action_login.php" >Sign up with Google+</a>-->
                     </li>
                 </ul>
             </div>

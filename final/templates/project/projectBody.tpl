@@ -1,6 +1,8 @@
 {include file='project/addFile-form.tpl'}
 {include file='project/addLink-form.tpl'}
 
+<script type="text/javascript" src = "../../javascript/search.js"></script>
+
 <div class="col-md-12">
   <div class="container">
     <h1 class="text-center page-header">{$project.name}</h1>
@@ -9,17 +11,22 @@
       <div class="col-sm-6 col-sm-offset-3">
         <div id="imaginary_container">
           <div class="input-group stylish-input-group">
-            <input type="text" class="form-control"  placeholder="Search" >
+            <input class="typeahead form-control"  placeholder="Search" type="text"  id="searchQuery" >
             <span class="input-group-addon">
-              <button type="submit">
+              <button type="submit" id="searchBtn">
                 <span class="glyphicon glyphicon-search"></span>
               </button>
             </span>
+            <!-- search results -->
+            <ul id="searchResults">
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
   <!-- LINKS -->
   <div class="container">
     <script>

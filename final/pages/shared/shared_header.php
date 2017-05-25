@@ -1,9 +1,10 @@
 <?php
 	include_once($BASE_DIR . 'database/users.php');
 
-	if(isset($_SESSION['username'])){
+	if(isset($_SESSION['username']) && isset($_SESSION['name'])){
 		$username = $_SESSION['username'];
-		$smarty->assign('username',$username);
+		$name = $_SESSION['name'];
+		$smarty->assign('name',$name);
 		$result = user_get_notifications($username);
 
 		$notifications=array();
@@ -26,4 +27,5 @@
 	}
 
 	$smarty->display('common/navbar.tpl');
+
 ?>

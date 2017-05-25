@@ -63,6 +63,7 @@
     <div id="project-forum" class="collapse in">
       <table  class="table table-condensed table-style ">
 {foreach from=$forums item=forum}
+    {if !isset($forum.task_id)}
         <tr>
           <td>
             <button class="btn btn-primary forum_button" data-toggle="modal" data-target="#forum_{$forum.id}">{$forum.name}</button>
@@ -75,6 +76,7 @@
           </td>
 	{/if}
         </tr>
+    {/if}
 {/foreach}
       </table>
     </div>
@@ -90,7 +92,14 @@
             var param_name = single_vars[i].split('=');
 
             if (param_name[0] == "forum"){
+                {literal}//O id representa o id do forum{/literal}
                 var string = '[data-target=\'#forum_' + param_name[1] + '\']';
+                $(string + "").click();
+            }
+
+            if (param_name[0] == "forum_task"){
+                {literal}//O id representa o id da task{/literal}
+                var string = '[data-target=\'#forum_task_' + param_name[1] + '\']';
                 $(string + "").click();
             }
         }

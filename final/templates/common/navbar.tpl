@@ -22,14 +22,15 @@
 
                 <li class="active">
                   <a href="../profile/personalPage.php">
-                   
+
                       <span class="glyphicon glyphicon-user"></span>
-                      {$username}
-                                     
+                      {$name}
                   </a>
                 </li>
 
-                <li ><a href="../../actions/authentication/action_logout.php" onclick="signOut();"><span class="glyphicon glyphicon-log-out"></span></a></li><!--TODO action logout-->
+                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+
+                <li ><a href="../../actions/authentication/action_logout.php" onclick="signOut();"><span class="glyphicon glyphicon-log-out"></span></a></li>
             </ul>
         </div>
     </div>

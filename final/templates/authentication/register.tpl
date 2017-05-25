@@ -5,8 +5,8 @@
       <h4 class="modal-title">Register</h4>
     </div>
       <div class="modal-body">
-        <!-- Sign up-->
-        <form  id ="signUp-form" action="../../actions/authentication/action_register.php" method="post" style="display:block">
+
+        <form  id ="signUp-form" action="../../actions/authentication/action_register.php" method="post" style="display:block" class="register" register_conf="0">
           <div class="input-group form-group">
             <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
             <input class="form-control " type="text" tabindex="1" placeholder="Username" name="username"  required=""  autofocus="">

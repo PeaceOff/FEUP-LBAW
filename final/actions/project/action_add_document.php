@@ -3,14 +3,15 @@
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
 
-	$project_id = $_POST['project_id'];
 	
 
-	if(!isset($_SESSION['username'])){
+	if(!isset($_SESSION['username'])
+		|| !isset($_POST['project_id']) ){
 		header('Location: ../../pages/authentication/home.php');
 		exit();
 	}
 
+	$project_id = htmlentities($_POST['project_id'], ENT_QUOTES, "UTF-8");
 	if(!project_allowed($_SESSION['username'], $project_id)){
 		header('Location: ../../pages/authentication/home.php ');
 		exit();

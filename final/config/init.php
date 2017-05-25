@@ -6,7 +6,8 @@
 
   $BASE_DIR = '/opt/lbaw/lbaw1665/public_html/final/'; //
   $BASE_URL = '/~lbaw1665/final/'; //
-
+  $ERROR_FILE = $BASE_DIR . '/tmp/error.log';
+  
   $conn = new PDO('pgsql:host=dbm;dbname=lbaw1665', 'lbaw1665', 'im80re93'); //
   $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -25,6 +26,8 @@
   $smarty->assign('SUCCESS_MESSAGES', $_SESSION['success_messages']);
   $smarty->assign('FORM_VALUES', $_SESSION['form_values']);
   $smarty->assign('USERNAME', $_SESSION['username']);
+
+  ini_set("error_log",$BASE_DIR . "/tmp/error.log");
 
   unset($_SESSION['success_messages']);
   unset($_SESSION['error_messages']);

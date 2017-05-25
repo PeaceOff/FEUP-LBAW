@@ -3,7 +3,13 @@
   include_once('../../config/init.php');
   include_once($BASE_DIR .'database/users.php');
 
-  $username = $_POST['username'];
+  if( !isset($_POST['username']) 
+	  || !isset($_POST['password']) 
+	  || !isset($_POST['email']) ){
+	header('Location:' . $BASE_URL.'/pages/authentication/home.php');
+	  die();
+  }
+  $username = htmlentities($_POST['username'], ENT_QUOTES, "UTF-8");
   $username = trim($username);
   $username = strtolower($username);
 
@@ -12,11 +18,11 @@
 	die();
   }
   $password = password_hash($_POST['password'] , PASSWORD_DEFAULT);
-  $email = $_POST['email'];
+  $email = htmlentities($_POST['email'], ENT_QUOTES, "UTF-8");
 
   try {
       if(!get_user_by_username($username))
-        user_add($username, $password, $email);
+        user_add($username, $password, $email,$username);
 
     } catch (PDOException $e) {
       $_SESSION['error_messages'][] = 'Error creating user: ' . $e->getMessage();

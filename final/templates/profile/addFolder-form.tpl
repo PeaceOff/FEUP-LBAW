@@ -10,7 +10,7 @@
                 <div class="input-group form-group width-100">
                     <input class="hidden_projectId" type="hidden" name="project_id" value=""> </input>
                     <label for="descriptionArea">Folder Name</label>
-                    <input class="form-control resizable-horizontal project_description" id="name" name="folderName">
+                    <input type="text" class="form-control resizable-horizontal project_description" id="name" name="folderName" required>
                 </div>
 
                 <div class="text-center">

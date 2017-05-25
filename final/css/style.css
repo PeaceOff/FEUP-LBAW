@@ -57,6 +57,7 @@ body.view {
 
 .template{
 	visibility:hidden;
+	position:fixed;
 }
 
 .fa-up{
@@ -718,5 +719,60 @@ div.selectable:not(:target){
    text-decoration: none;
 }
 
+
+.deassign_user i:hover{
+	color: #F00;
+}
+
+input.disabled{
+	visibility : hidden;
+	display: fixed;
+	height: 0;
+	padding:0;
+	margin:0;
+}
+
+
+/* search */
+
+
+#searchResults {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  display: block;
+  height: auto;
+  background:dimgrey;
+
+}
+
+#searchResults li a:hover {
+
+  background-color: inherit;
+}
+
+#searchResults li:hover {
+  background-color: inherit;
+  animation-name: scale;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+#searchResults  li{
+  overflow:hidden;
+  opacity: 1;
+  color: white;
+  height: 2em;
+  border:1em;
+  border-color: black;
+}
+
+#searchResults  a{
+  text-decoration: none;
+  color: white;
+}
 
 

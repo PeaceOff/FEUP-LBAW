@@ -3,19 +3,27 @@
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
 
-	if(!isset($_SESSION['username'])){
+	if(!isset($_SESSION['username'])
+		|| !isset($_POST['folder_id']) 
+		|| !isset($_POST['projectDescription']) 
+		|| !isset($_POST['project_id']) ){
 	    header('Location: ../../authentication/home.php');
 	    exit();
 	}
 
-	$proj_folder = $_POST['folder_id'];
-	$proj_description = $_POST['projectDescription'];
-	$proj_deadline = $_POST['deadline'];
-	$proj_id = $_POST['project_id'];
+	$proj_folder = htmlentities($_POST['folder_id'], ENT_QUOTES, "UTF-8");
+	$proj_description = htmlentities($_POST['projectDescription'], ENT_QUOTES, "UTF-8");
+	$proj_deadline = htmlentities($_POST['deadline'], ENT_QUOTES, "UTF-8");
+	$proj_id = htmlentities($_POST['project_id'], ENT_QUOTES, "UTF-8");
 	$old_folder_id = project_get_old_folder($proj_id, $_SESSION['username'])['id']; 
-	
-	project_edit($proj_description,$proj_id, $proj_deadline);
-	project_remove_from_folder($proj_id,$old_folder_id);	
+
+	if($proj_deadline == "null"){
+        project_edit($proj_description,$proj_id, null);
+	}else{
+        project_edit($proj_description,$proj_id, $proj_deadline);
+	}
+
+	project_remove_from_folder($proj_id,$old_folder_id);
 	project_change_folder($proj_id, $proj_folder);
 	
 	header('Location: ../../pages/profile/personalPage.php');

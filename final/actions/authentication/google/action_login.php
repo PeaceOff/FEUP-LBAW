@@ -2,6 +2,7 @@
 //Include Google client library
 require_once __DIR__ . '/vendor/autoload.php';
 include_once '../../../config/init.php';
+include_once($BASE_DIR .'database/users.php');
 
   const CLIENT_ID = '24514991017-9efgnfa8frjqohqclu3ftkmjfnhkmkde.apps.googleusercontent.com';
   const CLIENT_SECRET = 'jGi0J-wr4A9yVC4ghgglcA1j';
@@ -30,8 +31,11 @@ include_once '../../../config/init.php';
   }
 
   if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
+
+
     $client->setAccessToken($_SESSION['access_token']);
     $me = $plus->people->get('me');
+
     // Get User data
     $id = $me['id'];
     $name =  $me['displayName'];
@@ -39,9 +43,21 @@ include_once '../../../config/init.php';
     $profile_image_url = $me['image']['url'];
     $cover_image_url = $me['cover']['coverPhoto']['url'];
     $profile_url = $me['url'];
+    echo $email;
 
-    echo $me . $id . $name . $email;
+
+    $username = get_user_by_username($email);
+
+    if($username == NULL)
+      user_add($email, 'pw', $email,$name);
+
+    $_SESSION['username'] = $email;
+    $_SESSION['name'] = $name;
+
+    header('Location:' . $BASE_URL . '/pages/authentication/home.php');
+
   } else {
+
     // get the login url
     $authUrl = $client->createAuthUrl();
     header('Location: ' . $authUrl);

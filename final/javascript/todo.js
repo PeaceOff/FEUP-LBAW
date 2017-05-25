@@ -34,6 +34,15 @@ function setup_information(){
 
 }
 
+function addUser(target, username, task_id){
+	var template = $(".template .t_remove .deassign_user").clone(true);
+	template.attr("title",username);
+	template.attr("task_id", task_id);
+	target.children("h5").after(template);
+	console.log(target);
+	template.find("i").attr("title",username);	
+}
+
 function setup_todo_functions(){
 	
 	setup_information();
@@ -50,7 +59,8 @@ function setup_todo_functions(){
 		   		task_id: task_id 
 				}
 		}).done(function(arg){
-			
+			var container = $(".task-card[task_id="+task_id+"] .collaborator");
+			addUser(container, username, task_id);
 			addWarning('success', 'User Assigned to the task!');
 		}).fail(function(){
 			addWarning('warning', 'Cannot Assign User!');

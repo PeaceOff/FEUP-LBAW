@@ -9,7 +9,7 @@ if(!isset($_SESSION['username']) || !isset($_POST['folderName'])){
     exit();
 }
 
-$folder_name = $_POST['folderName'];
+$folder_name = htmlentities($_POST['folderName'], ENT_QUOTES, "UTF-8");
 
 user_delete_folder($folder_name, $_SESSION['username']);
 

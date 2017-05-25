@@ -3,6 +3,14 @@
 {include file="todo/addTask-form.tpl"}
 {include file="todo/editTask-form.tpl"}
 
+<div class="template">
+	<div class="t_remove">
+	<a class="deassign_user" task_id="taskID" title="usr">
+		<i class="fa fa-user avatar icon-link img-circle" title="NONE" aria-hidden="true"></i>
+	</a>
+	</div>
+</div>
+
 <div class="container center-block" >
   <a class="link-no-style" href="projectPage.php"> <h1 class="text-center "> {$project_title} </h1> </a>
   <h3 class= "text-center page-header">Todo Board</h3>
@@ -55,7 +63,7 @@
           <a class="btn icon-link btn-warning btn-sm btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#assign-category-modal">
             <i class="fa fa-arrows"></i>
           </a>
-          <a class="btn icon-link btn-info btn-sm btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#forum1">
+          <a class="btn icon-link btn-info btn-sm btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#forum_task_{$task.id}">
             <i class="fa fa-comments-o"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm btn-assign-task-id btn-delete-task" task_id="{$task.id}"  >
@@ -101,7 +109,7 @@
       <a class="btn icon-link btn-warning btn-sm  btn-assign-task-id" task_id="{{:id}}" data-toggle="modal" data-target="#assign-category-modal">
         <i class="fa fa-arrows"></i>
       </a>
-      <a class="btn icon-link btn-info btn-sm btn-assign-task-id" task_id="{{:id}}" data-toggle="modal" data-target="#forum1">
+      <a class="btn icon-link btn-info btn-sm btn-assign-task-id forum_task_button" task_id="{{:id}}" data-toggle="modal" data-target="#forum_task_{{:id}}">
         <i class="fa fa-comments-o"></i>
       </a>
       <a class="btn icon-link btn-danger btn-sm btn-assign-task-id btn-delete-task" task_id="{{:id}}"  >

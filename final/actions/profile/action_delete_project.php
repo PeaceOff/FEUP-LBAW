@@ -3,14 +3,16 @@
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
 
-	if(!isset($_SESSION['username'])){
+	if(!isset($_SESSION['username'])
+		|| !isset($_POST['project_id']) 
+		|| !isset($_POST['isOwner']) ){
         echo json_encode(array("success" => false));
 		exit();
 	}
 
 	$username = $_SESSION['username'];
-	$project_id = $_POST['project_id'];
-    $isOwner = $_POST['isOwner'];
+	$project_id = htmlentities($_POST['project_id'], ENT_QUOTES, "UTF-8");
+    $isOwner = htmlentities($_POST['isOwner'], ENT_QUOTES, "UTF-8");
 
 	$res= json_encode(array("success" => true));
 

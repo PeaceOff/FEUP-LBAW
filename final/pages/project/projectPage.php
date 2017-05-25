@@ -42,7 +42,7 @@
         $diff_total = $deadline_t - $start_t;
         $diff_parcial = $today - $start_t;
 
-        if($diff_parcial == 0){
+        if($diff_total == 0){
             $percent_complete = 0;
         } else {
             $percent_complete = ($diff_parcial / $diff_total) * 100;

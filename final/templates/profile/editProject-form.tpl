@@ -20,9 +20,13 @@
         </div>
 
 	<div class="form-group input-group date width-100">
-          <label>Deadline</label>
-          <input type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control project_deadline" tabindex="2" required>
-        </div>
+      <div class="form-inline">
+        <label>Deadline</label>
+        <input type="checkbox" name="check" value="Remove" class="remove_date">Remove
+      </div>
+        <input type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control project_deadline" tabindex="2" required>
+
+    </div>
         
 	<div class="input-group form-group width-100">
  	  <input class="hidden_projectId" type="hidden" name="project_id" value=""> </input>

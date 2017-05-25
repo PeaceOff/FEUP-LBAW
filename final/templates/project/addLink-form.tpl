@@ -12,7 +12,7 @@
         <div class="form-group input-group">
           <span class="input-group-addon" ><i class="glyphicon glyphicon-link"></i></span>
           <input type="hidden" name="project_id" value="{$project.id}"> </input>
-          <input class="form-control" type="text" tabindex="1" id="linkName" name="linkName" value="" required="" autofocus="" placeholder="Link">
+          <input class="form-control" type="url" pattern="https?://.+" tabindex="1" id="linkName" name="linkName" value="" required="" autofocus="" placeholder="Link">
         </div>
 
         <div class="text-center">

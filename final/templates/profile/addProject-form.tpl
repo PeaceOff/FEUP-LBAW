@@ -9,7 +9,7 @@
 
         <div class="form-group ">
           <label for="projectName">Name</label>
-          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value="" required="" autofocus="" required>
+          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value=""  autofocus="" required>
         </div>
 
 	<div class="form-group input-group date width-100">

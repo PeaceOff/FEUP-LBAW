@@ -28,6 +28,35 @@ function setupForumListeners() {
 
     });
 
+    $('.forum_task_button').unbind().click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
+
+        var elem = $(this);
+        var modal_id = elem.attr("data-target");
+        var posts = $(modal_id).find('.post_space')[0];
+        var input_elem = $(modal_id).find("[name='forum_id']")[0];
+        var topic_id = $(input_elem).attr("value");
+
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: '../../api/get_post_by_topic.php',
+            data: {'topic_id' : topic_id}
+        }).done(function(data) {
+
+            var template = $.templates("#post_tmpl");
+            var htmlOutput = template.render(data);
+
+            $(posts).html(htmlOutput);
+            setupPostListeners();
+
+        }).fail(function() {
+
+            addWarning('warning','Could not load posts please try again later.');
+
+        });
+
+    });
+
     $('.delete_topic_button').unbind().click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
 
         var elem = $(this);
@@ -38,7 +67,7 @@ function setupForumListeners() {
         $.ajax({
             type: "post",
             dataType: "json",
-            url: '../../actions/forum/action_delete_forum_topic.php',
+            url: '../../api/delete_forum_topic.php',
             data: {'topic_id' : topic_id, 'project_id' : proj_id}
         }).done(function(data) {
 
@@ -73,6 +102,8 @@ function setupPostListeners() {
         var project_id = elem.find('[name="project_id"]').val();
         var forum_id = elem.find('[name="forum_id"]').val();
 
+        //console.log("Sending new post : " + post_content + " | " + project_id + " | " + forum_id);
+
         $.ajax({
             url     : '../../api/add_topic_post.php',
             type    : elem.attr('method'),
@@ -85,7 +116,7 @@ function setupPostListeners() {
                 elem.find('#post_content').val("");
                 elem.find('[type="submit"]').blur();
 
-                var posts = $('#forum_' + forum_id).find('.post_space')[0];
+                var posts = elem.parent().parent().next();//$('#forum_' + forum_id).find('.post_space')[0];
                 var template = $.templates("#post_tmpl");
                 var htmlOutput = template.render(data);
                 $(posts).prepend(htmlOutput);
@@ -159,7 +190,7 @@ function setupComments() {
         $.ajax({
             type: "post",
             dataType: "json",
-            url: '../../actions/forum/action_add_post_comment.php',
+            url: '../../api/add_post_comment.php',
             data: {'post_id' : post_id, 'project_id' : proj_id, 'content' : content}
         }).done(function(data) {
 
@@ -201,6 +232,7 @@ function category_ajax_call(category) {
         var htmlOutput = template.render(data);
         elem.html(htmlOutput);
         setup_information();
+        setupForumListeners();
 
     }).fail(function() {
 
