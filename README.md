@@ -15,13 +15,13 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [X] Ensure isolation of various system layers (SQL, PHP, and HTML/CSS/JSON) with technologies such as PDO and Smarty.
 - [ ] Implement an architecture to handle internal errors.
 - [X] Use AJAX in web pages.
-- [ ] Validate data entered by the user in forms using HTML5.
+- [X] Validate data entered by the user in forms using HTML5.
 - [ ] Validate data entered by the user in forms using JavaScript.
 - [ ] Validate data entered by the user in forms using PHP.
 - [X] Implement access control.
 - [ ] Check the HTML and CSS using the W3C validation tools.
 - [ ] Check the accessibility of interfaces using automated tools.
-- [ ] Check the usability of the product based on lists of common web usability problems.
+- [X] Check the usability of the product based on lists of common web usability problems.
 - [ ] Remove test and development comments from source code.
 - [ ] Remove temporary or unused files from the delivered source code.
 - [ ] Include the source code in a single .zip file attached in the wiki page of the product.
