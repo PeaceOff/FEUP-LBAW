@@ -22,7 +22,7 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [ ] Check the HTML and CSS using the W3C validation tools.
 - [ ] Check the accessibility of interfaces using automated tools.
 - [X] Check the usability of the product based on lists of common web usability problems.
-- [ ] Remove test and development comments from source code.
+- [X] Remove test and development comments from source code.
 - [ ] Remove temporary or unused files from the delivered source code.
 - [ ] Include the source code in a single .zip file attached in the wiki page of the product.
 - [ ] Include a list of features in the product wiki page, indicating the implementation status of each feature (as a percentage).
