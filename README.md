@@ -17,7 +17,7 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [X] Use AJAX in web pages.
 - [X] Validate data entered by the user in forms using HTML5.
 - [X] Validate data entered by the user in forms using JavaScript.
-- [ ] Validate data entered by the user in forms using PHP.
+- [X] Validate data entered by the user in forms using PHP.
 - [X] Implement access control.
 - [ ] Check the HTML and CSS using the W3C validation tools.
 - [ ] Check the accessibility of interfaces using automated tools.
