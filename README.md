@@ -8,7 +8,7 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 
 ## Final Product Checklist
 
-- [ ] Implement user management.
+- [X] Implement user management.
 - [X] Implement support for mobile devices.
 - [ ] Implement an information search system using the full-text search features of PostgreSQL.
 - [X] Implementing online assistance (e.g. help online) in the product.
