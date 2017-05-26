@@ -11,12 +11,12 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [ ] Implement user management.
 - [X] Implement support for mobile devices.
 - [ ] Implement an information search system using the full-text search features of PostgreSQL.
-- [ ] Implementing online assistance (e.g. help online) in the product.
+- [X] Implementing online assistance (e.g. help online) in the product.
 - [X] Ensure isolation of various system layers (SQL, PHP, and HTML/CSS/JSON) with technologies such as PDO and Smarty.
 - [ ] Implement an architecture to handle internal errors.
 - [X] Use AJAX in web pages.
 - [X] Validate data entered by the user in forms using HTML5.
-- [ ] Validate data entered by the user in forms using JavaScript.
+- [X] Validate data entered by the user in forms using JavaScript.
 - [ ] Validate data entered by the user in forms using PHP.
 - [X] Implement access control.
 - [ ] Check the HTML and CSS using the W3C validation tools.
