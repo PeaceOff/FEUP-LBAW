@@ -34,3 +34,9 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [ ] Prepare the script for product demonstration.
 
 
+## Developers :
+
+* [David Azevedo](https://github.com/PeaceOff)
+* [João Ferreira](https://github.com/joaocsf)
+* [José Martins](https://github.com/JoseLuisMartins)
+* [Marcelo Ferreira](https://github.com/mferreira96)
