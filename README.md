@@ -17,13 +17,14 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [X] Use AJAX in web pages.
 - [X] Validate data entered by the user in forms using HTML5.
 - [X] Validate data entered by the user in forms using JavaScript.
-- [X] Validate data entered by the user in forms using PHP.
+- [ ] Validate data entered by the user in forms using PHP.(2 ficheiros ?)
 - [X] Implement access control.
 - [ ] Check the HTML and CSS using the W3C validation tools.
 - [ ] Check the accessibility of interfaces using automated tools.
-- [X] Check the usability of the product based on lists of common web usability problems.
-- [X] Remove test and development comments from source code.
+- [ ] Check the usability of the product based on lists of common web usability problems.
+- [ ] Remove test and development comments from source code.
 - [ ] Remove temporary or unused files from the delivered source code.
+- [ ] VERIFY ALL OF THE USER STORIES TO SEE IF THEY WORK!
 - [ ] Include the source code in a single .zip file attached in the wiki page of the product.
 - [ ] Include a list of features in the product wiki page, indicating the implementation status of each feature (as a percentage).
 - [ ] Display the URL of the product on the wiki page.
