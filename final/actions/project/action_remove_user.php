@@ -2,6 +2,7 @@
 
 	include_once('../../config/init.php');
 	include_once($BASE_DIR . 'database/project.php');
+
 	if(!isset($_SESSION['username'])
 		|| !isset($_POST['username'])
 		|| !isset($_POST['project_id']) ) {

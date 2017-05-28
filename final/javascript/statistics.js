@@ -40,6 +40,8 @@ $(document).ready(function(){
           options: {
               scales: {
                   yAxes: [{
+			barPercentage:1.0,
+			categoryPercentage:1.0,
                       ticks: {
                           beginAtZero: true
                       }

@@ -1,6 +1,6 @@
 function setupForumListeners() {
 
-    $('.forum_button').unbind().click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
+    $('.forum_button').unbind().click(function() {
 
         var elem = $(this);
         var forum_id = elem.attr("data-target");
@@ -28,7 +28,7 @@ function setupForumListeners() {
 
     });
 
-    $('.forum_task_button').unbind().click(function() {//Listener que ao clicar num forum faz um pedido ajax dos posts
+    $('.forum_task_button').unbind().click(function() {
 
         var elem = $(this);
         var modal_id = elem.attr("data-target");
@@ -57,7 +57,7 @@ function setupForumListeners() {
 
     });
 
-    $('.delete_topic_button').unbind().click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
+    $('.delete_topic_button').unbind().click(function() {
 
         var elem = $(this);
         var proj_id = $_GET('project_id');
@@ -88,7 +88,7 @@ function setupPostListeners() {
 
     $('.addPost-form').find("[name='post_content']").unbind().keypress(function (e) {
         var key = e.which;
-        if(key == 13)  // the enter key code
+        if(key == 13)  
         {
             $(this).parent().parent().find('[type="submit"]').click();
             return false;
@@ -102,8 +102,6 @@ function setupPostListeners() {
         var project_id = elem.find('[name="project_id"]').val();
         var forum_id = elem.find('[name="forum_id"]').val();
 
-        //console.log("Sending new post : " + post_content + " | " + project_id + " | " + forum_id);
-
         $.ajax({
             url     : '../../api/add_topic_post.php',
             type    : elem.attr('method'),
@@ -116,7 +114,7 @@ function setupPostListeners() {
                 elem.find('#post_content').val("");
                 elem.find('[type="submit"]').blur();
 
-                var posts = elem.parent().parent().next();//$('#forum_' + forum_id).find('.post_space')[0];
+                var posts = elem.parent().parent().next();
                 var template = $.templates("#post_tmpl");
                 var htmlOutput = template.render(data);
                 $(posts).prepend(htmlOutput);
@@ -172,14 +170,14 @@ function setupComments() {
 
     $('.add_comment_input').unbind().keypress(function (e) {
         var key = e.which;
-        if(key == 13)  // the enter key code
+        if(key == 13)  
         {
             $(this).next().click();
             return false;
         }
     });
 
-    $('.add_comment_button').unbind().click(function() {//Listener que ao clicar no trashbin de um forum apaga esse forum
+    $('.add_comment_button').unbind().click(function() {
 
         var elem = $(this);
         var proj_id = $_GET('project_id');
@@ -214,6 +212,27 @@ function clearAll(){
     $('#Done').empty();
 }
 
+function open_forum_modals(){
+
+    var get_vars = window.location.search.substring(1);
+    var single_vars = get_vars.split('&');
+    for (var i = 0; i < single_vars.length; i++)
+    {
+        var param_name = single_vars[i].split('=');
+
+        if (param_name[0] == "forum"){
+            var string = '[data-target=\'#forum_' + param_name[1] + '\']';
+            $(string + "").click();
+        }
+
+        if (param_name[0] == "forum_task"){
+            var string = '[data-target=\'#forum_task_' + param_name[1] + '\']';
+            $(string + "").click();
+        }
+    }
+
+}
+
 function category_ajax_call(category) {
 
     var string = "#" + category;
@@ -233,6 +252,7 @@ function category_ajax_call(category) {
         elem.html(htmlOutput);
         setup_information();
         setupForumListeners();
+        open_forum_modals();
 
     }).fail(function() {
 

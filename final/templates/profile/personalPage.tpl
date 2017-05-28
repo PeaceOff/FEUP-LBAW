@@ -10,7 +10,7 @@
       <h4 class="item-title">{$notification.description}</h4>
       <p class="item-info">{$notification.time}</p>
       <div class="notification-links notification-mark  pull-right">
-        <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a> <!--Delete notification-->
+        <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a> 
       </div>
     </div>
   {/foreach}
@@ -21,7 +21,7 @@
     <h2>My Statistics </h2>
   </div>
 
-  <canvas class="chart" id="statisticsChart"></canvas>
+  <canvas class="chart" id="statisticsChart" height="70"></canvas>
 </div>
 
 <div class="container">

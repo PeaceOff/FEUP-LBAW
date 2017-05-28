@@ -9,6 +9,7 @@
 	header('Location:' . $BASE_URL.'/pages/authentication/home.php');
 	  die();
   }
+
   $username = htmlentities($_POST['username'], ENT_QUOTES, "UTF-8");
   $username = trim($username);
   $username = strtolower($username);

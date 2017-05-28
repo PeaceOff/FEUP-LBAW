@@ -63,7 +63,7 @@
           <a class="btn icon-link btn-warning btn-sm btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#assign-category-modal">
             <i class="fa fa-arrows"></i>
           </a>
-          <a class="btn icon-link btn-info btn-sm btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#forum_task_{$task.id}">
+          <a class="btn icon-link btn-info btn-sm btn-assign-task-id forum_task_button" task_id="{$task.id}" data-toggle="modal" data-target="#forum_task_{$task.id}">
             <i class="fa fa-comments-o"></i>
           </a>
           <a class="btn icon-link btn-danger btn-sm btn-assign-task-id btn-delete-task" task_id="{$task.id}"  >
@@ -95,7 +95,9 @@
       <div class="collaborator">
         <h5>People Assigned</h5>
         {{for assigned}}
+        <a class="deassign_user" task_id="{{:id}}" title="{{:username}}">
         <i class="fa fa-user avatar icon-link img-circle" title="{{:username}}" aria-hidden="true"></i>
+        </a>
         {{/for}}
         <a class="btn icon-link btn-success btn-sm  btn-assign-task-id" task_id="{{:id}}" data-toggle="modal" data-target="#assign-user-modal">
           <i class="fa fa-plus"></i>

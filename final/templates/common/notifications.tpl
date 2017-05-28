@@ -8,7 +8,7 @@
       <div class="notification-heading">
         <h4 class="notifications-title">Notifications</h4>
         {if $notification_number != 0}
-        <a href="#" class="btn_delete_all_notifications"> <h4 class="notifications-title pull-right ">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a><!--TODO delete das notificacoes-->
+        <a href="#" class="btn_delete_all_notifications"> <h4 class="notifications-title pull-right ">Dismmiss all    <i class="fa fa-arrow-right" aria-hidden="true"></i></h4> </a>
         {/if}
       </div>
     </li>
@@ -21,14 +21,15 @@
           <p class="item-info">{$notification.time}</p>
           <div class="notification-links pull-right">
             {if $notification.invite}
-            <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a><!--TODO accept invite-->
-            <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a><!--TODO decline invite-->
+            <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
+            <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a>
             {else}
-            <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a> <!--Delete notification-->
+            <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a> 
             {/if}
           </div>
         </div>
       {/foreach}
+     </div>
     </li>
     <li class="divider"></li>
   </ul>

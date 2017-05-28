@@ -22,17 +22,9 @@ function addWarning(type, msg){
 	}, 2000);
 }
 
-function addUser(username){
-	var element = $('.template tr').clone(true);
-	
-	element.find('.template_name').html(username);
-	element.find('.link_removeUser').attr('username',username);
-	$('#project-users tbody').append(element);
-
-}
 
 function addShow(index){
-  var target = $(this).attr("target");
+  var target = $(this).attr("data-target");
 
   $(this).click(function(){
     toggleSideBar(target);
@@ -62,8 +54,8 @@ function toggler_addListener(){
 function $_GET(param) {
 	var vars = {};
 	window.location.href.replace( location.hash, '' ).replace(
-		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
-		function( m, key, value ) { // callback
+		/[?&]+([^=&]+)=?([^&]*)?/gi, 
+		function( m, key, value ) { 
 			vars[key] = value !== undefined ? value : '';
 		}
 	);
@@ -88,7 +80,7 @@ function remove_document(){
 				data: {project_id: $_GET('project_id'), document_id: documentId , type_of_doc: type_of_doc, document_path: document_path}
 			});
 
-			$(this).ancestor('li').remove();
+			$(this).parents('li').remove();
 	});
 
 }
@@ -302,13 +294,23 @@ function add_user(){
 				data: { username: username, project_id: $_GET('project_id')}
 			}).done(function(arg){
 				addWarning('success','User successfully added!');
-				addUser(username);
+                addColaborator(username);
 				elem.val("");
 			}).fail(function(){
 				addWarning('warning','User NOT Found!');
 			});
     });
 }
+
+function addColaborator(username){
+    var element = $('.template tr').clone(true);
+
+    element.find('.template_name').html(username);
+    element.find('.link_removeUser').attr('username',username);
+    $('#project-users tbody').append(element);
+
+}
+
 
 
 function touch_addListener(){
@@ -392,28 +394,26 @@ Dropzone.options.myDropzone = {
 	   	});
 
 		this.on("processingmultiple", function(files) {
-			console.log("processing " +  files);
+
 		});
 
 
 		this.on("sendingmultiple", function(files, http, formData) {
-       			console.log('Sending files ');
-			console.log(files);
 			formData.append('project_id', $_GET('project_id'));
-      		});
+		});
 
 		this.on("successmultiple", function(files, response) {
-      			console.log(response);
+      			location.reload();
 		});
 
 		this.on("error", function(files, response) {
-      			console.log("Error ");
-			console.log(response);
+      			
+			
 		});
 
 		this.on("queuecomplete", function(files) {
-			console.log(this.files);
-      			console.log("queue completed");
+			
+      			
 
 		});
 
@@ -463,11 +463,13 @@ function validateRegister(){
         }
 
         var username = document.forms["signUp-form"]["username"].value;
+        var password = document.forms["signUp-form"]["password"].value;
+        var confirmPassword = document.forms["signUp-form"]["confirmPassword"].value;
 
         $.ajax({
             type: "post",
             url: "../../actions/authentication/action_register_checker.php",
-            data: {'username' : username}
+            data: {'username' : username, 'password' : password, 'confirmPassword' : confirmPassword}
         }).done(function(arg){
 
             $(".register").attr("register_conf", 1);
@@ -480,6 +482,8 @@ function validateRegister(){
                 addWarning("warning", "username already exists");
             }else if(arg.status == 401){
                 addWarning("warning", "you can not register with that username");
+			}else if(arg.status == 402){
+            	addWarning("warning", "confirmation of password failed");
 			}
 		});
 
@@ -510,6 +514,7 @@ $(document).ready(function(){
   remove_date();
   validateLogin();
   validateRegister();
+  open_forum_modals();
   setTimeout(function(){
     $("body").removeClass("preload");
   },500);

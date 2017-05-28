@@ -1,12 +1,11 @@
 <?php
 	include_once($BASE_DIR . 'database/users.php');
-
-	if(isset($_SESSION['username']) && isset($_SESSION['name'])){
+	if(isset($_SESSION['username']) || isset($_SESSION['name'])){
 		$username = $_SESSION['username'];
 		$name = $_SESSION['name'];
 		$smarty->assign('name',$name);
+		error_log("USERNAME:".$username);
 		$result = user_get_notifications($username);
-
 		$notifications=array();
 
 		foreach($result as $value){

@@ -5,7 +5,7 @@
 
     if(!isset($_SESSION['username'])){
       header('Location: ../authentication/home.php');
-      exit();
+      die();
     }
 
     $smarty->display('common/header.tpl');

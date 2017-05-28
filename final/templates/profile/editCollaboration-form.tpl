@@ -5,7 +5,7 @@
             <h4 class="modal-title">Edit Collaboration</h4>
         </div>
         <div class="modal-body">
-            <form  id ="editProject-form" action="../../actions/profile/action_edit_collaboration.php" method="post" style="display:block">
+            <form  id ="editCollaboration-form" action="../../actions/profile/action_edit_collaboration.php" method="post" style="display:block">
 
 
                 <div class="form-group input-group width-100">
@@ -19,10 +19,10 @@
                     </select>
                 </div>
 
-                <input class="hidden_collaboration_id" type="hidden" name="project_id" value=''> </input>
+                <input class="hidden_collaboration_id" type="hidden" name="project_id" value=''>
 
                 <div class="text-center">
-                    <input class="btn btn-success link_update_project" type="submit" name="edit" value="Edit" required="" tabindex="4">
+                    <input class="btn btn-success link_update_project" type="submit" name="edit" value="Edit"  tabindex="4">
                 </div>
 
             </form>

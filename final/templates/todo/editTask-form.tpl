@@ -1,4 +1,6 @@
-<div id="editTask" class="modal fade col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+<div id="editTask" class="modal fade">
+<div class="display-flex"> 
+<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
   <div class="modal-content modal-out">
 
     <div class="modal-header text-center">
@@ -8,8 +10,8 @@
 
     <div class="modal-body">
       <form  id ="editTask-form" action="../../actions/todo/action_edit_task.php" method="post" style="display:block">
-	<input type='hidden' name='project_id' value='{$project_id}'></input>
-	<input type='hidden' class='task-id-handler' name='task_id' value=''></input>
+	<input type='hidden' name='project_id' value='{$project_id}'>
+	<input type='hidden' class='task-id-handler' name='task_id' value=''>
 	        
 	<div class="form-group input-group width-100">
           <label for="sel1">Category</label>
@@ -21,8 +23,8 @@
         </div>
         
 	<div class="form-group input-group date width-100">
-          <label>Deadline</label>
-          <input type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control task_deadline" tabindex="2">
+          <label for="deadline_task">Deadline</label>
+          <input id="deadline_task" type='date' data-date-format="YYYY/MM/DD" name="deadline" class="datetimepicker form-control task_deadline" tabindex="2">
         </div>
         
 	<div class="form-group input-group width-100">
@@ -31,10 +33,13 @@
         </div>
         
 	<div class="text-center">
-         <input class="btn btn-success " type="submit" name="submit" value="Save" required="" tabindex="4">
+         <input class="btn btn-success " type="submit" name="submit" value="Save" tabindex="4">
         </div>
       
 	</form>
     </div>
   </div>
 </div>
+</div>
+</div>
+

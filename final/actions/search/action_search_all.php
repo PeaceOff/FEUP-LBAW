@@ -23,6 +23,5 @@
   $res['posts'] = search_post_content($query,$project_id);
 
 
-//print_r( $results);
   echo json_encode($res);
 ?>

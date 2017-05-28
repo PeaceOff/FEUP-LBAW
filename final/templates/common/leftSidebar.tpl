@@ -1,6 +1,6 @@
 <div id="sidebar-left" class="col-sm-2 padding-0 minimized color-grey">
   <div class="left-sidebar-btn">
-    <i class="fa fa-chevron-right hide-actor" target="sidebar-left" style="cursor : pointer"></i>
+    <i class="fa fa-chevron-right hide-actor" data-target="sidebar-left" style="cursor : pointer"></i>
   </div>
   <ul class="sidebar-nav">
      <li> <button type="button" class="btn btn-primary btn-block btn-sm " data-toggle="modal" data-target ="#addFolder"><i class="fa fa-plus" aria-hidden="true">       Create Folder</i></button>  </li>

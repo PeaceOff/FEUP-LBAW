@@ -1,5 +1,5 @@
 <?php
-    //user
+    
     function user_add($username, $password, $email,$name) {
       global $conn;
 	try{
@@ -89,13 +89,12 @@
 
     function user_get_notifications($username){
       global $conn;
-	try{
-      $stmt = $conn->prepare("SELECT notification.description, notification.date AS time, project.name AS project_name, type, associated, notification.id as notification_id
-                              FROM notification, project WHERE project_id = project.id AND notificated = ?");
+      try{
+      $stmt = $conn->prepare("SELECT notification.description, notification.date AS time, project.name AS project_name, type, associated, notification.id as notification_id FROM final.notification, final.project WHERE project_id = project.id AND notificated = ?");
       $stmt->execute(array($username));
-	}catch(Exception $e){
-		error_log("DB Error:" . $e->getMessage());
-	}
+      }catch(Exception $e){
+           error_log("DB Error:" . $e->getMessage());
+      }
       return $stmt->fetchAll();
     }
 

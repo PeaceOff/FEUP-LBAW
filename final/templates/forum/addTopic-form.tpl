@@ -1,4 +1,6 @@
-<div id="addTopic" class="modal fade col-md-6 col-md-offset-3">
+<div id="addTopic" class="modal fade">
+<div class="display-flex"> 
+<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
     <div class="modal-content modal-out">
 
         <div class="modal-header text-center">
@@ -12,11 +14,11 @@
                 <div class="form-group input-group width-100">
                     <label for="topicName">Name</label>
                     <input class="form-control" type="text" tabindex="1" id="topicName" name="topicName" value="" required="" autofocus="" >
-                    <input type="hidden" id="addTopic_project_id" name="project_id" value="{$project_id}"> </input>
+                    <input type="hidden" id="addTopic_project_id" name="project_id" value="{$project_id}">
                 </div>
 
                 <div class="text-center">
-                    <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="2">
+                    <input class="btn btn-success " type="submit" name="create" value="Create" tabindex="2">
                 </div>
 
             </form>
@@ -24,3 +26,6 @@
         </div>
     </div>
 </div>
+</div>
+</div>
+

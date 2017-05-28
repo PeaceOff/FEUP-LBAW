@@ -1,4 +1,6 @@
-<div id="signUp" class="modal fade col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+<div id="signUp" class="modal fade">
+<div class="display-flex"> 
+<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
   <div class="modal-content modal-out">
     <div class="modal-header text-center">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -9,7 +11,7 @@
         <form  id ="signUp-form" action="../../actions/authentication/action_register.php" method="post" style="display:block" class="register" register_conf="0">
           <div class="input-group form-group">
             <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
-            <input class="form-control " type="text" tabindex="1" placeholder="Username" name="username"  required=""  autofocus="">
+            <input class="form-control " type="text" tabindex="1" placeholder="Username" name="username"  required="">
           </div>
           <div class="input-group form-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
@@ -24,9 +26,12 @@
             <input class="form-control" type="email" tabindex="4" placeholder="email" name="email"  required="">
           </div>
           <div class=" text-center">
-            <input class="btn btn-success" type="submit" tabindex="5" name="signup" value="Sign Up" required="">
+            <input class="btn btn-success" type="submit" tabindex="5" name="signup" value="Sign Up">
           </div>
         </form>
       </div>
     </div>
   </div>
+</div>
+</div>
+

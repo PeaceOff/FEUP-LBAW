@@ -2,8 +2,8 @@
     include_once('../../config/init.php');
 
     if(isset($_SESSION['username'])){
-    header('Location: ../profile/personalPage.php');
-    exit();
+        header('Location: ../profile/personalPage.php');
+        die();
     }
     $smarty->display('common/header.tpl');
 

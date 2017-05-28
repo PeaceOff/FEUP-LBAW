@@ -34,6 +34,6 @@
 
 	add_task($task_title,$task_description,$task_deadline, $_SESSION['username'], $project_id ,$task_category);
 
-	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#To-Do.php');
+	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#' . $task_category);
 	exit();
 ?>

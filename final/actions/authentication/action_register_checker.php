@@ -12,6 +12,15 @@ $username = htmlentities($_POST['username'], ENT_QUOTES, "UTF-8");
 $username = trim($username);
 $username = strtolower($username);
 
+$password = $_POST['password'];
+$confirmPassword = $_POST['confirmPassword'];
+
+
+if(strcmp($password, $confirmPassword) != 0){
+    http_response_code(402);
+    exit();
+}
+
 if(preg_match("/^up*/", $username)){
     http_response_code(401);
     exit();

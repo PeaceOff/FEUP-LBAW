@@ -5,14 +5,14 @@
 
     if(!isset($_SESSION['username'])){
         header('Location: ../authentication/home.php');
-        exit();
+        die();
     }
 
     $username = $_SESSION['username'];
 
     if(!project_allowed($username,$_GET['project_id'])){
        header('Location:../authentication/home.php');
-	   exit();
+	   die();
     }
 
     $smarty->display('common/header.tpl');

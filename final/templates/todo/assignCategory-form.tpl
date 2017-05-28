@@ -1,4 +1,5 @@
-<div class="modal fade" id="assign-category-modal" role="dialog">
+<div id="assign-category-modal" class="modal fade">
+<div class="display-flex"> 
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -15,6 +16,8 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-    </div>
   </div>
 </div>
+</div>
+</div>
+

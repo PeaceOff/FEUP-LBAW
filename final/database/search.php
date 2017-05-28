@@ -3,7 +3,7 @@
 
   function search_post_content($query,$project_id) {
     global $conn;
-        $stmt = $conn->prepare("SELECT * FROM post,topic WHERE to_tsvector('english',content) @@ to_tsquery('english',?) AND post.topic_id=topic.id AND topic.project_id = ? AND topic.task_id IS NULL");
+        $stmt = $conn->prepare("SELECT * FROM post,topic WHERE to_tsvector('english',content) @@ to_tsquery('english',? ) AND post.topic_id=topic.id AND topic.project_id = ? AND topic.task_id IS NULL");
 
         try{
             $stmt->execute(array($query,$project_id));

@@ -1,6 +1,6 @@
 <?php
 
-  //project
+
   function project_add($name, $description, $deadline, $managerId) {
     global $conn;
 	try{
@@ -106,7 +106,7 @@
 	}
   }
 
-  //collaborates
+  
   function project_add_collaborator($username, $project_id) {
     global $conn;
 	try{
@@ -140,7 +140,7 @@
     return $stmt->fetchAll();
   }
 
-  //project_folder
+  
   function project_change_folder($project_id, $folder_id){
     global $conn;
 	try{
@@ -173,7 +173,7 @@
   }
 
 
-  //document
+  
   function project_add_document($project_id ,$name, $description, $type, $path){
     global $conn;
 	try{

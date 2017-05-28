@@ -1033,3 +1033,887 @@ LINE 1: ...('english',title) @@ to_tsquery('english',$1)) OR ) AND proj...
 [25-May-2017 15:08:12 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ")"
 LINE 1: ...('english',title) @@ to_tsquery('english',$1)) OR ) AND proj...
                                                              ^
+[25-May-2017 15:38:16 Europe/Lisbon] DB Error:noobcsfunknown
+[26-May-2017 09:47:24 Europe/Lisbon] DB Error:poldeiro@gmail.comunknown
+[26-May-2017 18:57:31 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 18:57:50 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 18:58:18 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 18:58:29 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 18:59:53 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 19:01:05 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 19:03:04 Europe/Lisbon] PHP Fatal error:  Uncaught  --> Smarty Compiler: Syntax error in template "/opt/lbaw/lbaw1665/public_html/final/templates/common/rightSidebar.tpl"  on line 101 "{literal}" missing or misspelled literal closing tag <-- 
+  thrown in /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 101
+[26-May-2017 19:12:34 Europe/Lisbon] DB Error:lolesunknown
+[26-May-2017 19:12:34 Europe/Lisbon] DB Error:lolesunknown
+[26-May-2017 19:16:27 Europe/Lisbon] DB Error:boasunknown
+[26-May-2017 19:16:27 Europe/Lisbon] DB Error:boasunknown
+[26-May-2017 19:16:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[27-May-2017 13:15:16 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:16 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:18 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:18 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:18 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:19 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(JoninhasDaStreetMan) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 13:15:35 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:15:55 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:15:56 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:15:57 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:19 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:20 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:22 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:29 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:53 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:56 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:16:56 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:18:08 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 13:18:10 Europe/Lisbon] PHP Warning:  Cannot modify header information - headers already sent by (output started at /opt/lbaw/lbaw1665/public_html/final/lib/smarty/sysplugins/smarty_internal_templatebase.php:342) in /opt/lbaw/lbaw1665/public_html/final/pages/todo/todoPage.php on line 21
+[27-May-2017 14:41:20 Europe/Lisbon] DB Error:lbaw1665unknown
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons d"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons di"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 14:41:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bons dias"
+[27-May-2017 15:09:51 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Report-WeEat.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 15:09:55 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Report-WeEat.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 15:09:56 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Report-WeEat.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 15:09:56 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Report-WeEat.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 15:17:57 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:25:16 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:27:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:27:56 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:27:59 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:02 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:04 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:05 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:36 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:36 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:37 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:37 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:38 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:38 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:42 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:43 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:43 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:43 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:43 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:28:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ector('english',title) @@ to_tsquery('english',$1 :*) AND pr...
+                                                             ^
+[27-May-2017 15:28:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:13 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:14 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:14 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near "':*'"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1':*') AND ...
+                                                             ^
+[27-May-2017 15:29:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1:*AND proj...
+                                                             ^
+[27-May-2017 15:29:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1:*AND proj...
+                                                             ^
+[27-May-2017 15:29:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1:*AND proj...
+                                                             ^
+[27-May-2017 15:29:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:47 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1:*AND proj...
+                                                             ^
+[27-May-2017 15:29:47 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:29:47 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...vector('english',title) @@ to_tsquery('english',$1:*AND proj...
+                                                             ^
+[27-May-2017 15:29:47 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:30:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:30:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:35:47 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:35:50 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:36:43 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:02 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:03 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:03 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:03 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:05 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:20 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:20 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:52 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:52 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:56 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:37:59 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:38:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:39:14 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:39:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:20 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:32 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:40:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at or near ":"
+LINE 1: ...ctor('english',content) @@ to_tsquery('english',$1:*) AND po...
+                                                             ^
+[27-May-2017 15:48:56 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:51:52 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:51:53 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:55:01 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 53) already exists.
+[27-May-2017 15:55:22 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 15:56:55 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(lluismartins7@gmail.com) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 15:57:26 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(lluismmartins7@gmail.com\\) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 15:57:59 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 15:58:56 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:02:16 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:02:16 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:02:19 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:02:20 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:02:22 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:03:38 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Report-WeEat.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 16:03:55 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Texto_01.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 16:04:32 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Texto_06.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[27-May-2017 16:04:48 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 16:11:03 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(81, teste) already exists.
+[27-May-2017 16:27:20 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(lluismmartins@gmail.com) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 16:27:33 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(noobcsf) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 16:27:37 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(lluismmartins@gmail.com) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 16:27:40 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 16:27:42 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 16:27:49 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 16:27:54 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 16:28:01 Europe/Lisbon] DB Error:SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "statistics" violates foreign key constraint "statistics_user_id_fkey"
+DETAIL:  Key (username)=(noobcsf) is not present in table "user".
+CONTEXT:  SQL statement "INSERT INTO statistics VALUES (NEW.username,1,1,0,0)"
+PL/pgSQL function insert_collaborates() line 21 at SQL statement
+[27-May-2017 16:29:18 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(marcelo, 44) already exists.
+[27-May-2017 16:30:17 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 16:30:40 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(teste1234, 43) already exists.
+[27-May-2017 16:30:47 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 24
+[27-May-2017 16:31:25 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 67) already exists.
+[27-May-2017 16:35:48 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(marcelo, 44) already exists.
+[27-May-2017 16:39:47 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "collaborators_pkey"
+DETAIL:  Key (project_id, username)=(83, lluismmartins7@gmail.com) already exists.
+[27-May-2017 18:06:10 Europe/Lisbon] DB Error:lbaw1665unknown
+[27-May-2017 18:14:46 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[27-May-2017 18:28:43 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:07 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:10 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:10 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:11 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:11 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:11 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:11 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:12 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:12 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:12 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:29:12 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:31:53 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:31:55 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:32:02 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:32:07 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:32:10 Europe/Lisbon] USERNAME:joaocsf
+[27-May-2017 18:32:13 Europe/Lisbon] USERNAME:joaocsf
+[28-May-2017 09:42:14 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 09:42:44 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 09:50:06 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 09:50:10 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:06:21 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:06:34 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:08:35 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:08:36 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:08:36 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:08:36 Europe/Lisbon] USERNAME:tu
+[28-May-2017 10:08:49 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:21:17 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:21:17 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:21:17 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:21:18 Europe/Lisbon] USERNAME:tu
+[28-May-2017 10:21:44 Europe/Lisbon] DB Error:tuunknown
+[28-May-2017 10:22:55 Europe/Lisbon] USERNAME:oi
+[28-May-2017 10:23:18 Europe/Lisbon] USERNAME:oi
+[28-May-2017 10:23:23 Europe/Lisbon] USERNAME:oi
+[28-May-2017 10:24:31 Europe/Lisbon] USERNAME:oi
+[28-May-2017 10:24:46 Europe/Lisbon] DB Error:sounknown
+[28-May-2017 10:24:46 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:24:46 Europe/Lisbon] USERNAME:so
+[28-May-2017 10:25:44 Europe/Lisbon] DB Error:sounknown
+[28-May-2017 10:25:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:25:44 Europe/Lisbon] USERNAME:so
+[28-May-2017 10:36:09 Europe/Lisbon] DB Error:lolevounknown
+[28-May-2017 10:36:10 Europe/Lisbon] DB Error:lolevounknown
+[28-May-2017 10:36:10 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:36:10 Europe/Lisbon] USERNAME:lolevo
+[28-May-2017 10:37:07 Europe/Lisbon] USERNAME:lolevo
+[28-May-2017 10:37:36 Europe/Lisbon] DB Error:stoikunknown
+[28-May-2017 10:37:37 Europe/Lisbon] DB Error:stoikunknown
+[28-May-2017 10:37:37 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "User_email_key"
+DETAIL:  Key (email)=(boas@gmail.com) already exists.
+[28-May-2017 10:37:37 Europe/Lisbon] USERNAME:stoik
+[28-May-2017 10:42:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:42:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:42:45 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:43:04 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:43:14 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:43:15 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:43:38 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:43:48 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:44:07 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:44:12 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:44:16 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:44:55 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:44:56 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:46:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:46:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:46:37 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:46:41 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:46:55 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:47:03 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:47:56 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:48:31 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:52:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:52:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:52:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:55:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:55:10 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:55:13 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:57:53 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:58:10 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:58:33 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:58:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:58:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 10:59:04 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 10:59:21 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:00:32 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:00:38 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:01:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:04:08 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:04:47 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:06:22 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:06:29 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:06:55 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:06:57 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:07:02 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:08:13 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:08:53 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:09:38 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:09:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:09:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:10:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:10:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:10:25 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:10:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:10:34 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:10:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:11:47 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:12:27 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:12:41 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:14:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:14:37 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:14:53 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:15:36 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:15:42 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:16:08 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:18:45 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:18:52 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:19:23 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:19:32 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:20:27 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:20:40 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:20:43 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:20:53 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:20:58 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:21:01 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:21:24 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:21:29 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:22:09 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:22:20 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:22:26 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:22:35 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:22:49 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:24:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:25:00 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:25:16 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:25:29 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:25:46 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:25:59 Europe/Lisbon] USERNAME:marcelo
+[28-May-2017 11:30:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:30:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:31:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:34:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:34:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:35:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:36:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:37:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:37:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:47:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:53:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:54:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:54:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:56:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:15 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:57:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:58:45 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:59:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:59:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 11:59:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:00:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:01:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:01:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:02:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:02:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:03:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:03:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:04:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:04:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:04:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:05:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:05:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:05:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:06:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:06:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:07:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:07:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:08:30 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:09:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:10:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:12:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:12:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:13:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:13:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:13:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:14:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:14:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:17:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:17:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:17:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:18:49 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:19:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:19:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:20:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:20:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:21:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:22:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:24:15 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:24:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:24:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:25:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:25:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:26:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:27:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:28:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:29:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:29:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:30:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:31:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:31:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:31:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:31:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:32:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:32:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:32:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:33:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:33:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:33:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:35 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:34:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:35:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:36:03 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:46:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:46:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:46:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:47:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:47:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:48:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:56:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:57:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:57:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:57:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 12:58:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:00:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:00:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:01:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:02:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:02:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:05:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 13:10:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:48:47 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:48:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:55:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:56:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:57:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:58:49 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:59:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:59:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:59:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 14:59:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:00:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:00:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:01:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:02:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:02:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:02:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:03:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:04:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:06:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:06:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:07:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:07:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:10:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:10:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:11:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:35 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:12:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:13:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:13:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:13:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:13:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:14:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:14:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:14:49 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:15:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:15:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:15:45 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:15:57 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:15:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:15:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:17:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:18:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:18:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:19:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:19:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:20:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:20:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:20:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:53 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:21:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:21:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:22:10 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:22:10 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:22:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:22:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:22:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:23:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:23:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:27:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:28:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:28:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:28:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:32:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:32:47 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:33:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:35:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:35:54 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:35:54 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:35:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:35:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:36:12 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:36:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:36:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:36:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com

@@ -22,6 +22,11 @@ body.view {
   background-size: cover;
 }
 
+table{
+  table-layout: fixed;
+
+}
+
 .box-alerts{
 	position:fixed;
 	top:50px;
@@ -106,6 +111,7 @@ li{
 
 .notifications-wrapper {
   max-height: 250px;
+
 }
 
 .notifications{
@@ -140,7 +146,11 @@ li{
   color: rgba(51,122,183,1.0);
 }
 
-
+.btn_delete_notification {
+  position: absolute;
+  top: 30px;
+  right: 8px;
+}
 
 .notification-item {
   position:relative;
@@ -148,6 +158,8 @@ li{
   border-radius:4px;
   max-height: 80px;
   min-height: 80px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .notification-mark{
@@ -735,6 +747,17 @@ input.disabled{
 
 /* search */
 
+#searchResults {
+  padding: 0;
+  display:table;
+  width:100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+#searchResults li{
+  display:table-cell;
+}
 
 #searchResults {
   position: absolute;
@@ -743,36 +766,36 @@ input.disabled{
   top: 100%;
   display: block;
   height: auto;
-  background:dimgrey;
-
+  background: rgb(51,122,183);
 }
+/**/
 
-#searchResults li a:hover {
-
-  background-color: inherit;
-}
-
-#searchResults li:hover {
-  background-color: inherit;
-  animation-name: scale;
-  animation-duration: 0.2s;
-  animation-timing-function: ease-in-out;
-  animation-play-state: running;
-  animation-fill-mode: forwards;
-}
-
-#searchResults  li{
-  overflow:hidden;
-  opacity: 1;
-  color: white;
-  height: 2em;
-  border:1em;
-  border-color: black;
-}
 
 #searchResults  a{
-  text-decoration: none;
+  border-style: solid;
+  border-color: black;
+  display: block;
   color: white;
+  text-decoration:none;
 }
 
+#searchResults  a:hover{
+  text-decoration:none;
+}
 
+/*----modal----*/
+.vertical-align-center{
+	padding-top:0;
+	padding-down:0;
+}
+
+.display-flex{
+	display:flex;
+	min-height:100%;
+	pointer-events:none;
+	z-index: 20;
+	align-items:center;
+}
+.display-flex *{
+	pointer-events:auto;
+}

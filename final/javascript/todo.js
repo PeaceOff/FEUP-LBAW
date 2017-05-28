@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
- setup_todo_functions();
+	var url = window.location.href;
+        var anchor = '#' + url.substring(url.indexOf("#")+1);
+        //$('[href="' + anchor + '"]').click();
+        setup_todo_functions();
 
 });
 

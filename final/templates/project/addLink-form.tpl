@@ -1,4 +1,6 @@
-<div id="addLink" class="modal fade col-md-6 col-md-offset-3">
+<div id="addLink" class="modal fade">
+<div class="display-flex"> 
+<div class="col-md-6 col-md-offset-3">
   <div class="modal-content modal-out">
 
     <div class="modal-header text-center">
@@ -11,15 +13,18 @@
 
         <div class="form-group input-group">
           <span class="input-group-addon" ><i class="glyphicon glyphicon-link"></i></span>
-          <input type="hidden" name="project_id" value="{$project.id}"> </input>
-          <input class="form-control" type="url" pattern="https?://.+" tabindex="1" id="linkName" name="linkName" value="" required="" autofocus="" placeholder="Link">
+          <input type="hidden" name="project_id" value="{$project.id}">
+          <input class="form-control" type="url" pattern="https?://.+" tabindex="1" id="linkName" name="linkName" value="" required=""  placeholder="Link">
         </div>
 
         <div class="text-center">
-            <input class="btn btn-success " type="submit" name="create" value="Create" required="" tabindex="4">
+            <input class="btn btn-success " type="submit" name="create" value="Create" tabindex="4">
         </div>
 
       </form>
     </div>
   </div>
 </div>
+</div>
+</div>
+
