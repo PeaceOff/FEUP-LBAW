@@ -10,7 +10,7 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 
 - [X] Implement user management.
 - [X] Implement support for mobile devices.
-- [ ] Implement an information search system using the full-text search features of PostgreSQL.
+- [X] Implement an information search system using the full-text search features of PostgreSQL.
 - [X] Implementing online assistance (e.g. help online) in the product.
 - [X] Ensure isolation of various system layers (SQL, PHP, and HTML/CSS/JSON) with technologies such as PDO and Smarty.
 - [ ] Implement an architecture to handle internal errors.
