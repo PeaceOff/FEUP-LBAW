@@ -8,22 +8,23 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 
 ## Final Product Checklist
 
-- [ ] Implement user management.
+- [X] Implement user management.
 - [X] Implement support for mobile devices.
 - [ ] Implement an information search system using the full-text search features of PostgreSQL.
-- [ ] Implementing online assistance (e.g. help online) in the product.
+- [X] Implementing online assistance (e.g. help online) in the product.
 - [X] Ensure isolation of various system layers (SQL, PHP, and HTML/CSS/JSON) with technologies such as PDO and Smarty.
 - [ ] Implement an architecture to handle internal errors.
 - [X] Use AJAX in web pages.
-- [ ] Validate data entered by the user in forms using HTML5.
-- [ ] Validate data entered by the user in forms using JavaScript.
-- [ ] Validate data entered by the user in forms using PHP.
+- [X] Validate data entered by the user in forms using HTML5.
+- [X] Validate data entered by the user in forms using JavaScript.
+- [ ] Validate data entered by the user in forms using PHP.(2 ficheiros ?)
 - [X] Implement access control.
 - [ ] Check the HTML and CSS using the W3C validation tools.
 - [ ] Check the accessibility of interfaces using automated tools.
 - [ ] Check the usability of the product based on lists of common web usability problems.
 - [ ] Remove test and development comments from source code.
 - [ ] Remove temporary or unused files from the delivered source code.
+- [ ] VERIFY ALL OF THE USER STORIES TO SEE IF THEY WORK!
 - [ ] Include the source code in a single .zip file attached in the wiki page of the product.
 - [ ] Include a list of features in the product wiki page, indicating the implementation status of each feature (as a percentage).
 - [ ] Display the URL of the product on the wiki page.
@@ -34,3 +35,9 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [ ] Prepare the script for product demonstration.
 
 
+## Developers :
+
+* [David Azevedo](https://github.com/PeaceOff)
+* [João Ferreira](https://github.com/joaocsf)
+* [José Martins](https://github.com/JoseLuisMartins)
+* [Marcelo Ferreira](https://github.com/mferreira96)
