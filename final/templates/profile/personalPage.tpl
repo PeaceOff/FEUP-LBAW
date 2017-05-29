@@ -21,7 +21,7 @@
     <h2>My Statistics </h2>
   </div>
 
-  <canvas class="chart" id="statisticsChart" height="70"></canvas>
+  <canvas id="statisticsChart" ></canvas>
 </div>
 
 <div class="container">

@@ -1,10 +1,14 @@
 $(document).ready(function(){
 
 	var url = window.location.href;
-        var anchor = '#' + url.substring(url.indexOf("#")+1);
-        //$('[href="' + anchor + '"]').click();
-        setup_todo_functions();
-
+	var temp = url.substring(url.indexOf("#")+1);
+	if(temp != url) {
+        var anchor = '#' + temp;
+        if (anchor != "") {
+            $(anchor + "_button").children().first().click();
+            setup_todo_functions();
+        }
+    }
 });
 
 function todo_setTask_id(){

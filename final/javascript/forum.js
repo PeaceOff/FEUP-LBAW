@@ -253,6 +253,7 @@ function category_ajax_call(category) {
         setup_information();
         setupForumListeners();
         open_forum_modals();
+        deassign_user_from_task();
 
     }).fail(function() {
 

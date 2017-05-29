@@ -1917,3 +1917,654 @@ DETAIL:  Key (email)=(boas@gmail.com) already exists.
 [28-May-2017 15:36:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
 [28-May-2017 15:36:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
 [28-May-2017 15:36:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:49:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:49:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:49:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:49:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:13 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:50:13 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 15:50:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:20 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:23 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:25 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:27 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:27 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:50:28 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:28 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:29 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:30 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:33 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:34 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:35 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:38 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:39 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:39 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:39 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:50:39 Europe/Lisbon] DB Error:fffunknown
+[28-May-2017 15:53:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:53:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 15:53:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:00:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:00:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:01:44 Europe/Lisbon] DB Error:mamanunknown
+[28-May-2017 16:01:45 Europe/Lisbon] DB Error:mamanunknown
+[28-May-2017 16:01:45 Europe/Lisbon] USERNAME:maman
+[28-May-2017 16:01:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:02:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:02:07 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:21 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:22 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:22 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:02:26 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:26 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:31 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:31 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:32 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:34 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:36 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:37 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:38 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:38 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:39 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:39 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:39 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:39 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:39 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:40 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:40 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:41 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:47 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:02:48 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:48 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:02:49 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:03:04 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:03:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:03:08 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:03:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:03:35 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:03:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:03:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:03:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:04:19 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:04:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:04:47 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:04:54 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:07:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:08:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:08:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:08:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:09:30 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:09:41 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:11:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:11:21 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/Texto_05.pdf): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 16:11:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:11:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:11:37 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:11:56 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:11:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:12:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:12:04 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:14:04 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:14:09 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:14:30 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:14:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:14:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:14:40 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:15:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:15:44 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:16:14 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:16:25 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:16:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:16:46 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:16:49 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:15 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:30 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:42 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/finished-task-512.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 16:17:42 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:45 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/forum-icon-20.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 16:17:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:48 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/forum-icon-20.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 16:17:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:17:54 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:18:05 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/forum-icon-20.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 16:18:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 16:20:32 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:23:56 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:24:14 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:24:25 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:24:32 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:32:07 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:32:30 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:33:14 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:40:04 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:41:23 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:41:26 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:41:29 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:43:44 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:45:43 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:45:46 Europe/Lisbon] USERNAME:teste
+[28-May-2017 16:46:31 Europe/Lisbon] USERNAME:teste
+[28-May-2017 19:39:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:39:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:39:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:39:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:39:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:40:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:40:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:40:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:45:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:46:03 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:46:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:48:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:49:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:49:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:49:49 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:49:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:50:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:50:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:50:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:50:43 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 19:50:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:50:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:52:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:52:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:52:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:52:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:52:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:53:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:53:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:53:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:54:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:54:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:54:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:55:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:55:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:55:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:56:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:56:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 19:56:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:00:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:00:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:01:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:01:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:01:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:09:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:14:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:14:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:14:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:14:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:15:05 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:15:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:15:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:15:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:15:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:16:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:16:33 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:16:33 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:16:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:16:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:16:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:16:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:17:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:18:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:18:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:04 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:19:40 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/84/forum-icon-20.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 20:19:40 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:10 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/84/forum-icon-20.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 20:20:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:15 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/84/finished-task-512.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 20:20:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:31 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:20:31 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:20:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:20:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:22:35 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:22:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:26:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:27:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:28:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:29:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:31:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:16 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:37 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:32:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:57 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:32:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:32:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:33:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:33:28 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:33:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:33:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:33:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:34:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:36:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:37:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:37:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:38:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:39:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:40:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:40:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:41:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:41:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:42:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:42:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:43:33 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:43:33 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 20:43:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:43:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:43:47 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:44:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:45:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:45:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:46:32 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:46:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:47:30 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:47:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:47:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:47:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:48:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:48:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:48:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:49:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:49:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:50:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:51:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:52:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:53:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:54:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:55:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:55:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:55:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:55:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:56:45 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:57:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:57:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:57:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:57:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:57:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:58:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:58:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:58:47 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 20:59:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:20 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:55:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:56:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:58:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:23 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 22:59:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:34 Europe/Lisbon] PHP Warning:  unlink(/opt/lbaw/lbaw1665/public_html/final//uploads/81/finished-task-512.png): No such file or directory in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_delete_document.php on line 23
+[28-May-2017 23:00:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:39 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 23:00:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:40 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:48 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[28-May-2017 23:00:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:00:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:01:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:03:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:04:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:05:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:07:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:07:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:08:07 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:08:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:08:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:10:45 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:11:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:11:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:12:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:12:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:15:21 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:15:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:16:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:17:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:17:15 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:17:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:17:26 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:18:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:18:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:18:51 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:19:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:07 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:08 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vom"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vom"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vom"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia vo"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:09 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia v"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia "
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia b"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia b"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia b"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bo"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bo"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bo"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bom"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bom"
+[28-May-2017 23:19:10 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia bom"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:11 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diab"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diab"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diab"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:17 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:18 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:18 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:18 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:21 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:21 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:21 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom vo"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom vo"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom vo"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom v"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom b"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom b"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom b"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bo"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bo"
+[28-May-2017 23:19:22 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bo"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom "
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom "
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom "
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:23 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom bom"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:27 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom dia"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabo"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom"
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom diabom "
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom di"
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:30 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:19:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom d"
+[28-May-2017 23:19:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom d"
+[28-May-2017 23:19:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom d"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom dia"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom dia"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom dia"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:19:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "diabom di"
+[28-May-2017 23:21:14 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:28:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:28:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:28:27 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:28:28 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[28-May-2017 23:28:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:34 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:28:35 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d"
+[28-May-2017 23:28:35 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom d:*"
+[28-May-2017 23:28:35 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: "bom :*"
+[28-May-2017 23:28:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[28-May-2017 23:28:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[28-May-2017 23:28:49 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[28-May-2017 23:34:24 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:35:28 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:37:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:37:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:37:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:38:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:38:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:39:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:43:35 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:43:39 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:43:40 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:43:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:44:19 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:44:31 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:44:58 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:45:41 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:45:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:46:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:46:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:46:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:44 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:50 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:51 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:51 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 72) already exists.
+[28-May-2017 23:46:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:46:54 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 73) already exists.
+[28-May-2017 23:46:55 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 73) already exists.
+[28-May-2017 23:46:55 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 73) already exists.
+[28-May-2017 23:47:05 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 73) already exists.
+[28-May-2017 23:47:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:49:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:49:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[28-May-2017 23:49:44 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:19:57 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:20:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:20:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:20:38 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:20:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:20:51 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:51 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:51 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 00:20:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:22:02 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:22:59 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:23:15 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:23:25 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:23:53 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:23:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:24:17 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:24:47 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:25:01 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:27:54 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:28:00 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:28:15 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:28:37 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:31:33 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:03 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:06 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:55 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:32:56 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:33:05 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:35:13 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:36:08 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:46:03 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:46:30 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:46:46 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:47:11 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:49:22 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:49:29 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:50:09 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:50:40 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:50:43 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:51:34 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:51:36 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:51:48 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 00:51:52 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 01:00:50 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 01:01:18 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 01:03:10 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com
+[29-May-2017 01:03:12 Europe/Lisbon] USERNAME:lluismmartins7@gmail.com

@@ -27,7 +27,7 @@
         </div>
         <div class="form-group input-group width-100">
           <label for="task_description">Description</label>
-          <textarea class="form-control resizable-horizontal" id="task_description" name="description" rows="3" tabindex="4"></textarea>
+          <textarea class="form-control resizable-horizontal" id="task_description" name="description" rows="3" required="" tabindex="4"></textarea>
         </div>
 
         <div class="text-center">

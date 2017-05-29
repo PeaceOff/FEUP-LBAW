@@ -11,7 +11,7 @@
 
         <div class="form-group ">
           <label for="projectName">Name</label>
-          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value=""  autofocus="" required>
+          <input class="form-control" type="text" tabindex="1" id="projectName" name="projectName" value=""  autofocus=""  maxlength="19" required>
         </div>
 
         <div class="form-group input-group date width-100">

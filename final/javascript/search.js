@@ -44,7 +44,7 @@ function searchHandler(){
                 var r = {};
                 r['link'] = 'https://gnomo.fe.up.pt/~lbaw1665/final/pages/todo/todoPage.php?project_id=' + value.project_id + '&forum_task=' + value.id + '#' + value.category;
                 r['header']= "Task"
-                r['body'] = value.name + " : " +  value.description;
+                r['body'] = "<strong>" +value.name + ":</strong><br>" +  value.description;
                 searchResults.push(r);
             });
 
@@ -60,7 +60,7 @@ function searchHandler(){
                 var r = {};
                 r['link'] = 'https://gnomo.fe.up.pt/~lbaw1665/final/pages/project/projectPage.php?project_id=' + value.project_id + "&forum=" + value.topic_id;
                 r['header'] = "Post"
-                r['body'] =  value.content;
+                r['body'] =  "<strong>" + value.title + ":</strong><br>" + value.content + value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content+ value.content;
                 searchResults.push(r);
             });
 
@@ -70,8 +70,8 @@ function searchHandler(){
                 var template = $('.searchResult a').clone(true);
 
                 template.attr("href", searchResults[i]['link']);
-                template.find('.resultHeader').text(searchResults[i]['header']);
-                template.find('.resultBody').text(searchResults[i]['body']);
+                template.find('.resultHeader').html(searchResults[i]['header']);
+                template.find('.resultBody').html(searchResults[i]['body']);
 
                 console.log(template);
                 searchResultsElement.append(template);

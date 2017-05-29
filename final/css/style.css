@@ -24,16 +24,17 @@ body.view {
 
 table{
   table-layout: fixed;
-
 }
+
 
 .box-alerts{
 	position:fixed;
 	top:50px;
 	transform: scaleY(-1);
 	bottom:0;
-	left: 210px;
-	right: 210px;
+    width:80%;
+    margin: 0 0 0 -40%;
+    left:50%;
 	pointer-events: none;
 }
 
@@ -66,13 +67,16 @@ table{
 }
 
 .fa-up{
-	
-    	background: url("../images/up_small.png");
+    background: url("../images/up_small.png");
 	background-position: left top;
-	height: 20px;
-	width: 20px;
-	background-size: 20px 20px;
+	width: 24px;
+    height: 28px;
+	background-size: 24px 28px;
+    position: relative;
+    top:4px;
 }
+
+
 
 .notification-container{
 	overflow-y: scroll;
@@ -111,7 +115,6 @@ li{
 
 .notifications-wrapper {
   max-height: 250px;
-
 }
 
 .notifications{
@@ -595,9 +598,11 @@ div.selectable:not(:target){
   border-bottom: 1px solid #CCC;
 }
 
-.chart{
-  height: 10px;
-}
+canvas{
+   width: 100% ;
+   max-width: 800px;
+   height: auto;
+ }
 /*cards */
 
 .card {
@@ -661,16 +666,22 @@ div.selectable:not(:target){
     border: 5px solid rgba(255,255,255,0.7);
 }
 
-.carousel ul li a{
-  height: 50%;
+ul.documents{
+  overflow-x:scroll;
+  white-space: nowrap;
+}
+
+ul.documents li{
+  width: 80%;
 }
 
 .document{
-  width: 100%;
+  margin: 5px;
 }
 
 .document img{
-  width:100%;
+  margin: auto;
+  width:20%;
 }
 
 .document-bottom{
@@ -688,11 +699,13 @@ div.selectable:not(:target){
     vertical-align: middle;
 }
 
-.card .desc {
-    overflow: hidden;
+.task-card .card .desc {
+    text-align: center;
     font-size: 12px;
-    line-height: 20px;
-    color: #737373;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-wrap: break-word
 }
 
 .card .bottom {
@@ -760,6 +773,7 @@ input.disabled{
 }
 
 #searchResults {
+  z-index:1;
   position: absolute;
   left: 0;
   right: 0;
@@ -768,7 +782,7 @@ input.disabled{
   height: auto;
   background: rgb(51,122,183);
 }
-/**/
+
 
 
 #searchResults  a{

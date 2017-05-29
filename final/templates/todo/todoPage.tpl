@@ -34,11 +34,11 @@
       <div class="card cardhandler">
         <div class="cardheader-todo">
           <div class="title outliner">
-            <h5>{$task.name}</h5>
+            <h1>{$task.name}</h1>
           </div>
 
         </div>
-        <div class="desc">{$task.description}</div>
+        <p class="desc">{$task.description}</p>
         <div class="people-envolved">
           <div class="owner">
             <h5>Owner</h5>
@@ -94,8 +94,8 @@
       </div>
       <div class="collaborator">
         <h5>People Assigned</h5>
-        {{for assigned}}
-        <a class="deassign_user" task_id="{{:id}}" title="{{:username}}">
+        {{for assigned ~task_id=id}}
+        <a class="deassign_user" task_id="{{:~task_id}}" title="{{:username}}">
         <i class="fa fa-user avatar icon-link img-circle" title="{{:username}}" aria-hidden="true"></i>
         </a>
         {{/for}}

@@ -25,10 +25,10 @@
                 <h4>Login With</h4>
                 <ul class="list-inline">
                     <li>
-                        <a href="../../actions/authentication/sigarra/action_login.php" class="fa fa-fw fa-up"></a>
+                        <a href="../../actions/authentication/sigarra/action_login.php" class="fa fa-fw fa-up fa-3x"></a>
                     </li>
                     <li>
-                        <a href="../../actions/authentication/google/action_login.php" > <i class="fa fa-google" aria-hidden="true"></i>  </a>
+                        <a href="../../actions/authentication/google/action_login.php" class="icon-link" > <i class="fa fa-google fa-2x" aria-hidden="true"></i>  </a>
                     </li>
                 </ul>
             </div>

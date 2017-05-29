@@ -28,9 +28,9 @@
 
     foreach($categories as $category){
 
-	$temp['category'] = $category['name'];
-	$temp['tasks'] = array();
-	array_push($tasks_by_category,$temp);
+        $temp['category'] = $category['name'];
+        $temp['tasks'] = array();
+        array_push($tasks_by_category,$temp);
     }
 
     $smarty->assign('tasks_by_category', $tasks_by_category);

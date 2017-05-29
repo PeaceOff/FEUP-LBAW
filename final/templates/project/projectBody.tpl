@@ -8,9 +8,12 @@
     <li class="container">
       <h2 class="col-xs-7 col-sm-5 col-md-3 col-lg-3 resultHeader">Title</h2>
 
-      <ul class="col-xs-5 col-sm-7 col-md-9 col-lg-9 ">
-        <li><span><h5 class="resultBody">Description</h5></span></li>
-      </ul>
+      <div class="col-xs-5 col-sm-7 col-md-9 col-lg-9">
+        <ul class="nav nav-pills nav-stacked">
+          <li><h5 class="resultBody">Description</h5></li>
+        </ul>
+      </div>
+
     </li>
   </a>
 </div>
@@ -59,7 +62,7 @@
       {foreach from=$links item=link}
       <li>
         <a href="#" class="invisible link_deleteDocument" type_of_doc='Link' id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
-        <a href="{$link.path}">
+        <a href="{$link.path}" title="{$link.path}" >
           <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
         </a>
       </li>
@@ -79,49 +82,36 @@
     </div>
 
 
-    <div class="carousel slide" id="documentsCarrousel">
-      <div class="carousel-inner">
-        <div class="item active">
-          <ul class="thumbnails padding-0">
-            {foreach from=$documents item=document}
-            <li>
+
+    <ul class="list-inline documents" >
+      {foreach from=$documents item=document}
+
+        <li>
               <a class="cardLink" href="../../uploads/{$document.project_id}/{$document.name}" target="_blank" >
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
-                  <div class="card document">
-                    <h3>{$document.name}</h3>
-                    <img class="img-responsive" src="../../images/document-card.png" alt="file">
-                    <div class="document-bottom">
-      		          <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="../../uploads/{$document.project_id}/{$document.name}" download>
-                        <i class="fa fa-download"></i>
-                      </a>
-                      <a class="btn icon-link btn-danger btn-sm link_deleteDocument" type_of_doc='Document' id='{$document.id}' document_path='{$document.path}'  rel="publisher">
-                        <i class="fa fa-trash"></i>
-                      </a>
-                    </div>
-                  </div>
+
+                <div class="card document">
+                  <h3>{$document.name}</h3>
+                  <img class="img-responsive" src="../../images/document-card.png" alt="file">
+                  <div class="document-bottom">
+                    <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="../../uploads/{$document.project_id}/{$document.name}" download>
+                      <i class="fa fa-download"></i>
+                    </a>
+                    <a class="btn icon-link btn-danger btn-sm link_deleteDocument" type_of_doc='Document' id='{$document.id}' document_path='{$document.path}'  rel="publisher">
+                      <i class="fa fa-trash"></i>
+                    </a>
+
                 </div>
+              </div>
               </a>
-              </li>
-                {/foreach}
-              </ul>
-            </div>
-            <div class="item">
-              <ul class="thumbnails">
 
-              </ul>
-            </div>
-          </div>
+        </li>
 
-          <nav>
-            <ul class="control-box pager">
-              <li><a data-slide="prev" href="#documentsCarrousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-              <li><a data-slide="next" href="#documentsCarrousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
-            </ul>
-          </nav>
-          
-        </div>
+      {/foreach}
+     </ul>
 
-      </div>
+
+
+
 
       <div class="container">
         <div class="page-header">

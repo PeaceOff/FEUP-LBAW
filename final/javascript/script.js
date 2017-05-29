@@ -9,7 +9,7 @@ function createWarningBox(){
 
 function addWarning(type, msg){
 
-	var e = $(document.createElement('div'));
+  var e = $(document.createElement('div'));
   var alertType = 'alert alert-';
 	alertType += type;
 	e.addClass(alertType);
@@ -79,7 +79,8 @@ function remove_document(){
 				url: "../../actions/project/action_delete_document.php",
 				data: {project_id: $_GET('project_id'), document_id: documentId , type_of_doc: type_of_doc, document_path: document_path}
 			});
-
+			
+        	addWarning('success','Document deleted!');
 			$(this).parents('li').remove();
 	});
 
@@ -254,7 +255,6 @@ function deassign_user_from_task(){
         var username = $(this).attr('title');
         var project_id = $_GET('project_id');
 		var toDelete = $(this);
-
 
         $.ajax({
             type: "post",
