@@ -3370,3 +3370,1216 @@ DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
 DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
 [29-May-2017 15:33:32 Europe/Lisbon] DB Error:marcelunknown
 [29-May-2017 15:33:37 Europe/Lisbon] DB Error:marcelunknown
+[29-May-2017 16:56:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 16:56:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 16:56:44 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:01:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:01:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:01:45 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:03:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:03:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:03:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:07:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:07:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:07:16 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:08:37 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:08:37 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:08:37 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:09:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:09:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:09:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:10:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:10:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:10:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:11:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:12:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:12:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:12:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:13:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:13:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:13:54 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:14:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:14:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:14:19 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:15:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:15:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:15:06 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:16:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:16:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:16:40 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:17:39 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:17:39 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:17:39 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 17:47:02 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(lluismmartins7@gmail.com, 85) already exists.
+[29-May-2017 17:55:51 Europe/Lisbon] DB Error:joseunknown
+[29-May-2017 17:55:52 Europe/Lisbon] DB Error:joseunknown
+[29-May-2017 18:09:12 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 18:09:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 18:14:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:15:02 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:04 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:08 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:09 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:10 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:10 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:10 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:10 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:43 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:15:44 Europe/Lisbon] DB Error:SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""
+[29-May-2017 18:16:42 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:17:47 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 98) already exists.
+[29-May-2017 18:17:49 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 98) already exists.
+[29-May-2017 18:17:52 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 90) already exists.
+[29-May-2017 18:25:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:28:32 Europe/Lisbon] DB Error:panadosunknown
+[29-May-2017 18:28:37 Europe/Lisbon] DB Error:panadosunknown
+[29-May-2017 18:28:37 Europe/Lisbon] DB Error:panadosunknown
+[29-May-2017 18:31:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:19 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:31 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:49 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:54 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:56 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:31:58 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:32:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:32:17 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:33:09 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:33:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:35:22 Europe/Lisbon] DB Error:12312312312unknown
+[29-May-2017 18:35:27 Europe/Lisbon] DB Error:12312312312unknown
+[29-May-2017 18:35:29 Europe/Lisbon] DB Error:12312312312unknown
+[29-May-2017 18:35:31 Europe/Lisbon] DB Error:12312312312unknown
+[29-May-2017 18:35:33 Europe/Lisbon] DB Error:12312312312unknown
+[29-May-2017 18:35:44 Europe/Lisbon] DB Error:1231231231212312312312unknown
+[29-May-2017 18:35:49 Europe/Lisbon] DB Error:12312312312123123123121231231231212312312312unknown
+[29-May-2017 18:36:41 Europe/Lisbon] DB Error:12312312312123123123121231231231212312312312unknown
+[29-May-2017 18:36:49 Europe/Lisbon] DB Error:12312312312123123123121231231231212312312312unknown
+[29-May-2017 18:36:51 Europe/Lisbon] DB Error:12312312312123123123121231231231212312312312unknown
+[29-May-2017 18:36:52 Europe/Lisbon] DB Error:12312312312123123123121231231231212312312312unknown
+[29-May-2017 18:36:54 Europe/Lisbon] DB Error:1231231231212312312312unknown
+[29-May-2017 18:37:03 Europe/Lisbon] DB Error:1234unknown
+[29-May-2017 18:37:09 Europe/Lisbon] DB Error:1234unknown
+[29-May-2017 18:37:10 Europe/Lisbon] DB Error:1234unknown
+[29-May-2017 18:37:11 Europe/Lisbon] DB Error:1234unknown
+[29-May-2017 18:37:22 Europe/Lisbon] DB Error:batatafritabatatafritaunknown
+[29-May-2017 18:37:42 Europe/Lisbon] DB Error:batatafritaunknown
+[29-May-2017 18:38:00 Europe/Lisbon] DB Error:roxounknown
+[29-May-2017 18:38:14 Europe/Lisbon] DB Error:roxounknown
+[29-May-2017 18:39:14 Europe/Lisbon] DB Error:batatafritaunknown
+[29-May-2017 18:39:15 Europe/Lisbon] DB Error:batatafritaunknown
+[29-May-2017 18:39:44 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:41:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:42:53 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:46 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:54 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:56 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:57 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:57 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:57 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:58 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:58 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:58 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:58 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:59 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:59 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:43:59 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:00 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:01 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:02 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:03 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:04 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:06 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:06 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:09 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:09 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:11 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:12 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:13 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:14 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:15 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:16 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:18 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:19 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:20 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:20 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:20 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:21 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:22 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:22 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:22 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:22 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:22 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:23 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:25 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:26 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:26 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:26 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:26 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:26 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:27 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:27 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:27 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:27 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:28 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:28 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:28 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:28 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:28 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:29 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:44:30 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:05 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:06 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:06 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:06 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:07 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:08 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:10 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:40 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:40 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:46:40 Europe/Lisbon] DB Error:SQLSTATE[42P01]: Undefined table: 7 ERROR:  missing FROM-clause entry for table "task"
+LINE 1: ...tistics WHERE username = r_assigned.username) AND task.categ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND task.category != 'Done'
+CONTEXT:  PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:48:33 Europe/Lisbon] DB Error:SQLSTATE[55000]: Object not in prerequisite state: 7 ERROR:  record "new" is not assigned yet
+DETAIL:  The tuple structure of a not-yet-assigned record is indeterminate.
+CONTEXT:  SQL statement "SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND NEW.category != 'Done'"
+PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:48:37 Europe/Lisbon] DB Error:SQLSTATE[55000]: Object not in prerequisite state: 7 ERROR:  record "new" is not assigned yet
+DETAIL:  The tuple structure of a not-yet-assigned record is indeterminate.
+CONTEXT:  SQL statement "SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND NEW.category != 'Done'"
+PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:48:37 Europe/Lisbon] DB Error:SQLSTATE[55000]: Object not in prerequisite state: 7 ERROR:  record "new" is not assigned yet
+DETAIL:  The tuple structure of a not-yet-assigned record is indeterminate.
+CONTEXT:  SQL statement "SELECT EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) AND NEW.category != 'Done'"
+PL/pgSQL function delete_task() line 15 at IF
+[29-May-2017 18:53:40 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 115) already exists.
+[29-May-2017 18:53:43 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 115) already exists.
+[29-May-2017 18:54:16 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 112) already exists.
+[29-May-2017 18:54:16 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 112) already exists.
+[29-May-2017 18:54:16 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 112) already exists.
+[29-May-2017 18:54:30 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 113) already exists.
+[29-May-2017 18:59:03 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:06 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:07 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:11 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:18 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:30 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 28 at SQL statement
+[29-May-2017 18:59:46 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+[29-May-2017 18:59:54 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+[29-May-2017 19:04:35 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:07 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:50 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:51 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:56 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:58 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:05:59 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:00 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:02 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:02 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:03 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:03 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:09 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:10 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:06:10 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id = OLD.id"
+PL/pgSQL function delete_task() line 9 at SQL statement
+[29-May-2017 19:10:26 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id=f_tasks.id AND username = OLD.username"
+PL/pgSQL function delete_collaborates() line 19 at SQL statement
+[29-May-2017 19:10:30 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id=f_tasks.id AND username = OLD.username"
+PL/pgSQL function delete_collaborates() line 19 at SQL statement
+[29-May-2017 19:10:30 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id=f_tasks.id AND username = OLD.username"
+PL/pgSQL function delete_collaborates() line 19 at SQL statement
+[29-May-2017 19:10:48 Europe/Lisbon] DB Error:SQLSTATE[42703]: Undefined column: 7 ERROR:  column "task_id" does not exist
+LINE 1: ...LD.username) AND (SELECT category FROM task WHERE task_id = ...
+                                                             ^
+QUERY:  SELECT EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE task_id = OLD.task_id) != 'Done'
+CONTEXT:  PL/pgSQL function delete_assigned() line 22 at IF
+SQL statement "DELETE FROM assigned WHERE task_id=f_tasks.id AND username = OLD.username"
+PL/pgSQL function delete_collaborates() line 19 at SQL statement
+[29-May-2017 19:13:24 Europe/Lisbon] DB Error:poisunknown
+[29-May-2017 19:13:25 Europe/Lisbon] DB Error:poisunknown
+[29-May-2017 19:20:53 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 126) already exists.
+[29-May-2017 19:23:05 Europe/Lisbon] DB Error:9999unknown
+[29-May-2017 19:23:06 Europe/Lisbon] DB Error:9999unknown
+[29-May-2017 19:23:36 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(pois, 131) already exists.
+[29-May-2017 19:25:59 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(9999, 132) already exists.

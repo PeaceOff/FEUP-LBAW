@@ -104,6 +104,7 @@
 	}catch(Exception $e){
 		error_log("DB Error:" . $e->getMessage());
 	}
+    return $stmt->rowCount() > 0;
   }
 
   
@@ -127,6 +128,7 @@
 	}catch(Exception $e){
 		error_log("DB Error:" . $e->getMessage());
 	}
+    return $stmt->rowCount() > 0;
   }
 
   function project_get_collaborators($project_id) {

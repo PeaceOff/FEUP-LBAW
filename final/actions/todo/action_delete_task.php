@@ -23,7 +23,10 @@
 	 
 	$task_id = htmlentities($_POST['task_id'], ENT_QUOTES, "UTF-8");
 
-	remove_task($task_id);	
+        if(!remove_task($task_id)){
+		http_response_code(401);
+		exit();
+	}	
 
 	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#To-Do.php');
 	exit();

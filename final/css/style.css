@@ -659,12 +659,6 @@ canvas{
 
 
 
-.card .people-envolved {
-  background: rgba(51,122,183,0.5);
-  padding: 5px;
-  padding-bottom: 10px;
-  overflow: auto;
-}
 
 .card .people-envolved:after {
     float: none;
@@ -688,10 +682,18 @@ canvas{
 }
 
 .card .cardheader-todo {
-  background: url("../images/intro2.jpg");
+  background: url("../images/taskHead.jpg");
   background-size: cover;
   height: 125px;
   margin-top: 0;
+}
+
+.card .people-envolved {
+  background: rgba(12, 87, 154,0.8);
+  color: white;
+  padding: 5px;
+  padding-bottom: 10px;
+  overflow: auto;
 }
 
 
@@ -773,10 +775,17 @@ ul.documents{
 
 .card .bottom {
   margin: 5px;
+  padding: 5px;
 }
 
 .cardLink:hover{
   text-decoration:none;
+}
+
+.task-user-link{
+  color: white;
+  cursor:pointer;
+
 }
 
 .icon-link{ border-radius: 50%; width:32px; height:32px;  }

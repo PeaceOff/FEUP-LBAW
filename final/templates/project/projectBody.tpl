@@ -3,6 +3,7 @@
 
 <script type="text/javascript" src = "../../javascript/search.js"></script>
 
+
 <div class="template searchResult">
   <a class="resultLink" href="#">
     <li class="container">

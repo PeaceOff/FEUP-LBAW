@@ -14,18 +14,21 @@
 	$project_id = htmlentities($_POST['project_id'], ENT_QUOTES, "UTF-8");
     $isOwner = htmlentities($_POST['isOwner'], ENT_QUOTES, "UTF-8");
 
-	$res= json_encode(array("success" => true));
 
 	if($isOwner == "true") {
 
-        if(!project_manager($username,$project_id))
-            $res= json_encode(array("success" => false));
-        else
-			project_delete($project_id);
+		if(!project_manager($username,$project_id)){
+			http_response_code(400);
+			exit();
+		}else if(!project_delete($project_id)){
+			http_response_code(400);
+			exit();
+		}
     }else{
-        project_remove_collaborator($username, $project_id);
+	    if(!project_remove_collaborator($username, $project_id)){
+	    	http_response_code(400);
+		exit();
+	    }
 	}
-
-	echo $res;
 	exit();
 ?>

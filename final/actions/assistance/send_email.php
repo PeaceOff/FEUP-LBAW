@@ -11,7 +11,7 @@
 
         $headers = 'From: ' .  $email . "\r\n" ;
 
-        $msg = "From : " . $name . "\r\n" . "Mesagem : " . $content . "\r\n";
+        $msg = "From : " . $name . "\r\n" . "Message : " . $content . "\r\n";
 
         mail($admin_email, $subject, $msg, $headers);
 

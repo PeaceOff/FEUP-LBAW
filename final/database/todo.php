@@ -77,6 +77,7 @@
 	}catch(Exception $e){
 		error_log("DB Error:" . $e->getMessage());
 	}
+      return $stmt->rowCount() > 0;
     }
 
  
@@ -100,6 +101,7 @@
 	}catch(Exception $e){
 		error_log("DB Error:" . $e->getMessage());
 	}
+      return $stmt->rowCount() > 0;
     }
 
     function get_task($task_id){

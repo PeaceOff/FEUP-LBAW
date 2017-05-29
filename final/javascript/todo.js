@@ -15,6 +15,12 @@ function todo_setTask_id(){
 	$('.task-id-handler').attr('data-task_id',$(this).attr('data-task_id'));
 	$('input.task-id-handler').attr('value',$(this).attr('data-task_id'));
 	
+}
+
+function todo_setTask_id_plus(){
+	$('.task-id-handler').attr('data-task_id',$(this).attr('data-task_id'));
+	$('input.task-id-handler').attr('value',$(this).attr('data-task_id'));
+
 	if(!$(this).attr("data-target")){
 		var task_id = $(this).attr('data-task_id');
 		var username= $(this).attr('data-username');
@@ -33,14 +39,13 @@ function todo_setTask_id(){
 		}).fail(function(){
 			addWarning('warning', 'Cannot Self Assign!');
 		});
-
-
 	}
 }
 
 
 function setup_information(){
 	$(".btn-assign-task-id").click(todo_setTask_id);
+	$(".btn-assign-task-id-plus").click(todo_setTask_id_plus);
 	get_task_information();
 
 	$('.btn-delete-task').click(function(){

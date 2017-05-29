@@ -1,5 +1,6 @@
 <div id="assign-category-modal" class="modal fade">
 <div class="display-flex"> 
+<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -20,4 +21,4 @@
 </div>
 </div>
 </div>
-
+</div>

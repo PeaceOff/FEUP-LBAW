@@ -6,7 +6,7 @@
 <div class="template">
 	<div class="t_remove">
 	<a class="deassign_user" data-task_id="taskID" title="usr">
-		<i class="fa fa-user avatar icon-link img-circle" title="NONE" aria-hidden="true"></i>
+		<i class="fa fa-user avatar icon-link task-user-link img-circle"  title="NONE" aria-hidden="true"></i>
 	</a>
 	</div>
 </div>
@@ -47,16 +47,16 @@
           <div class="collaborator">
             <h5>People Assigned</h5>
             {foreach from=$task.assigned item=assignee}
-              <a class="deassign_user my_clickable" data-task_id="{$task.id}" title="{$assignee.username}"  >
+              <a class="deassign_user my_clickable " data-task_id="{$task.id}" title="{$assignee.username}"  >
         	    <i class="fa fa-user avatar icon-link img-circle" title="{$assignee.username}" aria-hidden="true"></i>
               </a>
             {/foreach}
 		 {if $isManager}
-		<a class="btn icon-link btn-success btn-sm  btn-assign-task-id" task_id="{$task.id}" data-toggle="modal" data-target="#assign-user-modal">
+		<a class="btn icon-link btn-success btn-sm  btn-assign-task-id-plus" task_id="{$task.id}" data-toggle="modal" data-target="#assign-user-modal">
 		  <i class="fa fa-plus"></i>
 		</a>
 		{else}
-		<a class="btn icon-link btn-success btn-sm  btn-assign-task-id" task_id="{$task.id}" data-username="{$username}">
+		<a class="btn icon-link btn-success btn-sm  btn-assign-task-id-plus" task_id="{$task.id}" data-username="{$username}">
 		  <i class="fa fa-plus"></i>
 		</a>
 		{/if}
@@ -101,16 +101,16 @@
       <div class="collaborator">
         <h5>People Assigned</h5>
         {{for assigned ~task_id=id}}
-        <a class="deassign_user my_clickable" data-task_id="{{:~task_id}}" title="{{:username}}">
+        <a class="deassign_user task-user-link" data-task_id="{{:~task_id}}" title="{{:username}}">
         <i class="fa fa-user avatar icon-link img-circle" title="{{:username}}" aria-hidden="true"></i>
         </a>
         {{/for}}
 	{/literal}{if $isManager}{literal}
-        <a class="btn icon-link btn-success btn-sm  btn-assign-task-id" data-task_id="{{:id}}" data-toggle="modal" data-target="#assign-user-modal">
+        <a class="btn icon-link btn-success btn-sm  btn-assign-task-id-plus" data-task_id="{{:id}}" data-toggle="modal" data-target="#assign-user-modal">
           <i class="fa fa-plus"></i>
         </a>
 	{/literal}{else}{literal}
-	<a class="btn icon-link btn-success btn-sm  btn-assign-task-id" data-task_id="{{:id}}" {/literal}data-username="{$username}"{literal}">
+	<a class="btn icon-link btn-success btn-sm  btn-assign-task-id-plus" data-task_id="{{:id}}" {/literal}data-username="{$username}"{literal}">
           <i class="fa fa-plus"></i>
         </a>
 	{/literal}{/if}{literal}

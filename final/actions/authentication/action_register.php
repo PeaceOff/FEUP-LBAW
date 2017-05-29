@@ -5,7 +5,8 @@
 
   if( !isset($_POST['username']) 
 	  || !isset($_POST['password']) 
-	  || !isset($_POST['email']) ){
+	  || !isset($_POST['email'])
+ 	  || !isset($_POST['confirmPassword']) ){
 	header('Location:' . $BASE_URL.'/pages/authentication/home.php');
 	  die();
   }
@@ -20,6 +21,12 @@
   }
   $password = password_hash($_POST['password'] , PASSWORD_DEFAULT);
   $email = htmlentities($_POST['email'], ENT_QUOTES, "UTF-8");
+  $confirmPassword = $_POST['confirmPassword'];
+
+  if(strcmp($_POST['password'], $confirmPassword) != 0){
+    header('Location:' . $BASE_URL.'/pages/authentication/home.php');
+    exit();
+  }
 
   try {
       if(!get_user_by_username($username))

@@ -105,14 +105,11 @@ function handleRemoveProject(projectId, is_owner,message,context) {
         type: "POST",
         url: "../../actions/profile/action_delete_project.php",
         data: {project_id: projectId, isOwner: is_owner}
-    }).done(function(arg){
-        var obj = JSON.parse(arg);
-        if(obj.success) {
-            addWarning("success", message);
-            context.parent().parent().parent().remove();
-        }else{
-            addWarning("warning", message);
-		}
+    }).done(function(){
+        addWarning("success", "Project removed!");
+        context.parent().parent().parent().remove();
+    }).fail(function(){
+	addWarning("warning", "Could not remove Project");	    
     });
 }
 
