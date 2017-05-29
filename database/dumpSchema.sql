@@ -9,6 +9,119 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 
+SET search_path = final, pg_catalog;
+
+ALTER TABLE ONLY final.topic DROP CONSTRAINT topic_task_id_fkey;
+ALTER TABLE ONLY final.topic DROP CONSTRAINT topic_project_id_fkey;
+ALTER TABLE ONLY final.task DROP CONSTRAINT task_project_id_fkey;
+ALTER TABLE ONLY final.task DROP CONSTRAINT task_owner_fkey;
+ALTER TABLE ONLY final.task DROP CONSTRAINT task_category_fkey;
+ALTER TABLE ONLY final.statistics DROP CONSTRAINT statistics_user_id_fkey;
+ALTER TABLE ONLY final.project DROP CONSTRAINT project_manager_fkey;
+ALTER TABLE ONLY final.post DROP CONSTRAINT post_topic_id_fkey;
+ALTER TABLE ONLY final.post DROP CONSTRAINT post_poster_fkey;
+ALTER TABLE ONLY final.notification DROP CONSTRAINT notification_project_id_fkey;
+ALTER TABLE ONLY final.notification DROP CONSTRAINT notification_notificated_fkey;
+ALTER TABLE ONLY final.notification DROP CONSTRAINT notification_associated_fkey;
+ALTER TABLE ONLY final.folder DROP CONSTRAINT folder_username_fkey;
+ALTER TABLE ONLY final.folder_project DROP CONSTRAINT folder_project_project_id_fkey;
+ALTER TABLE ONLY final.folder_project DROP CONSTRAINT folder_project_folder_id_fkey;
+ALTER TABLE ONLY final.document DROP CONSTRAINT document_project_id_fkey;
+ALTER TABLE ONLY final.comment DROP CONSTRAINT comment_post_id_fkey;
+ALTER TABLE ONLY final.comment DROP CONSTRAINT comment_commenter_fkey;
+ALTER TABLE ONLY final.collaborates DROP CONSTRAINT collaborators_username_fkey;
+ALTER TABLE ONLY final.collaborates DROP CONSTRAINT collaborates_project_id_fkey;
+ALTER TABLE ONLY final.assigned DROP CONSTRAINT assigned_username_fkey;
+ALTER TABLE ONLY final.assigned DROP CONSTRAINT assigned_task_id_fkey;
+DROP TRIGGER trigger_topic_delete ON final.topic;
+DROP TRIGGER trigger_task_update ON final.task;
+DROP TRIGGER trigger_task_insert ON final.task;
+DROP TRIGGER trigger_task_delete ON final.task;
+DROP TRIGGER trigger_project_delete ON final.project;
+DROP TRIGGER trigger_post_insert ON final.post;
+DROP TRIGGER trigger_post_delete ON final.post;
+DROP TRIGGER trigger_document_insert ON final.document;
+DROP TRIGGER trigger_create_topic_on_insert ON final.task;
+DROP TRIGGER trigger_comment_insert ON final.comment;
+DROP TRIGGER trigger_collaborates_delete ON final.collaborates;
+DROP TRIGGER trigger_assigned_insert_update ON final.assigned;
+DROP TRIGGER trigger_assigned_delete ON final.assigned;
+DROP TRIGGER insert ON final.project;
+DROP TRIGGER "On_Insert" ON final.folder;
+DROP TRIGGER "On_Insert" ON final.collaborates;
+DROP TRIGGER "On_Insert" ON final.folder_project;
+DROP TRIGGER "On_Insert" ON final."user";
+DROP TRIGGER "On_Delete_Default" ON final.folder;
+DROP TRIGGER "On_Delete" ON final.folder;
+DROP INDEX final.index_task_deadline;
+DROP INDEX final.index_post_date;
+DROP INDEX final.index_notification_date;
+DROP INDEX final.index_commenter_date;
+DROP INDEX final.idx_topic_title;
+DROP INDEX final.idx_task_name;
+DROP INDEX final.idx_task_description;
+DROP INDEX final.idx_post_content;
+ALTER TABLE ONLY final.topic DROP CONSTRAINT topic_pkey;
+ALTER TABLE ONLY final.task DROP CONSTRAINT task_pkey;
+ALTER TABLE ONLY final.statistics DROP CONSTRAINT statistics_pkey;
+ALTER TABLE ONLY final.project DROP CONSTRAINT project_pkey;
+ALTER TABLE ONLY final.post DROP CONSTRAINT post_pkey;
+ALTER TABLE ONLY final.notification DROP CONSTRAINT notification_pkey;
+ALTER TABLE ONLY final.folder_project DROP CONSTRAINT folder_project_pkey;
+ALTER TABLE ONLY final.folder DROP CONSTRAINT folder_pkey;
+ALTER TABLE ONLY final.document DROP CONSTRAINT document_pkey;
+ALTER TABLE ONLY final.comment DROP CONSTRAINT comment_pkey;
+ALTER TABLE ONLY final.collaborates DROP CONSTRAINT collaborators_pkey;
+ALTER TABLE ONLY final.category DROP CONSTRAINT category_pkey;
+ALTER TABLE ONLY final.assigned DROP CONSTRAINT assigned_pkey;
+ALTER TABLE ONLY final."user" DROP CONSTRAINT "User_pkey";
+ALTER TABLE ONLY final."user" DROP CONSTRAINT "User_email_key";
+DROP VIEW final.view_project_folder;
+DROP VIEW final.view_project_collabs;
+DROP TABLE final."user";
+DROP TABLE final.task;
+DROP SEQUENCE final.task_id_seq;
+DROP TABLE final.statistics;
+DROP VIEW final.search_fields;
+DROP TABLE final.topic;
+DROP SEQUENCE final.topic_id_seq;
+DROP TABLE final.project;
+DROP SEQUENCE final.project_id_seq;
+DROP TABLE final.post;
+DROP SEQUENCE final.post_id_seq;
+DROP TABLE final.notification;
+DROP SEQUENCE final.notification_id_seq;
+DROP TABLE final.folder_project;
+DROP TABLE final.folder;
+DROP SEQUENCE final.folder_id_seq;
+DROP TABLE final.document;
+DROP SEQUENCE final.document_id_seq;
+DROP TABLE final.comment;
+DROP SEQUENCE final.comment_id_seq;
+DROP TABLE final.collaborates;
+DROP TABLE final.category;
+DROP TABLE final.assigned;
+DROP FUNCTION final.update_task();
+DROP FUNCTION final.insert_user();
+DROP FUNCTION final.insert_update_assigned();
+DROP FUNCTION final.insert_task_create_topic();
+DROP FUNCTION final.insert_task();
+DROP FUNCTION final.insert_project_folder();
+DROP FUNCTION final.insert_project();
+DROP FUNCTION final.insert_post();
+DROP FUNCTION final.insert_folder();
+DROP FUNCTION final.insert_document();
+DROP FUNCTION final.insert_comment();
+DROP FUNCTION final.insert_collaborates();
+DROP FUNCTION final.delete_topic();
+DROP FUNCTION final.delete_task();
+DROP FUNCTION final.delete_project_func();
+DROP FUNCTION final.delete_folder_default();
+DROP FUNCTION final.delete_folder();
+DROP FUNCTION final.delete_comments();
+DROP FUNCTION final.delete_collaborates();
+DROP FUNCTION final.delete_assigned();
+DROP SCHEMA final;
 --
 -- Name: final; Type: SCHEMA; Schema: -; Owner: lbaw1665
 --
@@ -19,6 +132,58 @@ CREATE SCHEMA final;
 ALTER SCHEMA final OWNER TO lbaw1665;
 
 SET search_path = final, pg_catalog;
+
+--
+-- Name: delete_assigned(); Type: FUNCTION; Schema: final; Owner: lbaw1665
+--
+
+CREATE FUNCTION delete_assigned() RETURNS trigger
+    LANGUAGE plpgsql
+    AS $$DECLARE
+
+ num_tasks numeric;
+
+ message TEXT;
+
+ r_proj project%rowtype;
+
+
+BEGIN
+
+
+    SELECT * FROM INTO r_proj project WHERE id = (SELECT project_id FROM task WHERE id = OLD.task_id);
+    message := 'You have been deassigned from task ' || (SELECT name FROM task WHERE id = OLD.task_id) || ' in project ' || r_proj.name;
+
+    INSERT INTO notification (description, date, project_id, notificated, type, associated)
+
+            VALUES(message , CURRENT_DATE, r_proj.id , OLD.username, 'Information' , NULL);
+
+ 
+
+    IF EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE id = OLD.task_id) != 'Done' THEN
+
+      num_tasks = (SELECT task_unfinished_number - 1 FROM statistics WHERE username = OLD.username);
+     
+      UPDATE statistics SET task_unfinished_number = num_tasks WHERE username = OLD.username;
+
+    END IF;
+
+  IF EXISTS (SELECT 1 FROM statistics WHERE username = OLD.username) AND (SELECT category FROM task WHERE id = OLD.task_id) = 'Done' 
+   THEN
+
+      num_tasks = (SELECT task_finished_number - 1 FROM statistics WHERE username = OLD.username);
+     
+      UPDATE statistics SET task_finished_number = num_tasks WHERE username = OLD.username;
+
+    END IF;
+
+    RETURN OLD;
+
+
+END$$;
+
+
+ALTER FUNCTION final.delete_assigned() OWNER TO lbaw1665;
 
 --
 -- Name: delete_collaborates(); Type: FUNCTION; Schema: final; Owner: lbaw1665
@@ -214,29 +379,10 @@ ALTER FUNCTION final.delete_project_func() OWNER TO lbaw1665;
 
 CREATE FUNCTION delete_task() RETURNS trigger
     LANGUAGE plpgsql
-    AS $$DECLARE
-
- r_assigned assigned%rowtype;
- unfinished_tasks numeric;
+    AS $$
 
 BEGIN
-    FOR r_assigned IN SELECT *
-
-               FROM assigned
-
-               WHERE task_id = OLD.id
-
-      LOOP
-
-       IF EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) THEN
-
-         unfinished_tasks = (SELECT task_unfinished_number - 1 FROM statistics WHERE username = r_assigned.username);
-     
-         UPDATE statistics SET task_unfinished_number = unfinished_tasks WHERE username = r_assigned.username;
-
-       END IF;
-
-   END LOOP;
+    
 
 
    DELETE FROM topic WHERE task_id = OLD.id;
@@ -381,7 +527,7 @@ CREATE FUNCTION insert_document() RETURNS trigger
 
 BEGIN
 
-   temp_string := 'ADDED DOCUMENT:' || (SELECT name FROM project WHERE id = NEW.project_id) || '/' || NEW.name;
+   temp_string := 'Added Document ' || NEW.name || ' to project ' || (SELECT name FROM project WHERE id = NEW.project_id);
 
    FOR r_collab IN SELECT *
 
@@ -659,7 +805,7 @@ CREATE FUNCTION insert_update_assigned() RETURNS trigger
     LANGUAGE plpgsql
     AS $$DECLARE
 
- unfinished_tasks numeric;
+ num_tasks numeric;
 
  message TEXT;
 
@@ -696,11 +842,18 @@ BEGIN
  
 
     IF EXISTS (SELECT 1 FROM statistics WHERE username = NEW.username) THEN
+     IF (SELECT category FROM task WHERE id = NEW.task_id) != 'Done' THEN
 
-      unfinished_tasks = (SELECT task_unfinished_number + 1 FROM statistics WHERE username = NEW.username);
+      num_tasks = (SELECT task_unfinished_number + 1 FROM statistics WHERE username = NEW.username);
      
-      UPDATE statistics SET task_unfinished_number = unfinished_tasks WHERE username = NEW.username;
+      UPDATE statistics SET task_unfinished_number = num_tasks WHERE username = NEW.username;
 
+     ELSE 
+      num_tasks = (SELECT task_finished_number + 1 FROM statistics WHERE username = NEW.username);
+     
+      UPDATE statistics SET task_finished_number = num_tasks WHERE username = NEW.username;
+
+    END IF;
     END IF;
 
     RETURN NEW;
@@ -726,6 +879,9 @@ CREATE FUNCTION insert_user() RETURNS trigger
 
    VALUES ('DEFAULT',NEW.username);
 
+ 
+   INSERT INTO statistics VALUES (NEW.username,0,0,0,0);
+
    RETURN NEW;
 
 END;$$;
@@ -748,7 +904,13 @@ CREATE FUNCTION update_task() RETURNS trigger
     LANGUAGE plpgsql
     AS $$DECLARE
 
+   finished_tasks numeric;
+   
+   unfinished_tasks numeric;
+   
    r_collab collaborates%rowtype;
+   
+   r_assigned assigned%rowtype;
 
    temp_string TEXT;
 
@@ -773,6 +935,48 @@ BEGIN
       END IF;
 
    END LOOP;
+
+
+
+ IF NEW.category = 'Done' AND OLD.category != 'Done'  THEN
+  
+  FOR r_assigned IN SELECT *
+
+               FROM assigned
+
+               WHERE task_id = NEW.id
+
+   LOOP
+    
+       IF EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) THEN
+
+        finished_tasks = (SELECT task_finished_number + 1 FROM statistics WHERE username = r_assigned.username);
+        unfinished_tasks = (SELECT task_unfinished_number - 1 FROM statistics WHERE username = r_assigned.username);
+     
+        UPDATE statistics SET task_finished_number = finished_tasks , task_unfinished_number = unfinished_tasks WHERE username = r_assigned.username;
+
+       END IF;
+   END LOOP;
+
+  ELSIF NEW.category != 'Done' AND OLD.category = 'Done'  THEN
+     FOR r_assigned IN SELECT *
+
+               FROM assigned
+
+               WHERE task_id = NEW.id
+
+      LOOP
+    
+       IF EXISTS (SELECT 1 FROM statistics WHERE username = r_assigned.username) THEN
+
+        finished_tasks = (SELECT task_finished_number - 1 FROM statistics WHERE username = r_assigned.username);
+        unfinished_tasks = (SELECT task_unfinished_number + 1 FROM statistics WHERE username = r_assigned.username);
+     
+        UPDATE statistics SET task_finished_number = finished_tasks , task_unfinished_number = unfinished_tasks WHERE username = r_assigned.username;
+
+         END IF;
+      END LOOP;
+    END IF;
 
    RETURN NEW;
 
@@ -1276,10 +1480,32 @@ ALTER TABLE ONLY topic
     ADD CONSTRAINT topic_pkey PRIMARY KEY (id);
 
 
-CREATE INDEX idx_post_content ON post USING gin(to_tsvector('english',content));
-CREATE INDEX idx_task_description ON task USING gist(to_tsvector('english',description));
-CREATE INDEX idx_topic_title ON topic USING gin(to_tsvector('english',title));
-CREATE INDEX idx_task_name ON task USING gin(to_tsvector('english',name));
+--
+-- Name: idx_post_content; Type: INDEX; Schema: final; Owner: lbaw1665; Tablespace: 
+--
+
+CREATE INDEX idx_post_content ON post USING gin (to_tsvector('english'::regconfig, (content)::text));
+
+
+--
+-- Name: idx_task_description; Type: INDEX; Schema: final; Owner: lbaw1665; Tablespace: 
+--
+
+CREATE INDEX idx_task_description ON task USING gist (to_tsvector('english'::regconfig, description));
+
+
+--
+-- Name: idx_task_name; Type: INDEX; Schema: final; Owner: lbaw1665; Tablespace: 
+--
+
+CREATE INDEX idx_task_name ON task USING gin (to_tsvector('english'::regconfig, (name)::text));
+
+
+--
+-- Name: idx_topic_title; Type: INDEX; Schema: final; Owner: lbaw1665; Tablespace: 
+--
+
+CREATE INDEX idx_topic_title ON topic USING gin (to_tsvector('english'::regconfig, (title)::text));
 
 
 --
@@ -1361,6 +1587,13 @@ CREATE TRIGGER "On_Insert" BEFORE INSERT ON folder FOR EACH ROW EXECUTE PROCEDUR
 --
 
 CREATE TRIGGER insert AFTER INSERT ON project FOR EACH ROW EXECUTE PROCEDURE insert_project();
+
+
+--
+-- Name: trigger_assigned_delete; Type: TRIGGER; Schema: final; Owner: lbaw1665
+--
+
+CREATE TRIGGER trigger_assigned_delete BEFORE DELETE ON assigned FOR EACH ROW EXECUTE PROCEDURE delete_assigned();
 
 
 --
