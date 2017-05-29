@@ -3334,3 +3334,39 @@ PL/pgSQL function insert_collaborates() line 21 at SQL statement
 [29-May-2017 14:49:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
 [29-May-2017 14:49:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
 [29-May-2017 14:49:46 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:53:13 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(teste, 96) already exists.
+[29-May-2017 14:53:26 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:53:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:53:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:53:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:53:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:53:27 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 14:54:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:54:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:54:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 14:59:55 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:00:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 15:07:02 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
+DETAIL:  Key (username, task_id)=(joaocsf, 92) already exists.
+[29-May-2017 15:33:32 Europe/Lisbon] DB Error:marcelunknown
+[29-May-2017 15:33:37 Europe/Lisbon] DB Error:marcelunknown

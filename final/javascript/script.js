@@ -160,7 +160,7 @@ function delete_notification(){
 
 	$('.btn_delete_notification').click(function() {
 		var notification_id = $(this).attr('data-notification_id');
-		var toDelete = $('.notification-item[data-notification_id="'+notification_id+'"');
+		var toDelete = $('.notification-item-delete[data-notification_id="'+notification_id+'"');
 		var bell = $('.badge.badge-notify');
 		bell.html(Number(bell.html())-1);
 		toDelete.css("visibility",'hidden');
@@ -186,7 +186,7 @@ function delete_notification(){
 function delete_all_notifications(){
 
 	$('.btn_delete_all_notifications').click(function() {
-		var toDelete = $('.notification-item');
+		var toDelete = $('.notification-item-delete');
 		var bell = $('.badge.badge-notify');
 		var oldValue = bell.html();
 		toDelete.css("visibility",'hidden');

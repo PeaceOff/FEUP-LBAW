@@ -34,6 +34,6 @@
 	update_task($task_description, $task_category, $task_deadline,$task_id);
 
 
-	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#To-Do.php');
+	header('Location: ../../pages/todo/todoPage.php?project_id='. $project_id .'#' . $task_category);
 	exit();
 ?>

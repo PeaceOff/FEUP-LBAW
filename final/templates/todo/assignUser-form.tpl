@@ -1,5 +1,6 @@
 <div id="assign-user-modal" class="modal fade">
 <div class="display-flex"> 
+<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -17,6 +18,7 @@
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
+</div>
 </div>
 </div>
 </div>

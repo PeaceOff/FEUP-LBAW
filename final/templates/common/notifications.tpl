@@ -21,7 +21,7 @@
           <p class="item-info">{$notification.time}</p>
           <div class="notification-links pull-right">
 
-            <a class="notificationOnNavBar btn_delete_notification" data-notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a>
+            <a class="notificationOnNavBar btn_delete_notification my_clickable" data-notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a>
 
           </div>
         </div>

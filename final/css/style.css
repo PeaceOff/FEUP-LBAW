@@ -73,9 +73,9 @@ table{
 .fa-up{
     background: url("../images/up_small.png");
 	background-position: left top;
-	width: 24px;
+	width: 28px;
     height: 28px;
-	background-size: 24px 28px;
+	background-size: 28px 28px;
     position: relative;
     top:4px;
 }
@@ -121,6 +121,28 @@ li{
   max-height: 250px;
 }
 
+
+
+@media screen and (min-width: 768px)  {
+  .dropdown-menu{
+    max-width: 450px;
+  }
+
+  .notifications-title {
+    color: black;
+  }
+
+
+}
+
+@media screen and (max-width: 768px)  {
+
+  .notifications-title {
+    color: white;
+  }
+
+
+}
 
 .notifications-title {
   font-size: 1.5rem;
@@ -626,7 +648,7 @@ canvas{
 .card {
     position: relative;
     padding: 0;
-    overflow: hidden;
+
     text-align: center;
     background-color: rgba(214, 224, 226, 0.9);
     margin: 20px 0px;
@@ -634,11 +656,8 @@ canvas{
 }
 
 
-.card .cardheader-todo {
-    background: rgba(51,122,183,1.0);
-    background-size: cover;
-    height: 100px;
-}
+
+
 
 .card .people-envolved {
   background: rgba(51,122,183,0.5);
@@ -667,6 +686,14 @@ canvas{
     background-size: cover;
     height: 125px;
 }
+
+.card .cardheader-todo {
+  background: url("../images/intro2.jpg");
+  background-size: cover;
+  height: 125px;
+  margin-top: 0;
+}
+
 
 
 /*avatar lindo que tornava a carta fantastica, no entanto os meus colegas achavam "desnecessario"*/
@@ -722,15 +749,22 @@ ul.documents{
 .card .title {
     position: relative;
     top: 40px;
+    overflow: hidden;
     margin-bottom: 4px;
     font-size: 24px;
     line-height: 1;
     vertical-align: middle;
 }
 
+.card .desc {
+  overflow: hidden;
+}
+
+
+
 .task-card .card .desc {
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     height: 150px;
     overflow-y: scroll;
     overflow-x: hidden;

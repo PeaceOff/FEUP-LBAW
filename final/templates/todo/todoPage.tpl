@@ -121,7 +121,7 @@
         <i class="fa fa-pencil"></i>
       </a>
       <a class="btn icon-link btn-warning btn-sm  btn-assign-task-id" data-task_id="{{:id}}" data-toggle="modal" data-target="#assign-category-modal">
-        <i class="fa fa-arrows"></i>
+        <i class="fa fa-arrows-alt"></i>
       </a>
       <a class="btn icon-link btn-info btn-sm btn-assign-task-id forum_task_button" data-task_id="{{:id}}" data-toggle="modal" data-target="#forum_task_{{:id}}">
         <i class="fa fa-comments-o"></i>

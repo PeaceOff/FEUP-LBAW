@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-signin-client_id" content="495541684533-8ao8j3g95f579ccj5eturq9gkirhdcqn.apps.googleusercontent.com">
-    <link rel="icon" href="../../images/feup.png">
+    <link rel="icon" href="../../images/icon.png">
     
     <title>Consord</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

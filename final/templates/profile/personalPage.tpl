@@ -6,12 +6,12 @@
 </div>
  <div class="notification-container container">
   {foreach from=$notifications item=notification}
-      <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div class="notification-item" data-notification_id="{$notification.id}">
+      <div class="notification-item-delete col-lg-4 col-md-4 col-sm-12 col-xs-12"  data-notification_id="{$notification.id}">
+        <div class="notification-item">
               <h4 class="item-title">{$notification.description}</h4>
               <p class="item-info">{$notification.time}</p>
               <div class="notification-links notification-mark  pull-right">
-                  <a class="btn_delete_notification" data-notification_id="{$notification.id}"><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a>
+                  <a class="btn_delete_notification my_clickable" data-notification_id="{$notification.id}"><i class="fa fa-check fa-2x"   aria-hidden="true"></i>  </a>
               </div>
           </div>
       </div>

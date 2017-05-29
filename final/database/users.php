@@ -9,18 +9,7 @@
 		error_log("DB Error:" . $e->getMessage());
 	}
     }
-/*
-    function user_exists($username) {
-      global $conn;
-	try{
-      $stmt = $conn->prepare("SELECT 1 FROM final.user WHERE username = ?");
-      $stmt->execute(array($username, $email, $password));
-	}catch(Exception $e){
-		error_log("DB Error:" . $e->getMessage());
-	}
-      return $stmt->rowCount() > 0;
-    }
-*/
+
     function get_user_by_username($username) {
       global $conn;
 	try{
