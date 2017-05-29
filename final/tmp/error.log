@@ -4583,3 +4583,46 @@ DETAIL:  Key (username, task_id)=(joaocsf, 126) already exists.
 DETAIL:  Key (username, task_id)=(pois, 131) already exists.
 [29-May-2017 19:25:59 Europe/Lisbon] DB Error:SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "assigned_pkey"
 DETAIL:  Key (username, task_id)=(9999, 132) already exists.
+[29-May-2017 19:34:15 Europe/Lisbon] DB Error:123unknown
+[29-May-2017 19:34:18 Europe/Lisbon] DB Error:123unknown
+[29-May-2017 19:34:22 Europe/Lisbon] DB Error:1234unknown
+[29-May-2017 19:53:14 Europe/Lisbon] PHP Fatal error:  Call to a member function setApplicationName() on null in /opt/lbaw/lbaw1665/public_html/final/actions/authentication/google/action_login.php on line 10
+[29-May-2017 19:53:56 Europe/Lisbon] PHP Fatal error:  Call to a member function setApplicationName() on null in /opt/lbaw/lbaw1665/public_html/final/actions/authentication/google/action_login.php on line 10
+[29-May-2017 19:54:14 Europe/Lisbon] PHP Fatal error:  Call to a member function setApplicationName() on null in /opt/lbaw/lbaw1665/public_html/final/actions/authentication/google/action_login.php on line 10
+[29-May-2017 19:55:41 Europe/Lisbon] DB Error:lluismmartins7@gmail.comunknown
+[29-May-2017 19:59:12 Europe/Lisbon] DB Error:up201404332@fe.up.ptunknown
+[29-May-2017 20:00:45 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[29-May-2017 20:01:03 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[29-May-2017 20:01:36 Europe/Lisbon] PHP Warning:  mkdir(): File exists in /opt/lbaw/lbaw1665/public_html/final/actions/project/action_add_document.php on line 25
+[29-May-2017 20:02:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:02:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:02:57 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:03:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:03:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:03:41 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:32:58 Europe/Lisbon] PHP Warning:  Unknown: open(/var/lib/php5/sessions/sess_8nu28beltoba8ej1j60jac6ek1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[29-May-2017 20:32:58 Europe/Lisbon] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php5/sessions) in Unknown on line 0
+[29-May-2017 20:33:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:33:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:33:33 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:34:19 Europe/Lisbon] PHP Warning:  Unknown: open(/var/lib/php5/sessions/sess_8nu28beltoba8ej1j60jac6ek1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[29-May-2017 20:34:19 Europe/Lisbon] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php5/sessions) in Unknown on line 0
+[29-May-2017 20:34:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:34:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:34:58 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:35:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:35:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:35:01 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:39:52 Europe/Lisbon] DB Error:marcelounknown
+[29-May-2017 20:41:04 Europe/Lisbon] DB Error:marcelounknown
+[29-May-2017 20:41:05 Europe/Lisbon] DB Error:marcelounknown
+[29-May-2017 20:55:50 Europe/Lisbon] DB Error:joaocsfunknown
+[29-May-2017 20:58:12 Europe/Lisbon] DB Error:lbawunknown
+[29-May-2017 20:58:12 Europe/Lisbon] DB Error:lbawunknown
+[29-May-2017 20:58:59 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:58:59 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:58:59 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:59:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:59:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 20:59:00 Europe/Lisbon] DB Error:SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error in tsquery: ":*"
+[29-May-2017 21:17:04 Europe/Lisbon] DB Error:testeunknown

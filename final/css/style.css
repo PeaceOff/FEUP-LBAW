@@ -108,7 +108,7 @@ table{
 li{
   list-style: none;
 }
-/* notifications*/
+
 
 
 .badge-notify {
@@ -204,7 +204,6 @@ li{
 }
 
 
-/* Clear */
 .padding-left-0{
   padding-left: 0;
 }
@@ -223,9 +222,6 @@ li{
   margin: 2px;
 }
 
-.padding-neg-10{
-  padding: -10px;
-}
 
 .width-100{
   width: 100%;
@@ -238,7 +234,7 @@ textarea.resizable-horizontal{
 .padding-top-50px{
   padding-top: 50px;
 }
-/* Relationship */
+
 .content-relative{
   position: relative;
 }
@@ -256,7 +252,6 @@ textarea.resizable-horizontal{
   word-wrap: break-word;
 }
 
-/* Positioning */
 
 .align-left{
   text-align: left;
@@ -268,7 +263,7 @@ textarea.resizable-horizontal{
 .align-center{
   text-align: center;
 }
-/* main content */
+
 
 #page-content-wrapper {
   width: 100%;
@@ -286,7 +281,7 @@ textarea.resizable-horizontal{
 }
 
 
-/* sidebar */
+
 
 #sidebar-wrapper {
   z-index: 1;
@@ -306,7 +301,7 @@ textarea.resizable-horizontal{
   height: auto;
 }
 
-/* Sidebar Styles */
+
 
 .sidebar-nav {
   width: 100%;
@@ -333,7 +328,7 @@ textarea.resizable-horizontal{
   background: rgba(255,255,255,0.2);
 }
 
-/* login adn register form */
+
 
 #visitor-form {
   padding-top: 13%;
@@ -341,7 +336,6 @@ textarea.resizable-horizontal{
 
 
 
-/* Sidebar*/
 #sidebar-left,#sidebar-right{
   position: fixed;
   top: 50px;
@@ -397,7 +391,6 @@ textarea.resizable-horizontal{
   animation: right-out 0.5s forwards;
 }
 
-/* KeyFrames */
 @keyframes width-100 {
   0%{
     width: 0%;
@@ -459,7 +452,7 @@ textarea.resizable-horizontal{
   }
 }
 
-/* debug/colors */
+
 .color-black{
   background-color: black;
 
@@ -510,7 +503,7 @@ body.preload * {
   -webkit-border-radius:50%;
 }
 
-/*Forums*/
+
 .panel-shadow {
   box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
 }
@@ -620,7 +613,7 @@ div.selectable:not(:target){
 }
 
 
-/* Dropzone */
+
 
 .dropzone {
   border: 2px dashed rgba(0, 0, 0, 0.3);
@@ -632,7 +625,7 @@ div.selectable:not(:target){
     background-color: rgba(125,125,125,0.1);
 }
 
-/* Table Style */
+
 .table-style tr td{
   background-color: #DDD;
   border-bottom: 1px solid #CCC;
@@ -643,7 +636,7 @@ canvas{
    max-width: 800px;
    height: auto;
  }
-/*cards */
+
 
 .card {
     position: relative;
@@ -698,7 +691,7 @@ canvas{
 
 
 
-/*avatar lindo que tornava a carta fantastica, no entanto os meus colegas achavam "desnecessario"*/
+
 .card .category {
     position: relative;
     top: -50px;
@@ -823,14 +816,11 @@ ul.documents{
 
 input.disabled{
 	visibility : hidden;
-	display: fixed;
 	height: 0;
 	padding:0;
 	margin:0;
 }
 
-
-/* search */
 
 #searchResults {
   padding: 0;
@@ -869,10 +859,8 @@ input.disabled{
   text-decoration:none;
 }
 
-/*----modal----*/
 .vertical-align-center{
 	padding-top:0;
-	padding-down:0;
 }
 
 .display-flex{
@@ -883,11 +871,11 @@ input.disabled{
 	align-items:center;
 }
 .display-flex *{
-	pointer-events:auto;
+	pointer-events:visiblePainted;
 }
 
 input[required]{
 	content:'Required!';
-	border-color:#D709;
+	border-color:#D70;
 
 }

@@ -6,7 +6,7 @@
 	if(!isset($_SESSION['username'])
 		|| !isset($_POST['project_id']) 
 		|| !isset($_POST['isOwner']) ){
-        echo json_encode(array("success" => false));
+		http_response_code(400);
 		exit();
 	}
 

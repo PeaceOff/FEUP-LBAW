@@ -35,7 +35,6 @@
     }
 
     if($project['start'] != null && $project['deadline'] != null) {
-        //Date operations
         $today = strtotime(date("Y-m-d"));
         $deadline_t = strtotime($project['deadline']);
         $start_t = strtotime($project['start']);

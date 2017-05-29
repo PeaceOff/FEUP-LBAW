@@ -1,5 +1,4 @@
 <?php
-//Include Google client library
 require_once __DIR__ . '/vendor/autoload.php';
 include_once '../../../config/init.php';
 include_once($BASE_DIR .'database/users.php');
@@ -8,7 +7,6 @@ include_once($BASE_DIR .'database/users.php');
   const CLIENT_SECRET = 'jGi0J-wr4A9yVC4ghgglcA1j';
   const APPLICATION_NAME = 'Consord';
 
-  //Call Google API
   $client = new Google_Client();
   $client->setApplicationName(APPLICATION_NAME);
   $client->setClientId(CLIENT_ID);
@@ -36,7 +34,6 @@ include_once($BASE_DIR .'database/users.php');
     $client->setAccessToken($_SESSION['access_token']);
     $me = $plus->people->get('me');
 
-    // Get User data
     $id = $me['id'];
     $name =  $me['displayName'];
     $email =  $me['emails'][0]['value'];
@@ -57,7 +54,6 @@ include_once($BASE_DIR .'database/users.php');
 
   } else {
 
-    // get the login url
     $authUrl = $client->createAuthUrl();
     header('Location: ' . $authUrl);
   }
