@@ -98,7 +98,7 @@ function setupPostListeners() {
     $('.addPost-form').unbind().submit(function(e) {
 
         var elem = $(this);
-        var post_content = elem.find('#post_content').val();
+        var post_content = elem.find("[name='post_content']").val();
         var project_id = elem.find('[name="project_id"]').val();
         var forum_id = elem.find('[name="forum_id"]').val();
 
@@ -111,7 +111,7 @@ function setupPostListeners() {
 
             if(data){
 
-                elem.find('#post_content').val("");
+                elem.find("[name='post_content']").val("");
                 elem.find('[type="submit"]').blur();
 
                 var posts = elem.parent().parent().next();
@@ -253,7 +253,7 @@ function category_ajax_call(category) {
         setup_information();
         setupForumListeners();
         open_forum_modals();
-        deassign_user_from_task();
+        deassign_user_from_task('.collaborator ');
 
     }).fail(function() {
 

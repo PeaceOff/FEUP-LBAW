@@ -43,7 +43,6 @@ include_once($BASE_DIR .'database/users.php');
     $profile_image_url = $me['image']['url'];
     $cover_image_url = $me['cover']['coverPhoto']['url'];
     $profile_url = $me['url'];
-    echo $email;
 
 
     $username = get_user_by_username($email);

@@ -123,5 +123,6 @@
 		error_log("DB Error:" . $e->getMessage());
       	return false;
     	}
+	return true;
     }
 ?>

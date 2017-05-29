@@ -71,8 +71,8 @@ function remove_document(){
 	$('.link_deleteDocument').click(function() {
 
 			var documentId= $(this).attr('id');
-			var type_of_doc = $(this).attr('type_of_doc');
-			var document_path = $(this).attr('document_path');
+			var type_of_doc = $(this).attr('data-type_of_doc');
+			var document_path = $(this).attr('data-document_path');
 			var success;
 			$.ajax({
 				type: "POST",
@@ -122,7 +122,7 @@ function handleRemoveProject(projectId, is_owner,message,context) {
 
 function remove_user(){
 	$('.link_removeUser').click(function() {
-			var username = $(this).attr('username');
+			var username = $(this).attr('data-username');
 			$.ajax({
 				type: "POST",
 				url: "../../actions/project/action_remove_user.php",
@@ -140,7 +140,7 @@ function remove_user(){
 function get_task_information(){
 
 	$('.btn_edit_task').click(function() {
-		var task_id = $(this).attr('task_id');
+		var task_id = $(this).attr('data-task_id');
 		$.ajax({
             		type: "post",
             		dataType: "json",
@@ -159,20 +159,21 @@ function get_task_information(){
 function delete_notification(){
 
 	$('.btn_delete_notification').click(function() {
-		var notification_id = $(this).attr('notification_id');
-		var toDelete = $('.notification-item[notification_id="'+notification_id+'"');
+		var notification_id = $(this).attr('data-notification_id');
+		var toDelete = $('.notification-item[data-notification_id="'+notification_id+'"');
 		var bell = $('.badge.badge-notify');
 		bell.html(Number(bell.html())-1);
 		toDelete.css("visibility",'hidden');
 		toDelete.css("position",'fixed');
+
 		$.ajax({
             		type: "POST",
-            		url: "../../actions/profile///action_delete_notification.php",
+            		url: "../../actions/profile/action_delete_notification.php",
 			data: { 'notification_id': notification_id}
 		}).done(function(){
 			addWarning('success','Notification deleted!');
 			toDelete.remove();
-		}).fail(function(){
+		}).fail(function(arg){
 			bell.html(Number(bell.html())+1);
 			toDelete.css('visibility','visible');
 			toDelete.css("position",'relative');
@@ -211,7 +212,7 @@ function delete_all_notifications(){
 function get_project_information(){
 
 	$('.btn_project_edit').click(function() {
-		var id = $(this).attr('project_id');
+		var id = $(this).attr('data-project_id');
 		$('.hidden_projectId').attr('value',id);
 
 		$.ajax({
@@ -231,7 +232,7 @@ function get_project_information(){
 function get_collaboration_information(){
 
     $('.btn_collaboration_edit').click(function() {
-        var id = $(this).attr('collaboration_id');
+        var id = $(this).attr('data-collaboration_id');
         $('.hidden_collaboration_id').attr('value',id);
 
         $.ajax({
@@ -247,11 +248,11 @@ function get_collaboration_information(){
 }
 
 
-function deassign_user_from_task(){
+function deassign_user_from_task(name){
 
-    $('.deassign_user').click(function() {
+    $(name + ' .deassign_user').click(function() {
 
-        var task_id = $(this).attr('task_id');
+        var task_id = $(this).attr('data-task_id');
         var username = $(this).attr('title');
         var project_id = $_GET('project_id');
 		var toDelete = $(this);
@@ -306,7 +307,7 @@ function addColaborator(username){
     var element = $('.template tr').clone(true);
 
     element.find('.template_name').html(username);
-    element.find('.link_removeUser').attr('username',username);
+    element.find('.link_removeUser').attr('data-username',username);
     $('#project-users tbody').append(element);
 
 }
@@ -427,7 +428,7 @@ function validateLogin() {
 
 
 	$(".sign_in").submit(function(event){
-        if($(".sign_in").attr("login_conf") == 1){
+        if($(".sign_in").attr("data-login_conf") == 1){
             return true;
         }
 
@@ -441,7 +442,7 @@ function validateLogin() {
         }).done(function(arg){
             addWarning('success','Loged in');
 
-			$(".sign_in").attr("login_conf", 1);
+			$(".sign_in").attr("data-login_conf", 1);
             $(".sign_in").submit();
 
 
@@ -458,28 +459,29 @@ function validateLogin() {
 function validateRegister(){
 
     $(".register").submit(function(event){
-        if($(".register").attr("register_conf") == 1){
+        if($(".register").attr("data-register_conf") == 1){
             return true;
         }
 
         var username = document.forms["signUp-form"]["username"].value;
         var password = document.forms["signUp-form"]["password"].value;
         var confirmPassword = document.forms["signUp-form"]["confirmPassword"].value;
+        var email = document.forms["signUp-form"]["email"].value;
 
         $.ajax({
             type: "post",
             url: "../../actions/authentication/action_register_checker.php",
-            data: {'username' : username, 'password' : password, 'confirmPassword' : confirmPassword}
+            data: {'username' : username, 'password' : password, 'confirmPassword' : confirmPassword, 'email' : email}
         }).done(function(arg){
 
-            $(".register").attr("register_conf", 1);
+            $(".register").attr("data-register_conf", 1);
             $(".register").submit();
 
             addWarning('success','Registed with success');
         }).fail(function(arg){
 
             if(arg.status == 400) {
-                addWarning("warning", "username already exists");
+                addWarning("warning", "user already exists");
             }else if(arg.status == 401){
                 addWarning("warning", "you can not register with that username");
 			}else if(arg.status == 402){
@@ -510,7 +512,7 @@ $(document).ready(function(){
   get_project_information();
   get_collaboration_information();
   get_task_information();
-  deassign_user_from_task();
+  deassign_user_from_task('.template');
   remove_date();
   validateLogin();
   validateRegister();

@@ -8,7 +8,7 @@
     {foreach from=$folders item=folder}
         {if $folder.name neq "DEFAULT"}
             <li>
-                <form  id ="removeFolder-form" action="../../actions/profile/action_delete_folder.php" method="post" >
+                <form action="../../actions/profile/action_delete_folder.php" method="post" >
                     <input type="hidden" name="folderName" value='{$folder.id}'>
                     <button type="submit" id="completed-task" class="btn btn-primary btn-block btn-sm remove-folder-btn">
                         <i class="fa fa-trash">    Delete Folder</i>
@@ -18,7 +18,7 @@
         {/if}
 
         <li class="open divider">
-        <a href="#" data-toggle="collapse" data-target="#{$folder.id}">{$folder.name}<span class="caret"></span></a>
+        <a class="my_clickable" data-toggle="collapse" data-target="#{$folder.id}">{$folder.name}<span class="caret"></span></a>
         <ul class="collapse" id="{$folder.id}">
           {foreach from=$folder.projects item=project}
             <li>

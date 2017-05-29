@@ -32,7 +32,7 @@ $(document).ready(function(){
                   backgroundColor: "rgba(20,183,90,1)",
                   data: [statistics.task_finished_number],
               }, {
-                  label: 'Tasks unfinished',
+                  label: 'Tasks Unfinished',
                   backgroundColor: "rgba(34,34,34,1)",
                   data: [statistics.task_unfinished_number],
               }]
@@ -40,8 +40,7 @@ $(document).ready(function(){
           options: {
               scales: {
                   yAxes: [{
-			barPercentage:1.0,
-			categoryPercentage:1.0,
+			
                       ticks: {
                           beginAtZero: true
                       }

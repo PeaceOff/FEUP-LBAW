@@ -8,7 +8,7 @@
         </div>
         <div class="modal-body clearfix">
 
-            <form id = "signIn-form" action="../../actions/authentication/action_login.php" method="post" style="display: block;" class="sign_in" login_conf="0">
+            <form id = "signIn-form" action="../../actions/authentication/action_login.php" method="post" style="display: block;" class="sign_in" data-login_conf="0">
                 <div class="input-group form-group">
                     <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
                     <input class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" autofocus>

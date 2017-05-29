@@ -9,7 +9,7 @@
 		error_log("DB Error:" . $e->getMessage());
 	}
     }
-
+/*
     function user_exists($username) {
       global $conn;
 	try{
@@ -20,7 +20,7 @@
 	}
       return $stmt->rowCount() > 0;
     }
-
+*/
     function get_user_by_username($username) {
       global $conn;
 	try{
@@ -129,6 +129,19 @@
 		error_log("DB Error:" . $e->getMessage());
 	}
       return $stmt->fetch();
+    }
+
+    function get_email($email){
+        global $conn;
+
+        try{
+            $stmt = $conn->prepare("SELECT * FROM final.user WHERE email = ? ");
+            $stmt->execute(array($email));
+        }catch(Exception $e){
+            error_log("DB Error:" . $e->getMessage());
+        }
+        return $stmt->fetch();
+
     }
 
 ?>

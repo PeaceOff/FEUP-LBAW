@@ -21,18 +21,20 @@
 <div class="col-md-12">
   <div class="container">
     <h1 class="text-center page-header">{$project.name}</h1>
-    <p class="text-justify well">{$project.description}</p>
+  </div>
 
-    <div class="row">
+    <div class="container">
+      <div class="well projectDescription"> {$project.description} </div>
+    </div>
+
+
+    <div class="container">
       <div class=" col-md-6 col-md-offset-3">
           <div class="form-group has-feedback" id="searchArea">
             <label for="searchQuery" class="sr-only">Search</label>
             <input type="text" class="form-control" name="search" placeholder="search" id="searchQuery">
-            <span class="glyphicon glyphicon-search form-control-feedback"></span>
-
+            <span class="glyphicon glyphicon-search form-control-feedback "></span>
             <ul id="searchResults">
-
-
             </ul>
           </div>
           </div>
@@ -52,8 +54,8 @@
     <div class="page-header">
       <h3> Links
           {if $isManager }
-            <a a data-toggle="modal" data-target="#addLink"> <i class="fa fa-plus" aria-hidden="true"></i></a>
-        <a> <i class="edit-link fa fa-pencil" aria-hidden="true"></i> </a>
+            <a class="my_clickable" data-toggle="modal" data-target="#addLink"> <i class="fa fa-plus" aria-hidden="true"></i></a>
+            <a class="my_clickable" > <i class="edit-link fa fa-pencil" aria-hidden="true"></i> </a>
           {/if}
       </h3>
 
@@ -61,7 +63,7 @@
     <ul class="links-ul list-inline" style="overflow-x:scroll; white-space: nowrap;">
       {foreach from=$links item=link}
       <li>
-        <a href="#" class="invisible link_deleteDocument" type_of_doc='Link' id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
+        <a href="#" class="invisible link_deleteDocument" data-type_of_doc='Link' id='{$link.id}'><i class="fa fa-times delete-link fa-2x" aria-hidden="true"></i></a>
         <a href="{$link.path}" title="{$link.path}" >
           <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
         </a>
@@ -75,7 +77,7 @@
       <h3> Documents
 
       {if $isManager}
-         <a data-toggle="modal" data-target="#uploadFile"> <i class="fa fa-plus" aria-hidden="true"></i> </a>
+         <a class="my_clickable" data-toggle="modal" data-target="#uploadFile"> <i class="fa fa-plus" aria-hidden="true"></i> </a>
       {/if}
 
       </h3>
@@ -87,22 +89,22 @@
       {foreach from=$documents item=document}
 
         <li>
-              <a class="cardLink" href="../../uploads/{$document.project_id}/{$document.name}" target="_blank" >
-
                 <div class="card document">
+                  <a class="cardLink" href="../../uploads/{$document.project_id}/{$document.name}" target="_blank">
                   <h3>{$document.name}</h3>
                   <img class="img-responsive" src="../../images/document-card.png" alt="file">
+                  </a>
                   <div class="document-bottom">
                     <a class="btn icon-link btn-warning btn-sm" rel="publisher" href="../../uploads/{$document.project_id}/{$document.name}" download>
                       <i class="fa fa-download"></i>
                     </a>
-                    <a class="btn icon-link btn-danger btn-sm link_deleteDocument" type_of_doc='Document' id='{$document.id}' document_path='{$document.path}'  rel="publisher">
+                    <a class="btn icon-link btn-danger btn-sm link_deleteDocument" data-type_of_doc='Document' id='{$document.id}' data-document_path='{$document.path}'  rel="publisher">
                       <i class="fa fa-trash"></i>
                     </a>
 
                 </div>
-              </div>
-              </a>
+               </div>
+
 
         </li>
 

@@ -26,6 +26,9 @@ table{
   table-layout: fixed;
 }
 
+.my_clickable {
+  cursor:pointer;
+}
 
 .box-alerts{
 	position:fixed;
@@ -36,6 +39,7 @@ table{
     margin: 0 0 0 -40%;
     left:50%;
 	pointer-events: none;
+	z-index: 10000;
 }
 
 .box-alerts *{
@@ -80,7 +84,7 @@ table{
 
 .notification-container{
 	overflow-y: scroll;
-	max-height: 200px;
+	max-height: 250px;
 	overflow-x: hidden;
 	min-height: 0px;
 
@@ -117,16 +121,6 @@ li{
   max-height: 250px;
 }
 
-.notifications{
-  min-width:420px;
-}
-
-@media screen and (max-width: 768px){
-  .notifications{
-    min-width:100px;
-  }
-
-}
 
 .notifications-title {
   font-size: 1.5rem;
@@ -151,16 +145,32 @@ li{
 
 .btn_delete_notification {
   position: absolute;
-  top: 30px;
+  top: 40px;
   right: 8px;
 }
+
+.notificationOnNavBar{
+  position: absolute;
+  top: 65px;
+  right: 8px;
+}
+
+.notification-item .item-title{
+    width: 100%;
+    height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden
+}
+
+
 
 .notification-item {
   position:relative;
   background:#efefef;
   border-radius:4px;
-  max-height: 80px;
-  min-height: 80px;
+  height: 100px;
   padding: 10px;
   margin: 10px;
 }
@@ -214,6 +224,14 @@ textarea.resizable-horizontal{
 #sidebar-wrapper {
   background: #000;
   width: 100%;
+}
+
+.projectDescription {
+  word-wrap: break-word;
+}
+
+.page-header{
+  word-wrap: break-word;
 }
 
 /* Positioning */
@@ -671,13 +689,24 @@ ul.documents{
   white-space: nowrap;
 }
 
-ul.documents li{
-  width: 80%;
+@media screen and (max-width: 500px)  {
+
+  ul.documents li{
+    width: 80%;
+  }
 }
+
+@media screen and (min-width: 500px)  {
+  ul.documents li{
+    width: 30%;
+  }
+}
+
 
 .document{
   margin: 5px;
 }
+
 
 .document img{
   margin: auto;
@@ -812,4 +841,10 @@ input.disabled{
 }
 .display-flex *{
 	pointer-events:auto;
+}
+
+input[required]{
+	content:'Required!';
+	border-color:#D709;
+
 }

@@ -18,8 +18,8 @@
             <div class="modal-body">
                 <form  class="addPost-form" action="../../api/add_topic_post.php" method="post" style="display:block">
                     <div class="form-group input-group width-100">
-                        <label for="post_content">Write a new Post : </label>
-                        <textarea class="form-control" tabindex="1" id="post_content" name="post_content" required="" autofocus=""></textarea>
+                        <label>Write a new Post : </label>
+                        <textarea class="form-control" tabindex="1" name="post_content" required=""></textarea>
                         <input type="hidden" name="forum_id" value="{$forum.id}">
                         <input type="hidden" name="project_id" value="{$project_id}">
                     </div>
@@ -56,7 +56,7 @@
     <div class="post-footer collapse" id="comments_{{:id}}">
         <div class="input-group">
             <input class="form-control add_comment_input" name="content" placeholder="Add a comment" required="" type="text">
-            <span class="input-group-addon add_comment_button">
+            <span class="input-group-addon add_comment_button my_clickable">
             <span><i class="fa fa-edit"></i></span>
             </span>
         </div>

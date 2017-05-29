@@ -29,7 +29,7 @@
                   </a>
                 </li>
 
-                <li><a data-toggle="modal" data-target="#online_assistance"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+                <li class="my_clickable"><a data-toggle="modal" data-target="#online_assistance"><span class="glyphicon glyphicon-question-sign"></span></a></li>
 
                 <li ><a href="../../actions/authentication/action_logout.php" onclick="signOut();"><span class="glyphicon glyphicon-log-out"></span></a></li>
             </ul>

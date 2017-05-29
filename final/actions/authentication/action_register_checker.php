@@ -14,7 +14,7 @@ $username = strtolower($username);
 
 $password = $_POST['password'];
 $confirmPassword = $_POST['confirmPassword'];
-
+$email = htmlentities($_POST['email'], ENT_QUOTES, "UTF-8");
 
 if(strcmp($password, $confirmPassword) != 0){
     http_response_code(402);
@@ -26,7 +26,7 @@ if(preg_match("/^up*/", $username)){
     exit();
 }
 
-if(!get_user_by_username($username)){
+if(!get_user_by_username($username) && !get_email($email)){
     http_response_code(200);
     exit();
 }else{

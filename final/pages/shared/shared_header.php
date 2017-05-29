@@ -4,7 +4,6 @@
 		$username = $_SESSION['username'];
 		$name = $_SESSION['name'];
 		$smarty->assign('name',$name);
-		error_log("USERNAME:".$username);
 		$result = user_get_notifications($username);
 		$notifications=array();
 

@@ -16,16 +16,13 @@
     <li>
     <div class="notifications-wrapper" style="overflow-y:scroll;">
       {foreach from=$notifications item=notification}
-        <div class="notification-item" notification_id="{$notification.id}">
-          <h4 class="item-title">{$notification.description}</h4>
+        <div class="notification-item" data-notification_id="{$notification.id}">
+          <div class="item-title">{$notification.description}</div>
           <p class="item-info">{$notification.time}</p>
           <div class="notification-links pull-right">
-            {if $notification.invite}
-            <a><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i></a>
-            <a><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a>
-            {else}
-            <a class="btn_delete_notification" notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a> 
-            {/if}
+
+            <a class="notificationOnNavBar btn_delete_notification" data-notification_id="{$notification.id}"><i class="fa fa-check fa-2x " aria-hidden="true"></i>  </a>
+
           </div>
         </div>
       {/foreach}

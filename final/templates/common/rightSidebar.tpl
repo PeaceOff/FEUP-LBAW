@@ -6,7 +6,7 @@
         	<p class="template_name">SAMPLENAME</p>
         </td>
         <td class="align-right">
-        	<a class="btn icon-link btn-danger btn-sm link_removeUser" username="" href="#">
+        	<a class="btn icon-link btn-danger btn-sm link_removeUser" data-username="" >
 				<i class="fa fa-trash"></i>
             </a>
         </td>
@@ -24,7 +24,7 @@
       </li>
 	{if $isManager}
       <li class="nav-item">
-        <a class="nav-link text-white " data-toggle="collapse" data-target="#project-adding-users">Add User</a>
+        <a class="nav-link text-white my_clickable" data-toggle="collapse" data-target="#project-adding-users">Add User</a>
       </li>
 	{/if}
     </ul>
@@ -39,7 +39,7 @@
             <td class="align-right">
 
 	        {if $isManager && $managerName != $collaborator.name}
-              <a class="btn icon-link btn-danger btn-sm link_removeUser" username="{$collaborator.name}" href="#">
+              <a class="btn icon-link btn-danger btn-sm link_removeUser" data-username="{$collaborator.name}" >
                 <i class="fa fa-trash"></i>
               </a>
         	{/if}
@@ -52,7 +52,7 @@
     </div>
     <div id="project-adding-users" class="collapse">
       <div class="input-group form-group">
-        <span class="input-group-addon" ><i class="glyphicon glyphicon-plus"></i></span>
+        <span class="input-group-addon my_clickable" ><i class="glyphicon glyphicon-plus"></i></span>
         <input id="form-addUser" class="form-control" type="text" placeholder="Username" tabindex = "1" name="username" value="" required="" >
       </div>
     </div>
@@ -61,7 +61,7 @@
         <a class="nav-link color-blue" data-toggle="collapse" data-target="#project-forum">Forum</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white " data-toggle = "modal" data-target = "#addTopic">Add Topic</a>
+        <a class="nav-link text-white my_clickable" data-toggle = "modal" data-target = "#addTopic">Add Topic</a>
       </li>
     </ul>
     <div id="project-forum" class="collapse in">

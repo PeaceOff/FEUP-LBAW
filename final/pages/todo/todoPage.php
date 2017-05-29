@@ -21,6 +21,7 @@
 
     $project_id = $_GET['project_id'];
 
+    $project_name = project_get_id($project_id)['name'];
 
     $categories = get_categories();
 
@@ -34,9 +35,10 @@
     }
 
     $smarty->assign('tasks_by_category', $tasks_by_category);
-
+    $smarty->assign('username', $username);
     $smarty->assign('categories', $categories);
     $smarty->assign('project_id', $project_id);
+    $smarty->assign('project_title', $project_name);
     $smarty->display('todo/todoPage.tpl');
     $smarty->display('common/footer.tpl');
 ?>

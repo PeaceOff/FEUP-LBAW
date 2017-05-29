@@ -21,13 +21,12 @@ $(document).ready(function(){
 
 function searchHandler(){
     var query = $("#searchQuery").val();
-    console.log("Query: " + query);
     var searchResultsElement = $('#searchResults');
 
 
     $.ajax({
         type:"post",
-        url: "../../actions/search/action_search_all.php",
+        url: "../../api/action_search_all.php",
         data: {search_query: query , project_id: $_GET('project_id')},
         success: function (results){
 
@@ -64,18 +63,23 @@ function searchHandler(){
                 searchResults.push(r);
             });
 
-            console.log(searchResults);
 
-            for (var i = 0 ; i < searchResults.length ; i++){
+            if(searchResults.length == 0){
                 var template = $('.searchResult a').clone(true);
-
-                template.attr("href", searchResults[i]['link']);
-                template.find('.resultHeader').html(searchResults[i]['header']);
-                template.find('.resultBody').html(searchResults[i]['body']);
-
-                console.log(template);
+                template.find('.resultHeader').html("No results found");
+                template.find('.resultHeader').removeClass("col-xs-7 col-sm-5 col-md-3 col-lg-3");
+                template.find('.resultBody').remove();
                 searchResultsElement.append(template);
-            }
+            }else
+                for (var i = 0 ; i < searchResults.length ; i++){
+                    var template = $('.searchResult a').clone(true);
+
+                    template.attr("href", searchResults[i]['link']);
+                    template.find('.resultHeader').html(searchResults[i]['header']);
+                    template.find('.resultBody').html(searchResults[i]['body']);
+
+                    searchResultsElement.append(template);
+                }
 
 
         }

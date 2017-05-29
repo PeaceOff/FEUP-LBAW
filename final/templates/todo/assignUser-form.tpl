@@ -7,9 +7,9 @@
         <h4 class="modal-title">Assign User</h4>
       </div>
       <div class="modal-body">
-        <div class="list-group task-id-handler" task_id="">
+        <div class="list-group task-id-handler" data-task_id="">
           {foreach from=$collaborators item=collaborator}
-          <a class="list-group-item assignUser" >{$collaborator.name}</a>
+          <a class="list-group-item assignUser my_clickable" >{$collaborator.name}</a>
           {/foreach}
         </div>
       </div>

@@ -10,7 +10,7 @@
       <form  id ="createTask-form" action="../../actions/todo/action_add_task.php" method="post" style="display:block">
         <div class="input-group form-group width-100">
           <label for="title">Task Title</label>
-          <input class="form-control" type="text" tabindex="1" id="title" name="title"  required="" autofocus="">
+          <input class="form-control" type="text" tabindex="1" id="title" name="title" maxlength="17" required="" autofocus="">
         </div>
 	    <input type='hidden' name='project_id' value='{$project_id}'>
         <div class="form-group input-group width-100">
