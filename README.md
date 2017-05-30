@@ -28,10 +28,10 @@ Pretende-se desenvolver um sistema de informação com interface web para a gest
 - [X] Include the source code in a single .zip file attached in the wiki page of the product.
 - [X] Include a list of features in the product wiki page, indicating the implementation status of each feature (as a percentage).
 - [X] Display the URL of the product on the wiki page.
-- [ ] Include product access credentials (with different levels of permissions) on the wiki page.
+- [X] Include product access credentials (with different levels of permissions) on the wiki page.
 - [ ] Prepare and include in the wiki page a promotional video of the product (2 minutes maximum).
-- [ ] Remove test data from the database.
-- [ ] Populate the database with good (realistic) examples.
+- [X] Remove test data from the database.
+- [X] Populate the database with good (realistic) examples.
 - [ ] Prepare the script for product demonstration.
 
 
